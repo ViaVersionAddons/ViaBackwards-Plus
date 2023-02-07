@@ -1,0 +1,52 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Cut Copper Stairs"
+        },
+        "model": "block/cut_copper_stairs"
+      },
+      {
+        "predicate": {
+          "name": "1.17 Waxed Cut Copper Stairs"
+        },
+        "model": "block/cut_copper_stairs"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Oxidized Cut Copper Stairs"
+          },
+          "model": "block/oxidized_cut_copper_stairs"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Waxed Oxidized Cut Copper Stairs"
+          },
+          "model": "block/oxidized_cut_copper_stairs"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Exposed Cut Copper Stairs"
+          },
+          "model": "block/exposed_cut_copper_stairs"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Waxed Exposed Cut Copper Stairs"
+          },
+          "model": "block/exposed_cut_copper_stairs"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Weathered Cut Copper Stairs"
+          },
+          "model": "block/weathered_cut_copper_stairs"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Waxed Weathered Cut Copper Stairs"
+          },
+          "model": "block/weathered_cut_copper_stairs"
+        }
+      ]
+  }

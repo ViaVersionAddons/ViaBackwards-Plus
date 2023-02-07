@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Deepslate Bricks"
+          },
+          "model": "block/deepslate_bricks"
+          }
+      ]
+  }

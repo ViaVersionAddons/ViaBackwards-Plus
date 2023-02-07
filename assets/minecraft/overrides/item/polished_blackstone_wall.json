@@ -1,0 +1,22 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Cobbled Deepslate Wall"
+          },
+          "model": "block/cobbled_deepslate_wall_inventory"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Deepslate Tile Wall"
+            },
+            "model": "block/deepslate_tile_wall_inventory"
+            },
+            {
+              "predicate": {
+                "name": "1.17 Polished Deepslate Wall"
+              },
+              "model": "block/polished_deepslate_wall_inventory"
+              }
+      ]
+  }

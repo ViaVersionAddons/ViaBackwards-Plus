@@ -1,0 +1,16 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Deepslate Brick Stairs"
+          },
+          "model": "block/deepslate_brick_stairs"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Polished Deepslate Stairs"
+            },
+            "model": "block/polished_deepslate_stairs"
+            }
+      ]
+  }

@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Deepslate Brick Wall"
+          },
+          "model": "block/deepslate_brick_wall_inventory"
+          }
+      ]
+  }

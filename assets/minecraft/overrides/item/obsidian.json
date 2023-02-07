@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.19 Reinforced Deepslate"
+          },
+          "model": "block/reinforced_deepslate"
+          }
+      ]
+  }

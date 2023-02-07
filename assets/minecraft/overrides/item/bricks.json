@@ -1,0 +1,82 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Cut Copper"
+        },
+        "model": "block/cut_copper"
+      },
+      {
+        "predicate": {
+          "name": "1.17 Waxed Cut Copper"
+        },
+        "model": "block/cut_copper"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Oxidized Cut Copper"
+          },
+          "model": "block/oxidized_cut_copper"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Waxed Oxidized Cut Copper"
+          },
+          "model": "block/oxidized_cut_copper"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Waxed Oxidized Copper"
+          },
+          "model": "block/oxidized_copper"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Exposed Copper"
+          },
+          "model": "block/exposed_copper"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Exposed Cut Copper"
+            },
+            "model": "block/exposed_cut_copper"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Waxed Exposed Cut Copper"
+            },
+            "model": "block/exposed_cut_copper"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Waxed Exposed Copper"
+            },
+            "model": "block/exposed_copper"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Weathered Copper"
+            },
+            "model": "block/weathered_copper"
+            },
+            {
+              "predicate": {
+                "name": "1.17 Weathered Cut Copper"
+              },
+              "model": "block/weathered_cut_copper"
+            },
+            {
+              "predicate": {
+                "name": "1.17 Waxed Weathered Cut Copper"
+              },
+              "model": "block/weathered_cut_copper"
+            },
+            {
+              "predicate": {
+                "name": "1.17 Waxed Weathered Copper"
+              },
+              "model": "block/weathered_copper"
+            }
+      ]
+  }

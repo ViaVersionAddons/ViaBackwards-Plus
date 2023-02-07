@@ -1,0 +1,22 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Copper Block"
+        },
+        "model": "block/copper_block"
+      },
+      {
+        "predicate": {
+          "name": "1.17 Raw Copper Block"
+        },
+        "model": "block/raw_copper_block"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Raw Iron Block"
+          },
+          "model": "block/raw_iron_block"
+          }
+      ]
+  }

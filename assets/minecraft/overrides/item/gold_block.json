@@ -1,0 +1,10 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Raw Gold Block"
+        },
+        "model": "block/raw_gold_block"
+        }
+      ]
+  }

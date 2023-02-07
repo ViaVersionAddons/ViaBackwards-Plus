@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Moss Carpet"
+          },
+          "model": "block/moss_carpet"
+          }
+      ]
+  }

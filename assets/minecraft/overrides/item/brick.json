@@ -1,0 +1,10 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Copper Ingot"
+        },
+        "model": "item/copper_ingot"
+        }
+      ]
+  }

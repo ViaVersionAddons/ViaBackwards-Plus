@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Deepslate Emerald Ore"
+          },
+          "model": "block/deepslate_emerald_ore"
+          }
+      ]
+  }

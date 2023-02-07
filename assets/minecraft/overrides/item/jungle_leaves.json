@@ -1,0 +1,28 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Azalea"
+          },
+          "model": "block/azalea"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Azalea Leaves"
+            },
+            "model": "block/azalea_leaves"
+            },
+            {
+              "predicate": {
+                "name": "1.17 Flowering Azalea"
+              },
+              "model": "block/flowering_azalea"
+              },
+              {
+                "predicate": {
+                  "name": "1.17 Azalea Leaves Flowers"
+                },
+                "model": "block/flowering_azalea_leaves"
+                }
+      ]
+  }

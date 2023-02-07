@@ -1,0 +1,52 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Cut Copper Slab"
+        },
+        "model": "block/cut_copper_slab"
+      },
+      {
+        "predicate": {
+          "name": "1.17 Waxed Cut Copper Slab"
+        },
+        "model": "block/cut_copper_slab"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Oxidized Cut Copper Slab"
+          },
+          "model": "block/oxidized_cut_copper_slab"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Waxed Oxidized Cut Copper Slab"
+          },
+          "model": "block/oxidized_cut_copper_slab"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Exposed Cut Copper Slab"
+          },
+          "model": "block/exposed_cut_copper_slab"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Waxed Exposed Cut Copper Slab"
+          },
+          "model": "block/exposed_cut_copper_slab"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Weathered Cut Copper Slab"
+          },
+          "model": "block/weathered_cut_copper_slab"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Waxed Weathered Cut Copper Slab"
+          },
+          "model": "block/weathered_cut_copper_slab"
+        }
+      ]
+  }

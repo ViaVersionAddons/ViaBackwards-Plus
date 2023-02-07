@@ -1,0 +1,16 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Cobbled Deepslate"
+          },
+          "model": "block/cobbled_deepslate"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Polished Deepslate"
+            },
+            "model": "block/polished_deepslate"
+            }
+      ]
+  }

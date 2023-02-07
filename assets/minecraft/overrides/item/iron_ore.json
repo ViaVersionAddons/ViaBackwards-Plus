@@ -1,0 +1,34 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Raw Iron"
+        },
+        "model": "item/raw_iron"
+      },
+      {
+        "predicate": {
+          "name": "1.17 Raw Copper"
+        },
+        "model": "item/raw_copper"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Copper Ore"
+          },
+          "model": "block/copper_ore"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Deepslate Copper Ore"
+          },
+          "model": "block/deepslate_copper_ore"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Deepslate Iron Ore"
+            },
+            "model": "block/deepslate_iron_ore"
+            }
+    ]
+  }

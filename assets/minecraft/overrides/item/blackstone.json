@@ -1,0 +1,28 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Deepslate"
+        },
+        "model": "block/deepslate"
+      },
+      {
+        "predicate": {
+          "name": "1.17 Cracked Deepslate Tiles"
+        },
+        "model": "block/cracked_deepslate_tiles"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Cracked Deepslate Bricks"
+          },
+          "model": "block/cracked_deepslate_bricks"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Deepslate Tiles"
+            },
+            "model": "block/deepslate_tiles"
+            }
+      ]
+  }

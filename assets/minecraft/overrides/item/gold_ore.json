@@ -1,0 +1,16 @@
+{
+    "overrides": [
+      {
+        "predicate": {
+          "name": "1.17 Raw Gold"
+        },
+        "model": "item/raw_gold"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Deepslate Gold Ore"
+          },
+          "model": "block/deepslate_gold_ore"
+          }
+      ]
+  }
