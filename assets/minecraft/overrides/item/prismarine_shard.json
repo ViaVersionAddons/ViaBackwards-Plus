@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Amethyst Shard"
+          },
+          "model": "item/amethyst_shard"
+          }
+      ]
+  }

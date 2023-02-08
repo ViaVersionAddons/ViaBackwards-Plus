@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Glow Lichen"
+          },
+          "model": "block/glow_lichen"
+          }
+      ]
+  }

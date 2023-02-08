@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Glow Ink Sac"
+          },
+          "model": "item/glow_ink_sac"
+          }
+      ]
+  }

@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Small Dripleaf"
+          },
+          "model": "block/small_dripleaf_top"
+          }
+      ]
+  }

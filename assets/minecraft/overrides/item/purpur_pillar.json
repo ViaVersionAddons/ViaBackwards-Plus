@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Budding Amethyst"
+          },
+          "model": "block/budding_amethyst"
+          }
+      ]
+  }

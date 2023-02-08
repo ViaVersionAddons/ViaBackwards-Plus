@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Big Dripleaf"
+          },
+          "model": "block/big_dripleaf"
+          }
+      ]
+  }

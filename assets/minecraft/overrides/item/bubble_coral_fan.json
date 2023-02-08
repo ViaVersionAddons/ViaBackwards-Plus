@@ -1,0 +1,28 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Amethyst Cluster"
+          },
+          "model": "item/amethyst_cluster"
+          },
+          {
+            "predicate": {
+              "name": "1.17 Small Amethyst Bud"
+            },
+            "model": "item/small_amethyst_bud"
+            },
+            {
+              "predicate": {
+                "name": "1.17 Medium Amethyst Bud"
+              },
+              "model": "item/medium_amethyst_bud"
+              },
+              {
+                "predicate": {
+                  "name": "1.17 Large Amethyst Bud"
+                },
+                "model": "item/large_amethyst_bud"
+                }
+      ]
+  }

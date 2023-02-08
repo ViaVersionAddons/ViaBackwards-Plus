@@ -1,0 +1,112 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Candle"
+          },
+          "model": "item/candle"
+        },
+          {
+            "predicate": {
+              "name": "1.17 Blue Candle"
+            },
+            "model": "item/blue_candle"
+            },
+            {
+              "predicate": {
+                "name": "1.17 White Candle"
+              },
+              "model": "item/white_candle"
+              },
+              {
+                "predicate": {
+                  "name": "1.17 Orange Candle"
+                },
+                "model": "item/orange_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Magenta Candle"
+                  },
+                  "model": "item/magenta_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Light Blue Candle"
+                  },
+                  "model": "item/light_blue_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Yellow Candle"
+                  },
+                  "model": "item/yellow_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Lime Candle"
+                  },
+                  "model": "item/lime_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Pink Candle"
+                  },
+                  "model": "item/pink_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Gray Candle"
+                  },
+                  "model": "item/gray_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Light Gray Candle"
+                  },
+                  "model": "item/light_gray_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Cyan Candle"
+                  },
+                  "model": "item/cyan_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Purple Candle"
+                  },
+                  "model": "item/purple_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17  Candle"
+                  },
+                  "model": "item/_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Brown Candle"
+                  },
+                  "model": "item/brown_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Green Candle"
+                  },
+                  "model": "item/green_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Red Candle"
+                  },
+                  "model": "item/red_candle"
+                },
+                {
+                  "predicate": {
+                    "name": "1.17 Black Candle"
+                  },
+                  "model": "item/black_candle"
+                }
+      ]
+  }
