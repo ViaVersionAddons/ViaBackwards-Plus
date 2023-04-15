@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.19 Mangrove Fence"
+          },
+          "model": "block/mangrove_fence_inventory"
+          }
+      ]
+  }

@@ -77,6 +77,12 @@
                 "name": "1.17 Waxed Weathered Copper"
               },
               "model": "block/weathered_copper"
+            },
+            {
+              "predicate": {
+                "name": "1.19 Mud Bricks"
+              },
+              "model": "block/mud_bricks"
             }
       ]
   }

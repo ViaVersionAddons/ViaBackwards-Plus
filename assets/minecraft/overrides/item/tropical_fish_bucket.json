@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Bucket of Axolotl"
+          },
+          "model": "item/axolotl_bucket"
+          }
+      ]
+  }

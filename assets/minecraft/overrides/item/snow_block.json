@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Powder Snow Bucket"
+          },
+          "model": "item/powder_snow_bucket"
+          }
+      ]
+  }

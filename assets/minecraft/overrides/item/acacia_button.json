@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.19 Mangrove Button"
+          },
+          "model": "item/mangrove_button"
+          }
+      ]
+  }

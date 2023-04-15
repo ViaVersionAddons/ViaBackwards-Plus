@@ -47,6 +47,12 @@
             "name": "1.17 Waxed Weathered Cut Copper Stairs"
           },
           "model": "block/weathered_cut_copper_stairs"
+        },
+        {
+          "predicate": {
+            "name": "1.19 Mud Brick Stairs"
+          },
+          "model": "block/mud_brick_stairs"
         }
       ]
   }

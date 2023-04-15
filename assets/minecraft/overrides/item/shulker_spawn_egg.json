@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Axolotl Spawn Egg"
+          },
+          "model": "item/axolotl_spawn_Egg"
+          }
+      ]
+  }

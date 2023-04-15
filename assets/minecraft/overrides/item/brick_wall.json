@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.19 Mud Brick Wall"
+          },
+          "model": "block/mud_brick_wall_inventory"
+          }
+      ]
+  }

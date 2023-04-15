@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.19 Mangrove Propagule"
+          },
+          "model": "block/mangrove_propagule"
+          }
+      ]
+  }

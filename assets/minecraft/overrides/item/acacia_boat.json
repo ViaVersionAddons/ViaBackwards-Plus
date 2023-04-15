@@ -1,0 +1,16 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.19 Mangrove Boat"
+          },
+          "model": "item/mangrove_boat"
+          },
+          {
+            "predicate": {
+              "name": "1.19 Mangrove Chest Boat"
+            },
+            "model": "item/mangrove_chest_boat"
+            }
+      ]
+  }

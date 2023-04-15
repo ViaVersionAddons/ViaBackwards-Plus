@@ -1,0 +1,22 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.17 Rooted Dirt"
+          },
+          "model": "block/rooted_dirt"
+          },
+          {
+            "predicate": {
+              "name": "1.19 Mud"
+            },
+            "model": "block/mud"
+            },
+            {
+              "predicate": {
+                "name": "1.19 Muddy Mangrove Roots"
+              },
+              "model": "block/muddy_mangrove_roots"
+              }
+      ]
+  }

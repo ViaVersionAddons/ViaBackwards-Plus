@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "1.19 Mangrove Slab"
+          },
+          "model": "block/mangrove_slab"
+          }
+      ]
+  }

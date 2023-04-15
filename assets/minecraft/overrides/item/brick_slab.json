@@ -47,6 +47,12 @@
             "name": "1.17 Waxed Weathered Cut Copper Slab"
           },
           "model": "block/weathered_cut_copper_slab"
+        },
+        {
+          "predicate": {
+            "name": "1.19 Mud Brick Slab"
+          },
+          "model": "block/mud_brick_slab"
         }
       ]
   }
