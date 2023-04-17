@@ -5,6 +5,19 @@
             "name": "1.17 Glow Squid Spawn Egg"
           },
           "model": "item/glow_squid_spawn_egg"
-          }
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 892,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Glow Squid Spawn Egg\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/glow_squid_spawn_egg"
+        }
       ]
   }

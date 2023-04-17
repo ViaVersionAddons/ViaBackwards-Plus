@@ -5,6 +5,19 @@
             "name": "1.19 Mangrove Fence Gate"
           },
           "model": "block/mangrove_fence_gate"
-          }
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+                  "VB|Protocol1_18_2To1_19|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Fence Gate\"}],\"text\":\"\"}"
+                },
+                "VB|Protocol1_18_2To1_19|id": 682
+              }
+              
+            },
+            "model": "block/mangrove_fence_gate"
+            }
       ]
   }

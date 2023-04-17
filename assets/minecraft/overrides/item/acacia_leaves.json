@@ -5,6 +5,19 @@
             "name": "1.19 Mangrove Leaves"
           },
           "model": "block/mangrove_leaves"
-          }
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "VB|Protocol1_18_2To1_19|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Leaves\"}],\"text\":\"\"}"
+              },
+              "VB|Protocol1_18_2To1_19|id": 148
+            }
+            
+          },
+          "model": "block/mangrove_leaves"
+        }
       ]
   }

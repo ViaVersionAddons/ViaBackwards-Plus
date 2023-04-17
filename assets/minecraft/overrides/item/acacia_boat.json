@@ -8,9 +8,35 @@
           },
           {
             "predicate": {
+              "nbt": {
+                "display": {
+                  "VB|Protocol1_18_2To1_19|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Boat\"}],\"text\":\"\"}"
+                },
+                "VB|Protocol1_18_2To1_19|id": 710
+              }
+              
+            },
+            "model": "item/mangrove_boat"
+            },
+          {
+            "predicate": {
               "name": "1.19 Mangrove Chest Boat"
             },
             "model": "item/mangrove_chest_boat"
-            }
+            },
+            {
+              "predicate": {
+                "nbt": {
+                  "display": {
+                    "VB|Protocol1_18_2To1_19|customName": 0,
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Chest Boat\"}],\"text\":\"\"}"
+                  },
+                  "VB|Protocol1_18_2To1_19|id": 711
+                }
+                
+              },
+              "model": "item/mangrove_chest_boat"
+              }
       ]
   }

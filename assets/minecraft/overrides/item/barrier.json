@@ -5,6 +5,19 @@
             "name": "1.17 Light"
           },
           "model": "item/light_15"
-          }
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 371,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Light\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/light_15"
+        }
       ]
   }

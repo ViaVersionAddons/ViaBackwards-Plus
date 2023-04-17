@@ -2,7 +2,39 @@
     "overrides": [
       {
         "predicate": {
+          "name": "1.17 Waxed Copper Block"
+        },
+        "model": "block/copper_block"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 85,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Copper Block\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "block/copper_block"
+      },
+      {
+        "predicate": {
           "name": "1.17 Cut Copper"
+        },
+        "model": "block/cut_copper"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 73,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cut Copper\"}],\"text\":\"\"}"
+            }
+          }
+          
         },
         "model": "block/cut_copper"
       },
@@ -14,7 +46,33 @@
         },
         {
           "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 89,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Cut Copper\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/cut_copper"
+          },
+        {
+          "predicate": {
             "name": "1.17 Oxidized Cut Copper"
+          },
+          "model": "block/oxidized_cut_copper"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 76,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Oxidized Cut Copper\"}],\"text\":\"\"}"
+              }
+            }
+            
           },
           "model": "block/oxidized_cut_copper"
         },
@@ -26,7 +84,52 @@
         },
         {
           "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 92,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Oxidized Cut Copper\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/oxidized_cut_copper"
+        },
+        {
+          "predicate": {
+            "name": "1.17 Oxidized Copper"
+          },
+          "model": "block/oxidized_copper"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 72,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Oxidized Copper\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/oxidized_copper"
+        },
+        {
+          "predicate": {
             "name": "1.17 Waxed Oxidized Copper"
+          },
+          "model": "block/oxidized_copper"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 88,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Oxidized Copper\"}],\"text\":\"\"}"
+              }
+            }
+            
           },
           "model": "block/oxidized_copper"
         },
@@ -38,7 +141,33 @@
           },
           {
             "predicate": {
+              "nbt":{
+                "VB|Protocol1_16_4To1_17|id": 70,
+                "display": {
+                  "VB|Protocol1_16_4To1_17|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Exposed Copper\"}],\"text\":\"\"}"
+                }
+              }
+              
+            },
+            "model": "block/exposed_copper"
+            },
+          {
+            "predicate": {
               "name": "1.17 Exposed Cut Copper"
+            },
+            "model": "block/exposed_cut_copper"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_16_4To1_17|id": 74,
+                "display": {
+                  "VB|Protocol1_16_4To1_17|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Exposed Cut Copper\"}],\"text\":\"\"}"
+                }
+              }
+              
             },
             "model": "block/exposed_cut_copper"
           },
@@ -50,7 +179,33 @@
           },
           {
             "predicate": {
+              "nbt":{
+                "VB|Protocol1_16_4To1_17|id": 90,
+                "display": {
+                  "VB|Protocol1_16_4To1_17|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Exposed Cut Copper\"}],\"text\":\"\"}"
+                }
+              }
+              
+            },
+            "model": "block/exposed_cut_copper"
+          },
+          {
+            "predicate": {
               "name": "1.17 Waxed Exposed Copper"
+            },
+            "model": "block/exposed_copper"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_16_4To1_17|id": 86,
+                "display": {
+                  "VB|Protocol1_16_4To1_17|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Exposed Copper\"}],\"text\":\"\"}"
+                }
+              }
+              
             },
             "model": "block/exposed_copper"
           },
@@ -62,7 +217,33 @@
             },
             {
               "predicate": {
+                "nbt":{
+                  "VB|Protocol1_16_4To1_17|id": 71,
+                  "display": {
+                    "VB|Protocol1_16_4To1_17|customName": 0,
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Weathered Copper\"}],\"text\":\"\"}"
+                  }
+                }
+                
+              },
+              "model": "block/weathered_copper"
+              },
+            {
+              "predicate": {
                 "name": "1.17 Weathered Cut Copper"
+              },
+              "model": "block/weathered_cut_copper"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_16_4To1_17|id": 75,
+                  "display": {
+                    "VB|Protocol1_16_4To1_17|customName": 0,
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Weathered Cut Copper\"}],\"text\":\"\"}"
+                  }
+                }
+                
               },
               "model": "block/weathered_cut_copper"
             },
@@ -74,13 +255,52 @@
             },
             {
               "predicate": {
+                "nbt":{
+                  "VB|Protocol1_16_4To1_17|id": 91,
+                  "display": {
+                    "VB|Protocol1_16_4To1_17|customName": 0,
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Weathered Cut Copper\"}],\"text\":\"\"}"
+                  }
+                }
+                
+              },
+              "model": "block/weathered_cut_copper"
+            },
+            {
+              "predicate": {
                 "name": "1.17 Waxed Weathered Copper"
               },
               "model": "block/weathered_copper"
             },
             {
               "predicate": {
+                "nbt":{
+                  "VB|Protocol1_16_4To1_17|id": 87,
+                  "display": {
+                    "VB|Protocol1_16_4To1_17|customName": 0,
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Weathered Copper\"}],\"text\":\"\"}"
+                  }
+                }
+                
+              },
+              "model": "block/weathered_copper"
+            },
+            {
+              "predicate": {
                 "name": "1.19 Mud Bricks"
+              },
+              "model": "block/mud_bricks"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "display": {
+                    "VB|Protocol1_18_2To1_19|customName": 0,
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud Bricks\"}],\"text\":\"\"}"
+                  },
+                  "VB|Protocol1_18_2To1_19|id": 300
+                }
+                
               },
               "model": "block/mud_bricks"
             }

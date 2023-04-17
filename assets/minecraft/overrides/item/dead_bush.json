@@ -2,7 +2,14 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Pointed Dripstone"
+            "nbt": {
+                "VB|Protocol1_16_4To1_17|id": 1099,
+                "display": {
+                  "VB|Protocol1_16_4To1_17|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Pointed Dripstone\"}],\"text\":\"\"}"
+                }
+              }
+              
           },
           "model": "item/pointed_dripstone"
           }

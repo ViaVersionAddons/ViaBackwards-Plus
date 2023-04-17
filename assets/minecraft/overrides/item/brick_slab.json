@@ -8,51 +8,168 @@
       },
       {
         "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 81,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cut Copper Slab\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "block/cut_copper_slab"
+      },
+      {
+        "predicate": {
           "name": "1.17 Waxed Cut Copper Slab"
         },
         "model": "block/cut_copper_slab"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 97,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Cut Copper Slab\"}],\"text\":\"\"}"
+            }
+          }
+          
         },
-        {
+        "model": "block/cut_copper_slab"
+      },
+      {
           "predicate": {
             "name": "1.17 Oxidized Cut Copper Slab"
           },
           "model": "block/oxidized_cut_copper_slab"
-        },
-        {
+      },
+      {
           "predicate": {
-            "name": "1.17 Waxed Oxidized Cut Copper Slab"
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 84,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Oxidized Cut Copper Slab\"}],\"text\":\"\"}"
+              }
+            }
+            
           },
           "model": "block/oxidized_cut_copper_slab"
+      },
+      {
+        "predicate": {
+          "name": "1.17 Waxed Oxidized Cut Copper Slab"
         },
-        {
+        "model": "block/oxidized_cut_copper_slab"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 100,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Oxidized Cut Copper Slab\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "block/oxidized_cut_copper_slab"
+      },
+      {
           "predicate": {
             "name": "1.17 Exposed Cut Copper Slab"
           },
           "model": "block/exposed_cut_copper_slab"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 82,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Exposed Cut Copper Slab\"}],\"text\":\"\"}"
+            }
+          }
+          
         },
-        {
+        "model": "block/exposed_cut_copper_slab"
+      },
+      {
           "predicate": {
             "name": "1.17 Waxed Exposed Cut Copper Slab"
           },
           "model": "block/exposed_cut_copper_slab"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 98,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Exposed Cut Copper Slab\"}],\"text\":\"\"}"
+            }
+          }
+          
         },
-        {
+        "model": "block/exposed_cut_copper_slab"
+    },
+      {
           "predicate": {
             "name": "1.17 Weathered Cut Copper Slab"
           },
           "model": "block/weathered_cut_copper_slab"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 83,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Weathered Cut Copper Slab\"}],\"text\":\"\"}"
+            }
+          }
+          
         },
-        {
+        "model": "block/weathered_cut_copper_slab"
+    },
+      {
           "predicate": {
             "name": "1.17 Waxed Weathered Cut Copper Slab"
           },
           "model": "block/weathered_cut_copper_slab"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 99,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Weathered Cut Copper Slab\"}],\"text\":\"\"}"
+            }
+          }
+          
         },
-        {
+        "model": "block/weathered_cut_copper_slab"
+    },
+      {
           "predicate": {
             "name": "1.19 Mud Brick Slab"
           },
           "model": "block/mud_brick_slab"
-        }
-      ]
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "VB|Protocol1_18_2To1_19|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud Brick Slab\"}],\"text\":\"\"}"
+            },
+            "VB|Protocol1_18_2To1_19|id": 231
+          }
+          
+        },
+        "model": "block/mud_brick_slab"
+    }
+    ]
   }

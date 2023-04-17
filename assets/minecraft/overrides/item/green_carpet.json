@@ -5,6 +5,19 @@
             "name": "1.17 Moss Carpet"
           },
           "model": "block/moss_carpet"
-          }
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 198,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Moss Carpet\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/moss_carpet"
+        }
       ]
   }

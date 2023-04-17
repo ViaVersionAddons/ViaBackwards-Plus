@@ -5,12 +5,38 @@
             "name": "1.17 Deepslate Brick Stairs"
           },
           "model": "block/deepslate_brick_stairs"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 565,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Brick Stairs\"}],\"text\":\"\"}"
+              }
+            }
+            
           },
-          {
+          "model": "block/deepslate_brick_stairs"
+        },
+        {
             "predicate": {
               "name": "1.17 Polished Deepslate Stairs"
             },
             "model": "block/polished_deepslate_stairs"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 564,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate Stairs\"}],\"text\":\"\"}"
+              }
             }
-      ]
+            
+          },
+          "model": "block/polished_deepslate_stairs"
+      }
+    ]
   }

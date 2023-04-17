@@ -8,15 +8,54 @@
           },
           {
             "predicate": {
+              "nbt":{
+                "VB|Protocol1_16_4To1_17|id": 18,
+                "display": {
+                  "VB|Protocol1_16_4To1_17|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Rooted Dirt\"}],\"text\":\"\"}"
+                }
+              }
+              
+            },
+            "model": "block/rooted_dirt"
+            },
+          {
+            "predicate": {
               "name": "1.19 Mud"
             },
             "model": "block/mud"
             },
             {
               "predicate": {
+                "nbt":{
+                  "display": {
+                    "VB|Protocol1_18_2To1_19|customName": 0,
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud\"}],\"text\":\"\"}"
+                  },
+                  "VB|Protocol1_18_2To1_19|id": 19
+                }
+                
+              },
+              "model": "block/mud"
+              },
+            {
+              "predicate": {
                 "name": "1.19 Muddy Mangrove Roots"
               },
               "model": "block/muddy_mangrove_roots"
+              },
+              {
+                "predicate": {
+                  "nbt":{
+                    "display": {
+                      "VB|Protocol1_18_2To1_19|customName": 0,
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Muddy Mangrove Roots\"}],\"text\":\"\"}"
+                    },
+                    "VB|Protocol1_18_2To1_19|id": 112
+                  }
+                  
+                },
+                "model": "block/muddy_mangrove_roots"
               }
       ]
   }

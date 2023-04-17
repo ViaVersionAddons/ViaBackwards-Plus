@@ -5,12 +5,38 @@
             "name": "1.17 Cobbled Deepslate"
           },
           "model": "block/cobbled_deepslate"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 9,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cobbled Deepslate\"}],\"text\":\"\"}"
+              }
+            }
+            
           },
-          {
+          "model": "block/cobbled_deepslate"
+        },
+        {
             "predicate": {
               "name": "1.17 Polished Deepslate"
             },
             "model": "block/polished_deepslate"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 10,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate\"}],\"text\":\"\"}"
+              }
             }
-      ]
+            
+          },
+          "model": "block/polished_deepslate"
+      }
+    ]
   }

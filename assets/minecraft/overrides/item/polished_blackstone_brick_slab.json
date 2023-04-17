@@ -5,12 +5,38 @@
             "name": "1.17 Deepslate Brick Slab"
           },
           "model": "block/deepslate_brick_slab"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 582,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Brick Slab\"}],\"text\":\"\"}"
+              }
+            }
+            
           },
-          {
+          "model": "block/deepslate_brick_slab"
+        },
+        {
             "predicate": {
               "name": "1.17 Polished Deepslate Slab"
             },
             "model": "block/polished_deepslate_slab"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 581,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate Slab\"}],\"text\":\"\"}"
+              }
             }
-      ]
+            
+          },
+          "model": "block/polished_deepslate_slab"
+        }
+    ]
   }

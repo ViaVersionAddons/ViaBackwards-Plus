@@ -8,10 +8,36 @@
           },
           {
             "predicate": {
+              "nbt":{
+                "VB|Protocol1_16_4To1_17|id": 1098,
+                "display": {
+                  "VB|Protocol1_16_4To1_17|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Cluster\"}],\"text\":\"\"}"
+                }
+              }
+              
+            },
+            "model": "item/amethyst_cluster"
+            },
+          {
+            "predicate": {
               "name": "1.17 Small Amethyst Bud"
             },
             "model": "item/small_amethyst_bud"
             },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_16_4To1_17|id": 1095,
+                  "display": {
+                    "VB|Protocol1_16_4To1_17|customName": 0,
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Small Amethyst Bud\"}],\"text\":\"\"}"
+                  }
+                }
+                
+              },
+              "model": "item/small_amethyst_bud"
+              },
             {
               "predicate": {
                 "name": "1.17 Medium Amethyst Bud"
@@ -20,9 +46,35 @@
               },
               {
                 "predicate": {
+                  "nbt":{
+                    "VB|Protocol1_16_4To1_17|id": 1096,
+                    "display": {
+                      "VB|Protocol1_16_4To1_17|customName": 0,
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Medium Amethyst Bud\"}],\"text\":\"\"}"
+                    }
+                  }
+                  
+                },
+                "model": "item/medium_amethyst_bud"
+                },
+              {
+                "predicate": {
                   "name": "1.17 Large Amethyst Bud"
                 },
                 "model": "item/large_amethyst_bud"
-                }
+                },
+                {
+                  "predicate": {
+                    "nbt":{
+                      "VB|Protocol1_16_4To1_17|id": 1097,
+                      "display": {
+                        "VB|Protocol1_16_4To1_17|customName": 0,
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Large Amethyst Bud\"}],\"text\":\"\"}"
+                      }
+                    }
+                    
+                  },
+                  "model": "item/large_amethyst_bud"
+                  }
       ]
   }

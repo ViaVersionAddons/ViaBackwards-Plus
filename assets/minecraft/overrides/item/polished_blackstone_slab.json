@@ -5,12 +5,38 @@
             "name": "1.17 Cobbled Deepslate Slab"
           },
           "model": "block/cobbled_deepslate_slab"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 580,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cobbled Deepslate Slab\"}],\"text\":\"\"}"
+              }
+            }
+            
           },
-          {
+          "model": "block/cobbled_deepslate_slab"
+        },
+        {
             "predicate": {
               "name": "1.17 Deepslate Tile Slab"
             },
             "model": "block/deepslate_tile_slab"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 583,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Tile Slab\"}],\"text\":\"\"}"
+              }
             }
-      ]
+            
+          },
+          "model": "block/deepslate_tile_slab"
+        }
+    ]
   }

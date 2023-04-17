@@ -5,6 +5,19 @@
             "name": "1.17 Deepslate Bricks"
           },
           "model": "block/deepslate_bricks"
-          }
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 287,
+              "display": {
+                "VB|Protocol1_16_4To1_17|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Bricks\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/deepslate_bricks"
+        }
       ]
   }

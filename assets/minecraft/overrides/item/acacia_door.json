@@ -5,6 +5,19 @@
             "name": "1.19 Mangrove Door"
           },
           "model": "item/mangrove_door"
-          }
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+                  "VB|Protocol1_18_2To1_19|customName": 0,
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Door\"}],\"text\":\"\"}"
+                },
+                "VB|Protocol1_18_2To1_19|id": 663
+              }
+              
+            },
+            "model": "item/mangrove_door"
+            }
       ]
   }

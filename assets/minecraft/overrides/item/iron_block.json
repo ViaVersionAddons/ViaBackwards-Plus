@@ -8,15 +8,53 @@
       },
       {
         "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 66,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Copper Block\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "block/copper_block"
+      },
+      {
+        "predicate": {
           "name": "1.17 Raw Copper Block"
         },
         "model": "block/raw_copper_block"
+      },      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 61,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Copper Block\"}],\"text\":\"\"}"
+            }
+          }
+          
         },
-        {
+        "model": "block/raw_copper_block"
+      },
+      {
           "predicate": {
             "name": "1.17 Raw Iron Block"
           },
           "model": "block/raw_iron_block"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_16_4To1_17|id": 60,
+            "display": {
+              "VB|Protocol1_16_4To1_17|customName": 0,
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Iron Block\"}],\"text\":\"\"}"
+            }
           }
-      ]
-  }
+          
+        },
+        "model": "block/raw_iron_block"
+      }
+  ]
+}
