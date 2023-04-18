@@ -1,5 +1,5 @@
 <div class="minecraft-pack">
-  <h2>ViaBackwards+</h2>
+  <h1>ViaBackwards+</h1>
   <h4>Requires the mod <a href="https://modrinth.com/mod/chime" target="_blank">Chime</a> to work</h4>
   <p><strong>This Minecraft pack enhances the gameplay experience with the ViaBackwards plugin</strong>, which allow players to connect to newer servers with an older client. The pack requires the Chime mod to work, which helps identify the items by their custom name or custom NBT data, and assigns the correct model and texture to them. The best part of this pack is that if you put an another resourcespack on top of it, it will load the textures from that!<br><strong>Please note that this pack is not an official addon from the <a href="https://github.com/ViaVersion/ViaBackwards" target:"_blank">ViaBackwards team</a>, and it's just fan-made.</span></strong></p>
 <img src="https://cdn.modrinth.com/data/v7n1ZsFg/images/719f766373fb01e559b66eb6cf79692498b2acfc.png">
