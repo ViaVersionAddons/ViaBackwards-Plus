@@ -1,0 +1,18 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "angle": 0.000000,
+             "nbt": {
+              "display": {
+                "VB|Protocol1_18_2To1_19|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Recovery Compass\"}],\"text\":\"\"}"
+              },
+              "VB|Protocol1_18_2To1_19|id": 834
+            }
+            
+          },
+          "model": "item/recovery_compass"
+          }
+      ]
+  }

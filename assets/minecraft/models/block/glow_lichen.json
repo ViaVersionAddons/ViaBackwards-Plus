@@ -1,16 +1,24 @@
 {
-    "ambientocclusion": false,
-    "textures": {
-        "particle": "block/glow_lichen",
-        "glow_lichen": "block/glow_lichen"
-    },
-    "elements": [
-        {   "from": [ 0, 0, 0.1 ],
-            "to": [ 16, 16, 0.1 ],
-            "faces": {
-                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#glow_lichen" },
-                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#glow_lichen" }
-            }
-        }
-    ]
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/glow_lichen",
+		"glow_lichen": "block/glow_lichen"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#glow_lichen"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#glow_lichen"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"translation": [0, 0, -0.5],
+			"scale": [1.15, 1.15, 1.15]
+		}
+	}
 }

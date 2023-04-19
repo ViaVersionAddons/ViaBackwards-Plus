@@ -1,0 +1,17 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "VB|Protocol1_18_2To1_19|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Sculk Catalyst\"}],\"text\":\"\"}"
+              },
+              "VB|Protocol1_18_2To1_19|id": 328
+            }
+            
+          },
+          "model": "block/sculk_catalyst"
+          }
+      ]
+  }

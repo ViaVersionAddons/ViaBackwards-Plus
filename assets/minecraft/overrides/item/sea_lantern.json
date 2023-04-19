@@ -1,0 +1,43 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "VB|Protocol1_18_2To1_19|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Ochre Froglight\"}],\"text\":\"\"}"
+              },
+              "VB|Protocol1_18_2To1_19|id": 1147
+            }
+            
+          },
+          "model": "block/ochre_froglight"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "VB|Protocol1_18_2To1_19|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Pearlescent Froglight\"}],\"text\":\"\"}"
+              },
+              "VB|Protocol1_18_2To1_19|id": 1149
+            }
+            
+          },
+          "model": "block/pearlescent_froglight"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "VB|Protocol1_18_2To1_19|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Verdant Froglight\"}],\"text\":\"\"}"
+              },
+              "VB|Protocol1_18_2To1_19|id": 1148
+            }
+            
+          },
+          "model": "block/verdant_froglight"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "VB|Protocol1_18_2To1_19|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Music Disc 5\"}],\"text\":\"\"}"
+              },
+              "VB|Protocol1_18_2To1_19|id": 1071
+            }
+            
+          },
+          "model": "item/music_disc_5"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "VB|Protocol1_18_2To1_19|customName": 0,
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Disc Fragment\"}],\"text\":\"\"}"
+              },
+              "VB|Protocol1_18_2To1_19|id": 1073
+            }
+            
+          },
+          "model": "item/disc_fragment_5"
+        }
+    ]
+  }
