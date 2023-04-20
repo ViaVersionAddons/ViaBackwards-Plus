@@ -9,9 +9,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 300,
+           
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Glow Lichen\"}],\"text\":\"\"}"
               }
             }
@@ -22,12 +22,11 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 300,
+           
               "display": {
-                "VB|Protocol1_18_2To1_19|customName": 0,
+               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Sculk Vein\"}],\"text\":\"\"}"
-              },
-              "VB|Protocol1_18_2To1_19|id": 327
+              }
             }
             
           },
@@ -36,12 +35,11 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 300,
+             
               "display": {
-                "VB|Protocol1_18_2To1_19|customName": 0,
+                
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Frogspawn\"}],\"text\":\"\"}"
-              },
-              "VB|Protocol1_18_2To1_19|id": 1150
+              }
             }
             
           },

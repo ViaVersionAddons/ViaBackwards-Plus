@@ -9,9 +9,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 63,
+           
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Block\"}],\"text\":\"\"}"
               }
             }

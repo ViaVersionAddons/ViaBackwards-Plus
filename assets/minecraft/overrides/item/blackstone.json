@@ -9,9 +9,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 8,
+         
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+       
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate\"}],\"text\":\"\"}"
             }
           }
@@ -28,9 +28,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 290,
+       
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cracked Deepslate Tiles\"}],\"text\":\"\"}"
             }
           }
@@ -47,9 +47,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 288,
+         
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+         
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cracked Deepslate Bricks\"}],\"text\":\"\"}"
             }
           }
@@ -66,9 +66,9 @@
       {
         "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 289,
+     
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Tiles\"}],\"text\":\"\"}"
               }
             }

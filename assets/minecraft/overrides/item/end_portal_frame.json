@@ -4,10 +4,10 @@
           "predicate": {
             "nbt": {
               "display": {
-                "VB|Protocol1_18_2To1_19|customName": 0,
+              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Sculk Shrieker\"}],\"text\":\"\"}"
-              },
-              "VB|Protocol1_18_2To1_19|id": 329
+              }
+    
             }
             
           },

@@ -9,9 +9,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 690,
+     
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Shard\"}],\"text\":\"\"}"
               }
             }
@@ -23,10 +23,9 @@
           "predicate": {
             "nbt":{
               "display": {
-                "VB|Protocol1_18_2To1_19|customName": 0,
+               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Echo Shard\"}],\"text\":\"\"}"
-              },
-              "VB|Protocol1_18_2To1_19|id": 1151
+              }
             }
             
           },

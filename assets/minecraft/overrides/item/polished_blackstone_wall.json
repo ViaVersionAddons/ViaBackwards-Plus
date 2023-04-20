@@ -9,9 +9,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 342,
+         
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cobbled Deepslate Wall\"}],\"text\":\"\"}"
               }
             }
@@ -28,9 +28,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 345,
+            
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Tile Wall\"}],\"text\":\"\"}"
               }
             }
@@ -47,9 +47,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 343,
+       
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+            
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate Wall\"}],\"text\":\"\"}"
               }
             }

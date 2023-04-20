@@ -4,10 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-                "VB|Protocol1_18_2To1_19|customName": 0,
+           
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Ochre Froglight\"}],\"text\":\"\"}"
-              },
-              "VB|Protocol1_18_2To1_19|id": 1147
+              }
             }
             
           },
@@ -17,10 +16,9 @@
           "predicate": {
             "nbt": {
               "display": {
-                "VB|Protocol1_18_2To1_19|customName": 0,
+             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Pearlescent Froglight\"}],\"text\":\"\"}"
-              },
-              "VB|Protocol1_18_2To1_19|id": 1149
+              }
             }
             
           },
@@ -30,10 +28,9 @@
           "predicate": {
             "nbt": {
               "display": {
-                "VB|Protocol1_18_2To1_19|customName": 0,
+               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Verdant Froglight\"}],\"text\":\"\"}"
-              },
-              "VB|Protocol1_18_2To1_19|id": 1148
+              }
             }
             
           },

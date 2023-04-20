@@ -5,6 +5,17 @@
             "name": "1.19 Mangrove Pressure Plate"
           },
           "model": "block/mangrove_pressure_plate"
-          }
-      ]
-  }
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Pressure Plate\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/mangrove_pressure_plate"
+        }
+    ]
+}

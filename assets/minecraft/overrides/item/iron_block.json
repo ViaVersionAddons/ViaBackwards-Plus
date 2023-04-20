@@ -9,9 +9,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 66,
+          
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Copper Block\"}],\"text\":\"\"}"
             }
           }
@@ -27,9 +27,9 @@
       },      {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 61,
+          
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Copper Block\"}],\"text\":\"\"}"
             }
           }
@@ -46,9 +46,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 60,
+       
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+          
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Iron Block\"}],\"text\":\"\"}"
             }
           }

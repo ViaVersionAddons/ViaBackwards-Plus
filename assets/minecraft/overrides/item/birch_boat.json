@@ -1,0 +1,17 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Birch Chest Boat\"}],\"text\":\"\"}"
+              }
+             
+            }
+            
+          },
+          "model": "item/birch_chest_boat"
+          }
+      ]
+  }

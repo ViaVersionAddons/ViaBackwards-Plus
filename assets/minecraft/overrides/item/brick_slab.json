@@ -47,9 +47,9 @@
       {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 84,
+             
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+                
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Oxidized Cut Copper Slab\"}],\"text\":\"\"}"
               }
             }
@@ -66,9 +66,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 100,
+          
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+              
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Oxidized Cut Copper Slab\"}],\"text\":\"\"}"
             }
           }
@@ -85,9 +85,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 82,
+        
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+             
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Exposed Cut Copper Slab\"}],\"text\":\"\"}"
             }
           }
@@ -104,9 +104,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 98,
+       
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+          
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Exposed Cut Copper Slab\"}],\"text\":\"\"}"
             }
           }
@@ -123,9 +123,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 83,
+        
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+            
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Weathered Cut Copper Slab\"}],\"text\":\"\"}"
             }
           }
@@ -142,9 +142,9 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 99,
+           
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
+           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Weathered Cut Copper Slab\"}],\"text\":\"\"}"
             }
           }
@@ -162,10 +162,9 @@
         "predicate": {
           "nbt":{
             "display": {
-              "VB|Protocol1_18_2To1_19|customName": 0,
+              
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud Brick Slab\"}],\"text\":\"\"}"
-            },
-            "VB|Protocol1_18_2To1_19|id": 231
+            }
           }
           
         },

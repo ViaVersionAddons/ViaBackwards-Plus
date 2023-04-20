@@ -9,9 +9,9 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_16_4To1_17|id": 18,
+                
                 "display": {
-                  "VB|Protocol1_16_4To1_17|customName": 0,
+      
                   "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Rooted Dirt\"}],\"text\":\"\"}"
                 }
               }
@@ -29,10 +29,9 @@
               "predicate": {
                 "nbt":{
                   "display": {
-                    "VB|Protocol1_18_2To1_19|customName": 0,
+                    
                     "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud\"}],\"text\":\"\"}"
-                  },
-                  "VB|Protocol1_18_2To1_19|id": 19
+                  }
                 }
                 
               },
@@ -48,10 +47,9 @@
                 "predicate": {
                   "nbt":{
                     "display": {
-                      "VB|Protocol1_18_2To1_19|customName": 0,
+                    
                       "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Muddy Mangrove Roots\"}],\"text\":\"\"}"
-                    },
-                    "VB|Protocol1_18_2To1_19|id": 112
+                    }
                   }
                   
                 },

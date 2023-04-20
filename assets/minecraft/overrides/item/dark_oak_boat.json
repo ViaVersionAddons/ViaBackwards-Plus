@@ -1,0 +1,16 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+             
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Dark Oak Chest Boat\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/dark_oak_chest_boat"
+          }
+      ]
+  }

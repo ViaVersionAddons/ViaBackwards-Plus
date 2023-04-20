@@ -9,9 +9,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 152,
+            
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea\"}],\"text\":\"\"}"
               }
             }
@@ -28,9 +28,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 139,
+          
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea Leaves\"}],\"text\":\"\"}"
               }
             }
@@ -47,9 +47,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 153,
+          
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+                
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Flowering Azalea\"}],\"text\":\"\"}"
               }
             }
@@ -66,9 +66,9 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 140,
+            
               "display": {
-                "VB|Protocol1_16_4To1_17|customName": 0,
+               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea Leaves Flowers\"}],\"text\":\"\"}"
               }
             }
