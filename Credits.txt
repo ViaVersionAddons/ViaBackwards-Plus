@@ -1,0 +1,4 @@
+﻿Here's a list of the creator of the assets that I used in this pack (in order that I used their work, not in how much I used them):
+
+Mojang Studios: https://minecraft.net (Every backported item's model and texture)
+Vanilla Tweaks: https://vanillatweaks.net/ (Some easter egg textures)

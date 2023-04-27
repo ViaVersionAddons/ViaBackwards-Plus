@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "bangetto"
+          },
+          "model": "easteregg:bangetto"
+          }
+      ]
+  }

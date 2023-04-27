@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "Chime"
+          },
+          "model": "easteregg:chime"
+          }
+      ]
+  }

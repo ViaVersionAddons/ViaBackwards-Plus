@@ -1,0 +1,18 @@
+{
+    "overrides": [
+
+      {
+          "predicate": {
+            "nbt":{
+          
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Smooth Basalt\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/smooth_basalt"
+      }
+  ]
+}

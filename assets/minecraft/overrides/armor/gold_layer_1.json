@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+            "predicate": {
+                "name": "Crown"
+            },
+            "texture": "easteregg:textures/crown-layer"
+        }
+    ]
+}

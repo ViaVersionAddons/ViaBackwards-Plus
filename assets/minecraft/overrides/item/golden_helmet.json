@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "name": "Crown"
+          },
+          "model": "easteregg:crown"
+          }
+      ]
+  }
