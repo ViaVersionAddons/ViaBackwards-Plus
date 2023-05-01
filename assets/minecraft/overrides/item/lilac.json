@@ -1,0 +1,28 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Pitcher Plant\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/pitcher_plant"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Pitcher Pod\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/pitcher_pod"
+        }
+    ]
+}
