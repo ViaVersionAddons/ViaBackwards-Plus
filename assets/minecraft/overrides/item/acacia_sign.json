@@ -17,6 +17,30 @@
             
           },
           "model": "item/mangrove_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Acacia Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/acacia_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Mangrove Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/mangrove_hanging_sign"
         }
       ]
   }

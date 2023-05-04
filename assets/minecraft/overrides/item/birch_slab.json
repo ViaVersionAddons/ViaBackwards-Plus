@@ -1,0 +1,28 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Slab\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/bamboo_slab"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Mosaic Slab\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/bamboo_mosaic_slab"
+        }
+    ]
+}

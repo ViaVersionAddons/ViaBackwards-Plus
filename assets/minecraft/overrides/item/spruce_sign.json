@@ -1,0 +1,16 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Spruce Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/spruce_hanging_sign"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Piglin Head\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/piglin_head"
+        }
+    ]
+}

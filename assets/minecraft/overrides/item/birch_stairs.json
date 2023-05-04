@@ -1,0 +1,28 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Stairs\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/bamboo_stairs"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Mosaic Stairs\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/bamboo_mosaic_stairs"
+        }
+    ]
+}

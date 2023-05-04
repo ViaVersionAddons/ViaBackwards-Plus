@@ -12,6 +12,32 @@
             
           },
           "model": "item/birch_chest_boat"
-          }
-      ]
-  }
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Raft\"}],\"text\":\"\"}"
+              }
+             
+            }
+            
+          },
+          "model": "item/bamboo_raft"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Chest Raft\"}],\"text\":\"\"}"
+              }
+             
+            }
+            
+          },
+          "model": "item/bamboo_chest_raft"
+        }
+    ]
+}

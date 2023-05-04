@@ -1,0 +1,56 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Sign\"}],\"text\":\"\"}"
+              }
+             
+            }
+            
+          },
+          "model": "item/bamboo_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Oak Hanging Sign\"}],\"text\":\"\"}"
+              }
+             
+            }
+            
+          },
+          "model": "item/oak_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Birch Hanging Sign\"}],\"text\":\"\"}"
+              }
+             
+            }
+            
+          },
+          "model": "item/birch_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Hanging Sign\"}],\"text\":\"\"}"
+              }
+             
+            }
+            
+          },
+          "model": "item/bamboo_hanging_sign"
+        }
+    ]
+}

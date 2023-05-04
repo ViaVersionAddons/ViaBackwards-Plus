@@ -1,0 +1,16 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Chiseled Bookshelf\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "block/chiseled_bookshelf_inventory"
+        }
+    ]
+}
