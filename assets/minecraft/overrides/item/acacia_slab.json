@@ -16,6 +16,17 @@
             
           },
           "model": "block/mangrove_slab"
-        }
-      ]
-  }
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Slab\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "item/cherry_slab"
+    }
+  ]
+}

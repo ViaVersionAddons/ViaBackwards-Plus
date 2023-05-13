@@ -48,6 +48,30 @@
                 
               },
               "model": "item/acacia_chest_boat"
+            },
+            {
+              "predicate": {
+                "nbt": {
+                  "display": {
+                   
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Boat\"}],\"text\":\"\"}"
+                  }
+                }
+                
+              },
+              "model": "item/cherry_boat"
+            },
+            {
+              "predicate": {
+                "nbt": {
+                  "display": {
+                   
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Chest Boat\"}],\"text\":\"\"}"
+                  }
+                }
+                
+              },
+              "model": "item/cherry_chest_boat"
             }
       ]
   }

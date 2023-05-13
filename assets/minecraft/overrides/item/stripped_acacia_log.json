@@ -18,6 +18,19 @@
             
           },
           "model": "block/stripped_mangrove_log"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+        
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Stripped Cherry Log\"}],\"text\":\"\"}"
+              }
+         
+            }
+            
+          },
+          "model": "item/stripped_cherry_log"
         }
-      ]
-  }
+    ]
+}

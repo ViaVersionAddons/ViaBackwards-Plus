@@ -17,6 +17,18 @@
               
             },
             "model": "block/mangrove_fence_gate"
-            }
-      ]
-  }
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+            
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Fence Gate\"}],\"text\":\"\"}"
+                }
+              }
+              
+            },
+            "model": "item/cherry_fence_gate"
+          }
+    ]
+}

@@ -41,6 +41,30 @@
             
           },
           "model": "item/mangrove_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/cherry_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/cherry_sign"
         }
-      ]
-  }
+    ]
+}

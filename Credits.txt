@@ -2,3 +2,4 @@
 
 Mojang Studios: https://minecraft.net (Every backported item's model and texture)
 Vanilla Tweaks: https://vanillatweaks.net/ (Some easter egg textures)
+EasterEggs by AlinoeTheBunny: https://www.curseforge.com/minecraft/texture-packs/eastereggs (The literal easter egg textures)

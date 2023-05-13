@@ -5,60 +5,60 @@
             "nbt": {
               "display": {
                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Wayfinder Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Wayfinder Armor Trim Trim Smithing Template\"}],\"text\":\"\"}"
               }
             }
             
           },
-          "model": "item/wayfinder_armor_trim_smithing_template"
+          "model": "item/wayfinder_armor_trim_trim_smithing_template"
         },
         {
           "predicate": {
             "nbt": {
               "display": {
                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Shaper Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Shaper Armor Trim Trim Smithing Template\"}],\"text\":\"\"}"
               }
             }
             
           },
-          "model": "item/shaper_armor_trim_smithing_template"
+          "model": "item/shaper_armor_trim_trim_smithing_template"
         },
         {
           "predicate": {
             "nbt": {
               "display": {
                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Silenc Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Silenc Armor Trim Trim Smithing Template\"}],\"text\":\"\"}"
               }
             }
             
           },
-          "model": "item/silence_armor_trim_smithing_template"
+          "model": "item/silence_armor_trim_trim_smithing_template"
         },
         {
           "predicate": {
             "nbt": {
               "display": {
                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Raiser Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Raiser Armor Trim Trim Smithing Template\"}],\"text\":\"\"}"
               }
             }
             
           },
-          "model": "item/raiser_armor_trim_smithing_template"
+          "model": "item/raiser_armor_trim_trim_smithing_template"
         },
         {
           "predicate": {
             "nbt": {
               "display": {
                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Host Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Host Armor Trim Trim Smithing Template\"}],\"text\":\"\"}"
               }
             }
             
           },
-          "model": "item/host_armor_trim_smithing_template"
+          "model": "item/host_armor_trim_trim_smithing_template"
         }
     ]
 }

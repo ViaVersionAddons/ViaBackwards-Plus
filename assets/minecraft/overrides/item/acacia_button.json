@@ -18,6 +18,19 @@
               
             },
             "model": "item/mangrove_button"
-            }
-      ]
-  }
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+                  
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Button\"}],\"text\":\"\"}"
+                }
+                
+              }
+              
+            },
+            "model": "item/cherry_button"
+          }
+    ]
+}

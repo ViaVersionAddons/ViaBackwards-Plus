@@ -17,6 +17,18 @@
               
             },
             "model": "item/mangrove_door"
-            }
-      ]
-  }
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+                  
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Door\"}],\"text\":\"\"}"
+                }
+              }
+              
+            },
+            "model": "item/cherry_door"
+          }
+    ]
+}

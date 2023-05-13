@@ -17,6 +17,18 @@
             
           },
           "model": "block/mangrove_fence_inventory"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Fence\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/cherry_fence"
         }
-      ]
-  }
+    ]
+}
