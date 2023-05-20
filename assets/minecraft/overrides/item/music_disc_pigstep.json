@@ -1,0 +1,17 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Music Disc Relic\"}],\"text\":\"\"}"
+              }
+             
+            }
+            
+          },
+          "model": "item/music_disc_relic"
+        }
+    ]
+}
