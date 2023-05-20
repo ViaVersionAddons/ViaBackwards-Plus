@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Deepslate Brick Wall"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Brick Wall\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/deepslate_brick_wall_inventory"
+          "model": "item/deepslate_brick_wall"
         },
         {
           "predicate": {
             "nbt":{
-           
               "display": {
-            
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Brick Wall\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Brick Wall\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/deepslate_brick_wall_inventory"
+          "model": "item/deepslate_brick_wall"
         }
-      ]
-  }
+    ]
+}

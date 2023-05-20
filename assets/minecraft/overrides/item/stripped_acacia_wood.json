@@ -2,33 +2,41 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Stripped Mangrove Wood"
-          },
-          "model": "block/stripped_mangrove_wood"
-        },
-        {
-          "predicate": {
             "nbt":{
               "display": {
-           
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Stripped Mangrove Wood\"}],\"text\":\"\"}"
               }
-         
             }
-            
           },
-          "model": "block/stripped_mangrove_wood"
+          "model": "item/stripped_mangrove_wood"
         },
         {
           "predicate": {
             "nbt":{
               "display": {
-           
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Stripped Cherry Wood\"}],\"text\":\"\"}"
               }
-         
             }
-            
+          },
+          "model": "item/stripped_cherry_wood"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Stripped Mangrove Wood\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/stripped_mangrove_wood"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Stripped Cherry Wood\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/stripped_cherry_wood"
         }

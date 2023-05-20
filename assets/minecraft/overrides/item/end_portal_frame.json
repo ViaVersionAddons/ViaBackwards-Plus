@@ -4,14 +4,21 @@
           "predicate": {
             "nbt": {
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Sculk Shrieker\"}],\"text\":\"\"}"
               }
-    
             }
-            
           },
-          "model": "block/sculk_shrieker"
-          }
-      ]
-  }
+          "model": "item/sculk_shrieker"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sculk Shrieker\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/sculk_shrieker"
+        }
+    ]
+}

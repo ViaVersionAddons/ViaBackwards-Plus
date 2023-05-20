@@ -2,41 +2,43 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Cobbled Deepslate"
-          },
-          "model": "block/cobbled_deepslate"
-        },
-        {
-          "predicate": {
             "nbt":{
-         
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cobbled Deepslate\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/cobbled_deepslate"
-        },
-        {
-            "predicate": {
-              "name": "1.17 Polished Deepslate"
-            },
-            "model": "block/polished_deepslate"
+          "model": "item/cobbled_deepslate"
         },
         {
           "predicate": {
             "nbt":{
-           
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/polished_deepslate"
-      }
+          "model": "item/polished_deepslate"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cobbled Deepslate\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/cobbled_deepslate"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Polished Deepslate\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/polished_deepslate"
+        }
     ]
-  }
+}

@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Big Dripleaf"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Big Dripleaf\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/big_dripleaf"
+          "model": "item/big_dripleaf"
         },
         {
           "predicate": {
             "nbt":{
-          
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Big Dripleaf\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Big Dripleaf\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/big_dripleaf"
+          "model": "item/big_dripleaf"
         }
-      ]
-  }
+    ]
+}

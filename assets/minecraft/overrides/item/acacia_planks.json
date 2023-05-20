@@ -16,7 +16,7 @@
               }
               
             },
-            "model": "block/mangrove_planks"
+            "model": "item/mangrove_planks"
         },
         {
           "predicate": {
@@ -29,6 +29,30 @@
             
           },
           "model": "item/cherry_planks"
-      }
-    ]
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Planks\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "item/mangrove_planks"
+    },
+    {
+      "predicate": {
+        "nbt":{
+          "display": {
+            
+            "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Planks\"}],\"text\":\"\"}"
+          }
+        }
+        
+      },
+      "model": "item/cherry_planks"
+  }
+  ]
 }

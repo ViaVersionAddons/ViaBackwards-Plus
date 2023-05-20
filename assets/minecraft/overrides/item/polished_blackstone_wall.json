@@ -2,60 +2,63 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Cobbled Deepslate Wall"
-          },
-          "model": "block/cobbled_deepslate_wall_inventory"
-        },
-        {
-          "predicate": {
             "nbt":{
-         
               "display": {
-             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cobbled Deepslate Wall\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/cobbled_deepslate_wall_inventory"
-        },
-        {
-            "predicate": {
-              "name": "1.17 Deepslate Tile Wall"
-            },
-            "model": "block/deepslate_tile_wall_inventory"
+          "model": "item/cobbled_deepslate_wall"
         },
         {
           "predicate": {
             "nbt":{
-            
               "display": {
-             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Tile Wall\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/deepslate_tile_wall_inventory"
-        },
-        {
-              "predicate": {
-                "name": "1.17 Polished Deepslate Wall"
-              },
-              "model": "block/polished_deepslate_wall_inventory"
+          "model": "item/deepslate_tile_wall"
         },
         {
           "predicate": {
             "nbt":{
-       
               "display": {
-            
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate Wall\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/polished_deepslate_wall_inventory"
+          "model": "item/polished_deepslate_wall"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cobbled Deepslate Wall\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/cobbled_deepslate_wall"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Tile Wall\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/deepslate_tile_wall"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Polished Deepslate Wall\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/polished_deepslate_wall"
         }
     ]
-  }
+}

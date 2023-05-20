@@ -10,7 +10,7 @@
             }
             
           },
-          "model": "block/bamboo_slab"
+          "model": "item/bamboo_slab"
         },
         {
           "predicate": {
@@ -22,7 +22,31 @@
             }
             
           },
-          "model": "block/bamboo_mosaic_slab"
+          "model": "item/bamboo_mosaic_slab"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Slab\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_slab"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Mosaic Slab\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_mosaic_slab"
         }
     ]
 }

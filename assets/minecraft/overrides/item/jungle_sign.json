@@ -11,6 +11,18 @@
             
           },
           "model": "item/jungle_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Jungle Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/jungle_hanging_sign"
         }
     ]
 }

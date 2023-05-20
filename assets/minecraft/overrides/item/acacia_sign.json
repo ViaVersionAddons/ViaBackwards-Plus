@@ -65,6 +65,66 @@
             
           },
           "model": "item/cherry_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/mangrove_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Acacia Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/acacia_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/mangrove_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/cherry_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Sign\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/cherry_sign"
         }
     ]
 }

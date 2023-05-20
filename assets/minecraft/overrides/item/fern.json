@@ -2,21 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Propagule"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Propagule\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/mangrove_propagule"
+          "model": "item/mangrove_propagule"
         },
         {
           "predicate": {
             "nbt":{
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Propagule\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Propagule\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/mangrove_propagule"
+          "model": "item/mangrove_propagule"
         }
-      ]
-  }
+    ]
+}

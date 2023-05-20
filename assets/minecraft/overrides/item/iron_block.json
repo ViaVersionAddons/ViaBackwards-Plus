@@ -2,59 +2,64 @@
     "overrides": [
       {
         "predicate": {
-          "name": "1.17 Copper Block"
-        },
-        "model": "block/copper_block"
-      },
-      {
-        "predicate": {
           "nbt":{
-          
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Copper Block\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/copper_block"
+        "model": "item/copper_block"
       },
       {
         "predicate": {
-          "name": "1.17 Raw Copper Block"
-        },
-        "model": "block/raw_copper_block"
-      },      {
-        "predicate": {
           "nbt":{
-          
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Copper Block\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/raw_copper_block"
-      },
-      {
-          "predicate": {
-            "name": "1.17 Raw Iron Block"
-          },
-          "model": "block/raw_iron_block"
+        "model": "item/raw_copper_block"
       },
       {
         "predicate": {
           "nbt":{
-       
             "display": {
-          
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Iron Block\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/raw_iron_block"
+        "model": "item/raw_iron_block"
+      },
+
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Copper Block\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/copper_block"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Raw Copper Block\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/raw_copper_block"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Raw Iron Block\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/raw_iron_block"
       }
   ]
 }

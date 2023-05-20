@@ -2,33 +2,41 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Stripped Mangrove Log"
-          },
-          "model": "block/stripped_mangrove_log"
-        },
-        {
-          "predicate": {
             "nbt":{
               "display": {
-        
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Stripped Mangrove Log\"}],\"text\":\"\"}"
               }
-         
             }
-            
           },
-          "model": "block/stripped_mangrove_log"
+          "model": "item/stripped_mangrove_log"
         },
         {
           "predicate": {
             "nbt":{
               "display": {
-        
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Stripped Cherry Log\"}],\"text\":\"\"}"
               }
-         
             }
-            
+          },
+          "model": "item/stripped_cherry_log"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Stripped Mangrove Log\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/stripped_mangrove_log"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Stripped Cherry Log\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/stripped_cherry_log"
         }

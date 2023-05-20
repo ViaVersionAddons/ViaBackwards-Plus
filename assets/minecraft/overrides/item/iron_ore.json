@@ -2,98 +2,104 @@
     "overrides": [
       {
         "predicate": {
-          "name": "1.17 Raw Iron"
-        },
-        "model": "item/raw_iron"
-      },
-      {
-        "predicate": {
           "nbt": {
-       
             "display": {
-             
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Iron\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/raw_iron"
       },
       {
-      "predicate": {
-        "name": "1.17 Raw Copper"
-      },
-      "model": "item/raw_copper"
-      },
-      {
         "predicate": {
           "nbt": {
-        
             "display": {
-       
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Copper\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/raw_copper"
-        },
-      {
-      "predicate": {
-        "name": "1.17 Copper Ore"
-      },
-      "model": "block/copper_ore"
       },
       {
         "predicate": {
           "nbt": {
- 
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Copper Ore\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/copper_ore"
-        },
-      {
-      "predicate": {
-        "name": "1.17 Deepslate Copper Ore"
-      },
-      "model": "block/deepslate_copper_ore"
+        "model": "item/copper_ore"
       },
       {
         "predicate": {
           "nbt": {
-         
             "display": {
-             
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Copper Ore\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/deepslate_copper_ore"
-        },
-      {
-      "predicate": {
-        "name": "1.17 Deepslate Iron Ore"
-      },
-      "model": "block/deepslate_iron_ore"
+        "model": "item/deepslate_copper_ore"
       },
       {
         "predicate": {
           "nbt": {
-         
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Iron Ore\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/deepslate_iron_ore"
-        }
-    ]
-  }
+        "model": "item/deepslate_iron_ore"
+      },
+
+      {
+        "predicate": {
+          "nbt": {
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Raw Iron\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/raw_iron"
+      },
+      {
+        "predicate": {
+          "nbt": {
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Raw Copper\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/raw_copper"
+      },
+      {
+        "predicate": {
+          "nbt": {
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Copper Ore\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/copper_ore"
+      },
+      {
+        "predicate": {
+          "nbt": {
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Copper Ore\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/deepslate_copper_ore"
+      },
+      {
+        "predicate": {
+          "nbt": {
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Iron Ore\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/deepslate_iron_ore"
+      }
+  ]
+}

@@ -1,23 +1,24 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.17 Deepslate Coal Ore"
-          },
-          "model": "block/deepslate_coal_ore"
+          {
+            "predicate": {
+              "nbt":{
+                "display": {
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Coal Ore\"}],\"text\":\"\"}"
+                }
+              }
+            },
+            "model": "item/deepslate_coal_ore"
           },
           {
             "predicate": {
               "nbt":{
-            
                 "display": {
-             
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Coal Ore\"}],\"text\":\"\"}"
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Coal Ore\"}],\"text\":\"\"}"
                 }
               }
-              
             },
-            "model": "block/deepslate_coal_ore"
-            }
-      ]
-  }
+            "model": "item/deepslate_coal_ore"
+          }
+    ]
+}

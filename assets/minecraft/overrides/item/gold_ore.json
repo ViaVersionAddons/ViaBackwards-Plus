@@ -2,41 +2,43 @@
     "overrides": [
       {
         "predicate": {
-          "name": "1.17 Raw Gold"
-        },
-        "model": "item/raw_gold"
-      },
-      {
-        "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 695,
             "display": {
-              "VB|Protocol1_16_4To1_17|customName": 0,
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Gold\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/raw_gold"
       },
       {
-          "predicate": {
-            "name": "1.17 Deepslate Gold Ore"
-          },
-          "model": "block/deepslate_gold_ore"
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Gold Ore\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/deepslate_gold_ore"
       },
       {
         "predicate": {
           "nbt":{
-           
             "display": {
-           
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Gold\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/raw_gold"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Gold Ore\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/deepslate_gold_ore"
-    }
-    ]
-  }
+        "model": "item/deepslate_gold_ore"
+      }
+  ]
+}

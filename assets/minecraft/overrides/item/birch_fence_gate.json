@@ -11,6 +11,18 @@
             
           },
           "model": "item/bamboo_fence_gate"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Fence Gate\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_fence_gate"
         }
     ]
 }

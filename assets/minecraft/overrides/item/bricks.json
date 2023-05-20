@@ -2,306 +2,324 @@
     "overrides": [
       {
         "predicate": {
-          "name": "1.17 Waxed Copper Block"
-        },
-        "model": "block/copper_block"
-      },
-      {
-        "predicate": {
           "nbt":{
-            
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Copper Block\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/copper_block"
-      },
-      {
-        "predicate": {
-          "name": "1.17 Cut Copper"
-        },
-        "model": "block/cut_copper"
+        "model": "item/waxed_copper_block"
       },
       {
         "predicate": {
           "nbt":{
-       
             "display": {
-       
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cut Copper\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/cut_copper"
+        "model": "item/cut_copper"
       },
-      {
-        "predicate": {
-          "name": "1.17 Waxed Cut Copper"
-        },
-        "model": "block/cut_copper"
-        },
         {
           "predicate": {
             "nbt":{
-           
               "display": {
-           
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Cut Copper\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/cut_copper"
-          },
-        {
-          "predicate": {
-            "name": "1.17 Oxidized Cut Copper"
-          },
-          "model": "block/oxidized_cut_copper"
+          "model": "item/waxed_cut_copper"
         },
         {
           "predicate": {
             "nbt":{
-       
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Oxidized Cut Copper\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/oxidized_cut_copper"
-        },
-        {
-          "predicate": {
-            "name": "1.17 Waxed Oxidized Cut Copper"
-          },
-          "model": "block/oxidized_cut_copper"
+          "model": "item/oxidized_cut_copper"
         },
         {
           "predicate": {
             "nbt":{
-           
               "display": {
-      
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Oxidized Cut Copper\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/oxidized_cut_copper"
-        },
-        {
-          "predicate": {
-            "name": "1.17 Oxidized Copper"
-          },
-          "model": "block/oxidized_copper"
+          "model": "item/waxed_oxidized_cut_copper"
         },
         {
           "predicate": {
             "nbt":{
-           
               "display": {
-             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Oxidized Copper\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/oxidized_copper"
-        },
-        {
-          "predicate": {
-            "name": "1.17 Waxed Oxidized Copper"
-          },
-          "model": "block/oxidized_copper"
+          "model": "item/oxidized_copper"
         },
         {
           "predicate": {
             "nbt":{
-       
               "display": {
-            
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Oxidized Copper\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/oxidized_copper"
+          "model": "item/oxidized_copper"
         },
         {
-          "predicate": {
-            "name": "1.17 Exposed Copper"
-          },
-          "model": "block/exposed_copper"
-          },
-          {
             "predicate": {
               "nbt":{
-            
                 "display": {
-             
                   "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Exposed Copper\"}],\"text\":\"\"}"
                 }
               }
-              
             },
-            "model": "block/exposed_copper"
-            },
-          {
-            "predicate": {
-              "name": "1.17 Exposed Cut Copper"
-            },
-            "model": "block/exposed_cut_copper"
+            "model": "item/exposed_copper"
           },
           {
             "predicate": {
               "nbt":{
-           
                 "display": {
-               
                   "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Exposed Cut Copper\"}],\"text\":\"\"}"
                 }
               }
-              
             },
-            "model": "block/exposed_cut_copper"
-          },
-          {
-            "predicate": {
-              "name": "1.17 Waxed Exposed Cut Copper"
-            },
-            "model": "block/exposed_cut_copper"
+            "model": "item/exposed_cut_copper"
           },
           {
             "predicate": {
               "nbt":{
-            
                 "display": {
-                 
                   "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Exposed Cut Copper\"}],\"text\":\"\"}"
                 }
               }
-              
             },
-            "model": "block/exposed_cut_copper"
-          },
-          {
-            "predicate": {
-              "name": "1.17 Waxed Exposed Copper"
-            },
-            "model": "block/exposed_copper"
+            "model": "item/waxed_exposed_cut_copper"
           },
           {
             "predicate": {
               "nbt":{
-           
                 "display": {
-                
                   "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Exposed Copper\"}],\"text\":\"\"}"
                 }
               }
-              
             },
-            "model": "block/exposed_copper"
+            "model": "item/waxed_exposed_copper"
           },
-          {
-            "predicate": {
-              "name": "1.17 Weathered Copper"
-            },
-            "model": "block/weathered_copper"
-            },
             {
               "predicate": {
                 "nbt":{
-               
                   "display": {
-                  
                     "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Weathered Copper\"}],\"text\":\"\"}"
                   }
                 }
-                
               },
-              "model": "block/weathered_copper"
-              },
-            {
-              "predicate": {
-                "name": "1.17 Weathered Cut Copper"
-              },
-              "model": "block/weathered_cut_copper"
+              "model": "item/weathered_copper"
             },
             {
               "predicate": {
                 "nbt":{
-              
                   "display": {
-                 
                     "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Weathered Cut Copper\"}],\"text\":\"\"}"
                   }
                 }
-                
               },
-              "model": "block/weathered_cut_copper"
-            },
-            {
-              "predicate": {
-                "name": "1.17 Waxed Weathered Cut Copper"
-              },
-              "model": "block/weathered_cut_copper"
+              "model": "item/weathered_cut_copper"
             },
             {
               "predicate": {
                 "nbt":{
-           
                   "display": {
-               
                     "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Weathered Cut Copper\"}],\"text\":\"\"}"
                   }
                 }
-                
               },
-              "model": "block/weathered_cut_copper"
-            },
-            {
-              "predicate": {
-                "name": "1.17 Waxed Weathered Copper"
-              },
-              "model": "block/weathered_copper"
+              "model": "item/waxed_weathered_cut_copper"
             },
             {
               "predicate": {
                 "nbt":{
-          
                   "display": {
-                   
                     "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Weathered Copper\"}],\"text\":\"\"}"
                   }
                 }
-                
               },
-              "model": "block/weathered_copper"
-            },
-            {
-              "predicate": {
-                "name": "1.19 Mud Bricks"
-              },
-              "model": "block/mud_bricks"
+              "model": "item/waxed_weathered_copper"
             },
             {
               "predicate": {
                 "nbt":{
                   "display": {
-                 
                     "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud Bricks\"}],\"text\":\"\"}"
                   }
                 }
-                
               },
-              "model": "block/mud_bricks"
-            }
+              "model": "item/mud_bricks"
+            },
+
+            {
+              "predicate": {
+                "nbt":{
+                  "display": {
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Copper Block\"}],\"text\":\"\"}"
+                  }
+                }
+              },
+              "model": "item/waxed_copper_block"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "display": {
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cut Copper\"}],\"text\":\"\"}"
+                  }
+                }
+              },
+              "model": "item/cut_copper"
+            },
+              {
+                "predicate": {
+                  "nbt":{
+                    "display": {
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Cut Copper\"}],\"text\":\"\"}"
+                    }
+                  }
+                },
+                "model": "item/waxed_cut_copper"
+              },
+              {
+                "predicate": {
+                  "nbt":{
+                    "display": {
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Oxidized Cut Copper\"}],\"text\":\"\"}"
+                    }
+                  }
+                },
+                "model": "item/oxidized_cut_copper"
+              },
+              {
+                "predicate": {
+                  "nbt":{
+                    "display": {
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Oxidized Cut Copper\"}],\"text\":\"\"}"
+                    }
+                  }
+                },
+                "model": "item/waxed_oxidized_cut_copper"
+              },
+              {
+                "predicate": {
+                  "nbt":{
+                    "display": {
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Oxidized Copper\"}],\"text\":\"\"}"
+                    }
+                  }
+                },
+                "model": "item/oxidized_copper"
+              },
+              {
+                "predicate": {
+                  "nbt":{
+                    "display": {
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Oxidized Copper\"}],\"text\":\"\"}"
+                    }
+                  }
+                },
+                "model": "item/waxed_oxidized_copper"
+              },
+              {
+                  "predicate": {
+                    "nbt":{
+                      "display": {
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Exposed Copper\"}],\"text\":\"\"}"
+                      }
+                    }
+                  },
+                  "model": "item/exposed_copper"
+                },
+                {
+                  "predicate": {
+                    "nbt":{
+                      "display": {
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Exposed Cut Copper\"}],\"text\":\"\"}"
+                      }
+                    }
+                  },
+                  "model": "item/exposed_cut_copper"
+                },
+                {
+                  "predicate": {
+                    "nbt":{
+                      "display": {
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Exposed Cut Copper\"}],\"text\":\"\"}"
+                      }
+                    }
+                  },
+                  "model": "item/waxed_exposed_cut_copper"
+                },
+                {
+                  "predicate": {
+                    "nbt":{
+                      "display": {
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Exposed Copper\"}],\"text\":\"\"}"
+                      }
+                    }
+                  },
+                  "model": "item/waxed_exposed_copper"
+                },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Weathered Copper\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/weathered_copper"
+                  },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Weathered Cut Copper\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/weathered_cut_copper"
+                  },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Weathered Cut Copper\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/weathered_cut_copper"
+                  },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Weathered Copper\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/waxed_weathered_copper"
+                  },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mud Bricks\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/mud_bricks"
+                  }
       ]
   }

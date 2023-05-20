@@ -5,11 +5,9 @@
             "angle": 0.000000,
              "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Recovery Compass\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "item/recovery_compass"
           }

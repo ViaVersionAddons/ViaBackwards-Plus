@@ -3,28 +3,43 @@
         {
           "predicate": {
             "nbt":{
-           
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Sculk Vein\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "block/sculk_vein"
         },
         {
           "predicate": {
             "nbt":{
-             
               "display": {
-                
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Frogspawn\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "block/frogspawn"
+        },
+
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sculk Vein\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "block/sculk_vein"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Frogspawn\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "block/frogspawn"
         }
-      ]
-  }
+    ]
+}

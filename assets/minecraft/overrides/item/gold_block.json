@@ -2,22 +2,23 @@
     "overrides": [
       {
         "predicate": {
-          "name": "1.17 Raw Gold Block"
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Gold Block\"}],\"text\":\"\"}"
+            }
+          }
         },
-        "model": "block/raw_gold_block"
+        "model": "item/raw_gold_block"
       },
       {
         "predicate": {
           "nbt":{
-         
             "display": {
-             
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Gold Block\"}],\"text\":\"\"}"
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Raw Gold Block\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/raw_gold_block"
+        "model": "item/raw_gold_block"
       }
-    ]
-  }
+  ]
+}

@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Axolotl Spawn Egg"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Axolotl Spawn Egg\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/axolotl_spawn_Egg"
         },
         {
           "predicate": {
             "nbt":{
-         
               "display": {
-            
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Axolotl Spawn Egg\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Axolotl Spawn Egg\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "item/axolotl_spawn_Egg"
         }
     ]
-  }
+}

@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Deepslate Diamond Ore"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Diamond Ore\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/deepslate_diamond_ore"
+          "model": "item/deepslate_diamond_ore"
         },
         {
           "predicate": {
             "nbt":{
-        
               "display": {
-           
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Diamond Ore\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Diamond Ore\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/deepslate_diamond_ore"
+          "model": "item/deepslate_diamond_ore"
         }
-      ]
-  }
+    ]
+}

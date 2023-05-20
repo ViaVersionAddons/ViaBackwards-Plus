@@ -4,37 +4,61 @@
           "predicate": {
             "nbt": {
               "display": {
-           
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Ochre Froglight\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/ochre_froglight"
+          "model": "item/ochre_froglight"
         },
         {
           "predicate": {
             "nbt": {
               "display": {
-             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Pearlescent Froglight\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/pearlescent_froglight"
+          "model": "item/pearlescent_froglight"
         },
         {
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Verdant Froglight\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/verdant_froglight"
+          "model": "item/verdant_froglight"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Ochre Froglight\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/ochre_froglight"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Pearlescent Froglight\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/pearlescent_froglight"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Verdant Froglight\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/verdant_froglight"
         }
     ]
 }

@@ -2,21 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Roots"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Roots\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/mangrove_roots"
+          "model": "item/mangrove_roots"
         },
         {
           "predicate": {
             "nbt":{
               "display": {
-             
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Roots\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Roots\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/mangrove_roots"
+          "model": "item/mangrove_roots"
         }
-      ]
-  }
+    ]
+}

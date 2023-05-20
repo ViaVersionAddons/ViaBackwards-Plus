@@ -15,7 +15,7 @@
             }
             
           },
-          "model": "block/mangrove_slab"
+          "model": "item/mangrove_slab"
       },
       {
         "predicate": {
@@ -27,6 +27,28 @@
           
         },
         "model": "item/cherry_slab"
-    }
+    },
+    {
+      "predicate": {
+        "nbt":{
+          "display": {
+            "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Slab\"}],\"text\":\"\"}"
+          }
+        }
+        
+      },
+      "model": "item/mangrove_slab"
+  },
+  {
+    "predicate": {
+      "nbt":{
+        "display": {
+          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Slab\"}],\"text\":\"\"}"
+        }
+      }
+      
+    },
+    "model": "item/cherry_slab"
+}
   ]
 }

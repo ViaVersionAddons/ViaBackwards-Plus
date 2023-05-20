@@ -1,59 +1,65 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.17 Rooted Dirt"
-          },
-          "model": "block/rooted_dirt"
-          },
           {
             "predicate": {
               "nbt":{
-                
                 "display": {
-      
                   "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Rooted Dirt\"}],\"text\":\"\"}"
                 }
               }
-              
             },
-            "model": "block/rooted_dirt"
-            },
-          {
-            "predicate": {
-              "name": "1.19 Mud"
-            },
-            "model": "block/mud"
+            "model": "item/rooted_dirt"
             },
             {
               "predicate": {
                 "nbt":{
                   "display": {
-                    
                     "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud\"}],\"text\":\"\"}"
                   }
                 }
-                
               },
-              "model": "block/mud"
-              },
-            {
-              "predicate": {
-                "name": "1.19 Muddy Mangrove Roots"
-              },
-              "model": "block/muddy_mangrove_roots"
+              "model": "item/mud"
               },
               {
                 "predicate": {
                   "nbt":{
                     "display": {
-                    
                       "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Muddy Mangrove Roots\"}],\"text\":\"\"}"
                     }
                   }
-                  
                 },
-                "model": "block/muddy_mangrove_roots"
-              }
+                "model": "item/muddy_mangrove_roots"
+              },
+
+              {
+                "predicate": {
+                  "nbt":{
+                    "display": {
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Rooted Dirt\"}],\"text\":\"\"}"
+                    }
+                  }
+                },
+                "model": "item/rooted_dirt"
+                },
+                {
+                  "predicate": {
+                    "nbt":{
+                      "display": {
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mud\"}],\"text\":\"\"}"
+                      }
+                    }
+                  },
+                  "model": "item/mud"
+                  },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Muddy Mangrove Roots\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/muddy_mangrove_roots"
+                  }
       ]
   }

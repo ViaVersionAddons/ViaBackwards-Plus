@@ -11,6 +11,18 @@
             
           },
           "model": "item/jungle_chest_boat"
-          }
-      ]
-  }
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Jungle Chest Boat\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/jungle_chest_boat"
+        }
+    ]
+}

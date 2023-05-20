@@ -4,11 +4,19 @@
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Suspicious Gravel\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "block/suspicious_gravel"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Suspicious Gravel\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "block/suspicious_gravel"
         }

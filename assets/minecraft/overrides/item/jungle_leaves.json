@@ -2,79 +2,84 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Azalea"
-          },
-          "model": "block/azalea"
-        },
-        {
-          "predicate": {
             "nbt":{
-            
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/azalea"
-        },
-        {
-            "predicate": {
-              "name": "1.17 Azalea Leaves"
-            },
-            "model": "block/azalea_leaves"
+          "model": "item/azalea"
         },
         {
           "predicate": {
             "nbt":{
-          
               "display": {
-             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea Leaves\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/azalea_leaves"
-        },
-        {
-              "predicate": {
-                "name": "1.17 Flowering Azalea"
-              },
-              "model": "block/flowering_azalea"
+          "model": "item/azalea_leaves"
         },
         {
           "predicate": {
             "nbt":{
-          
               "display": {
-                
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Flowering Azalea\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/flowering_azalea"
-        },
-        {
-                "predicate": {
-                  "name": "1.17 Azalea Leaves Flowers"
-                },
-                "model": "block/flowering_azalea_leaves"
+          "model": "item/flowering_azalea"
         },
         {
           "predicate": {
             "nbt":{
-            
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea Leaves Flowers\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/flowering_azalea_leaves"
+          "model": "item/flowering_azalea_leaves"
+        },
+
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Azalea\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/azalea"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Azalea Leaves\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/azalea_leaves"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Flowering Azalea\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/flowering_azalea"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Azalea Leaves Flowers\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/flowering_azalea_leaves"
         }
     ]
-  }
+}

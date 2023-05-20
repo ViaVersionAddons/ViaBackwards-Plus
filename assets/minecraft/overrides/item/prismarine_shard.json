@@ -2,20 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Amethyst Shard"
-          },
-          "model": "item/amethyst_shard"
-        },
-        {
-          "predicate": {
             "nbt":{
-     
               "display": {
-             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Shard\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "item/amethyst_shard"
         },
@@ -23,13 +14,31 @@
           "predicate": {
             "nbt":{
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Echo Shard\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "item/echo_shard"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Amethyst Shard\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/amethyst_shard"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Echo Shard\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/echo_shard"
         }
-      ]
-  }
+    ]
+}

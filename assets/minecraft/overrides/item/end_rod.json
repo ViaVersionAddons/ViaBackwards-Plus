@@ -3,15 +3,22 @@
         {
           "predicate": {
             "nbt": {
-          
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Lightning Rod\"}],\"text\":\"\"}"
               }
             }
-             
           },
           "model": "item/lightning_rod"
-          }
-      ]
-  }
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Lightning Rod\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/lightning_rod"
+        }
+    ]
+}

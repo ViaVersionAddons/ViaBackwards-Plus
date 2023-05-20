@@ -29,6 +29,30 @@
               
             },
             "model": "item/cherry_door"
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+                  
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Door\"}],\"text\":\"\"}"
+                }
+              }
+              
+            },
+            "model": "item/mangrove_door"
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+                  
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Door\"}],\"text\":\"\"}"
+                }
+              }
+              
+            },
+            "model": "item/cherry_door"
           }
     ]
 }

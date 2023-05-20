@@ -4,11 +4,19 @@
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Suspicious Sand\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "item/suspicious_sand"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Suspicious Sand\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/suspicious_sand"
         }

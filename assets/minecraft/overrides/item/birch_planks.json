@@ -10,7 +10,7 @@
             }
             
           },
-          "model": "block/bamboo_planks"
+          "model": "item/bamboo_planks"
         },
         {
           "predicate": {
@@ -22,7 +22,31 @@
             }
             
           },
-          "model": "block/bamboo_mosaic"
+          "model": "item/bamboo_mosaic"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Planks\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_planks"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Mosaic\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_mosaic"
         }
     ]
 }

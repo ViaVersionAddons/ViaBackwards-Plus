@@ -3,15 +3,22 @@
         {
           "predicate": {
             "nbt": {
-                
                 "display": {
-                
                   "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Pointed Dripstone\"}],\"text\":\"\"}"
                 }
               }
-              
           },
           "model": "item/pointed_dripstone"
-          }
-      ]
-  }
+        },
+        {
+          "predicate": {
+            "nbt": {
+                "display": {
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Pointed Dripstone\"}],\"text\":\"\"}"
+                }
+              }
+          },
+          "model": "item/pointed_dripstone"
+        }
+    ]
+}

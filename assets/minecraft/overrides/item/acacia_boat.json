@@ -72,6 +72,67 @@
                 
               },
               "model": "item/cherry_chest_boat"
-            }
+            },
+            {
+                "predicate": {
+                  "nbt": {
+                    "display": {
+                     
+                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Boat\"}],\"text\":\"\"}"
+                    }
+                  }
+                  
+                },
+                "model": "item/mangrove_boat"
+            },
+            {
+                  "predicate": {
+                    "nbt": {
+                      "display": {
+                        
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Chest Boat\"}],\"text\":\"\"}"
+                      }
+                      
+                    }
+                    
+                  },
+                  "model": "item/mangrove_chest_boat"
+            },
+            {
+                  "predicate": {
+                    "nbt": {
+                      "display": {
+                       
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Acacia Chest Boat\"}],\"text\":\"\"}"
+                      }
+                    }
+                    
+                  },
+                  "model": "item/acacia_chest_boat"
+                },
+                {
+                  "predicate": {
+                    "nbt": {
+                      "display": {
+                       
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Boat\"}],\"text\":\"\"}"
+                      }
+                    }
+                    
+                  },
+                  "model": "item/cherry_boat"
+                },
+                {
+                  "predicate": {
+                    "nbt": {
+                      "display": {
+                       
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Chest Boat\"}],\"text\":\"\"}"
+                      }
+                    }
+                    
+                  },
+                  "model": "item/cherry_chest_boat"
+                }
       ]
   }

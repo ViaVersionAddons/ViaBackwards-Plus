@@ -4,11 +4,19 @@
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Dark Oak Hanging Sign\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "item/dark_oak_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Dark Oak Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/dark_oak_hanging_sign"
         }

@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Budding Amethyst"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Budding Amethyst\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/budding_amethyst"
+          "model": "item/budding_amethyst"
         },
         {
           "predicate": {
             "nbt":{
-          
               "display": {
-          
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Budding Amethyst\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Budding Amethyst\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/budding_amethyst"
+          "model": "item/budding_amethyst"
         }
-      ]
-  }
+    ]
+}

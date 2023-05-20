@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Amethyst Block"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Block\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/amethyst_block"
+          "model": "item/amethyst_block"
         },
         {
           "predicate": {
             "nbt":{
-           
               "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Block\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Amethyst Block\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/amethyst_block"
+          "model": "item/amethyst_block"
         }
-      ]
-  }
+    ]
+}

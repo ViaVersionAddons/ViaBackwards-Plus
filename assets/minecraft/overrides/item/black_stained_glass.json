@@ -17,7 +17,20 @@
             }
             
           },
-          "model": "block/tinted_glass"
+          "model": "item/tinted_glass"
+        },
+        {
+          "predicate": {
+            "nbt":{
+            
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Tinted Glass\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/tinted_glass"
         }
-      ]
-  }
+    ]
+}

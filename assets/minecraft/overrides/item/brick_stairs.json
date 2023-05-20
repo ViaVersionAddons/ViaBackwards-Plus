@@ -2,174 +2,184 @@
     "overrides": [
       {
         "predicate": {
-          "name": "1.17 Cut Copper Stairs"
-        },
-        "model": "block/cut_copper_stairs"
-      },
-      {
-        "predicate": {
           "nbt":{
-            
             "display": {
-            
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cut Copper Stairs\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/cut_copper_stairs"
+        "model": "item/cut_copper_stairs"
       },
-      {
-        "predicate": {
-          "name": "1.17 Waxed Cut Copper Stairs"
-        },
-        "model": "block/cut_copper_stairs"
-        },
       {
           "predicate": {
             "nbt":{
-          
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Cut Copper Stairs\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/cut_copper_stairs"
-        },
+          "model": "item/waxed_cut_copper_stairs"
+      },
       {
           "predicate": {
-            "name": "1.17 Oxidized Cut Copper Stairs"
-          },
-          "model": "block/oxidized_cut_copper_stairs"
-        },
-        {
-          "predicate": {
             "nbt":{
-          
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Oxidized Cut Copper Stairs\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/oxidized_cut_copper_stairs"
-        },
-      {
-          "predicate": {
-            "name": "1.17 Waxed Oxidized Cut Copper Stairs"
-          },
-          "model": "block/oxidized_cut_copper_stairs"
+          "model": "item/oxidized_cut_copper_stairs"
       },
       {
         "predicate": {
           "nbt":{
-           
             "display": {
-         
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Oxidized Cut Copper Stairs\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/oxidized_cut_copper_stairs"
-    },
-        {
-          "predicate": {
-            "name": "1.17 Exposed Cut Copper Stairs"
-          },
-          "model": "block/exposed_cut_copper_stairs"
+        "model": "item/waxed_oxidized_cut_copper_stairs"
       },
       {
         "predicate": {
           "nbt":{
-           
             "display": {
-         
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Exposed Cut Copper Stairs\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/exposed_cut_copper_stairs"
-    },
-        {
-          "predicate": {
-            "name": "1.17 Waxed Exposed Cut Copper Stairs"
-          },
-          "model": "block/exposed_cut_copper_stairs"
+        "model": "item/exposed_cut_copper_stairs"
       },
       {
         "predicate": {
           "nbt":{
-
             "display": {
-        
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Exposed Cut Copper Stairs\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/exposed_cut_copper_stairs"
-    },
-        {
-          "predicate": {
-            "name": "1.17 Weathered Cut Copper Stairs"
-          },
-          "model": "block/weathered_cut_copper_stairs"
+        "model": "item/waxed_exposed_cut_copper_stairs"
       },
       {
         "predicate": {
           "nbt":{
-       
             "display": {
-          
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Weathered Cut Copper Stairs\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/weathered_cut_copper_stairs"
-    },
-        {
-          "predicate": {
-            "name": "1.17 Waxed Weathered Cut Copper Stairs"
-          },
-          "model": "block/weathered_cut_copper_stairs"
+        "model": "item/weathered_cut_copper_stairs"
       },
       {
         "predicate": {
           "nbt":{
-       
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Waxed Weathered Cut Copper Stairs\"}],\"text\":\"\"}"
             }
           }
-          
         },
-        "model": "block/weathered_cut_copper_stairs"
-    },
-        {
-          "predicate": {
-            "name": "1.19 Mud Brick Stairs"
-          },
-          "model": "block/mud_brick_stairs"
-        },
-        {
+        "model": "item/waxed_weathered_cut_copper_stairs"
+      },
+      {
           "predicate": {
             "nbt":{
               "display": {
-           
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud Brick Stairs\"}],\"text\":\"\"}"
               }
-      
             }
-            
           },
-          "model": "block/mud_brick_stairs"
-        }
-      ]
-  }
+          "model": "item/mud_brick_stairs"
+      },
+      
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cut Copper Stairs\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/cut_copper_stairs"
+      },
+      {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Cut Copper Stairs\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/waxed_cut_copper_stairs"
+      },
+      {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Oxidized Cut Copper Stairs\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/oxidized_cut_copper_stairs"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Oxidized Cut Copper Stairs\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/waxed_oxidized_cut_copper_stairs"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Exposed Cut Copper Stairs\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/exposed_cut_copper_stairs"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Exposed Cut Copper Stairs\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/waxed_exposed_cut_copper_stairs"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Weathered Cut Copper Stairs\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/weathered_cut_copper_stairs"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Waxed Weathered Cut Copper Stairs\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/waxed_weathered_cut_copper_stairs"
+      },
+      {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mud Brick Stairs\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/mud_brick_stairs"
+      }
+  ]
+}

@@ -4,11 +4,19 @@
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Skull Pottery Sherd\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "item/skull_pottery_sherd"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Skull Pottery Sherd\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/skull_pottery_sherd"
         }

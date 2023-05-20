@@ -4,13 +4,21 @@
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Sculk Catalyst\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/sculk_catalyst"
-          }
-      ]
-  }
+          "model": "item/sculk_catalyst"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sculk Catalyst\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/sculk_catalyst"
+        }
+    ]
+}

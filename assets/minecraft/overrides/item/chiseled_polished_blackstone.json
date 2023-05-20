@@ -1,23 +1,24 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.17 Chiseled Deepslate"
-          },
-          "model": "block/chiseled_deepslate"
+          {
+            "predicate": {
+              "nbt":{
+                "display": {
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Chiseled Deepslate\"}],\"text\":\"\"}"
+                }
+              }
+            },
+            "model": "item/chiseled_deepslate"
           },
           {
             "predicate": {
               "nbt":{
-               
                 "display": {
-               
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Chiseled Deepslate\"}],\"text\":\"\"}"
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Chiseled Deepslate\"}],\"text\":\"\"}"
                 }
               }
-              
             },
-            "model": "block/chiseled_deepslate"
-            }
-      ]
-  }
+            "model": "item/chiseled_deepslate"
+          }
+    ]
+}

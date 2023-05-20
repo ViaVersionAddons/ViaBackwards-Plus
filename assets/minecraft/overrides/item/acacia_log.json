@@ -16,7 +16,7 @@
             }
             
           },
-          "model": "block/mangrove_log"
+          "model": "item/mangrove_log"
         },
         {
           "predicate": {
@@ -24,6 +24,30 @@
               "display": {
                 
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Log\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/cherry_log"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Log\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/mangrove_log"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Log\"}],\"text\":\"\"}"
               }
             }
             

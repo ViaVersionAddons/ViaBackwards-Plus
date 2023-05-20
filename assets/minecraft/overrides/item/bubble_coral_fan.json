@@ -1,80 +1,85 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.17 Amethyst Cluster"
-          },
-          "model": "item/amethyst_cluster"
-          },
           {
             "predicate": {
               "nbt":{
-             
                 "display": {
-             
                   "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Cluster\"}],\"text\":\"\"}"
                 }
               }
-              
             },
             "model": "item/amethyst_cluster"
-            },
-          {
-            "predicate": {
-              "name": "1.17 Small Amethyst Bud"
-            },
-            "model": "item/small_amethyst_bud"
-            },
+          },
             {
               "predicate": {
                 "nbt":{
-               
                   "display": {
-                   
                     "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Small Amethyst Bud\"}],\"text\":\"\"}"
                   }
                 }
-                
               },
               "model": "item/small_amethyst_bud"
-              },
-            {
-              "predicate": {
-                "name": "1.17 Medium Amethyst Bud"
-              },
-              "model": "item/medium_amethyst_bud"
-              },
+            },
               {
                 "predicate": {
                   "nbt":{
-                   
                     "display": {
-                    
                       "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Medium Amethyst Bud\"}],\"text\":\"\"}"
                     }
                   }
-                  
                 },
                 "model": "item/medium_amethyst_bud"
-                },
-              {
-                "predicate": {
-                  "name": "1.17 Large Amethyst Bud"
-                },
-                "model": "item/large_amethyst_bud"
                 },
                 {
                   "predicate": {
                     "nbt":{
-                 
                       "display": {
-                       
                         "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Large Amethyst Bud\"}],\"text\":\"\"}"
                       }
                     }
-                    
                   },
                   "model": "item/large_amethyst_bud"
-                  }
+                },
+
+                {
+                  "predicate": {
+                    "nbt":{
+                      "display": {
+                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Amethyst Cluster\"}],\"text\":\"\"}"
+                      }
+                    }
+                  },
+                  "model": "item/amethyst_cluster"
+                },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Small Amethyst Bud\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/small_amethyst_bud"
+                  },
+                    {
+                      "predicate": {
+                        "nbt":{
+                          "display": {
+                            "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Medium Amethyst Bud\"}],\"text\":\"\"}"
+                          }
+                        }
+                      },
+                      "model": "item/medium_amethyst_bud"
+                      },
+                      {
+                        "predicate": {
+                          "nbt":{
+                            "display": {
+                              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Large Amethyst Bud\"}],\"text\":\"\"}"
+                            }
+                          }
+                        },
+                        "model": "item/large_amethyst_bud"
+                      }
       ]
   }

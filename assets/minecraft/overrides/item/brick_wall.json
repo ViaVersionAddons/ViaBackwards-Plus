@@ -2,12 +2,6 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mud Brick Wall"
-          },
-          "model": "block/mud_brick_wall_inventory"
-        },
-        {
-          "predicate": {
             "nbt":{
               "display": {
                
@@ -16,7 +10,19 @@
             }
             
           },
-          "model": "block/mud_brick_wall_inventory"
+          "model": "item/mud_brick_wall"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mud Brick Wall\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/mud_brick_wall"
         }
-      ]
-  }
+    ]
+}

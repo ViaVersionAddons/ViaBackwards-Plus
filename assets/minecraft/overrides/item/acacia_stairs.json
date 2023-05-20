@@ -16,7 +16,7 @@
             }
             
           },
-          "model": "block/mangrove_stairs"
+          "model": "item/mangrove_stairs"
         },
         {
           "predicate": {
@@ -24,6 +24,30 @@
               "display": {
             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Stairs\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/cherry_stairs"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+            
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Stairs\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/mangrove_stairs"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+            
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Stairs\"}],\"text\":\"\"}"
               }
             }
             

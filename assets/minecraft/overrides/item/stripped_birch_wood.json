@@ -4,13 +4,21 @@
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Stripped Bamboo Block\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/stripped_bamboo_block"
+          "model": "item/stripped_bamboo_block"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Stripped Bamboo Block\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/stripped_bamboo_block"
         }
     ]
 }

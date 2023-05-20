@@ -2,12 +2,6 @@
     "overrides": [
       {
         "predicate": {
-          "name": "1.17 Deepslate"
-        },
-        "model": "block/deepslate"
-      },
-      {
-        "predicate": {
           "nbt":{
          
             "display": {
@@ -17,13 +11,7 @@
           }
           
         },
-        "model": "block/deepslate"
-      },
-      {
-        "predicate": {
-          "name": "1.17 Cracked Deepslate Tiles"
-        },
-        "model": "block/cracked_deepslate_tiles"
+        "model": "item/deepslate"
       },
       {
         "predicate": {
@@ -36,13 +24,7 @@
           }
           
         },
-        "model": "block/cracked_deepslate_tiles"
-      },
-      {
-          "predicate": {
-            "name": "1.17 Cracked Deepslate Bricks"
-          },
-          "model": "block/cracked_deepslate_bricks"
+        "model": "item/cracked_deepslate_tiles"
       },
       {
         "predicate": {
@@ -55,13 +37,7 @@
           }
           
         },
-        "model": "block/cracked_deepslate_bricks"
-      },
-      {
-          "predicate": {
-              "name": "1.17 Deepslate Tiles"
-            },
-            "model": "block/deepslate_tiles"
+        "model": "item/cracked_deepslate_bricks"
       },
       {
         "predicate": {
@@ -74,7 +50,59 @@
             }
             
           },
-          "model": "block/deepslate_tiles"
-    }
-      ]
-  }
+          "model": "item/deepslate_tiles"
+      },
+      {
+        "predicate": {
+          "nbt":{
+         
+            "display": {
+       
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "item/deepslate"
+      },
+      {
+        "predicate": {
+          "nbt":{
+       
+            "display": {
+           
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cracked Deepslate Tiles\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "item/cracked_deepslate_tiles"
+      },
+      {
+        "predicate": {
+          "nbt":{
+         
+            "display": {
+         
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cracked Deepslate Bricks\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "item/cracked_deepslate_bricks"
+      },
+      {
+        "predicate": {
+            "nbt":{
+     
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Tiles\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/deepslate_tiles"
+      }
+  ]
+}

@@ -11,6 +11,18 @@
             
           },
           "model": "item/sniffer_egg"
-          }
-      ]
-  }
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sniffer Egg\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/sniffer_egg"
+        }
+    ]
+}

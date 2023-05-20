@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Dripstone Block"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Dripstone Block\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/dripstone_block"
+          "model": "item/dripstone_block"
         },
         {
           "predicate": {
             "nbt":{
-          
               "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Dripstone Block\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Dripstone Block\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/dripstone_block"
+          "model": "item/dripstone_block"
         }
     ]
-  }
+}

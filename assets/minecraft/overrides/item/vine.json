@@ -2,48 +2,63 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Glow Lichen"
-          },
-          "model": "block/glow_lichen"
-        },
-        {
-          "predicate": {
             "nbt":{
-           
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Glow Lichen\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "block/glow_lichen"
         },
         {
           "predicate": {
             "nbt":{
-           
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Sculk Vein\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "block/sculk_vein"
         },
         {
           "predicate": {
             "nbt":{
-             
               "display": {
-                
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Frogspawn\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "block/frogspawn"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Glow Lichen\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "block/glow_lichen"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sculk Vein\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "block/sculk_vein"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Frogspawn\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "block/frogspawn"
         }
-      ]
-  }
+    ]
+}

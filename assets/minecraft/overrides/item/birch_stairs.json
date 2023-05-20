@@ -10,7 +10,7 @@
             }
             
           },
-          "model": "block/bamboo_stairs"
+          "model": "item/bamboo_stairs"
         },
         {
           "predicate": {
@@ -22,7 +22,31 @@
             }
             
           },
-          "model": "block/bamboo_mosaic_stairs"
+          "model": "item/bamboo_mosaic_stairs"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Stairs\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_stairs"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Mosaic Stairs\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_mosaic_stairs"
         }
     ]
 }

@@ -18,6 +18,19 @@
             
           },
           "model": "item/light_15"
+        },
+        {
+          "predicate": {
+            "nbt":{
+             
+              "display": {
+              
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Light\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/light_15"
         }
-      ]
-  }
+    ]
+}

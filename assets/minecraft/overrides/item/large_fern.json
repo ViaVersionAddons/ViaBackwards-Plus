@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Small Dripleaf"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Small Dripleaf\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/small_dripleaf_top"
+          "model": "item/small_dripleaf_top"
         },
         {
           "predicate": {
             "nbt":{
-          
               "display": {
-             
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Small Dripleaf\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Small Dripleaf\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/small_dripleaf_top"
+          "model": "item/small_dripleaf_top"
         }
     ]
-  }
+}

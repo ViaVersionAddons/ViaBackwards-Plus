@@ -4,20 +4,21 @@
           "predicate": {
             "nbt": {
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Reinforced Deepslate\"}],\"text\":\"\"}"
               }
-            
             }
-            
           },
-          "model": "block/reinforced_deepslate"
+          "model": "item/reinforced_deepslate"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Reinforced Deepslate\"}],\"text\":\"\"}"
+              }
+            }
           },
-          {
-            "predicate": {
-              "name": "1.19 Reinforced Deepslate"
-            },
-            "model":"block/reinforced_deepslate"
-          }
-      ]
-  }
+          "model": "item/reinforced_deepslate"
+        }
+    ]
+}

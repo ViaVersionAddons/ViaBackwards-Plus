@@ -4,11 +4,19 @@
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Warped Hanging Sign\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "item/warped_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Warped Hanging Sign\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/warped_hanging_sign"
         }

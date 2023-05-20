@@ -16,7 +16,7 @@
             }
             
           },
-          "model": "block/mangrove_leaves"
+          "model": "item/mangrove_leaves"
         },
         {
           "predicate": {
@@ -24,6 +24,30 @@
               "display": {
                 
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Leaves\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/cherry_leaves"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Leaves\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/mangrove_leaves"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Leaves\"}],\"text\":\"\"}"
               }
             }
             

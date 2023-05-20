@@ -10,7 +10,19 @@
             }
             
           },
-          "model": "block/bamboo_button_inventory"
+          "model": "item/bamboo_button"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Button\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_button"
         }
     ]
 }

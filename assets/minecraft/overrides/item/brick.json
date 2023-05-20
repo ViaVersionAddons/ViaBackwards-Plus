@@ -2,72 +2,51 @@
     "overrides": [
       {
         "predicate": {
-          "name": "1.17 Copper Ingot"
-        },
-        "model": "item/copper_ingot"
-      },
-      {
-        "predicate": {
           "nbt":{
-          
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Copper Ingot\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/copper_ingot"
       },
       {
         "predicate": {
           "nbt":{
-          
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Pottery Shard Archer\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/archer_pottery_sherd"
       },
       {
         "predicate": {
           "nbt":{
-          
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Pottery Shard Prize\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/prize_pottery_sherd"
       },
       {
         "predicate": {
           "nbt":{
-          
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Pottery Shard Arms Up\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/arms_up_pottery_sherd"
       },
       {
         "predicate": {
           "nbt":{
-          
             "display": {
-           
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Pottery Shard Skull\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/skull_pottery_sherd"
       }

@@ -4,13 +4,21 @@
           "predicate": {
             "nbt": {
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Oak Chest Boat\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "item/oak_chest_boat"
-          }
-      ]
-  }
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Oak Chest Boat\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/oak_chest_boat"
+        }
+    ]
+}

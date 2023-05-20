@@ -2,41 +2,43 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Deepslate Brick Stairs"
-          },
-          "model": "block/deepslate_brick_stairs"
-        },
-        {
-          "predicate": {
             "nbt":{
-           
               "display": {
-               
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Brick Stairs\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/deepslate_brick_stairs"
-        },
-        {
-            "predicate": {
-              "name": "1.17 Polished Deepslate Stairs"
-            },
-            "model": "block/polished_deepslate_stairs"
+          "model": "item/deepslate_brick_stairs"
         },
         {
           "predicate": {
             "nbt":{
-            
               "display": {
-             
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate Stairs\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/polished_deepslate_stairs"
-      }
+          "model": "item/polished_deepslate_stairs"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Brick Stairs\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/deepslate_brick_stairs"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Polished Deepslate Stairs\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/polished_deepslate_stairs"
+        }
     ]
-  }
+}

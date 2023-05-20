@@ -10,7 +10,19 @@
             }
             
           },
-          "model": "block/bamboo_block"
+          "model": "item/bamboo_block"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Block\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/bamboo_block"
         }
     ]
 }

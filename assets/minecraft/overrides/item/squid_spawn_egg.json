@@ -2,12 +2,6 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Glow Squid Spawn Egg"
-          },
-          "model": "item/glow_squid_spawn_egg"
-        },
-        {
-          "predicate": {
             "nbt":{
           
               "display": {

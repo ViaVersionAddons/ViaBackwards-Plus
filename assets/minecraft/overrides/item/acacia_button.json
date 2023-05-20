@@ -31,6 +31,32 @@
               
             },
             "model": "item/cherry_button"
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+                  
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Button\"}],\"text\":\"\"}"
+                }
+                
+              }
+              
+            },
+            "model": "item/mangrove_button"
+          },
+          {
+            "predicate": {
+              "nbt": {
+                "display": {
+                  
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Button\"}],\"text\":\"\"}"
+                }
+                
+              }
+              
+            },
+            "model": "item/cherry_button"
           }
     ]
 }

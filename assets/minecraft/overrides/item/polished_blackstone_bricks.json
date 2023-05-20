@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Deepslate Bricks"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Bricks\"}],\"text\":\"\"}"
+              }
+            }
           },
-          "model": "block/deepslate_bricks"
+          "model": "item/deepslate_bricks"
         },
         {
           "predicate": {
             "nbt":{
-          
               "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Bricks\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Bricks\"}],\"text\":\"\"}"
               }
             }
-            
           },
-          "model": "block/deepslate_bricks"
+          "model": "item/deepslate_bricks"
         }
-      ]
-  }
+    ]
+}

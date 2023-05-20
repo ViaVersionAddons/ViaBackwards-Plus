@@ -4,12 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Music Disc 5\"}],\"text\":\"\"}"
               }
-             
             }
-            
           },
           "model": "item/music_disc_5"
         },
@@ -17,13 +14,31 @@
           "predicate": {
             "nbt": {
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Disc Fragment\"}],\"text\":\"\"}"
               }
             }
-            
+          },
+          "model": "item/disc_fragment_5"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Music Disc 5\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/music_disc_5"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Disc Fragment\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/disc_fragment_5"
         }
     ]
-  }
+}

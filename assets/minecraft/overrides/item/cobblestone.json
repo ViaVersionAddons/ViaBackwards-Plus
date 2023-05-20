@@ -1,6 +1,5 @@
 {
     "overrides": [
-
       {
           "predicate": {
             "nbt":{
@@ -12,7 +11,20 @@
             }
             
           },
-          "model": "block/tuff"
-      }
+          "model": "item/tuff"
+      },
+      {
+        "predicate": {
+          "nbt":{
+        
+            "display": {
+            
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Tuff\"}],\"text\":\"\"}"
+            }
+          }
+          
+        },
+        "model": "item/tuff"
+    }
   ]
 }

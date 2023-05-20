@@ -2,22 +2,23 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Glow Berries"
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Glow Berries\"}],\"text\":\"\"}"
+              }
+            }
           },
           "model": "item/glow_berries"
         },
         {
           "predicate": {
             "nbt":{
-      
               "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Glow Berries\"}],\"text\":\"\"}"
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Glow Berries\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "item/glow_berries"
         }
-      ]
-  }
+    ]
+}
