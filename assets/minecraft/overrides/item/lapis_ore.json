@@ -1,0 +1,24 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+                "display": {
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Lapis Ore\"}],\"text\":\"\"}"
+                }
+              }
+          },
+          "model": "item/deepslate_lapis_ore"
+        },
+        {
+          "predicate": {
+            "nbt": {
+                "display": {
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Lapis Ore\"}],\"text\":\"\"}"
+                }
+              }
+          },
+          "model": "item/deepslate_lapis_ore"
+        }
+    ]
+}

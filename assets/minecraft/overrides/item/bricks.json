@@ -320,6 +320,26 @@
                       }
                     },
                     "model": "item/mud_bricks"
+                  },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Packed Mud\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/packed_mud"
+                  },
+                  {
+                    "predicate": {
+                      "nbt":{
+                        "display": {
+                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Packed Mud\"}],\"text\":\"\"}"
+                        }
+                      }
+                    },
+                    "model": "item/packed_mud"
                   }
       ]
   }
