@@ -8,7 +8,7 @@
               }
             }
           },
-          "model": "item/small_dripleaf_top"
+          "model": "item/small_dripleaf"
         },
         {
           "predicate": {
@@ -18,7 +18,7 @@
               }
             }
           },
-          "model": "item/small_dripleaf_top"
+          "model": "item/small_dripleaf"
         }
     ]
 }

@@ -18,7 +18,7 @@
             }
           }
         },
-        "model": "item/cut_copper_slab"
+        "model": "item/waxed_cut_copper_slab"
       },
       {
           "predicate": {
@@ -38,7 +38,7 @@
             }
           }
         },
-        "model": "item/oxidized_cut_copper_slab"
+        "model": "item/waxed_oxidized_cut_copper_slab"
       },
       {
         "predicate": {
@@ -58,7 +58,7 @@
             }
           }
         },
-        "model": "item/exposed_cut_copper_slab"
+        "model": "item/waxed_exposed_cut_copper_slab"
       },
       {
         "predicate": {
@@ -81,7 +81,7 @@
             }
           }
         },
-        "model": "item/weathered_cut_copper_slab"
+        "model": "item/waxed_weathered_cut_copper_slab"
       },
       {
         "predicate": {

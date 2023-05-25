@@ -103,6 +103,32 @@
             
           },
           "model": "item/deepslate_tiles"
+      },
+      {
+        "predicate": {
+            "nbt":{
+     
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Infested Deepslate\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/infested_deepslate"
+      },
+      {
+        "predicate": {
+            "nbt":{
+     
+              "display": {
+               
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Infested Deepslate\"}],\"text\":\"\"}"
+              }
+            }
+            
+          },
+          "model": "item/infested_deepslate"
       }
   ]
 }

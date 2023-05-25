@@ -80,6 +80,26 @@
                           }
                         },
                         "model": "item/large_amethyst_bud"
+                      },
+                      {
+                        "predicate": {
+                          "nbt":{
+                            "display": {
+                              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Spore Blossom\"}],\"text\":\"\"}"
+                            }
+                          }
+                        },
+                        "model": "item/spore_blossom"
+                      },
+                      {
+                        "predicate": {
+                          "nbt":{
+                            "display": {
+                              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Spore Blossom\"}],\"text\":\"\"}"
+                            }
+                          }
+                        },
+                        "model": "item/spore_blossom"
                       }
       ]
   }
