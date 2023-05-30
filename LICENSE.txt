@@ -1,0 +1,44 @@
+bangetto License
+
+Copyright (c) 2023-Forever bangetto
+
+
+- What you can do
+    1. Publicly:
+        - You can create addons wich still require the base project to work and only contain the modified files
+        - You can create new projects based on the project or embed the projects into other projects as long you do revune sharing [the percentage of the revune sharing is based on how much is my project in your project, contact me so we can discuss these details]
+        - You can use limited amount of assets as long you contact me and give credit in the main folder of the project [like a credits.txt next to the pack.mcmeta] wich contains my name [the original creator of the assets], the name of the projects you used the assets from and links to them in an way that is not misunderstandable and easly readable for anyone.
+    
+        2.1. Servers
+            - You need to credit me [the original author] in an way that is always accesable by anyone at anytime.
+
+        2.2. Videos/Streams/Pictures
+            - If the project is not in the spoitlight, and just in the background you can use it without crediting [but crediting is always welcomed].
+            - If the project is in the spoitlight you NEED to credit it, this means that you need to have a link to the project's original page directly in the the first 5 lines of the desception.
+
+        2.3. Promotion
+            - If you want to promote something with my projects you can do it if I give permission to it.
+
+    2. Privitely:
+        - You can do what ever you want with it, create modifications, merge it with other packs, you have complet freedom what you do with it.
+
+
+- What you can NOT do
+    1. Generaly
+        - You can't claim ownership over the project in anyway.
+        - You can't use the project that are not free-to-download in any way.
+    
+    2. Publicly:
+        - You can't re-upload the project.
+        - You can't use the project's name to advertise something that don't requires the user to install this project.
+        - You can't embed this project into something else if we don't discuss a revune sharing or you don't keep you to that.
+        - You can't use assets of this projects if you don't credit me in the way as mentioned above.
+    
+        2.1. Servers
+            - You can't use this project if you don't credit me as mentioned above.
+
+        2.2. Videos/Streams/Pictures
+            - You can't use this project if it's in the spoitlight and you don't credit me as mentioned above.
+
+        2.3 Promotion
+            - You can't promote anything with this project without my permission.

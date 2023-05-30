@@ -3,28 +3,22 @@
       {
           "predicate": {
             "nbt":{
-          
               "display": {
-              
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Tuff\"}],\"text\":\"\"}"
               }
             }
-            
           },
           "model": "item/tuff"
       },
       {
         "predicate": {
           "nbt":{
-        
             "display": {
-            
               "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Tuff\"}],\"text\":\"\"}"
             }
           }
-          
         },
         "model": "item/tuff"
-    }
+      }
   ]
 }
