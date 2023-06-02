@@ -19,6 +19,28 @@
               }
           },
           "model": "item/bundle"
+        },
+        {
+          "predicate": {
+            "nbt": {
+                "display": {
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Bundle\"}],\"text\":\"\"}"
+                },
+                "Items": [{}]
+                }
+          },
+          "model": "item/bundle_filled"
+        },
+        {
+          "predicate": {
+            "nbt": {
+                "display": {
+                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bundle\"}],\"text\":\"\"}"
+                },
+                "Items": [{}]
+              }
+          },
+          "model": "item/bundle_filled"
         }
     ]
 }

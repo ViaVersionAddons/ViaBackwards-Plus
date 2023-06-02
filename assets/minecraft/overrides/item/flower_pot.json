@@ -1,0 +1,24 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Decorated Pot\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/decorated_pot"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "display": {
+                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Decorated Pot\"}],\"text\":\"\"}"
+              }
+            }
+          },
+          "model": "item/decorated_pot"
+        }
+    ]
+}
