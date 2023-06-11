@@ -8,7 +8,7 @@
               }
             }
           },
-          "model": "block/suspicious_gravel"
+          "model": "item/suspicious_gravel"
         },
         {
           "predicate": {
@@ -18,7 +18,7 @@
               }
             }
           },
-          "model": "block/suspicious_gravel"
+          "model": "item/suspicious_gravel"
         }
     ]
 }
