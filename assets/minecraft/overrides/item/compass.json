@@ -34,6 +34,7 @@
       { "predicate": { "angle": 0.953125, "nbt": { "display": { "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Recovery Compass\"}],\"text\":\"\"}" }} }, "model": "item/recovery_compass_15" },
       { "predicate": { "angle": 0.984375, "nbt": { "display": { "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Recovery Compass\"}],\"text\":\"\"}" }} }, "model": "item/recovery_compass" },
 
+
       { "predicate": { "angle": 0.000000, "nbt": { "display": { "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Recovery Compass\"}],\"text\":\"\"}" }} }, "model": "item/recovery_compass" },
       { "predicate": { "angle": 0.015625, "nbt": { "display": { "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Recovery Compass\"}],\"text\":\"\"}" }} }, "model": "item/recovery_compass_17" },
       { "predicate": { "angle": 0.046875, "nbt": { "display": { "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Recovery Compass\"}],\"text\":\"\"}" }} }, "model": "item/recovery_compass_18" },

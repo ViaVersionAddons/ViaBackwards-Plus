@@ -2,7 +2,6 @@ License: bangetto
 
 Name: ViaBackwards+
 Copyright holder: bangetto
-Co-Copyright holders: Credits.txt
 
 
 Read the License here: https://bangetto.github.io/licenses/bangetto.txt

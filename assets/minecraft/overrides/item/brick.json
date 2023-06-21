@@ -54,11 +54,601 @@
         "predicate": {
           "nbt":{
             "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Angler Shard Skull\"}],\"text\":\"\"}"
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Angler Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/angler_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Archer Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/archer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Arms Up Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/arms_up_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Blade Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/blade_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Brewer Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/brewer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Burn Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/burn_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Danger Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/danger_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Explorer Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/explorer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Friend Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/friend_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Heart Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/heart_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Heartbreak Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/heartbreak_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Howl Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/howl_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Miner Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/miner_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Mourner Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/mourner_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Plenty Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/plenty_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Prize Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/prize_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Sheaf Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/sheaf_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Shelter Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/shelter_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Skull Pottery Sherd\"}],\"text\":\"\"}"
             }
           }
         },
         "model": "item/skull_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Snort Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/snort_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Angler Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/angler_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Archer Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/archer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Arms Up Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/arms_up_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Blade Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/blade_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Brewer Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/brewer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Burn Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/burn_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Danger Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/danger_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Explorer Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/explorer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Friend Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/friend_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Heart Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/heart_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Heartbreak Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/heartbreak_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Howl Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/howl_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Miner Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/miner_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mourner Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/mourner_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Plenty Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/plenty_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Prize Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/prize_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sheaf Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/sheaf_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Shelter Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/shelter_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Skull Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/skull_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Snort Pottery Sherd\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/snort_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Angler Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/angler_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Archer Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/archer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Arms Up Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/arms_up_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Blade Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/blade_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Brewer Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/brewer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Burn Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/burn_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Danger Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/danger_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Explorer Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/explorer_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Friend Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/friend_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Heart Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/heart_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Heartbreak Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/heartbreak_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Howl Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/howl_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Miner Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/miner_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mourner Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/mourner_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Plenty Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/plenty_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Prize Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/prize_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sheaf Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/sheaf_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Shelter Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/shelter_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Skull Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/skull_pottery_sherd"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "display": {
+              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Snort Pottery Shard\"}],\"text\":\"\"}"
+            }
+          }
+        },
+        "model": "item/snort_pottery_sherd"
       }
   ]
 }
