@@ -1,6 +1,6 @@
 License: bangetto
 
-Name: ViaBackwards+
+Name: ViaBackwards-Plus
 Copyright holder: bangetto
 
 
