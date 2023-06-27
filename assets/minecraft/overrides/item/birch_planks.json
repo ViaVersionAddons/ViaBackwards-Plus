@@ -4,11 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Planks\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Planks(.)*/"
               }
             }
-            
           },
           "model": "item/bamboo_planks"
         },
@@ -16,35 +14,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Mosaic\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Mosaic(.)*/"
               }
             }
-            
-          },
-          "model": "item/bamboo_mosaic"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Planks\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/bamboo_planks"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Mosaic\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/bamboo_mosaic"
         }

@@ -2,18 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Pressure Plate"
-          },
-          "model": "block/mangrove_pressure_plate"
-        },
-        {
-          "predicate": {
             "nbt":{
               "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Pressure Plate\"}],\"text\":\"\"}"
+                "Name": "/(.)*Mangrove Pressure Plate(.)*/"
               }
             }
-            
           },
           "model": "item/mangrove_pressure_plate"
         },
@@ -21,32 +14,9 @@
           "predicate": {
             "nbt":{
               "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Pressure Plate\"}],\"text\":\"\"}"
+                "Name": "/(.)*Cherry Pressure Plate(.)*/"
               }
             }
-            
-          },
-          "model": "item/cherry_pressure_plate"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Pressure Plate\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/mangrove_pressure_plate"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Pressure Plate\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/cherry_pressure_plate"
         }

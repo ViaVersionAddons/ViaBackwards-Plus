@@ -1,19 +1,12 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.19 Mangrove Slab"
-          },
-          "model": "block/mangrove_slab"
-        },
-        {
+      {
           "predicate": {
             "nbt":{
               "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Slab\"}],\"text\":\"\"}"
+                "Name": "/(.)*Mangrove Slab(.)*/"
               }
             }
-            
           },
           "model": "item/mangrove_slab"
       },
@@ -21,34 +14,11 @@
         "predicate": {
           "nbt":{
             "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Slab\"}],\"text\":\"\"}"
+              "Name": "/(.)*Cherry Slab(.)*/"
             }
           }
-          
         },
         "model": "item/cherry_slab"
-    },
-    {
-      "predicate": {
-        "nbt":{
-          "display": {
-            "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Slab\"}],\"text\":\"\"}"
-          }
-        }
-        
-      },
-      "model": "item/mangrove_slab"
-  },
-  {
-    "predicate": {
-      "nbt":{
-        "display": {
-          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Slab\"}],\"text\":\"\"}"
-        }
       }
-      
-    },
-    "model": "item/cherry_slab"
-}
   ]
 }

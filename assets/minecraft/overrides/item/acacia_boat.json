@@ -1,138 +1,54 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.19 Mangrove Boat"
-          },
-          "model": "item/mangrove_boat"
-          },
           {
             "predicate": {
               "nbt": {
                 "display": {
-                 
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Boat\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Mangrove Boat(.)*/"
                 }
               }
-              
             },
             "model": "item/mangrove_boat"
-            },
+          },
           {
-            "predicate": {
-              "name": "1.19 Mangrove Chest Boat"
-            },
-            "model": "item/mangrove_chest_boat"
-            },
-            {
               "predicate": {
                 "nbt": {
                   "display": {
-                    
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Chest Boat\"}],\"text\":\"\"}"
+                    "Name": "/(.)*Mangrove Chest Boat(.)*/"
                   }
-                  
                 }
-                
               },
               "model": "item/mangrove_chest_boat"
-            },
-            {
+          },
+          {
               "predicate": {
                 "nbt": {
                   "display": {
-                   
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Acacia Chest Boat\"}],\"text\":\"\"}"
+                    "Name": "/(.)*Acacia Chest Boat(.)*/"
                   }
                 }
-                
               },
               "model": "item/acacia_chest_boat"
-            },
-            {
+          },
+          {
               "predicate": {
                 "nbt": {
                   "display": {
-                   
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Boat\"}],\"text\":\"\"}"
+                    "Name": "/(.)*Cherry Boat(.)*/"
                   }
                 }
-                
               },
               "model": "item/cherry_boat"
-            },
-            {
+          },
+          {
               "predicate": {
                 "nbt": {
                   "display": {
-                   
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Chest Boat\"}],\"text\":\"\"}"
+                    "Name": "/(.)*Cherry Chest Boat(.)*/"
                   }
                 }
-                
               },
               "model": "item/cherry_chest_boat"
-            },
-            {
-                "predicate": {
-                  "nbt": {
-                    "display": {
-                     
-                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Boat\"}],\"text\":\"\"}"
-                    }
-                  }
-                  
-                },
-                "model": "item/mangrove_boat"
-            },
-            {
-                  "predicate": {
-                    "nbt": {
-                      "display": {
-                        
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Chest Boat\"}],\"text\":\"\"}"
-                      }
-                      
-                    }
-                    
-                  },
-                  "model": "item/mangrove_chest_boat"
-            },
-            {
-                  "predicate": {
-                    "nbt": {
-                      "display": {
-                       
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Acacia Chest Boat\"}],\"text\":\"\"}"
-                      }
-                    }
-                    
-                  },
-                  "model": "item/acacia_chest_boat"
-                },
-                {
-                  "predicate": {
-                    "nbt": {
-                      "display": {
-                       
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Boat\"}],\"text\":\"\"}"
-                      }
-                    }
-                    
-                  },
-                  "model": "item/cherry_boat"
-                },
-                {
-                  "predicate": {
-                    "nbt": {
-                      "display": {
-                       
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Chest Boat\"}],\"text\":\"\"}"
-                      }
-                    }
-                    
-                  },
-                  "model": "item/cherry_chest_boat"
-                }
+          }
       ]
   }

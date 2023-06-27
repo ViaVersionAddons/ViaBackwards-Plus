@@ -2,19 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Wood"
-          },
-          "model": "block/mangrove_wood"
-        },
-        {
-          "predicate": {
             "nbt":{
               "display": {
-             
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Wood\"}],\"text\":\"\"}"
+                "Name": "/(.)*Mangrove Wood(.)*/"
               }
             }
-            
           },
           "model": "item/mangrove_wood"
         },
@@ -22,35 +14,9 @@
           "predicate": {
             "nbt":{
               "display": {
-             
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Wood\"}],\"text\":\"\"}"
+                "Name": "/(.)*Cherry Wood(.)*/"
               }
             }
-            
-          },
-          "model": "item/cherry_wood"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-             
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Wood\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/mangrove_wood"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-             
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Wood\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/cherry_wood"
         }

@@ -4,23 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Fence\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Fence(.)*/"
               }
             }
-            
-          },
-          "model": "item/bamboo_fence"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Fence\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/bamboo_fence"
         }

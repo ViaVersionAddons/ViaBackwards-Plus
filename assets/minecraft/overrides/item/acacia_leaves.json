@@ -2,19 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Leaves"
-          },
-          "model": "block/mangrove_leaves"
-        },
-        {
-          "predicate": {
             "nbt": {
               "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Leaves\"}],\"text\":\"\"}"
+                "Name": "/(.)*Mangrove Leaves(.)*/"
               }
             }
-            
           },
           "model": "item/mangrove_leaves"
         },
@@ -22,35 +14,9 @@
           "predicate": {
             "nbt": {
               "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Leaves\"}],\"text\":\"\"}"
+                "Name": "/(.)*Cherry Leaves(.)*/"
               }
             }
-            
-          },
-          "model": "item/cherry_leaves"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Leaves\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/mangrove_leaves"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Leaves\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/cherry_leaves"
         }

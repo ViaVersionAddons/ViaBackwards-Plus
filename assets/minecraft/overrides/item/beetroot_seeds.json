@@ -3,26 +3,10 @@
         {
           "predicate": {
             "nbt": {
-                
                 "display": {
-                
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Torchflower Seeds\"}],\"text\":\"\"}"
+                  "Name": "/(.)*TorchFlower Seeds(.)*/"
                 }
               }
-              
-          },
-          "model": "item/torchflower_seeds"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                
-                "display": {
-                
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Torchflower Seeds\"}],\"text\":\"\"}"
-                }
-              }
-              
           },
           "model": "item/torchflower_seeds"
         }

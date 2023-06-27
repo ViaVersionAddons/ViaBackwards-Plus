@@ -4,7 +4,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Netherite Upgrade Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Netherite Upgrade Smithing Template(.)*/"
                 }
               }
           },
@@ -14,7 +14,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Sentry Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Sentry Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -24,7 +24,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Dune Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Dune Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -34,7 +34,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Coast Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Coast Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -44,7 +44,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Wild Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Wild Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -54,7 +54,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Ward Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Ward Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -64,7 +64,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Eye Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Eye Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -74,7 +74,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Vex Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Vex Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -84,7 +84,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Tide Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Tide Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -94,7 +94,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Snout Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Snout Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -104,7 +104,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Rib Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Rib Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -114,128 +114,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Spire Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/spire_armor_trim_smithing_template"
-        },
-
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Netherite Upgrade Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/netherite_upgrade_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sentry Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/sentry_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Dune Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/dune_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Coast Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/coast_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Wild Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/wild_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Ward Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/ward_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Eye Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/eye_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Vex Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/vex_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Tide Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/tide_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Snout Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/snout_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Rib Armor Trim Smithing Template\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/rib_armor_trim_smithing_template"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Spire Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Spire Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -245,7 +124,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Wayfinder Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Wayfinder Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -255,7 +134,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Shaper Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Shaper Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -265,7 +144,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Silence Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Silence Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -275,7 +154,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Raiser Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Raiser Armor Trim Smithing Template(.)*/"
                 }
               }
           },
@@ -285,7 +164,7 @@
           "predicate": {
             "nbt": {
                 "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Host Armor Trim Smithing Template\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Host Armor Trim Smithing Template(.)*/"
                 }
               }
           },

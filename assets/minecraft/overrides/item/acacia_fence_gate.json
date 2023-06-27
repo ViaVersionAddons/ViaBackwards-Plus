@@ -1,20 +1,12 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.19 Mangrove Fence Gate"
-          },
-          "model": "block/mangrove_fence_gate"
-          },
           {
             "predicate": {
               "nbt": {
                 "display": {
-            
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Fence Gate\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Mangrove Fence Gate(.)*/"
                 }
               }
-              
             },
             "model": "item/mangrove_fence_gate"
           },
@@ -22,35 +14,9 @@
             "predicate": {
               "nbt": {
                 "display": {
-            
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Fence Gate\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Cherry Fence Gate(.)*/"
                 }
               }
-              
-            },
-            "model": "item/cherry_fence_gate"
-          },
-          {
-            "predicate": {
-              "nbt": {
-                "display": {
-            
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Fence Gate\"}],\"text\":\"\"}"
-                }
-              }
-              
-            },
-            "model": "item/mangrove_fence_gate"
-          },
-          {
-            "predicate": {
-              "nbt": {
-                "display": {
-            
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Fence Gate\"}],\"text\":\"\"}"
-                }
-              }
-              
             },
             "model": "item/cherry_fence_gate"
           }

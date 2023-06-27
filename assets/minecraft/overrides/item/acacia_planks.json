@@ -1,58 +1,24 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.19 Mangrove Planks"
-          },
-          "model": "block/mangrove_planks"
+          {
+            "predicate": {
+              "nbt":{
+                "display": {
+                  "Name": "/(.)*Mangrove Planks(.)*/"
+                }
+              }
+            },
+            "model": "item/mangrove_planks"
           },
           {
             "predicate": {
               "nbt":{
                 "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Planks\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Cherry Planks(.)*/"
                 }
               }
-              
             },
-            "model": "item/mangrove_planks"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Planks\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/cherry_planks"
-      },
-      {
-        "predicate": {
-          "nbt":{
-            "display": {
-              
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Planks\"}],\"text\":\"\"}"
-            }
-          }
-          
-        },
-        "model": "item/mangrove_planks"
-    },
-    {
-      "predicate": {
-        "nbt":{
-          "display": {
-            
-            "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Planks\"}],\"text\":\"\"}"
-          }
+            "model": "item/cherry_planks"
         }
-        
-      },
-      "model": "item/cherry_planks"
-  }
-  ]
+    ]
 }

@@ -2,19 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Fence"
-          },
-          "model": "block/mangrove_fence_inventory"
-        },
-        {
-          "predicate": {
             "nbt": {
               "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Fence\"}],\"text\":\"\"}"
+                "Name": "/(.)*Mangrove Fence(.)*/"
               }
             }
-            
           },
           "model": "item/mangrove_fence"
         },
@@ -22,35 +14,9 @@
           "predicate": {
             "nbt": {
               "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Fence\"}],\"text\":\"\"}"
+                "Name": "/(.)*Cherry Fence(.)*/"
               }
             }
-            
-          },
-          "model": "item/cherry_fence"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Fence\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/mangrove_fence"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Fence\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/cherry_fence"
         }

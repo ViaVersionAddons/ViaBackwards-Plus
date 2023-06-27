@@ -2,19 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Stairs"
-          },
-          "model": "block/mangrove_stairs"
-        },
-        {
-          "predicate": {
             "nbt":{
               "display": {
-            
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Stairs\"}],\"text\":\"\"}"
+                "Name": "/(.)*Mangrove Stairs(.)*/"
               }
             }
-            
           },
           "model": "item/mangrove_stairs"
         },
@@ -22,35 +14,9 @@
           "predicate": {
             "nbt":{
               "display": {
-            
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Stairs\"}],\"text\":\"\"}"
+                "Name": "/(.)*Cherry Stairs(.)*/"
               }
             }
-            
-          },
-          "model": "item/cherry_stairs"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-            
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Stairs\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/mangrove_stairs"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-            
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Stairs\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/cherry_stairs"
         }

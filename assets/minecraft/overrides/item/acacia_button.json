@@ -1,21 +1,12 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.19 Mangrove Button"
-          },
-          "model": "item/mangrove_button"
-          },
           {
             "predicate": {
               "nbt": {
                 "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Button\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Mangrove Button(.)*/"
                 }
-                
               }
-              
             },
             "model": "item/mangrove_button"
           },
@@ -23,38 +14,9 @@
             "predicate": {
               "nbt": {
                 "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Button\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Cherry Button(.)*/"
                 }
-                
               }
-              
-            },
-            "model": "item/cherry_button"
-          },
-          {
-            "predicate": {
-              "nbt": {
-                "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Button\"}],\"text\":\"\"}"
-                }
-                
-              }
-              
-            },
-            "model": "item/mangrove_button"
-          },
-          {
-            "predicate": {
-              "nbt": {
-                "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Button\"}],\"text\":\"\"}"
-                }
-                
-              }
-              
             },
             "model": "item/cherry_button"
           }

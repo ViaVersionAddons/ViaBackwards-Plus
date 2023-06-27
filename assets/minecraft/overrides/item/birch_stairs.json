@@ -4,11 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Stairs\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Stairs(.)*/"
               }
             }
-            
           },
           "model": "item/bamboo_stairs"
         },
@@ -16,35 +14,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Mosaic Stairs\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Mosaic Stairs(.)*/"
               }
             }
-            
-          },
-          "model": "item/bamboo_mosaic_stairs"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Stairs\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/bamboo_stairs"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Mosaic Stairs\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/bamboo_mosaic_stairs"
         }

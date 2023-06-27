@@ -4,23 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Trapdoor\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Trapdoor(.)*/"
               }
             }
-            
-          },
-          "model": "item/bamboo_trapdoor"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Trapdoor\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/bamboo_trapdoor"
         }

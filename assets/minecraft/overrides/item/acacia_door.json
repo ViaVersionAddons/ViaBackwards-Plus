@@ -1,20 +1,12 @@
 {
     "overrides": [
-        {
-          "predicate": {
-            "name": "1.19 Mangrove Door"
-          },
-          "model": "item/mangrove_door"
-          },
           {
             "predicate": {
               "nbt": {
                 "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Door\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Mangrove Door(.)*/"
                 }
               }
-              
             },
             "model": "item/mangrove_door"
           },
@@ -22,35 +14,9 @@
             "predicate": {
               "nbt": {
                 "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Door\"}],\"text\":\"\"}"
+                  "Name": "/(.)*Cherry Door(.)*/"
                 }
               }
-              
-            },
-            "model": "item/cherry_door"
-          },
-          {
-            "predicate": {
-              "nbt": {
-                "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Door\"}],\"text\":\"\"}"
-                }
-              }
-              
-            },
-            "model": "item/mangrove_door"
-          },
-          {
-            "predicate": {
-              "nbt": {
-                "display": {
-                  
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Door\"}],\"text\":\"\"}"
-                }
-              }
-              
             },
             "model": "item/cherry_door"
           }

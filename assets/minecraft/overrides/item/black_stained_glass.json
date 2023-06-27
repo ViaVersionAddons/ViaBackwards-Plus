@@ -2,33 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.17 Tinted Glass"
-          },
-          "model": "block/tinted_glass"
-        },
-        {
-          "predicate": {
             "nbt":{
-            
               "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Tinted Glass\"}],\"text\":\"\"}"
+                "Name": "/(.)*Tinted Glass(.)*/"
               }
             }
-            
-          },
-          "model": "item/tinted_glass"
-        },
-        {
-          "predicate": {
-            "nbt":{
-            
-              "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Tinted Glass\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/tinted_glass"
         }

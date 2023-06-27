@@ -3,28 +3,12 @@
       {
           "predicate": {
             "nbt":{
-          
               "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Smooth Basalt\"}],\"text\":\"\"}"
+                "Name": "/(.)*Smooth Basalt(.)*/"
               }
             }
-            
           },
           "model": "item/smooth_basalt"
-      },
-      {
-        "predicate": {
-          "nbt":{
-        
-            "display": {
-            
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Smooth Basalt\"}],\"text\":\"\"}"
-            }
-          }
-          
-        },
-        "model": "item/smooth_basalt"
-    }
+      }
   ]
 }

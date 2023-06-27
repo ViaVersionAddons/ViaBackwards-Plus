@@ -4,11 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Slab\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Slab(.)*/"
               }
             }
-            
           },
           "model": "item/bamboo_slab"
         },
@@ -16,35 +14,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Mosaic Slab\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Mosaic Slab(.)*/"
               }
             }
-            
-          },
-          "model": "item/bamboo_mosaic_slab"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Slab\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/bamboo_slab"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Mosaic Slab\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/bamboo_mosaic_slab"
         }

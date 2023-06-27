@@ -2,7 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Sign"
+            "nbt": {
+              "display": {
+                "Name": "/(.)*Mangrove Sign(.)*/"
+              }
+            }
           },
           "model": "item/mangrove_sign"
         },
@@ -10,23 +14,9 @@
           "predicate": {
             "nbt": {
               "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Sign\"}],\"text\":\"\"}"
+                "Name": "/(.)*Acacia Hanging Sign(.)*/"
               }
             }
-            
-          },
-          "model": "item/mangrove_sign"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Acacia Hanging Sign\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/acacia_hanging_sign"
         },
@@ -34,11 +24,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Mangrove Hanging Sign\"}],\"text\":\"\"}"
+                "Name": "/(.)*Mangrove Hanging Sign(.)*/"
               }
             }
-            
           },
           "model": "item/mangrove_hanging_sign"
         },
@@ -46,11 +34,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Hanging Sign\"}],\"text\":\"\"}"
+                "Name": "/(.)*Cherry Hanging Sign(.)*/"
               }
             }
-            
           },
           "model": "item/cherry_hanging_sign"
         },
@@ -58,71 +44,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Sign\"}],\"text\":\"\"}"
+                "Name": "/(.)*Cherry Sign(.)*/"
               }
             }
-            
-          },
-          "model": "item/cherry_sign"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Sign\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/mangrove_sign"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Acacia Hanging Sign\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/acacia_hanging_sign"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Hanging Sign\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/mangrove_hanging_sign"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Hanging Sign\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/cherry_hanging_sign"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Sign\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/cherry_sign"
         }

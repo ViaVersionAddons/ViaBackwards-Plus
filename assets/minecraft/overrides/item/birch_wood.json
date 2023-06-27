@@ -4,23 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Block\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Block(.)*/"
               }
             }
-            
-          },
-          "model": "item/bamboo_block"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Block\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/bamboo_block"
         }

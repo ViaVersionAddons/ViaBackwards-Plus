@@ -4,21 +4,11 @@
           "predicate": {
             "nbt":{
               "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Calcite\"}],\"text\":\"\"}"
+                "Name": "/(.)*Calcite(.)*/"
               }
             }
           },
           "model": "item/calcite"
-      },
-      {
-        "predicate": {
-          "nbt":{
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Calcite\"}],\"text\":\"\"}"
-            }
-          }
-        },
-        "model": "item/calcite"
-    }
+      }
   ]
 }

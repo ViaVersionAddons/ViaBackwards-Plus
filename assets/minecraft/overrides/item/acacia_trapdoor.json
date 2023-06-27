@@ -2,7 +2,11 @@
     "overrides": [
         {
           "predicate": {
-            "name": "1.19 Mangrove Trapdoor"
+            "nbt":{
+              "display": {
+                "Name": "/(.)*Mangrove Trapdoor(.)*/"
+              }
+            }
           },
           "model": "item/mangrove_trapdoor"
         },
@@ -10,43 +14,9 @@
           "predicate": {
             "nbt":{
               "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Trapdoor\"}],\"text\":\"\"}"
+                "Name": "/(.)*Cherry Trapdoor(.)*/"
               }
             }
-            
-          },
-          "model": "item/mangrove_trapdoor"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Trapdoor\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/cherry_trapdoor"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Trapdoor\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/mangrove_trapdoor"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Trapdoor\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/cherry_trapdoor"
         }

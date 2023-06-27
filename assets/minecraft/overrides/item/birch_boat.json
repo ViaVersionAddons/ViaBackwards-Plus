@@ -5,11 +5,9 @@
             "nbt": {
               "display": {
               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Birch Chest Boat\"}],\"text\":\"\"}"
+                "Name": "/(.)*Birch Chest Boat(.)*/"
               }
-             
             }
-            
           },
           "model": "item/birch_chest_boat"
         },
@@ -17,12 +15,9 @@
           "predicate": {
             "nbt": {
               "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Raft\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Raft(.)*/"
               }
-             
             }
-            
           },
           "model": "item/bamboo_raft"
         },
@@ -30,51 +25,9 @@
           "predicate": {
             "nbt": {
               "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Chest Raft\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Chest Raft(.)*/"
               }
-             
             }
-            
-          },
-          "model": "item/bamboo_chest_raft"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Birch Chest Boat\"}],\"text\":\"\"}"
-              }
-             
-            }
-            
-          },
-          "model": "item/birch_chest_boat"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Raft\"}],\"text\":\"\"}"
-              }
-             
-            }
-            
-          },
-          "model": "item/bamboo_raft"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-              
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Chest Raft\"}],\"text\":\"\"}"
-              }
-             
-            }
-            
           },
           "model": "item/bamboo_chest_raft"
         }

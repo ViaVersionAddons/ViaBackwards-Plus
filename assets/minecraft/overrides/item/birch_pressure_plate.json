@@ -4,23 +4,9 @@
           "predicate": {
             "nbt": {
               "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Bamboo Pressure Plate\"}],\"text\":\"\"}"
+                "Name": "/(.)*Bamboo Pressure Plate(.)*/"
               }
             }
-            
-          },
-          "model": "item/bamboo_pressure_plate"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Bamboo Pressure Plate\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/bamboo_pressure_plate"
         }
