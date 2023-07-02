@@ -3,9 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Cluster\"}],\"text\":\"\"}"
-                }
+                "VB|Protocol1_16_4To1_17|id": 1098
               }
             },
             "model": "item/amethyst_cluster"
@@ -13,9 +11,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "display": {
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Small Amethyst Bud\"}],\"text\":\"\"}"
-                  }
+                  "VB|Protocol1_16_4To1_17|id": 1095
                 }
               },
               "model": "item/small_amethyst_bud"
@@ -23,9 +19,7 @@
               {
                 "predicate": {
                   "nbt":{
-                    "display": {
-                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Medium Amethyst Bud\"}],\"text\":\"\"}"
-                    }
+                    "VB|Protocol1_16_4To1_17|id": 1096
                   }
                 },
                 "model": "item/medium_amethyst_bud"
@@ -33,73 +27,18 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Large Amethyst Bud\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1097
                     }
                   },
                   "model": "item/large_amethyst_bud"
                 },
-
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Amethyst Cluster\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 186
                     }
                   },
-                  "model": "item/amethyst_cluster"
-                },
-                  {
-                    "predicate": {
-                      "nbt":{
-                        "display": {
-                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Small Amethyst Bud\"}],\"text\":\"\"}"
-                        }
-                      }
-                    },
-                    "model": "item/small_amethyst_bud"
-                  },
-                    {
-                      "predicate": {
-                        "nbt":{
-                          "display": {
-                            "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Medium Amethyst Bud\"}],\"text\":\"\"}"
-                          }
-                        }
-                      },
-                      "model": "item/medium_amethyst_bud"
-                      },
-                      {
-                        "predicate": {
-                          "nbt":{
-                            "display": {
-                              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Large Amethyst Bud\"}],\"text\":\"\"}"
-                            }
-                          }
-                        },
-                        "model": "item/large_amethyst_bud"
-                      },
-                      {
-                        "predicate": {
-                          "nbt":{
-                            "display": {
-                              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Spore Blossom\"}],\"text\":\"\"}"
-                            }
-                          }
-                        },
-                        "model": "item/spore_blossom"
-                      },
-                      {
-                        "predicate": {
-                          "nbt":{
-                            "display": {
-                              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Spore Blossom\"}],\"text\":\"\"}"
-                            }
-                          }
-                        },
-                        "model": "item/spore_blossom"
-                      }
+                  "model": "item/spore_blossom"
+                }
       ]
-  }
+}

@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 152
             }
           },
           "model": "item/azalea"
@@ -13,9 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea Leaves\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 139
             }
           },
           "model": "item/azalea_leaves"
@@ -23,9 +19,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Flowering Azalea\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 153
             }
           },
           "model": "item/flowering_azalea"
@@ -33,50 +27,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Azalea Leaves Flowers\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/flowering_azalea_leaves"
-        },
-
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Azalea\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/azalea"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Azalea Leaves\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/azalea_leaves"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Flowering Azalea\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/flowering_azalea"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Azalea Leaves Flowers\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 140
             }
           },
           "model": "item/flowering_azalea_leaves"

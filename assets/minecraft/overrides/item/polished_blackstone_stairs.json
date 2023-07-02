@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cobbled Deepslate Stairs\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 563
             }
           },
           "model": "item/cobbled_deepslate_stairs"
@@ -13,29 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Tile Stairs\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/deepslate_tile_stairs"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cobbled Deepslate Stairs\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/cobbled_deepslate_stairs"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Tile Stairs\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 566
             }
           },
           "model": "item/deepslate_tile_stairs"

@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Candle\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 1078
             }
           },
           "model": "item/candle"
@@ -13,9 +11,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "display": {
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Blue Candle\"}],\"text\":\"\"}"
-                  }
+                  "VB|Protocol1_16_4To1_17|id": 1079
                 }
               },
               "model": "item/blue_candle"
@@ -23,9 +19,7 @@
               {
                 "predicate": {
                   "nbt":{
-                    "display": {
-                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 White Candle\"}],\"text\":\"\"}"
-                    }
+                    "VB|Protocol1_16_4To1_17|id": 1080
                   }
                 },
                 "model": "item/white_candle"
@@ -33,9 +27,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Orange Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1081
                     }
                   },
                   "model": "item/orange_candle"
@@ -43,9 +35,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Magenta Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1082
                     }
                   },
                   "model": "item/magenta_candle"
@@ -53,9 +43,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Light Blue Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1083
                     }
                   },
                   "model": "item/light_blue_candle"
@@ -63,9 +51,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Yellow Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1084
                     }
                   },
                   "model": "item/yellow_candle"
@@ -73,9 +59,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Lime Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1085
                     }
                   },
                   "model": "item/lime_candle"
@@ -83,9 +67,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Pink Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1086
                     }
                   },
                   "model": "item/pink_candle"
@@ -93,9 +75,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Gray Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1087
                     }
                   },
                   "model": "item/gray_candle"
@@ -103,9 +83,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Light Gray Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1088
                     }
                   },
                   "model": "item/light_gray_candle"
@@ -113,9 +91,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cyan Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1089
                     }
                   },
                   "model": "item/cyan_candle"
@@ -123,9 +99,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Purple Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1090
                     }
                   },
                   "model": "item/purple_candle"
@@ -133,9 +107,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Brown Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1091
                     }
                   },
                   "model": "item/brown_candle"
@@ -143,9 +115,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Green Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1092
                     }
                   },
                   "model": "item/green_candle"
@@ -153,9 +123,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Red Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1093
                     }
                   },
                   "model": "item/red_candle"
@@ -163,183 +131,10 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Black Candle\"}],\"text\":\"\"}"
-                      }
+                      "VB|Protocol1_16_4To1_17|id": 1094
                     }
                   },
                   "model": "item/black_candle"
-                },
-
-                {
-                  "predicate": {
-                    "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Candle\"}],\"text\":\"\"}"
-                      }
-                    }
-                  },
-                  "model": "item/candle"
-                },
-                    {
-                      "predicate": {
-                        "nbt":{
-                          "display": {
-                            "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Blue Candle\"}],\"text\":\"\"}"
-                          }
-                        }
-                      },
-                      "model": "item/blue_candle"
-                      },
-                      {
-                        "predicate": {
-                          "nbt":{
-                            "display": {
-                              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"White Candle\"}],\"text\":\"\"}"
-                            }
-                          }
-                        },
-                        "model": "item/white_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Orange Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/orange_candle"
-                          },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Magenta Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/magenta_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Light Blue Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/light_blue_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Yellow Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/yellow_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Lime Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/lime_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Pink Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/pink_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Gray Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/gray_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Light Gray Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/light_gray_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cyan Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/cyan_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Purple Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/purple_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Brown Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/brown_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Green Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/green_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Red Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/red_candle"
-                        },
-                        {
-                          "predicate": {
-                            "nbt":{
-                              "display": {
-                                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Black Candle\"}],\"text\":\"\"}"
-                              }
-                            }
-                          },
-                          "model": "item/black_candle"
-                        }
+                }
       ]
 }

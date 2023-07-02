@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Glow Berries\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/glow_berries"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Glow Berries\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 1054
             }
           },
           "model": "item/glow_berries"

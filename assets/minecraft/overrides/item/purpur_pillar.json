@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Budding Amethyst\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/budding_amethyst"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Budding Amethyst\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 64
             }
           },
           "model": "item/budding_amethyst"

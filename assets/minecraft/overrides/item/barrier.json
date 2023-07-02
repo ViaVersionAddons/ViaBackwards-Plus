@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_15"
@@ -14,9 +12,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "14"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_14"
@@ -25,9 +21,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "13"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_13"
@@ -36,9 +30,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "12"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_12"
@@ -47,9 +39,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "11"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_11"
@@ -58,9 +48,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "10"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_10"
@@ -69,9 +57,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "9"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_09"
@@ -80,9 +66,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "8"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_08"
@@ -91,9 +75,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "7"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_07"
@@ -102,9 +84,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "6"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_06"
@@ -113,9 +93,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "5"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_05"
@@ -124,9 +102,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "4"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_04"
@@ -135,9 +111,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "3"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_03"
@@ -146,9 +120,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "2"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_02"
@@ -157,9 +129,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "1"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_01"
@@ -168,9 +138,7 @@
           "predicate": {
             "nbt":{
               "BlockStateTag": {"level": "0"},
-              "display": {
-                "Name": "/(.)*Light(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 371
             }
           },
           "model": "item/light_00"

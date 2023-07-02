@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Bricks\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/deepslate_bricks"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Bricks\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 287
             }
           },
           "model": "item/deepslate_bricks"

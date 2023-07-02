@@ -3,22 +3,10 @@
       {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Tuff\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 12
             }
           },
           "model": "item/tuff"
-      },
-      {
-        "predicate": {
-          "nbt":{
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Tuff\"}],\"text\":\"\"}"
-            }
-          }
-        },
-        "model": "item/tuff"
       }
   ]
 }

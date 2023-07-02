@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Amethyst Shard\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 690
             }
           },
           "model": "item/amethyst_shard"
@@ -15,26 +13,6 @@
             "nbt":{
               "display": {
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Echo Shard\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/echo_shard"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Amethyst Shard\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/amethyst_shard"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Echo Shard\"}],\"text\":\"\"}"
               }
             }
           },

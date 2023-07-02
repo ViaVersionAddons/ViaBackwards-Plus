@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Glow Lichen\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 300
             }
           },
           "model": "block/glow_lichen"
@@ -33,49 +31,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Glow Lichen\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "block/glow_lichen"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sculk Vein\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "block/sculk_vein"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Frogspawn\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "block/frogspawn"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Hanging Roots\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "block/hanging_roots"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Hanging Roots\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 200
             }
           },
           "model": "block/hanging_roots"

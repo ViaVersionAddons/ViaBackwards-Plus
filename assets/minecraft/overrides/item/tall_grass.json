@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Big Dripleaf\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/big_dripleaf"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Big Dripleaf\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 201
             }
           },
           "model": "item/big_dripleaf"

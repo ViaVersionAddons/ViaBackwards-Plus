@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Spyglass\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/spyglass"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Spyglass\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 799
             }
           },
           "model": "item/spyglass"

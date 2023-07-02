@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Sculk Sensor\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/sculk_sensor"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sculk Sensor\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 603
             }
           },
           "model": "item/sculk_sensor"
@@ -25,16 +13,6 @@
             "nbt": {
               "display": {
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Calibrated Sculk Sensor\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/calibrated_sculk_sensor"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Calibrated Sculk Sensor\"}],\"text\":\"\"}"
               }
             }
           },

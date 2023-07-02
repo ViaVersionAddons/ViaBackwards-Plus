@@ -3,9 +3,7 @@
       {
         "predicate": {
           "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Iron\"}],\"text\":\"\"}"
-            }
+            "VB|Protocol1_16_4To1_17|id": 691
           }
         },
         "model": "item/raw_iron"
@@ -13,9 +11,7 @@
       {
         "predicate": {
           "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Raw Copper\"}],\"text\":\"\"}"
-            }
+            "VB|Protocol1_16_4To1_17|id": 693
           }
         },
         "model": "item/raw_copper"
@@ -23,9 +19,7 @@
       {
         "predicate": {
           "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Copper Ore\"}],\"text\":\"\"}"
-            }
+            "VB|Protocol1_16_4To1_17|id": 44
           }
         },
         "model": "item/copper_ore"
@@ -33,9 +27,7 @@
       {
         "predicate": {
           "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Copper Ore\"}],\"text\":\"\"}"
-            }
+            "VB|Protocol1_16_4To1_17|id": 45
           }
         },
         "model": "item/deepslate_copper_ore"
@@ -43,60 +35,7 @@
       {
         "predicate": {
           "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Iron Ore\"}],\"text\":\"\"}"
-            }
-          }
-        },
-        "model": "item/deepslate_iron_ore"
-      },
-
-      {
-        "predicate": {
-          "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Raw Iron\"}],\"text\":\"\"}"
-            }
-          }
-        },
-        "model": "item/raw_iron"
-      },
-      {
-        "predicate": {
-          "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Raw Copper\"}],\"text\":\"\"}"
-            }
-          }
-        },
-        "model": "item/raw_copper"
-      },
-      {
-        "predicate": {
-          "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Copper Ore\"}],\"text\":\"\"}"
-            }
-          }
-        },
-        "model": "item/copper_ore"
-      },
-      {
-        "predicate": {
-          "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Copper Ore\"}],\"text\":\"\"}"
-            }
-          }
-        },
-        "model": "item/deepslate_copper_ore"
-      },
-      {
-        "predicate": {
-          "nbt": {
-            "display": {
-              "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Iron Ore\"}],\"text\":\"\"}"
-            }
+            "VB|Protocol1_16_4To1_17|id": 43
           }
         },
         "model": "item/deepslate_iron_ore"

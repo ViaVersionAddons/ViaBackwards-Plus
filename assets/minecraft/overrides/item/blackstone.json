@@ -3,9 +3,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Deepslate(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 8
           }
         },
         "model": "item/deepslate"
@@ -13,9 +11,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Cracked Deepslate Tiles(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 290
           }
         },
         "model": "item/cracked_deepslate_tiles"
@@ -23,9 +19,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Cracked Deepslate Bricks(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 288
           }
         },
         "model": "item/cracked_deepslate_bricks"
@@ -33,9 +27,7 @@
       {
         "predicate": {
             "nbt":{
-              "display": {
-                "Name": "/(.)*Deepslate Tiles(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 289
             }
           },
           "model": "item/deepslate_tiles"
@@ -43,9 +35,7 @@
       {
         "predicate": {
             "nbt":{
-              "display": {
-                "Name": "/(.)*Infested Deepslate(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 282
             }
           },
           "model": "item/infested_deepslate"

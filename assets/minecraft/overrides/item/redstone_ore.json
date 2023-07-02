@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Redstone Ore\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/deepslate_redstone_ore"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Redstone Ore\"}],\"text\":\"\"}"
-                }
+              "VB|Protocol1_16_4To1_17|id": 49
               }
           },
           "model": "item/deepslate_redstone_ore"

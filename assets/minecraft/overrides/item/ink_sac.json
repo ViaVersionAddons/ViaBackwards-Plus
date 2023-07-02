@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Glow Ink Sac\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/glow_ink_sac"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Glow Ink Sac\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 808
             }
           },
           "model": "item/glow_ink_sac"

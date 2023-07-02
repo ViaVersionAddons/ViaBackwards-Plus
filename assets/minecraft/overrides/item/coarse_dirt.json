@@ -3,9 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Rooted Dirt\"}],\"text\":\"\"}"
-                }
+                "VB|Protocol1_16_4To1_17|id": 18
               }
             },
             "model": "item/rooted_dirt"
@@ -19,47 +17,16 @@
                 }
               },
               "model": "item/mud"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "display": {
+                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Muddy Mangrove Roots\"}],\"text\":\"\"}"
+                  }
+                }
               },
-              {
-                "predicate": {
-                  "nbt":{
-                    "display": {
-                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Muddy Mangrove Roots\"}],\"text\":\"\"}"
-                    }
-                  }
-                },
-                "model": "item/muddy_mangrove_roots"
-              },
-
-              {
-                "predicate": {
-                  "nbt":{
-                    "display": {
-                      "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Rooted Dirt\"}],\"text\":\"\"}"
-                    }
-                  }
-                },
-                "model": "item/rooted_dirt"
-                },
-                {
-                  "predicate": {
-                    "nbt":{
-                      "display": {
-                        "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mud\"}],\"text\":\"\"}"
-                      }
-                    }
-                  },
-                  "model": "item/mud"
-                  },
-                  {
-                    "predicate": {
-                      "nbt":{
-                        "display": {
-                          "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Muddy Mangrove Roots\"}],\"text\":\"\"}"
-                        }
-                      }
-                    },
-                    "model": "item/muddy_mangrove_roots"
-                  }
+              "model": "item/muddy_mangrove_roots"
+            }
       ]
   }

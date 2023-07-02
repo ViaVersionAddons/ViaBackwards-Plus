@@ -3,9 +3,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Cut Copper Slab(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 81
           }
         },
         "model": "item/cut_copper_slab"
@@ -13,9 +11,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Waxed Cut Copper Slab(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 97
           }
         },
         "model": "item/waxed_cut_copper_slab"
@@ -23,9 +19,7 @@
       {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "/(.)*Oxidized Cut Copper Slab(.)*/"
-              }
+              "VB|Protocol1_16_4To1_17|id": 84
             }
           },
           "model": "item/oxidized_cut_copper_slab"
@@ -33,9 +27,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Waxed Oxidized Cut Copper Slab(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 100
           }
         },
         "model": "item/waxed_oxidized_cut_copper_slab"
@@ -43,9 +35,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Exposed Cut Copper Slab(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 82
           }
         },
         "model": "item/exposed_cut_copper_slab"
@@ -53,9 +43,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Waxed Exposed Cut Copper Slab(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 98
           }
         },
         "model": "item/waxed_exposed_cut_copper_slab"
@@ -63,9 +51,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Weathered Cut Copper Slab(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 83
           }
         },
         "model": "item/weathered_cut_copper_slab"
@@ -73,9 +59,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Waxed Weathered Cut Copper Slab(.)*/"
-            }
+            "VB|Protocol1_16_4To1_17|id": 99
           }
         },
         "model": "item/waxed_weathered_cut_copper_slab"

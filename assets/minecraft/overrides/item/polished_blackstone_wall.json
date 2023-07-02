@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cobbled Deepslate Wall\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 342
             }
           },
           "model": "item/cobbled_deepslate_wall"
@@ -13,9 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Deepslate Tile Wall\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 345
             }
           },
           "model": "item/deepslate_tile_wall"
@@ -23,39 +19,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate Wall\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/polished_deepslate_wall"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cobbled Deepslate Wall\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/cobbled_deepslate_wall"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Deepslate Tile Wall\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/deepslate_tile_wall"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Polished Deepslate Wall\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 343
             }
           },
           "model": "item/polished_deepslate_wall"

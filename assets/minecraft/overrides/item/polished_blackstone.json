@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Cobbled Deepslate\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/cobbled_deepslate"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.17 Polished Deepslate\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 10
             }
           },
           "model": "item/polished_deepslate"
@@ -23,22 +11,10 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cobbled Deepslate\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_16_4To1_17|id": 9
             }
           },
           "model": "item/cobbled_deepslate"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Polished Deepslate\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/polished_deepslate"
         }
     ]
 }
