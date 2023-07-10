@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Stripped Mangrove Log\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_18_2To1_19|id": 121
             }
           },
           "model": "item/stripped_mangrove_log"
@@ -15,26 +13,6 @@
             "nbt":{
               "display": {
                 "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Stripped Cherry Log\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/stripped_cherry_log"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Stripped Mangrove Log\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/stripped_mangrove_log"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Stripped Cherry Log\"}],\"text\":\"\"}"
               }
             }
           },

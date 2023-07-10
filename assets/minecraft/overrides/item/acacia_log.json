@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Mangrove Log(.)*/"
-              }
+              "VB|Protocol1_18_2To1_19|id": 110
             }
           },
           "model": "item/mangrove_log"

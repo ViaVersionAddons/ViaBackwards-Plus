@@ -11,9 +11,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "display": {
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud\"}],\"text\":\"\"}"
-                  }
+                  "VB|Protocol1_18_2To1_19|id": 19
                 }
               },
               "model": "item/mud"
@@ -21,9 +19,15 @@
             {
               "predicate": {
                 "nbt":{
-                  "display": {
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Muddy Mangrove Roots\"}],\"text\":\"\"}"
-                  }
+                  "VB|Protocol1_18_2To1_19|id": 111
+                }
+              },
+              "model": "item/mangrove_roots"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_18_2To1_19|id": 112
                 }
               },
               "model": "item/muddy_mangrove_roots"

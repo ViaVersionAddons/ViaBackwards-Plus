@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Sculk Shrieker\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/sculk_shrieker"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sculk Shrieker\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_18_2To1_19|id": 329
             }
           },
           "model": "item/sculk_shrieker"
