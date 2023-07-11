@@ -3,24 +3,8 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Jungle Chest Boat\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_18_2To1_19|id": 705
             }
-            
-          },
-          "model": "item/jungle_chest_boat"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Jungle Chest Boat\"}],\"text\":\"\"}"
-              }
-            }
-            
           },
           "model": "item/jungle_chest_boat"
         }

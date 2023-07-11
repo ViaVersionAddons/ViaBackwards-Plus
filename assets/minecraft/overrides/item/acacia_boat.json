@@ -3,9 +3,7 @@
           {
             "predicate": {
               "nbt": {
-                "display": {
-                  "Name": "/(.)*Mangrove Boat(.)*/"
-                }
+                "VB|Protocol1_18_2To1_19|id": 710
               }
             },
             "model": "item/mangrove_boat"
@@ -13,9 +11,7 @@
           {
               "predicate": {
                 "nbt": {
-                  "display": {
-                    "Name": "/(.)*Mangrove Chest Boat(.)*/"
-                  }
+                  "VB|Protocol1_18_2To1_19|id": 711
                 }
               },
               "model": "item/mangrove_chest_boat"
@@ -23,9 +19,7 @@
           {
               "predicate": {
                 "nbt": {
-                  "display": {
-                    "Name": "/(.)*Acacia Chest Boat(.)*/"
-                  }
+                  "VB|Protocol1_18_2To1_19|id": 707
                 }
               },
               "model": "item/acacia_chest_boat"

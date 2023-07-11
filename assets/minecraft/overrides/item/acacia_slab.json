@@ -3,9 +3,7 @@
       {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "/(.)*Mangrove Slab(.)*/"
-              }
+              "VB|Protocol1_18_2To1_19|id": 220
             }
           },
           "model": "item/mangrove_slab"

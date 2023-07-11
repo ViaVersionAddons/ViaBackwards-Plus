@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "/(.)*Mangrove Pressure Plate(.)*/"
-              }
+              "VB|Protocol1_18_2To1_19|id": 653
             }
           },
           "model": "item/mangrove_pressure_plate"

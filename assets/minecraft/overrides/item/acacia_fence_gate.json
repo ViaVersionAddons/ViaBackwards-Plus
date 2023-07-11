@@ -3,9 +3,7 @@
           {
             "predicate": {
               "nbt": {
-                "display": {
-                  "Name": "/(.)*Mangrove Fence Gate(.)*/"
-                }
+                "VB|Protocol1_18_2To1_19|id": 682
               }
             },
             "model": "item/mangrove_fence_gate"

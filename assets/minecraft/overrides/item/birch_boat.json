@@ -3,10 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-              
-                "Name": "/(.)*Birch Chest Boat(.)*/"
-              }
+              "VB|Protocol1_18_2To1_19|id": 703
             }
           },
           "model": "item/birch_chest_boat"

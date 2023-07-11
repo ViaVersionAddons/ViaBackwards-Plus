@@ -19,9 +19,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Frogspawn\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_18_2To1_19|id": 1150
             }
           },
           "model": "block/frogspawn"

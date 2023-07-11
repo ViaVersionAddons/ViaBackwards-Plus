@@ -67,9 +67,7 @@
       {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud Brick Stairs\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_18_2To1_19|id": 318
             }
           },
           "model": "item/mud_brick_stairs"

@@ -67,9 +67,7 @@
       {
         "predicate": {
           "nbt":{
-            "display": {
-              "Name": "/(.)*Mud Brick Slab(.)*/"
-            }
+            "VB|Protocol1_18_2To1_19|id": 231
           }
         },
         "model": "item/mud_brick_slab"

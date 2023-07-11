@@ -123,9 +123,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "display": {
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mud Bricks\"}],\"text\":\"\"}"
-                  }
+                  "VB|Protocol1_18_2To1_19|id": 300
                 }
               },
               "model": "item/mud_bricks"
@@ -133,9 +131,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "display": {
-                    "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Packed Mud\"}],\"text\":\"\"}"
-                  }
+                  "VB|Protocol1_18_2To1_19|id": 299
                 }
               },
               "model": "item/packed_mud"

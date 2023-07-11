@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Stairs(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 353
             }
           },
           "model": "item/bamboo_stairs"
@@ -13,9 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Mosaic Stairs(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 354
             }
           },
           "model": "item/bamboo_mosaic_stairs"

@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Spruce Chest Boat\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/spruce_chest_boat"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Spruce Chest Boat\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_18_2To1_19|id": 701
             }
           },
           "model": "item/spruce_chest_boat"

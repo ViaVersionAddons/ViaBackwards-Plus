@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Slab(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 225
             }
           },
           "model": "item/bamboo_slab"
@@ -13,9 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Mosaic Slab(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 226
             }
           },
           "model": "item/bamboo_mosaic_slab"

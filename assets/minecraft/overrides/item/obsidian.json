@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Reinforced Deepslate\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/reinforced_deepslate"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Reinforced Deepslate\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_18_2To1_19|id": 306
             }
           },
           "model": "item/reinforced_deepslate"
