@@ -7,6 +7,14 @@
             }
           },
           "model": "item/glow_squid_spawn_egg"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_19_1To1_19_3|id": 1008
+            }
+          },
+          "model": "item/glow_squid_spawn_egg"
         }
       ]
   }

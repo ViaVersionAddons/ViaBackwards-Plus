@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Sign(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 828
             }
           },
           "model": "item/bamboo_sign"
@@ -13,9 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Oak Hanging Sign(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 831
             }
           },
           "model": "item/oak_hanging_sign"
@@ -23,9 +19,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Birch Hanging Sign(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 833
             }
           },
           "model": "item/birch_hanging_sign"
@@ -33,9 +27,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Hanging Sign(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 838
             }
           },
           "model": "item/bamboo_hanging_sign"

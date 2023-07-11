@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Door(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 676
             }
           },
           "model": "item/bamboo_door"

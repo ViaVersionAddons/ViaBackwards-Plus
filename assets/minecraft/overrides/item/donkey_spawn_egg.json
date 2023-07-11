@@ -7,6 +7,14 @@
             }
           },
           "model": "item/tadpole_spawn_egg"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_19_1To1_19_3|id": 946
+            }
+          },
+          "model": "item/camel_spawn_egg"
         }
     ]
 }

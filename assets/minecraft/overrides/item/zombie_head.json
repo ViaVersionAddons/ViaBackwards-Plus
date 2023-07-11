@@ -3,21 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.3 Piglin Head\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/piglin_head"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Piglin Head\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 1035
             }
           },
           "model": "item/piglin_head"

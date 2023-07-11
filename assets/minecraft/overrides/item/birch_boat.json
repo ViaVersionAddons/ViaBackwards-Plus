@@ -11,9 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Raft(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 727
             }
           },
           "model": "item/bamboo_raft"
@@ -21,9 +19,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Bamboo Chest Raft(.)*/"
-              }
+              "VB|Protocol1_19_1To1_19_3|id": 728
             }
           },
           "model": "item/bamboo_chest_raft"
