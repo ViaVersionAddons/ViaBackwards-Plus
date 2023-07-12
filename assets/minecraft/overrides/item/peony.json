@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Cherry Sapling\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/cherry_sapling"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Cherry Sapling\"}],\"text\":\"\"}"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 40
               }
           },
           "model": "item/cherry_sapling"

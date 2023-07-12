@@ -11,9 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "/(.)*Cherry Wood(.)*/"
-              }
+              "VB|Protocol1_19_3To1_19_4|id": 148
             }
           },
           "model": "item/cherry_wood"

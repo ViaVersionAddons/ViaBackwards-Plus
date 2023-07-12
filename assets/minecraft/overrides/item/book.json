@@ -3,9 +3,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Netherite Upgrade Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1212
               }
           },
           "model": "item/netherite_upgrade_smithing_template"
@@ -13,9 +11,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Sentry Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1213
               }
           },
           "model": "item/sentry_armor_trim_smithing_template"
@@ -23,9 +19,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Dune Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1214
               }
           },
           "model": "item/dune_armor_trim_smithing_template"
@@ -33,9 +27,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Coast Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1215
               }
           },
           "model": "item/coast_armor_trim_smithing_template"
@@ -43,9 +35,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Wild Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1216
               }
           },
           "model": "item/wild_armor_trim_smithing_template"
@@ -53,9 +43,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Ward Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1217
               }
           },
           "model": "item/ward_armor_trim_smithing_template"
@@ -63,9 +51,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Eye Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1218
               }
           },
           "model": "item/eye_armor_trim_smithing_template"
@@ -73,9 +59,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Vex Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1219
               }
           },
           "model": "item/vex_armor_trim_smithing_template"
@@ -83,9 +67,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Tide Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1220
               }
           },
           "model": "item/tide_armor_trim_smithing_template"
@@ -93,9 +75,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Snout Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1221
               }
           },
           "model": "item/snout_armor_trim_smithing_template"
@@ -103,9 +83,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Rib Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1222
               }
           },
           "model": "item/rib_armor_trim_smithing_template"
@@ -113,9 +91,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Spire Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 1223
               }
           },
           "model": "item/spire_armor_trim_smithing_template"

@@ -11,9 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "/(.)*Cherry Pressure Plate(.)*/"
-              }
+              "VB|Protocol1_19_3To1_19_4|id": 678
             }
           },
           "model": "item/cherry_pressure_plate"

@@ -3,10 +3,8 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*TorchFlower Seeds(.)*/"
-                }
-              }
+              "VB|Protocol1_19_3To1_19_4|id": 1102
+            }
           },
           "model": "item/torchflower_seeds"
         }

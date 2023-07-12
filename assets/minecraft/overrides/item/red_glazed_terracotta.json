@@ -3,22 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Sniffer Egg\"}],\"text\":\"\"}"
-              }
-            }
-            
-          },
-          "model": "item/sniffer_egg"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-               
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Sniffer Egg\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_19_3To1_19_4|id": 1016
             }
             
           },

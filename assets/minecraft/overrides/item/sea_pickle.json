@@ -14,7 +14,7 @@
                   "VB|Protocol1_16_4To1_17|id": 1079
                 }
               },
-              "model": "item/blue_candle"
+              "model": "item/white_candle"
               },
               {
                 "predicate": {
@@ -22,7 +22,7 @@
                     "VB|Protocol1_16_4To1_17|id": 1080
                   }
                 },
-                "model": "item/white_candle"
+                "model": "item/orange_candle"
                 },
                 {
                   "predicate": {
@@ -30,7 +30,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1081
                     }
                   },
-                  "model": "item/orange_candle"
+                  "model": "item/magenta_candle"
                   },
                 {
                   "predicate": {
@@ -38,7 +38,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1082
                     }
                   },
-                  "model": "item/magenta_candle"
+                  "model": "item/light_blue_candle"
                 },
                 {
                   "predicate": {
@@ -46,7 +46,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1083
                     }
                   },
-                  "model": "item/light_blue_candle"
+                  "model": "item/yellow_candle"
                 },
                 {
                   "predicate": {
@@ -54,7 +54,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1084
                     }
                   },
-                  "model": "item/yellow_candle"
+                  "model": "item/lime_candle"
                 },
                 {
                   "predicate": {
@@ -62,7 +62,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1085
                     }
                   },
-                  "model": "item/lime_candle"
+                  "model": "item/pink_candle"
                 },
                 {
                   "predicate": {
@@ -70,7 +70,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1086
                     }
                   },
-                  "model": "item/pink_candle"
+                  "model": "item/gray_candle"
                 },
                 {
                   "predicate": {
@@ -78,7 +78,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1087
                     }
                   },
-                  "model": "item/gray_candle"
+                  "model": "item/light_gray_candle"
                 },
                 {
                   "predicate": {
@@ -86,7 +86,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1088
                     }
                   },
-                  "model": "item/light_gray_candle"
+                  "model": "item/cyan_candle"
                 },
                 {
                   "predicate": {
@@ -94,7 +94,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1089
                     }
                   },
-                  "model": "item/cyan_candle"
+                  "model": "item/purple_candle"
                 },
                 {
                   "predicate": {
@@ -102,7 +102,7 @@
                       "VB|Protocol1_16_4To1_17|id": 1090
                     }
                   },
-                  "model": "item/purple_candle"
+                  "model": "item/blue_candle"
                 },
                 {
                   "predicate": {

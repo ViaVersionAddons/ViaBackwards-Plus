@@ -3,10 +3,10 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 45
+              "VB|Protocol1_19_1To1_19_3|id": 728
             }
           },
-          "model": "item/suspicious_sand"
+          "model": "item/bamboo_chest_raft"
         }
     ]
 }

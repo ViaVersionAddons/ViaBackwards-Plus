@@ -27,9 +27,7 @@
           {
               "predicate": {
                 "nbt": {
-                  "display": {
-                    "Name": "/(.)*Cherry Boat(.)*/"
-                  }
+                  "VB|Protocol1_19_3To1_19_4|id": 713
                 }
               },
               "model": "item/cherry_boat"
@@ -37,9 +35,7 @@
           {
               "predicate": {
                 "nbt": {
-                  "display": {
-                    "Name": "/(.)*Cherry Chest Boat(.)*/"
-                  }
+                  "VB|Protocol1_19_3To1_19_4|id": 743
                 }
               },
               "model": "item/cherry_chest_boat"

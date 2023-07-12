@@ -27,9 +27,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Cherry Hanging Sign(.)*/"
-              }
+              "VB|Protocol1_19_3To1_19_4|id": 850
             }
           },
           "model": "item/cherry_hanging_sign"
@@ -37,9 +35,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "/(.)*Cherry Sign(.)*/"
-              }
+              "VB|Protocol1_19_3To1_19_4|id": 847
             }
           },
           "model": "item/cherry_sign"

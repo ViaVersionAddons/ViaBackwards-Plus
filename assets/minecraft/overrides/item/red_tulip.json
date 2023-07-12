@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Torchflower\"}],\"text\":\"\"}"
-                }
-              }
-          },
-          "model": "item/torchflower"
-        },
-        {
-          "predicate": {
-            "nbt": {
-                "display": {
-                  "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Torchflower\"}],\"text\":\"\"}"
-                }
+              "VB|Protocol1_19_3To1_19_4|id": 208
               }
           },
           "model": "item/torchflower"

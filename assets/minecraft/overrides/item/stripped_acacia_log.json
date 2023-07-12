@@ -11,9 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19.4 Stripped Cherry Log\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_19_3To1_19_4|id": 127
             }
           },
           "model": "item/stripped_cherry_log"
