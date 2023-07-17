@@ -99,9 +99,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Wayfinder Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_4To1_20|id": 1230
               }
           },
           "model": "item/wayfinder_armor_trim_smithing_template"
@@ -109,9 +107,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Shaper Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_4To1_20|id": 1231
               }
           },
           "model": "item/shaper_armor_trim_smithing_template"
@@ -119,9 +115,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Silence Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_4To1_20|id": 1232
               }
           },
           "model": "item/silence_armor_trim_smithing_template"
@@ -129,9 +123,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Raiser Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_4To1_20|id": 1233
               }
           },
           "model": "item/raiser_armor_trim_smithing_template"
@@ -139,9 +131,7 @@
         {
           "predicate": {
             "nbt": {
-                "display": {
-                  "Name": "/(.)*Host Armor Trim Smithing Template(.)*/"
-                }
+              "VB|Protocol1_19_4To1_20|id": 1234
               }
           },
           "model": "item/host_armor_trim_smithing_template"

@@ -11,9 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Calibrated Sculk Sensor\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_19_4To1_20|id": 654
             }
           },
           "model": "item/calibrated_sculk_sensor"

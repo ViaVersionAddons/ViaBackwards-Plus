@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Suspicious Gravel\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/suspicious_gravel"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Suspicious Gravel\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_19_4To1_20|id": 46
             }
           },
           "model": "item/suspicious_gravel"
