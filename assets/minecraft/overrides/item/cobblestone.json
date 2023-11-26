@@ -7,6 +7,31 @@
             }
           },
           "model": "item/tuff"
+      },
+
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_20_2To1_20_3|id": 16
+          }
+        },
+        "model": "item/chiseled_tuff"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_20_2To1_20_3|id": 17
+          }
+        },
+        "model": "item/polished_tuff"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_20_2To1_20_3|id": 21
+          }
+        },
+        "model": "item/tuff_bricks"
       }
   ]
 }

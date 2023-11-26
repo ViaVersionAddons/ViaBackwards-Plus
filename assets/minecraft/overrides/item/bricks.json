@@ -135,6 +135,72 @@
                 }
               },
               "model": "item/packed_mud"
+            },
+
+
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_20_2To1_20_3|id": 95
+                }
+              },
+              "model": "item/chiseled_copper"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_20_2To1_20_3|id": 96
+                }
+              },
+              "model": "item/exposed_chiseled_copper"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_20_2To1_20_3|id": 97
+                }
+              },
+              "model": "item/weathered_chiseled_copper"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_20_2To1_20_3|id": 97
+                }
+              },
+              "model": "item/oxidized_chiseled_copper"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_20_2To1_20_3|id": 115
+                }
+              },
+              "model": "item/waxed_chiseled_copper"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_20_2To1_20_3|id": 116
+                }
+              },
+              "model": "item/waxed_exposed_chiseled_copper"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_20_2To1_20_3|id": 118
+                }
+              },
+              "model": "item/waxed_oxidized_chiseled_copper"
+            },
+            {
+              "predicate": {
+                "nbt":{
+                  "VB|Protocol1_20_2To1_20_3|id": 117
+                }
+              },
+              "model": "item/waxed_weathered_chiseled_copper"
             }
       ]
 }
