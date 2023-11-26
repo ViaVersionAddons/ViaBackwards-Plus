@@ -1,6 +1,7 @@
 ﻿{
     "pack": {
         "pack_format": 6,
+        "supported_formats": [6,25],
         "description": "§e§l§kB§r§6§lRequries the mod Chime!§r§e§l§ky\n§r§d§kbang§r §5§nGithub.com/bangetto§r §d§ketto"
     }
 }
