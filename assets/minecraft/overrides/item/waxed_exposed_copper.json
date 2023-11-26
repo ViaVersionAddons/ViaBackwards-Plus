@@ -1,0 +1,12 @@
+{
+    "overrides": [
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 116
+              }
+            },
+            "model": "item/waxed_exposed_chiseled_copper"
+          }
+    ]
+}

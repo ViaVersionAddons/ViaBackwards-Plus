@@ -7,6 +7,14 @@
             }
           },
           "model": "item/mud_brick_wall"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_20_2To1_20_3|id": 24
+            }
+          },
+          "model": "item/tuff_brick_wall"
         }
     ]
 }

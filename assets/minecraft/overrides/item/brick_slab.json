@@ -71,6 +71,14 @@
           }
         },
         "model": "item/mud_brick_slab"
+      },
+      {
+        "predicate": {
+          "nbt":{
+            "VB|Protocol1_20_2To1_20_3|id": 22
+          }
+        },
+        "model": "item/tuff_brick_slab"
       }
   ]
 }

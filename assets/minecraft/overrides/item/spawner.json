@@ -1,0 +1,77 @@
+{
+    "overrides": [
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1294
+              }
+            },
+            "model": "item/copper_grate"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1295
+              }
+            },
+            "model": "item/exposed_copper_grate"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1296
+              }
+            },
+            "model": "item/weathered_copper_grate"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1297
+              }
+            },
+            "model": "item/oxidized_copper_grate"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1298
+              }
+            },
+            "model": "item/waxed_copper_grate"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1299
+              }
+            },
+            "model": "item/waxed_exposed_copper_grate"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1300
+              }
+            },
+            "model": "item/waxed_weathered_copper_grate"
+          },
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1301
+              }
+            },
+            "model": "item/waxed_oxidized_copper_grate"
+          },
+
+          {
+            "predicate": {
+              "nbt":{
+                "VB|Protocol1_20_2To1_20_3|id": 1310
+              }
+            },
+            "model": "item/trial_spawner"
+          }
+    ]
+}
