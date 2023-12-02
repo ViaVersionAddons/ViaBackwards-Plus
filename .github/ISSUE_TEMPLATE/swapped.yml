@@ -1,5 +1,5 @@
 name: Swapped Items
-description: An item is missing from the backport.
+description: Two items are swapped.
 title: "[Swapped]: "
 labels: ["swapped items"]
 assignees:
