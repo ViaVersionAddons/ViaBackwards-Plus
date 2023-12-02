@@ -31,7 +31,7 @@ body:
       options:
         - "Chime"
         - "Optifine CIT"
-      validations:
+    validations:
         required: true
   - type: input
     id: mc
@@ -39,5 +39,5 @@ body:
       label: "Your Minecraft version"
       description: "Write down your Minecraft option"
       placeholder: "Example: 1.16.5"
-      validations:
+    validations:
         required: true
