@@ -38,6 +38,6 @@ body:
     attributes:
       label: Your Minecraft version
       description: Write down your Minecraft option
-      placeholder: Example: 1.16.5
+      placeholder: "Example: 1.16.5"
       validations:
         required: true
