@@ -17,7 +17,7 @@ body:
     id: version
     attributes:
       label: Checks
-      description: Before reporting an issue please check that everything is up-today!
+      description: "Before reporting an issue please check that everything is up-today!"
       options:
         - label: "I downloaded the latest version of the repository"
         - label: "The server has the latest snapshot of the Via* plugins"
@@ -29,8 +29,8 @@ body:
       label: "Which one of the detector mods are present?"
       multiple: true
       options:
-        - Chime
-        - Optifine CIT
+        - "Chime"
+        - "Optifine CIT"
       validations:
         required: true
   - type: input
