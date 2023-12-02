@@ -1,0 +1,51 @@
+ame: Missing Items
+description: An item is missing from the backport.
+title: "[Missing]: "
+labels: ["missing item"]
+assignees:
+  - bangetto
+body:
+  - type: textarea
+    id: from
+    attributes:
+      label: What items don't show the right texture?
+      description: Write down the list of items that have a wrong texture!
+      placeholder: Ex: sculk_sensor, sus sand
+    validations:
+      required: true
+  - type: textarea
+    id: to
+    attributes:
+      label: What they show up as?
+      description: Write down the list that what are they showing up as! [In the order of the previous one!!!]
+      placeholder: Ex: sculk_block, sus gravel
+    validations:
+      required: true
+  - type: checkbox
+    id: version
+    attributes:
+      label: Checks
+      description: Before reporting an issue please check that everything is up-today!
+      options:
+        - label: I downloaded the latest version of the repository 
+        - label: The server has the latest snapshot of the Via* plugins
+    validations:
+      required: true
+  - type: dropdown
+    id: detector
+    attributes:
+      label: Which one of the "detector" mods are present?
+      multiple: true
+      options:
+        - Chime
+        - Optifine CIT
+      validations:
+        required: true
+  - type: input
+    id: mc
+    attributes:
+      label: Your Minecraft version
+      description: Write down your Minecraft option
+      placeholder: Example: 1.16.5
+      validations:
+        required: true
