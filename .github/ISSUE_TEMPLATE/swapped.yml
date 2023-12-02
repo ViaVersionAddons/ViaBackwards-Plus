@@ -1,7 +1,7 @@
-name: Missing Items
+name: Swapped Items
 description: An item is missing from the backport.
-title: "[Missing]: "
-labels: ["missing item"]
+title: "[Swapped]: "
+labels: ["swapped items"]
 assignees:
   - bangetto
 body:
