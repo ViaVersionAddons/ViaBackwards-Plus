@@ -9,16 +9,16 @@ body:
     id: from
     attributes:
       label: What items don't show the right texture?
-      description: Write down the list of items that have a wrong texture!
-      placeholder: Ex: sculk_sensor, sus sand
+      description: "Write down the list of items that have a wrong texture!"
+      placeholder: "Ex: sculk_sensor, sus sand"
     validations:
       required: true
   - type: textarea
     id: to
     attributes:
       label: What they show up as?
-      description: Write down the list that what are they showing up as! [In the order of the previous one!!!]
-      placeholder: Ex: sculk_block, sus gravel
+      description: "Write down the list that what are they showing up as! [In the order of the previous one!!!]"
+      placeholder: "Ex: sculk_block, sus gravel"
     validations:
       required: true
   - type: checkbox
@@ -28,24 +28,26 @@ body:
       description: Before reporting an issue please check that everything is up-today!
       options:
         - label: I downloaded the latest version of the repository 
+          required: true
         - label: The server has the latest snapshot of the Via* plugins
+          required: true
     validations:
       required: true
   - type: dropdown
     id: detector
     attributes:
-      label: Which one of the "detector" mods are present?
+      label: "Which one of the detector mods are present?"
       multiple: true
       options:
         - Chime
         - Optifine CIT
-      validations:
+    validations:
         required: true
   - type: input
     id: mc
     attributes:
       label: Your Minecraft version
-      description: Write down your Minecraft option
-      placeholder: Example: 1.16.5
-      validations:
+      description: "Write down your Minecraft version"
+      placeholder: "Example: 1.16.5"
+    validations:
         required: true
