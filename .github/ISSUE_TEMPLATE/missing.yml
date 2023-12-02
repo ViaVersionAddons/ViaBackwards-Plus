@@ -1,4 +1,4 @@
-ame: Missing Items
+name: Missing Items
 description: An item is missing from the backport.
 title: "[Missing]: "
 labels: ["missing item"]
@@ -9,35 +9,35 @@ body:
     id: id
     attributes:
       label: What items are missing?
-      description: Write down the list of items that are missing!
-      placeholder: Ex: sculk_sensor, sus sand
+      description: "Write down the list of items that are missing!"
+      placeholder: "Ex: sculk_sensor, sus sand"
     validations:
       required: true
-  - type: checkbox
+  - type: checkboxes
     id: version
     attributes:
       label: Checks
-      description: Before reporting an issue please check that everything is up-today!
+      description: "Before reporting an issue please check that everything is up-today!"
       options:
-        - label: I downloaded the latest version of the repository 
-        - label: The server has the latest snapshot of the Via* plugins
+        - label: "I downloaded the latest version of the repository"
+        - label: "The server has the latest snapshot of the Via* plugins"
     validations:
       required: true
   - type: dropdown
     id: detector
     attributes:
-      label: Which one of the "detector" mods are present?
+      label: "Which one of the detector mods are present?"
       multiple: true
       options:
-        - Chime
-        - Optifine CIT
-      validations:
+        - "Chime"
+        - "Optifine CIT"
+    validations:
         required: true
   - type: input
     id: mc
     attributes:
-      label: Your Minecraft version
-      description: Write down your Minecraft option
-      placeholder: Example: 1.16.5
-      validations:
+      label: "Your Minecraft version"
+      description: "Write down your Minecraft option"
+      placeholder: "Example: 1.16.5"
+    validations:
         required: true
