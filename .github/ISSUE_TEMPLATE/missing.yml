@@ -10,7 +10,7 @@ body:
     attributes:
       label: What items are missing?
       description: Write down the list of items that are missing!
-      placeholder: Ex: sculk_sensor, sus sand
+      placeholder: "Ex: sculk_sensor, sus sand"
     validations:
       required: true
   - type: checkbox
