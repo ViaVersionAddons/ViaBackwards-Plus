@@ -1,4 +1,4 @@
-ame: Missing Items
+name: Missing Items
 description: An item is missing from the backport.
 title: "[Missing]: "
 labels: ["missing item"]
@@ -21,7 +21,7 @@ body:
       placeholder: "Ex: sculk_block, sus gravel"
     validations:
       required: true
-  - type: checkbox
+  - type: checkboxes
     id: version
     attributes:
       label: Checks
