@@ -20,7 +20,9 @@ body:
       description: "Before reporting an issue please check that everything is up-today!"
       options:
         - label: "I downloaded the latest version of the repository"
+          required: true
         - label: "The server has the latest snapshot of the Via* plugins"
+          required: true
     validations:
       required: true
   - type: dropdown
