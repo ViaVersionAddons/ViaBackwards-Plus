@@ -1,0 +1,4 @@
+{
+	"condition":"version('minecraft', '1.20|1.20.1')",
+	"fallbacks": [ "assets/minecraft/textures/gui/title/minecraft_1_20.png" ]
+}

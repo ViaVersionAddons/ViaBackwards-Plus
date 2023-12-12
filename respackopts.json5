@@ -1,0 +1,7 @@
+{
+    id: "vbp",
+    version: 9,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+    }
+}
