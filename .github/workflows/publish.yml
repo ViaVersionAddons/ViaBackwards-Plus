@@ -27,7 +27,7 @@ jobs:
            modrinth-unfeature-mode: subset
            files: '*.zip'
            loaders: minecraft
-           game-versions: ${{ vars.MC_VERSION }}
+           game-versions: "[1.16.2,1.20.4]"
            game-version-filter: releases
 
   publish-to-curseforge:
@@ -50,5 +50,5 @@ jobs:
            curseforge-id: 821967
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
            curseforge-files: '*.zip'
-           game-versions: ${{ vars.MC_VERSION }}
+           game-versions: "[1.16.2,1.20.4]"
            game-version-filter: releases
