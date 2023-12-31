@@ -5,30 +5,50 @@ on:
     types: [released]
 
 jobs:
-  build:
+  publish-to-modrinth:
     runs-on: ubuntu-latest
+    environment: github-actions
     steps:
-        - name: mc-publish
-          uses: Kir-Antipov/mc-publish@v3.2
-          with:
-            game-version-filter: releases
-            changelog: ${{ github.event.release.html_url }}
-            github-changelog: ${{ github.event.release.body }}
+       - name: Download the pack files
+         uses: robinraju/release-downloader@v1.8
+         id: download-files
+         with:
+           fileName: "*.zip"
+           latest: true
+           tarBall: false
+           zipBall: false
+           
+       - name: Publish to Modrinth
+         uses: Kir-Antipov/mc-publish@v3.3
+         with:
+           name: "[${{ steps.download-files.outputs.tag_name }}] Viabackwards Plus"
+           modrinth-id: v7n1ZsFg
+           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+           modrinth-unfeature-mode: subset
+           files: '*.zip'
+           loaders: minecraft
+           game-versions: ${{ vars.MC_VERSION }}
+           game-version-filter: releases
 
-            modrinth-id: v7n1ZsFg
-            curseforge-id: 821967
-            game-verisons: "[1.16.2,1.20.4]"
-            dependencies:
-              new-title(embedded){modrinth:oWMz79A6}#(ignore:github)
-              chime(required){modrinth:ubxU84eR}#(ignore:github)
+  publish-to-curseforge:
+    runs-on: ubuntu-latest
+    environment: github-actions
+    steps:
+       - name: Download the pack files
+         uses: robinraju/release-downloader@v1.8
+         id: download-files
+         with:
+           fileName: "*.zip"
+           latest: true
+           tarBall: false
+           zipBall: false
 
-            files:
-              ${{ github.event.release.attachment }}
-
-            name: "[${{ github.event.release.tag }}] Viabackwards Plus"
-            version: ${{ github.event.release.tag }}
-            version-type: release
-
-            github-token: ${{ secrets.GITHUB_TOKEN }}
-            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+       - name: Publish to CurseForge
+         uses: Kir-Antipov/mc-publish@v3.3
+         with:
+           name: "[${{ steps.download-files.outputs.tag_name }}] Viabackwards Plus"
+           curseforge-id: 821967
+           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+           curseforge-files: '*.zip'
+           game-versions: ${{ vars.MC_VERSION }}
+           game-version-filter: releases
