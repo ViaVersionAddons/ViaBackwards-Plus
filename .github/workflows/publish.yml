@@ -1,0 +1,30 @@
+name: publish
+
+on:
+  release:
+    types: [released]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: mc-publish
+          uses: Kir-Antipov/mc-publish@v3.2
+          with:
+            game-version-filter: releases
+            changelog: ${{ github.event.release.html_url }}
+            github-changelog: ${{ github.event.release.body }}
+
+            modrinth-id: v7n1ZsFg
+            curseforge-id: 821967
+            game-verisons: [1.16.2,1.20.4]
+            dependencies:
+              new-title(embedded){modrinth:oWMz79A6}#(ignore:github)
+              chime(required){modrinth:ubxU84eR}#(ignore:github)
+
+            files:
+              ${{ github.event.release.attachment }}
+
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
