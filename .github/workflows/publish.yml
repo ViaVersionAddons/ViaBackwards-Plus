@@ -17,13 +17,17 @@ jobs:
 
             modrinth-id: v7n1ZsFg
             curseforge-id: 821967
-            game-verisons: [1.16.2,1.20.4]
+            game-verisons: "[1.16.2,1.20.4]"
             dependencies:
               new-title(embedded){modrinth:oWMz79A6}#(ignore:github)
               chime(required){modrinth:ubxU84eR}#(ignore:github)
 
             files:
               ${{ github.event.release.attachment }}
+
+            name: "[${{ github.event.release.tag }}] Viabackwards Plus"
+            version: ${{ github.event.release.tag }}
+            version-type: release
 
             github-token: ${{ secrets.GITHUB_TOKEN }}
             modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
