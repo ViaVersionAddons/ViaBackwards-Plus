@@ -4,4 +4,4 @@ Name: ViaBackwards-Plus
 Copyright holder: bangetto
 
 
-Read the License here: https://bangetto.github.io/licenses/bangetto.txt
+Read the License here: https://bangetto.github.io/licenses/bangetto/
