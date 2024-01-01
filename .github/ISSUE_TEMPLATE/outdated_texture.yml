@@ -1,16 +1,16 @@
-name: Missing Items
-description: An item is missing from the backport.
-title: "[Missing]: "
-labels: ["missing item"]
+name: "Outdated Texture[s]"
+description: A texture not been updated to use the latest one.
+title: "[Outdated]: "
+labels: ["outdated texture"]
 assignees:
   - bangetto
 body:
   - type: textarea
-    id: id
+    id: main
     attributes:
-      label: What items are missing?
-      description: "Write down the list of items that are missing!"
-      placeholder: "Ex: sculk_sensor, sus sand"
+      label: "What texture[s] are outdated?"
+      description: "Write down the list textures that are outdated!"
+      placeholder: "Ex: grass_side or the side texture of grass"
     validations:
       required: true
   - type: checkboxes
@@ -21,20 +21,10 @@ body:
       options:
         - label: "I downloaded the latest version of the repository"
           required: true
-        - label: "The server has the latest snapshot of the Via* plugins"
+        - label: "There are no resources pack above this"
           required: true
     validations:
       required: true
-  - type: dropdown
-    id: detector
-    attributes:
-      label: "Which one of the detector mods are present?"
-      multiple: true
-      options:
-        - "Chime"
-        - "Optifine CIT"
-    validations:
-        required: true
   - type: input
     id: mc
     attributes:
