@@ -8,6 +8,8 @@ jobs:
   publish-to-modrinth:
     runs-on: ubuntu-latest
     environment: github-actions
+    strategy:
+        max-parallel: 1
     steps:
        - name: Download the pack files
          uses: robinraju/release-downloader@v1.8
@@ -51,5 +53,7 @@ jobs:
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
            curseforge-files: '*.zip'
            supported_mod_loaders: minecraft
+           loaders: minecraft
+           mod_loader: minecraft
            game-versions: "[1.16.2,1.20.4]"
            game-version-filter: releases
