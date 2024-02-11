@@ -50,8 +50,6 @@ jobs:
            curseforge-id: 821967
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
            curseforge-files: '*.zip'
-           loaders: |
-             minecraft
-             fabric
+           loaders: fabric
            game-versions: "[1.16.2,1.20.4]"
            game-version-filter: releases
