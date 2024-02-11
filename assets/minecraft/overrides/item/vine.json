@@ -6,7 +6,7 @@
               "VB|Protocol1_16_4To1_17|id": 300
             }
           },
-          "model": "block/glow_lichen"
+          "model": "item/glow_lichen"
         },
         {
           "predicate": {
@@ -14,7 +14,7 @@
               "VB|Protocol1_18_2To1_19|id": 327
             }
           },
-          "model": "block/sculk_vein"
+          "model": "item/sculk_vein"
         },
         {
           "predicate": {
@@ -22,7 +22,7 @@
               "VB|Protocol1_18_2To1_19|id": 1150
             }
           },
-          "model": "block/frogspawn"
+          "model": "item/frogspawn"
         },
         {
           "predicate": {
@@ -30,7 +30,7 @@
               "VB|Protocol1_16_4To1_17|id": 200
             }
           },
-          "model": "block/hanging_roots"
+          "model": "item/hanging_roots"
         }
     ]
 }
