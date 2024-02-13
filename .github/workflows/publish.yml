@@ -5,7 +5,7 @@ on:
     types: [released]
 
 jobs:
-  publish-to-modrinth:
+  publish:
     runs-on: ubuntu-latest
     environment: github-actions
     strategy:
@@ -20,40 +20,16 @@ jobs:
            tarBall: false
            zipBall: false
            
-       - name: Publish to Modrinth
+       - name: Publish to Modrinth and CurseForge
          uses: Kir-Antipov/mc-publish@v3.3
          with:
            name: "[${{ steps.download-files.outputs.tag_name }}] Viabackwards Plus"
-           modrinth-id: v7n1ZsFg
-           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-           modrinth-unfeature-mode: subset
            files: '*.zip'
            loaders: minecraft
            game-versions: "[1.16.2,1.20.4]"
-           game-version-filter: releases
 
-  publish-to-curseforge:
-    runs-on: ubuntu-latest
-    environment: github-actions
-    steps:
-       - name: Download the pack files
-         uses: robinraju/release-downloader@v1.8
-         id: download-files
-         with:
-           fileName: "*.zip"
-           latest: true
-           tarBall: false
-           zipBall: false
+           modrinth-id: v7n1ZsFg
+           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
-       - name: Publish to CurseForge
-         uses: Kir-Antipov/mc-publish@v3.3
-         with:
-           name: "[${{ steps.download-files.outputs.tag_name }}] Viabackwards Plus"
            curseforge-id: 821967
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-           curseforge-files: '*.zip'
-           supported_mod_loaders: minecraft
-           loaders: minecraft
-           mod_loader: minecraft
-           game-versions: "[1.16.2,1.20.4]"
-           game-version-filter: releases
