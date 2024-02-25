@@ -19,7 +19,7 @@ jobs:
            latest: true
            tarBall: false
            zipBall: false
-           
+
        - name: Publish to Modrinth and CurseForge
          uses: Kir-Antipov/mc-publish@v3.3
          with:
