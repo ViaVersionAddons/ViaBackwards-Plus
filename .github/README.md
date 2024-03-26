@@ -1,10 +1,10 @@
-  <h1>The backporter pack!</h1>
+![ ](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Header.webp)
   <h3>Requires the mod <a href="https://modrinth.com/mod/chime" target="_blank">Chime</a> to work</h3>
   <p><strong>This Minecraft pack enhances the gameplay experience with the ViaBackwards plugin</strong>, which allow players to connect to newer servers with an older client. The pack requires the Chime mod to work, which helps identify the items by their custom name or custom NBT data, and assigns the correct model and texture to them. The best part of this pack is that if you put an another resourcespack on top of it, it will load the textures from that!<br><strong><span style="color: red;">Please note that this pack is not an official addon from the <a href="https://github.com/ViaVersion/ViaBackwards/graphs/contributors" target="_blank">ViaBackwards team</a>, and it's just fan-made.</span></strong></p>
 
 <img src="https://cdn.modrinth.com/data/v7n1ZsFg/images/313eb5e524ee378de7e34477159d894c246f0c83.png" title="This image has been taken in 1.16">
 
-  <h3>Features</h3>
+  ![Features](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Features.webp)
   <ul>
     <li>Backports item textures from newer versions of Minecraft</li>
     <li>Compatible with other resources packs</li>
@@ -17,6 +17,11 @@
   
 <br><h2><strong>Please if you have any issues report it on <a href="https://discord.gg/57GdhxYYfd" target="_blank">Discord</a> or <a href="https://github.com/ViaVersionAddons/ViaBackwards-Plus/issues" target="_blank">Github</a>!!!</strong></h2><br>
 
+<a href="https://bisecthosting.com/bangetto" target="_blank">
+<img src="https://www.bisecthosting.com/partners/custom-banners/81c7319d-d963-477b-9ea6-7fb11e1b8a46.webp">
+</a>
+
+<hr>
 
 <h3>Future plans <small>(<a href="https://ko-fi.com/bangetto" blank="_blank">Buy me a coffee</a> to make it happen sooner)</small></h3>
 <ul>
@@ -32,7 +37,7 @@
 
 
 
-## FAQ
+![FAQ](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_FAQ.webp)
 
 <details>
 <summary><b>Dependencies</b></summary>
@@ -56,16 +61,15 @@ The pack will start with the newly added and 1.17 items then it will move on to 
 </details>
 
 <details>
-<summary><b>Versioning</b></summary>
+<summary><b>Release Cycle</b></summary>
 
-**Title:** *[oldest-newest where items have been backported]* **+** *Viabackwards Plus*
-
-**Versioning:** I use the Semantic Versioning (SemVer) system, a.k.a the `MAJOR.MINOR.PATCH` one. I consider an update `MAJOR` if it's ads a new feature, not just expanding/updating the existing ones. A `MINOR` update when no new feature was added, only expending/updating the existing ones, like backporting new items. `PATCH` is pretty self explanatory, it's for updates that just fixes bugs.
+**As of Minecraft 1.20.5:**
+When a Minecraft release is at Pre-release or Release-candidate stage a beta is released, but it's untested, so there's might be bugs. After a few days of the Minecraft release Viabackwards will also release publicly, this is when i'll fix bugs happened while the backporting, and after that the release of VB+ will be published.
 
 </details>
 
 <details>
-<summary>How it Works?</summary>
+<summary><b>How it Works?</b></summary>
 
 <p>The pack works by identifying items by their ViaBackwards Protocol ID, which helps determine the correct model and texture to assign to them. For example, "Copper ore" has a protocol id of "44", the Chime mod will help the pack recognize it as a Copper ore and assign the correct model and texture to it.</p>
 <p>Think of it like a special tag on each item that tells the pack what it is, so the pack knows how to make it look and behave correctly. This way, you get to enjoy the latest Minecraft textures and the easy identification of items, even if you're playing an older version of the game!</p>
@@ -73,8 +77,17 @@ The pack will start with the newly added and 1.17 items then it will move on to 
 </details>
 
 <details>
-<summary>Implementation on Servers</summary>
+<summary><b>Implementation on Servers</b></summary>
 
 You can put this resources pack to your server so, it's automatically loads when players join. The only problem is that players still have to install Chime or CIT. As of now the resource pack has a more client-sided approach, but **a more server-side friendly version is planned!** If I see demand for it I will make and maintain a version of this pack which uses the vanilla `custom_model_data` feature to backport the items instead of the external ones. Join my Discord if you want to be notified when this happens!
+
+</details>
+
+<details>
+<summary><b>Even lower versions?</b></summary>
+
+#### If there's demand for it I can make support for 1.14x and 1.15x.
+
+**For versions below that I probably won't, before 1.14 items had different ID's, which means the entire pack would have to be rewritten!** The only way to make the pack work for versions older then 1.14 would be Optifine CIT, and I hate to work with CIT, even `custom_model_data` was implemented in 1.14, Optifine had a monopoly back then...
 
 </details>
