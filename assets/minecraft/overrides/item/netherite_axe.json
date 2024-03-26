@@ -3,10 +3,10 @@
           {
             "predicate": {
               "nbt": {
-                "VB|Protocol1_20_3To1_20_5|id": 797
+                "VB|Protocol1_20_3To1_20_5|id": 1093
               }
             },
-            "model": "item/wolf_armor"
+            "model": "item/mace"
           }
       ]
   }

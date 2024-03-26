@@ -1,17 +1,9 @@
 {
     "overrides": [
           {
-            "predicate": {
-              "nbt": {
-                "VB|Protocol1_20_3To1_20_5|id": 794
-              }
-            },
-            "model": "item/turtle_scute"
-          },
-          {
               "predicate": {
                 "nbt": {
-                  "VB|Protocol1_20_3To1_20_5|id": 795
+                  "VB|Protocol1_20_3To1_20_5|id": 796
                 }
               },
               "model": "item/armadillo_scute"
