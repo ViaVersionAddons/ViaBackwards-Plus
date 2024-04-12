@@ -24,7 +24,7 @@ jobs:
        - name: Publish to Modrinth and CurseForge
          uses: Kir-Antipov/mc-publish@v3.3
          with:
-           name: "[${{ steps.download-files.outputs.tag_name }}] Viabackwards Plus"
+           name: ${{ steps.download-files.outputs.tag_name }}
            files: '*.zip'
            loaders: minecraft
            game-versions: "[1.16.2,1.20.4]"
@@ -34,7 +34,7 @@ jobs:
 
            curseforge-id: 821967
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-           
+
            dependencies: |
              chime(required){modrinth:ubxU84eR}{curseforge:432776}#(ignore:github)
              cit-resewn(optional){modrinth:otVJckYQ}{curseforge:521427}#(ignore:github)
