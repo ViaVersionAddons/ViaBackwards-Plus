@@ -76,7 +76,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_3To1_20_5|id": 1326
+                "VB|Protocol1_20_3To1_20_5|id": 1327
               }
             },
             "model": "item/vault"
