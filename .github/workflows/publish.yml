@@ -17,6 +17,7 @@ jobs:
          with:
            fileName: "*.zip"
            latest: true
+           preRelease: true
            tarBall: false
            zipBall: false
 
@@ -33,9 +34,9 @@ jobs:
 
            curseforge-id: 821967
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-
-          dependencies: |
-            chime(required){modrinth:ubxU84eR}{curseforge:432776}#(ignore:github)
-            cit-resewn(optional){modrinth:otVJckYQ}{curseforge:521427}#(ignore:github)
-            respackopts(optional){modrinth:TiF5QWZY}#(ignore:curseforge,github)
-            new-title(embedded){modrinth:oWMz79A6}#(ignore:curseforge,github)
+           
+           dependencies: |
+             chime(required){modrinth:ubxU84eR}{curseforge:432776}#(ignore:github)
+             cit-resewn(optional){modrinth:otVJckYQ}{curseforge:521427}#(ignore:github)
+             respackopts(optional){modrinth:TiF5QWZY}#(ignore:curseforge,github)
+             new-title(embedded){modrinth:oWMz79A6}#(ignore:curseforge,github)
