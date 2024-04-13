@@ -123,7 +123,7 @@ Seecret Friday update!
 Reference implementation!
 Kiss the sky!
 20 GOTO 10!
-Verlet intregration!
+Verlet integration!
 Peter Griffin!
 Do not distribute!
 Cogito ergo sum!
@@ -300,7 +300,7 @@ Put that cookie down!
 Pretty scary!
 I have a suggestion.
 Now with extra hugs!
-Java 16 + 1 = 17!
+Java 16 + 1 + 4 = 21!
 Woah.
 HURNERJSGER?
 What's up, Doc?
@@ -443,19 +443,4 @@ Remember to brush your... ...teeth
 Has working bookshelves!
 Sniff sniff...
 Place hanging sign here
-
-ViaBackwards+ by bangetto!
-CHECK! It's says Minceraft?
-Github.com/bangetto
-Are you reading these?
-Working on the smoothest ViaBackwards experience...
-I prefer Modrinth.
-I thinks it's enchanting table.
-Your Enchantinator is valid!
-Use Modrinth
-1.20 included!
-TLauncher is a VIRUS!!!
-I want shards, not sherds!
-I'm the biggest baguette
-ko-fi.com/bangetto
-Buy me a coffee if you want to send some cashy!
+Joule is neat too!
