@@ -7,8 +7,8 @@
 	
     "overlays": {
         "entries": [
-            {"directory":"titlefix","formats":[14,35]},
-            {"directory":"omenicon","formats":[31,35]}
+                {"directory":"titlefix","formats":[14,35]},
+                {"directory":"omenicon","formats":[31,35]}
             ]
         }
 }
