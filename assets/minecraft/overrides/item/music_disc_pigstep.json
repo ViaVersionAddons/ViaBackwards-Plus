@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.20 Music Disc Relic\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/music_disc_relic"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Music Disc Relic\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_20To1_19_4|id": 1254
             }
           },
           "model": "item/music_disc_relic"
