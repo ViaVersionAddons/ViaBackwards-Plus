@@ -3,19 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"1.19 Mangrove Roots\"}],\"text\":\"\"}"
-              }
-            }
-          },
-          "model": "item/mangrove_roots"
-        },
-        {
-          "predicate": {
-            "nbt":{
-              "display": {
-                "Name": "{\"italic\":false,\"extra\":[{\"color\":\"white\",\"text\":\"Mangrove Roots\"}],\"text\":\"\"}"
-              }
+              "VB|Protocol1_18_2To1_19|id": 111
             }
           },
           "model": "item/mangrove_roots"
