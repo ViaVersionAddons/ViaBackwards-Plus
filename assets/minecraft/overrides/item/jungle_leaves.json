@@ -31,6 +31,14 @@
             }
           },
           "model": "item/flowering_azalea_leaves"
+        },
+        {
+          "predicate": {
+            "nbt":{
+              "VB|Protocol1_16_4To1_17|id": 158
+            }
+          },
+          "model": "item/cherry_leaves"
         }
     ]
 }
