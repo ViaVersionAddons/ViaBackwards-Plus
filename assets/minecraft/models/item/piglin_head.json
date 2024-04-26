@@ -61,6 +61,7 @@
 			"name": "left_ear",
 			"from": [2.5, 0, 6],
 			"to": [3.5, 5, 10],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [3, 5, 8]},
 			"faces": {
 				"north": {"uv": [13.75, 2.5, 14, 3.75], "texture": "#0"},
 				"east": {"uv": [12.75, 2.5, 13.75, 3.75], "texture": "#0"},
@@ -74,6 +75,7 @@
 			"name": "right_ear",
 			"from": [12.5, 0, 6],
 			"to": [13.5, 5, 10],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [13, 5, 8]},
 			"faces": {
 				"north": {"uv": [10.75, 2.5, 11, 3.75], "texture": "#0"},
 				"east": {"uv": [9.75, 2.5, 10.75, 3.75], "texture": "#0"},
@@ -126,27 +128,23 @@
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"nbt": "{}",
 			"children": [
 				{
 					"name": "head",
 					"origin": [0, 24, 0],
 					"color": 0,
-					"nbt": "{}",
 					"children": [0, 1, 2, 3]
 				},
 				{
 					"name": "left_ear",
 					"origin": [-4.5, 30, 0],
 					"color": 0,
-					"nbt": "{}",
 					"children": [4]
 				},
 				{
 					"name": "right_ear",
 					"origin": [4.5, 30, 0],
 					"color": 0,
-					"nbt": "{}",
 					"children": [5]
 				}
 			]
