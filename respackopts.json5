@@ -3,5 +3,6 @@
     version: 9,
     capabilities: ["FileFilter", "DirFilter"],
     conf: {
+        enable: true
     }
 }
