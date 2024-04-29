@@ -12,7 +12,7 @@ jobs:
         max-parallel: 1
     steps:
        - name: Download the pack files
-         uses: robinraju/release-downloader@v1.9
+         uses: robinraju/release-downloader@v1.10
          id: download-files
          with:
            fileName: "*.zip"
