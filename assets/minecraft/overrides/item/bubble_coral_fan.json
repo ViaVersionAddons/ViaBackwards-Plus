@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_16_4To1_17|id": 1098
+                "VB|Protocol1_17To1_16_4|id": 1098
               }
             },
             "model": "item/amethyst_cluster"
@@ -11,7 +11,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_16_4To1_17|id": 1095
+                  "VB|Protocol1_17To1_16_4|id": 1095
                 }
               },
               "model": "item/small_amethyst_bud"
@@ -19,7 +19,7 @@
               {
                 "predicate": {
                   "nbt":{
-                    "VB|Protocol1_16_4To1_17|id": 1096
+                    "VB|Protocol1_17To1_16_4|id": 1096
                   }
                 },
                 "model": "item/medium_amethyst_bud"
@@ -27,7 +27,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1097
+                      "VB|Protocol1_17To1_16_4|id": 1097
                     }
                   },
                   "model": "item/large_amethyst_bud"
@@ -35,7 +35,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 186
+                      "VB|Protocol1_17To1_16_4|id": 186
                     }
                   },
                   "model": "item/spore_blossom"

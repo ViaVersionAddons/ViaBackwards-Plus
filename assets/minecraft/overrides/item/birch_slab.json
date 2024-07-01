@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 225
+              "VB|Protocol1_19_3To1_19_1|id": 225
             }
           },
           "model": "item/bamboo_slab"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 226
+              "VB|Protocol1_19_3To1_19_1|id": 226
             }
           },
           "model": "item/bamboo_mosaic_slab"

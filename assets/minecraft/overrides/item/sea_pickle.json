@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 1078
+              "VB|Protocol1_17To1_16_4|id": 1078
             }
           },
           "model": "item/candle"
@@ -11,7 +11,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_16_4To1_17|id": 1079
+                  "VB|Protocol1_17To1_16_4|id": 1079
                 }
               },
               "model": "item/white_candle"
@@ -19,7 +19,7 @@
               {
                 "predicate": {
                   "nbt":{
-                    "VB|Protocol1_16_4To1_17|id": 1080
+                    "VB|Protocol1_17To1_16_4|id": 1080
                   }
                 },
                 "model": "item/orange_candle"
@@ -27,7 +27,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1081
+                      "VB|Protocol1_17To1_16_4|id": 1081
                     }
                   },
                   "model": "item/magenta_candle"
@@ -35,7 +35,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1082
+                      "VB|Protocol1_17To1_16_4|id": 1082
                     }
                   },
                   "model": "item/light_blue_candle"
@@ -43,7 +43,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1083
+                      "VB|Protocol1_17To1_16_4|id": 1083
                     }
                   },
                   "model": "item/yellow_candle"
@@ -51,7 +51,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1084
+                      "VB|Protocol1_17To1_16_4|id": 1084
                     }
                   },
                   "model": "item/lime_candle"
@@ -59,7 +59,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1085
+                      "VB|Protocol1_17To1_16_4|id": 1085
                     }
                   },
                   "model": "item/pink_candle"
@@ -67,7 +67,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1086
+                      "VB|Protocol1_17To1_16_4|id": 1086
                     }
                   },
                   "model": "item/gray_candle"
@@ -75,7 +75,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1087
+                      "VB|Protocol1_17To1_16_4|id": 1087
                     }
                   },
                   "model": "item/light_gray_candle"
@@ -83,7 +83,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1088
+                      "VB|Protocol1_17To1_16_4|id": 1088
                     }
                   },
                   "model": "item/cyan_candle"
@@ -91,7 +91,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1089
+                      "VB|Protocol1_17To1_16_4|id": 1089
                     }
                   },
                   "model": "item/purple_candle"
@@ -99,7 +99,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1090
+                      "VB|Protocol1_17To1_16_4|id": 1090
                     }
                   },
                   "model": "item/blue_candle"
@@ -107,7 +107,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1091
+                      "VB|Protocol1_17To1_16_4|id": 1091
                     }
                   },
                   "model": "item/brown_candle"
@@ -115,7 +115,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1092
+                      "VB|Protocol1_17To1_16_4|id": 1092
                     }
                   },
                   "model": "item/green_candle"
@@ -123,7 +123,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1093
+                      "VB|Protocol1_17To1_16_4|id": 1093
                     }
                   },
                   "model": "item/red_candle"
@@ -131,7 +131,7 @@
                 {
                   "predicate": {
                     "nbt":{
-                      "VB|Protocol1_16_4To1_17|id": 1094
+                      "VB|Protocol1_17To1_16_4|id": 1094
                     }
                   },
                   "model": "item/black_candle"

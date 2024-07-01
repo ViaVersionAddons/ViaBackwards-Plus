@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 828
+              "VB|Protocol1_19_3To1_19_1|id": 828
             }
           },
           "model": "item/bamboo_sign"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 831
+              "VB|Protocol1_19_3To1_19_1|id": 831
             }
           },
           "model": "item/oak_hanging_sign"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 833
+              "VB|Protocol1_19_3To1_19_1|id": 833
             }
           },
           "model": "item/birch_hanging_sign"
@@ -27,7 +27,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 838
+              "VB|Protocol1_19_3To1_19_1|id": 838
             }
           },
           "model": "item/bamboo_hanging_sign"

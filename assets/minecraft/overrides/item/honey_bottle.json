@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt": {
-                "VB|Protocol1_20_3To1_20_5|id": 1328
+                "VB|Protocol1_20_5To1_20_3|id": 1328
               }
             },
             "model": "item/ominous_bottle"

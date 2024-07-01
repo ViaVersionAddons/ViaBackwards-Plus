@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 342
+              "VB|Protocol1_17To1_16_4|id": 342
             }
           },
           "model": "item/cobbled_deepslate_wall"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 345
+              "VB|Protocol1_17To1_16_4|id": 345
             }
           },
           "model": "item/deepslate_tile_wall"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 343
+              "VB|Protocol1_17To1_16_4|id": 343
             }
           },
           "model": "item/polished_deepslate_wall"

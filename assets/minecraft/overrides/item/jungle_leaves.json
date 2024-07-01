@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 152
+              "VB|Protocol1_17To1_16_4|id": 152
             }
           },
           "model": "item/azalea"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 139
+              "VB|Protocol1_17To1_16_4|id": 139
             }
           },
           "model": "item/azalea_leaves"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 153
+              "VB|Protocol1_17To1_16_4|id": 153
             }
           },
           "model": "item/flowering_azalea"
@@ -27,7 +27,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 140
+              "VB|Protocol1_17To1_16_4|id": 140
             }
           },
           "model": "item/flowering_azalea_leaves"
@@ -35,7 +35,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 158
+              "VB|Protocol1_17To1_16_4|id": 158
             }
           },
           "model": "item/cherry_leaves"

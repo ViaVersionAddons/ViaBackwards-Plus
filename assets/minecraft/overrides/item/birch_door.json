@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 676
+              "VB|Protocol1_19_3To1_19_1|id": 676
             }
           },
           "model": "item/bamboo_door"

@@ -3,7 +3,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 8
+            "VB|Protocol1_17To1_16_4|id": 8
           }
         },
         "model": "item/deepslate"
@@ -11,7 +11,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 290
+            "VB|Protocol1_17To1_16_4|id": 290
           }
         },
         "model": "item/cracked_deepslate_tiles"
@@ -19,7 +19,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 288
+            "VB|Protocol1_17To1_16_4|id": 288
           }
         },
         "model": "item/cracked_deepslate_bricks"
@@ -27,7 +27,7 @@
       {
         "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 289
+              "VB|Protocol1_17To1_16_4|id": 289
             }
           },
           "model": "item/deepslate_tiles"
@@ -35,7 +35,7 @@
       {
         "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 282
+              "VB|Protocol1_17To1_16_4|id": 282
             }
           },
           "model": "item/infested_deepslate"

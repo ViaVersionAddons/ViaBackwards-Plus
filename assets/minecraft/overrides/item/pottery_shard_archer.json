@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1235
+              "VB|Protocol1_20To1_19_4|id": 1235
             }
           },
           "model": "item/angler_pottery_sherd"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1238
+              "VB|Protocol1_20To1_19_4|id": 1238
             }
           },
           "model": "item/blade_pottery_sherd"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1239
+              "VB|Protocol1_20To1_19_4|id": 1239
             }
           },
           "model": "item/brewer_pottery_sherd"
@@ -27,7 +27,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1240
+              "VB|Protocol1_20To1_19_4|id": 1240
             }
           },
           "model": "item/burn_pottery_sherd"
@@ -35,7 +35,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1241
+              "VB|Protocol1_20To1_19_4|id": 1241
             }
           },
           "model": "item/danger_pottery_sherd"
@@ -43,7 +43,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1242
+              "VB|Protocol1_20To1_19_4|id": 1242
             }
           },
           "model": "item/explorer_pottery_sherd"
@@ -51,7 +51,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1243
+              "VB|Protocol1_20To1_19_4|id": 1243
             }
           },
           "model": "item/friend_pottery_sherd"
@@ -59,7 +59,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1244
+              "VB|Protocol1_20To1_19_4|id": 1244
             }
           },
           "model": "item/heart_pottery_sherd"
@@ -67,7 +67,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1245
+              "VB|Protocol1_20To1_19_4|id": 1245
             }
           },
           "model": "item/heartbreak_pottery_sherd"
@@ -75,7 +75,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1246
+              "VB|Protocol1_20To1_19_4|id": 1246
             }
           },
           "model": "item/howl_pottery_sherd"
@@ -83,7 +83,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1247
+              "VB|Protocol1_20To1_19_4|id": 1247
             }
           },
           "model": "item/miner_pottery_sherd"
@@ -91,7 +91,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1248
+              "VB|Protocol1_20To1_19_4|id": 1248
             }
           },
           "model": "item/mourner_pottery_sherd"
@@ -99,7 +99,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1249
+              "VB|Protocol1_20To1_19_4|id": 1249
             }
           },
           "model": "item/plenty_pottery_sherd"
@@ -107,7 +107,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1251
+              "VB|Protocol1_20To1_19_4|id": 1251
             }
           },
           "model": "item/sheaf_pottery_sherd"
@@ -115,7 +115,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1252
+              "VB|Protocol1_20To1_19_4|id": 1252
             }
           },
           "model": "item/shelter_pottery_sherd"
@@ -123,7 +123,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1254
+              "VB|Protocol1_20To1_19_4|id": 1254
             }
           },
           "model": "item/snort_pottery_sherd"

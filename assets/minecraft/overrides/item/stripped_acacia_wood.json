@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_19_3To1_19_4|id": 137
+              "VB|Protocol1_19_4To1_19_3|id": 137
             }
           },
           "model": "item/stripped_cherry_wood"

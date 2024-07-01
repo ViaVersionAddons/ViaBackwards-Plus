@@ -3,7 +3,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 81
+            "VB|Protocol1_17To1_16_4|id": 81
           }
         },
         "model": "item/cut_copper_slab"
@@ -11,7 +11,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 97
+            "VB|Protocol1_17To1_16_4|id": 97
           }
         },
         "model": "item/waxed_cut_copper_slab"
@@ -19,7 +19,7 @@
       {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 84
+              "VB|Protocol1_17To1_16_4|id": 84
             }
           },
           "model": "item/oxidized_cut_copper_slab"
@@ -27,7 +27,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 100
+            "VB|Protocol1_17To1_16_4|id": 100
           }
         },
         "model": "item/waxed_oxidized_cut_copper_slab"
@@ -35,7 +35,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 82
+            "VB|Protocol1_17To1_16_4|id": 82
           }
         },
         "model": "item/exposed_cut_copper_slab"
@@ -43,7 +43,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 98
+            "VB|Protocol1_17To1_16_4|id": 98
           }
         },
         "model": "item/waxed_exposed_cut_copper_slab"
@@ -51,7 +51,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 83
+            "VB|Protocol1_17To1_16_4|id": 83
           }
         },
         "model": "item/weathered_cut_copper_slab"
@@ -59,7 +59,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 99
+            "VB|Protocol1_17To1_16_4|id": 99
           }
         },
         "model": "item/waxed_weathered_cut_copper_slab"
@@ -75,7 +75,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_20_2To1_20_3|id": 22
+            "VB|Protocol1_20_3To1_20_2|id": 22
           }
         },
         "model": "item/tuff_brick_slab"

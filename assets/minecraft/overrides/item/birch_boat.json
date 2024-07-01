@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 727
+              "VB|Protocol1_19_3To1_19_1|id": 727
             }
           },
           "model": "item/bamboo_raft"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 728
+              "VB|Protocol1_19_3To1_19_1|id": 728
             }
           },
           "model": "item/bamboo_chest_raft"

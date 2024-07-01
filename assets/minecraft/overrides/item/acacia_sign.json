@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 835
+              "VB|Protocol1_19_3To1_19_1|id": 835
             }
           },
           "model": "item/acacia_hanging_sign"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 837
+              "VB|Protocol1_19_3To1_19_1|id": 837
             }
           },
           "model": "item/mangrove_hanging_sign"
@@ -27,7 +27,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 858
+              "VB|Protocol1_19_4To1_19_3|id": 858
             }
           },
           "model": "item/cherry_hanging_sign"
@@ -35,7 +35,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 847
+              "VB|Protocol1_19_4To1_19_3|id": 847
             }
           },
           "model": "item/cherry_sign"

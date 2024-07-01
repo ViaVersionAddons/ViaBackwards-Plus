@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 741
+                "VB|Protocol1_20_3To1_20_2|id": 741
               }
             },
             "model": "item/copper_trapdoor"
@@ -11,7 +11,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 742
+                "VB|Protocol1_20_3To1_20_2|id": 742
               }
             },
             "model": "item/exposed_copper_trapdoor"
@@ -19,7 +19,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 743
+                "VB|Protocol1_20_3To1_20_2|id": 743
               }
             },
             "model": "item/weathered_copper_trapdoor"
@@ -27,7 +27,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 744
+                "VB|Protocol1_20_3To1_20_2|id": 744
               }
             },
             "model": "item/oxidized_copper_trapdoor"
@@ -35,7 +35,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 745
+                "VB|Protocol1_20_3To1_20_2|id": 745
               }
             },
             "model": "item/waxed_copper_trapdoor"
@@ -43,7 +43,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 746
+                "VB|Protocol1_20_3To1_20_2|id": 746
               }
             },
             "model": "item/waxed_exposed_copper_trapdoor"
@@ -51,7 +51,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 747
+                "VB|Protocol1_20_3To1_20_2|id": 747
               }
             },
             "model": "item/waxed_weathered_copper_trapdoor"
@@ -59,7 +59,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 748
+                "VB|Protocol1_20_3To1_20_2|id": 748
               }
             },
             "model": "item/waxed_oxidized_copper_trapdoor"

@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 16
+                "VB|Protocol1_20_3To1_20_2|id": 16
               }
             },
             "model": "item/chiseled_tuff"
@@ -11,7 +11,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 17
+                "VB|Protocol1_20_3To1_20_2|id": 17
               }
             },
             "model": "item/polished_tuff"
@@ -19,7 +19,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 21
+                "VB|Protocol1_20_3To1_20_2|id": 21
               }
             },
             "model": "item/tuff_bricks"

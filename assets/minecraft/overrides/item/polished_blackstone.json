@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 10
+              "VB|Protocol1_17To1_16_4|id": 10
             }
           },
           "model": "item/polished_deepslate"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 9
+              "VB|Protocol1_17To1_16_4|id": 9
             }
           },
           "model": "item/cobbled_deepslate"

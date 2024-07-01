@@ -3,7 +3,7 @@
       {
         "predicate": {
           "nbt": {
-            "VB|Protocol1_19_4To1_20|id": 1230
+            "VB|Protocol1_20To1_19_4|id": 1230
             }
         },
         "model": "item/wayfinder_armor_trim_smithing_template"
@@ -11,7 +11,7 @@
       {
         "predicate": {
           "nbt": {
-            "VB|Protocol1_19_4To1_20|id": 1231
+            "VB|Protocol1_20To1_19_4|id": 1231
             }
         },
         "model": "item/shaper_armor_trim_smithing_template"
@@ -19,7 +19,7 @@
       {
         "predicate": {
           "nbt": {
-            "VB|Protocol1_19_4To1_20|id": 1232
+            "VB|Protocol1_20To1_19_4|id": 1232
             }
         },
         "model": "item/silence_armor_trim_smithing_template"
@@ -27,7 +27,7 @@
       {
         "predicate": {
           "nbt": {
-            "VB|Protocol1_19_4To1_20|id": 1233
+            "VB|Protocol1_20To1_19_4|id": 1233
             }
         },
         "model": "item/raiser_armor_trim_smithing_template"
@@ -35,7 +35,7 @@
       {
         "predicate": {
           "nbt": {
-            "VB|Protocol1_19_4To1_20|id": 1234
+            "VB|Protocol1_20To1_19_4|id": 1234
             }
         },
         "model": "item/host_armor_trim_smithing_template"

@@ -3,7 +3,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 695
+            "VB|Protocol1_17To1_16_4|id": 695
           }
         },
         "model": "item/raw_gold"
@@ -11,7 +11,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 47
+            "VB|Protocol1_17To1_16_4|id": 47
           }
         },
         "model": "item/deepslate_gold_ore"

@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_20_2To1_20_3|id": 24
+              "VB|Protocol1_20_3To1_20_2|id": 24
             }
           },
           "model": "item/tuff_brick_wall"
