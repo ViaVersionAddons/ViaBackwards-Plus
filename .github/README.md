@@ -1,24 +1,31 @@
 ![ ](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Header.webp)
-  <h3>Requires the mod <a href="https://modrinth.com/mod/chime" target="_blank">Chime</a> to work</h3>
+<a href="https://modrinth.com/mod/chime" target="_blank">
+![req](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Requirements.webp)
+</a>
+
   <p><strong>This Minecraft pack enhances the gameplay experience with the ViaBackwards plugin</strong>, which allow players to connect to newer servers with an older client. The pack requires the Chime mod to work, which helps identify the items by their custom name or custom NBT data, and assigns the correct model and texture to them. The best part of this pack is that if you put an another resourcespack on top of it, it will load the textures from that!<br><strong><span style="color: red;">Please note that this pack is not an official addon from the <a href="https://github.com/ViaVersion/ViaBackwards/graphs/contributors" target="_blank">ViaBackwards team</a>, and it's just fan-made.</span></strong></p>
 
-<img src="https://cdn.modrinth.com/data/v7n1ZsFg/images/313eb5e524ee378de7e34477159d894c246f0c83.png" title="This image has been taken in 1.16">
+![showcase_1.20](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Showcase%20.webp)
+
+---
 
   ![Features](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Features.webp)
-  <ul>
-    <li>Backports item textures from newer versions of Minecraft</li>
-    <li>Compatible with other resources packs</li>
-    <li>Enhances gameplay experience</li>
-    <li>Support all the way down to 1.16</li>
-    <li>Works even when the items are renamed!</li>
-    <li>Some easter-eggs</li>
-  </ul>
+  ![keypoints](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_KeyPoints.webp)
+
+---
+
+<a href="https://github.com/ViaVersionAddons/ViaBackwards-Plus/issues" target="_blank">
   
-  
-<br><h2><strong>Please if you have any issues report it on <a href="https://discord.gg/57GdhxYYfd" target="_blank">Discord</a> or <a href="https://github.com/ViaVersionAddons/ViaBackwards-Plus/issues" target="_blank">Github</a>!!!</strong></h2><br>
+![reportissues](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_ReportIssues.webp)
+
+</a>
+
+---
 
 <a href="https://bisecthosting.com/bangetto" target="_blank">
-<img src="https://www.bisecthosting.com/partners/custom-banners/81c7319d-d963-477b-9ea6-7fb11e1b8a46.webp">
+  
+![sponsor](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_PromoCard.webp)
+
 </a>
 
 <hr>
@@ -69,7 +76,7 @@ When a Minecraft release is at Pre-release or Release-candidate stage a beta is 
 </details>
 
 <details>
-<summary><b>How it Works?</b></summary>
+<summary>How it Works?</summary>
 
 <p>The pack works by identifying items by their ViaBackwards Protocol ID, which helps determine the correct model and texture to assign to them. For example, "Copper ore" has a protocol id of "44", the Chime mod will help the pack recognize it as a Copper ore and assign the correct model and texture to it.</p>
 <p>Think of it like a special tag on each item that tells the pack what it is, so the pack knows how to make it look and behave correctly. This way, you get to enjoy the latest Minecraft textures and the easy identification of items, even if you're playing an older version of the game!</p>
@@ -77,14 +84,14 @@ When a Minecraft release is at Pre-release or Release-candidate stage a beta is 
 </details>
 
 <details>
-<summary><b>Implementation on Servers</b></summary>
+<summary>Implementation on Servers</summary>
 
 You can put this resources pack to your server so, it's automatically loads when players join. The only problem is that players still have to install Chime or CIT. As of now the resource pack has a more client-sided approach, but **a more server-side friendly version is planned!** If I see demand for it I will make and maintain a version of this pack which uses the vanilla `custom_model_data` feature to backport the items instead of the external ones. Join my Discord if you want to be notified when this happens!
 
 </details>
 
 <details>
-<summary><b>Even lower versions?</b></summary>
+<summary>Even lower versions?</summary>
 
 #### If there's demand for it I can make support for 1.14x and 1.15x.
 
