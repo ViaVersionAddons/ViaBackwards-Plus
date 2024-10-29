@@ -3,14 +3,6 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_16_4To1_17|id": 796
-              }
-          },
-          "model": "item/bundle"
-        },
-        {
-          "predicate": {
-            "nbt": {
               "VB|Protocol1_21To1_21_2|id": 955
               }
           },

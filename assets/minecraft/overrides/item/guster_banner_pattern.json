@@ -3,22 +3,6 @@
           {
             "predicate": {
               "nbt": {
-                "VB|Protocol1_20_3To1_20_5|id": 1198
-              }
-            },
-            "model": "item/flow_banner_pattern"
-          },
-          {
-            "predicate": {
-              "nbt": {
-                "VB|Protocol1_20_3To1_20_5|id": 1199
-              }
-            },
-            "model": "item/guster_banner_pattern"
-          },
-          {
-            "predicate": {
-              "nbt": {
                 "VB|Protocol1_21To1_21_2|id": 1244
               }
             },
