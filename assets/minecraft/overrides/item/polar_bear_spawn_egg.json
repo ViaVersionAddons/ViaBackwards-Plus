@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 969
+              "VB|Protocol1_19_3To1_19_1|id": 969
             }
           },
           "model": "item/iron_golem_spawn_egg"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_1To1_19_3|id": 993
+              "VB|Protocol1_19_3To1_19_1|id": 993
             }
           },
           "model": "item/snow_golem_spawn_egg"

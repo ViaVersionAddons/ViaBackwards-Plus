@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 978
+                "VB|Protocol1_20_3To1_20_2|id": 978
               }
             },
             "model": "item/crafter"

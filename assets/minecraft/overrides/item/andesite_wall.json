@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 15
+                "VB|Protocol1_20_3To1_20_2|id": 15
               }
             },
             "model": "item/tuff_wall"
@@ -11,7 +11,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 20
+                "VB|Protocol1_20_3To1_20_2|id": 20
               }
             },
             "model": "item/polished_tuff_wall"

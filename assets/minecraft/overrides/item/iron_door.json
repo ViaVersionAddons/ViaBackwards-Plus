@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 721
+                "VB|Protocol1_20_3To1_20_2|id": 721
               }
             },
             "model": "item/copper_door"
@@ -11,7 +11,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 722
+                "VB|Protocol1_20_3To1_20_2|id": 722
               }
             },
             "model": "item/exposed_copper_door"
@@ -19,7 +19,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 723
+                "VB|Protocol1_20_3To1_20_2|id": 723
               }
             },
             "model": "item/weathered_copper_door"
@@ -27,7 +27,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 724
+                "VB|Protocol1_20_3To1_20_2|id": 724
               }
             },
             "model": "item/oxidized_copper_door"
@@ -35,7 +35,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 725
+                "VB|Protocol1_20_3To1_20_2|id": 725
               }
             },
             "model": "item/waxed_copper_door"
@@ -43,7 +43,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 726
+                "VB|Protocol1_20_3To1_20_2|id": 726
               }
             },
             "model": "item/waxed_exposed_copper_door"
@@ -51,7 +51,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 727
+                "VB|Protocol1_20_3To1_20_2|id": 727
               }
             },
             "model": "item/waxed_weathered_copper_door"
@@ -59,7 +59,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 728
+                "VB|Protocol1_20_3To1_20_2|id": 728
               }
             },
             "model": "item/waxed_oxidized_copper_door"

@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1212
+              "VB|Protocol1_19_4To1_19_3|id": 1212
               }
           },
           "model": "item/netherite_upgrade_smithing_template"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1213
+              "VB|Protocol1_19_4To1_19_3|id": 1213
               }
           },
           "model": "item/sentry_armor_trim_smithing_template"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1214
+              "VB|Protocol1_19_4To1_19_3|id": 1214
               }
           },
           "model": "item/dune_armor_trim_smithing_template"
@@ -27,7 +27,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1215
+              "VB|Protocol1_19_4To1_19_3|id": 1215
               }
           },
           "model": "item/coast_armor_trim_smithing_template"
@@ -35,7 +35,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1216
+              "VB|Protocol1_19_4To1_19_3|id": 1216
               }
           },
           "model": "item/wild_armor_trim_smithing_template"
@@ -43,7 +43,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1217
+              "VB|Protocol1_19_4To1_19_3|id": 1217
               }
           },
           "model": "item/ward_armor_trim_smithing_template"
@@ -51,7 +51,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1218
+              "VB|Protocol1_19_4To1_19_3|id": 1218
               }
           },
           "model": "item/eye_armor_trim_smithing_template"
@@ -59,7 +59,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1219
+              "VB|Protocol1_19_4To1_19_3|id": 1219
               }
           },
           "model": "item/vex_armor_trim_smithing_template"
@@ -67,7 +67,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1220
+              "VB|Protocol1_19_4To1_19_3|id": 1220
               }
           },
           "model": "item/tide_armor_trim_smithing_template"
@@ -75,7 +75,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1221
+              "VB|Protocol1_19_4To1_19_3|id": 1221
               }
           },
           "model": "item/snout_armor_trim_smithing_template"
@@ -83,7 +83,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1222
+              "VB|Protocol1_19_4To1_19_3|id": 1222
               }
           },
           "model": "item/rib_armor_trim_smithing_template"
@@ -91,7 +91,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 1223
+              "VB|Protocol1_19_4To1_19_3|id": 1223
               }
           },
           "model": "item/spire_armor_trim_smithing_template"
@@ -99,7 +99,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1230
+              "VB|Protocol1_20To1_19_4|id": 1230
               }
           },
           "model": "item/wayfinder_armor_trim_smithing_template"
@@ -107,7 +107,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1231
+              "VB|Protocol1_20To1_19_4|id": 1231
               }
           },
           "model": "item/shaper_armor_trim_smithing_template"
@@ -115,7 +115,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1232
+              "VB|Protocol1_20To1_19_4|id": 1232
               }
           },
           "model": "item/silence_armor_trim_smithing_template"
@@ -123,7 +123,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1233
+              "VB|Protocol1_20To1_19_4|id": 1233
               }
           },
           "model": "item/raiser_armor_trim_smithing_template"
@@ -131,7 +131,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 1234
+              "VB|Protocol1_20To1_19_4|id": 1234
               }
           },
           "model": "item/host_armor_trim_smithing_template"

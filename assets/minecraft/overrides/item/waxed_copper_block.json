@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 115
+                "VB|Protocol1_20_3To1_20_2|id": 115
               }
             },
             "model": "item/waxed_chiseled_copper"

@@ -3,7 +3,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 85
+            "VB|Protocol1_17To1_16_4|id": 85
           }
         },
         "model": "item/waxed_copper_block"
@@ -11,7 +11,7 @@
       {
         "predicate": {
           "nbt":{
-            "VB|Protocol1_16_4To1_17|id": 73
+            "VB|Protocol1_17To1_16_4|id": 73
           }
         },
         "model": "item/cut_copper"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 89
+              "VB|Protocol1_17To1_16_4|id": 89
             }
           },
           "model": "item/waxed_cut_copper"
@@ -27,7 +27,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 76
+              "VB|Protocol1_17To1_16_4|id": 76
             }
           },
           "model": "item/oxidized_cut_copper"
@@ -35,7 +35,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 92
+              "VB|Protocol1_17To1_16_4|id": 92
             }
           },
           "model": "item/waxed_oxidized_cut_copper"
@@ -43,7 +43,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 72
+              "VB|Protocol1_17To1_16_4|id": 72
             }
           },
           "model": "item/oxidized_copper"
@@ -51,7 +51,7 @@
         {
           "predicate": {
             "nbt":{
-              "VB|Protocol1_16_4To1_17|id": 88
+              "VB|Protocol1_17To1_16_4|id": 88
             }
           },
           "model": "item/waxed_oxidized_copper"
@@ -59,7 +59,7 @@
         {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_16_4To1_17|id": 70
+                "VB|Protocol1_17To1_16_4|id": 70
               }
             },
             "model": "item/exposed_copper"
@@ -67,7 +67,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_16_4To1_17|id": 74
+                "VB|Protocol1_17To1_16_4|id": 74
               }
             },
             "model": "item/exposed_cut_copper"
@@ -75,7 +75,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_16_4To1_17|id": 90
+                "VB|Protocol1_17To1_16_4|id": 90
               }
             },
             "model": "item/waxed_exposed_cut_copper"
@@ -83,7 +83,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_16_4To1_17|id": 86
+                "VB|Protocol1_17To1_16_4|id": 86
               }
             },
             "model": "item/waxed_exposed_copper"
@@ -91,7 +91,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_16_4To1_17|id": 71
+                  "VB|Protocol1_17To1_16_4|id": 71
                 }
               },
               "model": "item/weathered_copper"
@@ -99,7 +99,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_16_4To1_17|id": 75
+                  "VB|Protocol1_17To1_16_4|id": 75
                 }
               },
               "model": "item/weathered_cut_copper"
@@ -107,7 +107,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_16_4To1_17|id": 91
+                  "VB|Protocol1_17To1_16_4|id": 91
                 }
               },
               "model": "item/waxed_weathered_cut_copper"
@@ -115,7 +115,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_16_4To1_17|id": 87
+                  "VB|Protocol1_17To1_16_4|id": 87
                 }
               },
               "model": "item/waxed_weathered_copper"
@@ -141,7 +141,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_20_2To1_20_3|id": 95
+                  "VB|Protocol1_20_3To1_20_2|id": 95
                 }
               },
               "model": "item/chiseled_copper"
@@ -149,7 +149,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_20_2To1_20_3|id": 96
+                  "VB|Protocol1_20_3To1_20_2|id": 96
                 }
               },
               "model": "item/exposed_chiseled_copper"
@@ -157,7 +157,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_20_2To1_20_3|id": 97
+                  "VB|Protocol1_20_3To1_20_2|id": 97
                 }
               },
               "model": "item/weathered_chiseled_copper"
@@ -165,7 +165,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_20_2To1_20_3|id": 98
+                  "VB|Protocol1_20_3To1_20_2|id": 98
                 }
               },
               "model": "item/oxidized_chiseled_copper"
@@ -173,7 +173,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_20_2To1_20_3|id": 115
+                  "VB|Protocol1_20_3To1_20_2|id": 115
                 }
               },
               "model": "item/waxed_chiseled_copper"
@@ -181,7 +181,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_20_2To1_20_3|id": 116
+                  "VB|Protocol1_20_3To1_20_2|id": 116
                 }
               },
               "model": "item/waxed_exposed_chiseled_copper"
@@ -189,7 +189,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_20_2To1_20_3|id": 118
+                  "VB|Protocol1_20_3To1_20_2|id": 118
                 }
               },
               "model": "item/waxed_oxidized_chiseled_copper"
@@ -197,7 +197,7 @@
             {
               "predicate": {
                 "nbt":{
-                  "VB|Protocol1_20_2To1_20_3|id": 117
+                  "VB|Protocol1_20_3To1_20_2|id": 117
                 }
               },
               "model": "item/waxed_weathered_chiseled_copper"

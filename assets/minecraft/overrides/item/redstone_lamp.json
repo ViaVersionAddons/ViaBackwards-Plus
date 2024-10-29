@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 1302
+                "VB|Protocol1_20_3To1_20_2|id": 1302
               }
             },
             "model": "item/copper_bulb"
@@ -11,7 +11,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 1303
+                "VB|Protocol1_20_3To1_20_2|id": 1303
               }
             },
             "model": "item/exposed_copper_bulb"
@@ -19,7 +19,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 1304
+                "VB|Protocol1_20_3To1_20_2|id": 1304
               }
             },
             "model": "item/weathered_copper_bulb"
@@ -27,7 +27,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 1305
+                "VB|Protocol1_20_3To1_20_2|id": 1305
               }
             },
             "model": "item/oxidized_copper_bulb"
@@ -35,7 +35,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 1306
+                "VB|Protocol1_20_3To1_20_2|id": 1306
               }
             },
             "model": "item/waxed_copper_bulb"
@@ -43,7 +43,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 1307
+                "VB|Protocol1_20_3To1_20_2|id": 1307
               }
             },
             "model": "item/waxed_exposed_copper_bulb"
@@ -51,7 +51,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 1308
+                "VB|Protocol1_20_3To1_20_2|id": 1308
               }
             },
             "model": "item/waxed_weathered_copper_bulb"
@@ -59,7 +59,7 @@
           {
             "predicate": {
               "nbt":{
-                "VB|Protocol1_20_2To1_20_3|id": 1309
+                "VB|Protocol1_20_3To1_20_2|id": 1309
               }
             },
             "model": "item/waxed_oxidized_copper_bulb"

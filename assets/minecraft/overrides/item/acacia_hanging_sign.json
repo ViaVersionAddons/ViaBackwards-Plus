@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_3To1_19_4|id": 858
+              "VB|Protocol1_19_4To1_19_3|id": 858
             }
           },
           "model": "item/cherry_hanging_sign"

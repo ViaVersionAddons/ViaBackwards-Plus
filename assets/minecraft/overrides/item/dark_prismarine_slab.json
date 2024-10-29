@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_16_4To1_17|id": 603
+              "VB|Protocol1_17To1_16_4|id": 603
             }
           },
           "model": "item/sculk_sensor"
@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 654
+              "VB|Protocol1_20To1_19_4|id": 654
             }
           },
           "model": "item/calibrated_sculk_sensor"

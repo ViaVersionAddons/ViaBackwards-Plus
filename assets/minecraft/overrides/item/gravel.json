@@ -3,7 +3,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_19_4To1_20|id": 46
+              "VB|Protocol1_20To1_19_4|id": 46
             }
           },
           "model": "item/suspicious_gravel"
