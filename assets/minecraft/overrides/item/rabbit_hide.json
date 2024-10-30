@@ -11,7 +11,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 955
+              "VB|Protocol1_21_2To1_21|id": 955
               }
           },
           "model": "item/white_bundle"
@@ -19,7 +19,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 956
+              "VB|Protocol1_21_2To1_21|id": 956
               }
           },
           "model": "item/orange_bundle"
@@ -27,7 +27,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 957
+              "VB|Protocol1_21_2To1_21|id": 957
               }
           },
           "model": "item/magenta_bundle"
@@ -35,7 +35,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 958
+              "VB|Protocol1_21_2To1_21|id": 958
               }
           },
           "model": "item/light_blue_bundle"
@@ -43,7 +43,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 959
+              "VB|Protocol1_21_2To1_21|id": 959
               }
           },
           "model": "item/yellow_bundle"
@@ -51,7 +51,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 960
+              "VB|Protocol1_21_2To1_21|id": 960
               }
           },
           "model": "item/lime_bundle"
@@ -59,7 +59,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 961
+              "VB|Protocol1_21_2To1_21|id": 961
               }
           },
           "model": "item/pink_bundle"
@@ -67,7 +67,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 962
+              "VB|Protocol1_21_2To1_21|id": 962
               }
           },
           "model": "item/gray_bundle"
@@ -75,7 +75,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 963
+              "VB|Protocol1_21_2To1_21|id": 963
               }
           },
           "model": "item/light_gray_bundle"
@@ -83,7 +83,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 964
+              "VB|Protocol1_21_2To1_21|id": 964
               }
           },
           "model": "item/cyan_bundle"
@@ -91,7 +91,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 965
+              "VB|Protocol1_21_2To1_21|id": 965
               }
           },
           "model": "item/purple_bundle"
@@ -99,7 +99,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 966
+              "VB|Protocol1_21_2To1_21|id": 966
               }
           },
           "model": "item/blue_bundle"
@@ -107,7 +107,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 967
+              "VB|Protocol1_21_2To1_21|id": 967
               }
           },
           "model": "item/brown_bundle"
@@ -115,7 +115,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 968
+              "VB|Protocol1_21_2To1_21|id": 968
               }
           },
           "model": "item/green_bundle"
@@ -123,7 +123,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 969
+              "VB|Protocol1_21_2To1_21|id": 969
               }
           },
           "model": "item/red_bundle"
@@ -131,7 +131,7 @@
         {
           "predicate": {
             "nbt": {
-              "VB|Protocol1_21To1_21_2|id": 970
+              "VB|Protocol1_21_2To1_21|id": 970
               }
           },
           "model": "item/black_bundle"

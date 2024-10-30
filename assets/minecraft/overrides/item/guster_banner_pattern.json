@@ -3,7 +3,7 @@
           {
             "predicate": {
               "nbt": {
-                "VB|Protocol1_21To1_21_2|id": 1244
+                "VB|Protocol1_21_2To1_21|id": 1244
               }
             },
             "model": "item/field_masoned_banner_pattern"
@@ -11,7 +11,7 @@
           {
             "predicate": {
               "nbt": {
-                "VB|Protocol1_21To1_21_2|id": 1245
+                "VB|Protocol1_21_2To1_21|id": 1245
               }
             },
             "model": "item/bordure_indented_banner_pattern"
