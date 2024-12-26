@@ -7,6 +7,14 @@
             }
           },
           "model": "item/bamboo_fence_gate"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 775
+            }
+          },
+          "model": "block/pale_oak_fence_gate"
         }
     ]
 }

@@ -15,6 +15,14 @@
             }
           },
           "model": "item/bamboo_mosaic_stairs"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 403
+            }
+          },
+          "model": "block/pale_oak_stairs"
         }
     ]
 }

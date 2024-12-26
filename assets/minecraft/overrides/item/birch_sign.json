@@ -31,6 +31,14 @@
             }
           },
           "model": "item/bamboo_hanging_sign"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 915
+            }
+          },
+          "model": "item/pale_oak_sign"
         }
     ]
 }

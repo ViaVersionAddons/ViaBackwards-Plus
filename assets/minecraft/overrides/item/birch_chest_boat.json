@@ -7,6 +7,14 @@
             }
           },
           "model": "item/bamboo_chest_raft"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 809
+            }
+          },
+          "model": "item/pale_oak_chest_boat"
         }
     ]
 }

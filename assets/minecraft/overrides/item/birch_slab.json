@@ -15,6 +15,14 @@
             }
           },
           "model": "item/bamboo_mosaic_slab"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 269
+            }
+          },
+          "model": "block/pale_oak_slab"
         }
     ]
 }

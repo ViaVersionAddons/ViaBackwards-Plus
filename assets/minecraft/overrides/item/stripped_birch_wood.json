@@ -7,6 +7,14 @@
             }
           },
           "model": "item/stripped_bamboo_block"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 166
+            }
+          },
+          "model": "block/stripped_pale_oak_wood"
         }
     ]
 }

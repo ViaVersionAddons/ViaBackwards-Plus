@@ -7,6 +7,14 @@
             }
           },
           "model": "item/bamboo_button"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 705
+            }
+          },
+          "model": "block/pale_oak_button_inventory"
         }
     ]
 }

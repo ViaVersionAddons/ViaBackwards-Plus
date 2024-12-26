@@ -7,6 +7,14 @@
             }
           },
           "model": "item/bamboo_block"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 177
+            }
+          },
+          "model": "block/pale_oak_wood"
         }
     ]
 }

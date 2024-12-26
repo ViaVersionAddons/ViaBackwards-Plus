@@ -7,6 +7,14 @@
             }
           },
           "model": "item/mangrove_roots"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 310
+            }
+          },
+          "model": "block/creaking_heart"
         }
     ]
 }

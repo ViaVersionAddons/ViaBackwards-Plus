@@ -7,6 +7,14 @@
             }
           },
           "model": "item/bamboo_door"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 734
+            }
+          },
+          "model": "item/pale_oak_door"
         }
     ]
 }

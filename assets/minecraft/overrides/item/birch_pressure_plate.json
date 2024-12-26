@@ -7,6 +7,14 @@
             }
           },
           "model": "item/bamboo_pressure_plate"
+        },
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_2To1_21|id": 721
+            }
+          },
+          "model": "block/pale_oak_pressure_plate"
         }
     ]
 }
