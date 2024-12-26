@@ -1,0 +1,12 @@
+{
+    "overrides": [
+        {
+          "predicate": {
+            "nbt": {
+              "VB|Protocol1_21_4To1_21_2|id": 1167
+            }
+          },
+          "model": "item/resin_brick"
+        }
+    ]
+}
