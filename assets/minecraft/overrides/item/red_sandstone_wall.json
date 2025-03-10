@@ -6,7 +6,7 @@
               "VB|Protocol1_21_4To1_21_2|id": 381
             }
           },
-          "model": "block/resin_brick_wall"
+          "model": "block/resin_brick_wall_inventory"
         }
     ]
 }
