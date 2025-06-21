@@ -1,14 +1,7 @@
 ﻿{
     "pack": {
-        "pack_format": 6,
-        "supported_formats": [6,35],
-        "description": "§e§l§kMade§r§6§l Requries Chime! §r§e§l§kBy--\n§r§d§kbang§r §5§nGithub.com/bangetto§r §d§ketto"
-	},
-	
-    "overlays": {
-        "entries": [
-                {"directory":"titlefix","formats":[14,35]},
-                {"directory":"omenicon","formats":[31,35]}
-            ]
-        }
+        "pack_format": 55,
+        "supported_formats": [55,70],
+        "description": "§r§d§kbang§r §5§nGithub.com/bangetto§r §d§ketto"
+	}
 }

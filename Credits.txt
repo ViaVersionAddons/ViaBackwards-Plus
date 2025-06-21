@@ -1,6 +1,1 @@
-﻿Here's a list of the creator of the assets that I used in this pack (in order that I used their work, not in how much I used them):
-
-Mojang Studios: https://minecraft.net (Every backported texture and model)
-Vanilla Tweaks: https://vanillatweaks.net/ (Some easter egg textures)
-EasterEggs by AlinoeTheBunny: https://www.curseforge.com/minecraft/texture-packs/eastereggs (The literal easter egg textures)
-New Title by Vi_Tul: https://modrinth.com/resourcepack/new-title (Backporting of the new Minecraft title)
+﻿Mojang Studios: https://minecraft.net (Every backported texture and model)
