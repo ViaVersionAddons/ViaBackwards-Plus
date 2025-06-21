@@ -1,0 +1,31 @@
+{
+  "model":{
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "VB|Protocol1_21_6To1_21_5|id": 619,
+          "VB|Protocol1_21_6To1_21_5|original_hashes": {
+            "removed": []
+          },
+          "VV|custom_data": 1,
+          "VB|Protocol1_21_6To1_21_5|added_custom_name": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/dried_ghast_hydration_0"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_skull",
+      "model": {
+        "type": "minecraft:head",
+        "kind": "skeleton"
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ﻿{
     "pack": {
         "pack_format": 55,
-        "supported_formats": [55,70],
+        "supported_formats": [55,62],
         "description": "§r§d§kbang§r §5§nGithub.com/bangetto§r §d§ketto"
 	}
 }
