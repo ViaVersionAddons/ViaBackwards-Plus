@@ -12,10 +12,11 @@ jobs:
         max-parallel: 1
     steps:
        - name: Download the pack files
-         uses: robinraju/release-downloader@v1.11
+         uses: robinraju/release-downloader@v1
          id: download-files
          with:
            fileName: "*.zip"
+           tag: ${{ github.event.release.tag_name }}
            latest: true
            tarBall: false
            zipBall: false
@@ -26,7 +27,7 @@ jobs:
            name: ${{ steps.download-files.outputs.release_name }}
            files: '*.zip'
            loaders: minecraft
-           game-versions: "[1.16.2,1.20.4]"
+           game-versions: "[1.21.5,1.21.6]"
 
            modrinth-id: v7n1ZsFg
            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
@@ -34,8 +35,3 @@ jobs:
            curseforge-id: 821967
            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
 
-           dependencies: |
-             chime(required){modrinth:ubxU84eR}{curseforge:432776}#(ignore:github)
-             cit-resewn(optional){modrinth:otVJckYQ}{curseforge:521427}#(ignore:github)
-             respackopts(optional){modrinth:TiF5QWZY}#(ignore:curseforge,github)
-             new-title(embedded){modrinth:oWMz79A6}#(ignore:curseforge,github)
