@@ -6,7 +6,7 @@
     "cases": [
       {
         "when": {
-            "text": "1.22 White Harness",
+            "text": "1.21.6 White Harness",
             "italic": false,
             "color": "white"
         },
@@ -17,7 +17,7 @@
       },
       {
         "when": {
-            "text": "1.22 Green Harness",
+            "text": "1.21.6 Green Harness",
             "italic": false,
             "color": "white"
         },
@@ -28,7 +28,7 @@
       },
       {
         "when": {
-            "text": "1.22 Light Blue Harness",
+            "text": "1.21.6 Light Blue Harness",
             "italic": false,
             "color": "white"
         },
@@ -39,7 +39,7 @@
       },
       {
         "when": {
-            "text": "1.22 Cyan Harness",
+            "text": "1.21.6 Cyan Harness",
             "italic": false,
             "color": "white"
         },
@@ -50,7 +50,7 @@
       },
       {
         "when": {
-            "text": "1.22 Red Harness",
+            "text": "1.21.6 Red Harness",
             "italic": false,
             "color": "white"
         },
@@ -61,7 +61,7 @@
       },
       {
         "when": {
-            "text": "1.22 Light Gray Harness",
+            "text": "1.21.6 Light Gray Harness",
             "italic": false,
             "color": "white"
         },
@@ -72,7 +72,7 @@
       },
       {
         "when": {
-            "text": "1.22 Purple Harness",
+            "text": "1.21.6 Purple Harness",
             "italic": false,
             "color": "white"
         },
@@ -83,7 +83,7 @@
       },
       {
         "when": {
-            "text": "1.22 Orange Harness",
+            "text": "1.21.6 Orange Harness",
             "italic": false,
             "color": "white"
         },
@@ -94,7 +94,7 @@
       },
       {
         "when": {
-            "text": "1.22 Blue Harness",
+            "text": "1.21.6 Blue Harness",
             "italic": false,
             "color": "white"
         },
@@ -105,7 +105,7 @@
       },
       {
         "when": {
-            "text": "1.22 Gray Harness",
+            "text": "1.21.6 Gray Harness",
             "italic": false,
             "color": "white"
         },
@@ -116,7 +116,7 @@
       },
       {
         "when": {
-            "text": "1.22 Brown Harness",
+            "text": "1.21.6 Brown Harness",
             "italic": false,
             "color": "white"
         },
@@ -127,7 +127,7 @@
       },
       {
         "when": {
-            "text": "1.22 Magenta Harness",
+            "text": "1.21.6 Magenta Harness",
             "italic": false,
             "color": "white"
         },
@@ -138,7 +138,7 @@
       },
       {
         "when": {
-            "text": "1.22 Yellow Harness",
+            "text": "1.21.6 Yellow Harness",
             "italic": false,
             "color": "white"
         },
@@ -149,7 +149,7 @@
       },
       {
         "when": {
-            "text": "1.22 Lime Harness",
+            "text": "1.21.6 Lime Harness",
             "italic": false,
             "color": "white"
         },
@@ -160,7 +160,7 @@
       },
       {
         "when": {
-            "text": "1.22 Pink Harness",
+            "text": "1.21.6 Pink Harness",
             "italic": false,
             "color": "white"
         },
