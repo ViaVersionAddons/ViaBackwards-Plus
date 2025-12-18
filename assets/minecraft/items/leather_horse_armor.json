@@ -1,0 +1,35 @@
+{
+  "model":{
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+            "text": "1.21.11 Netherite Nautilus Armor",
+            "italic": false,
+            "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/netherite_nautilus_armor"
+        }
+      },
+      {
+        "when": {
+            "text": "1.21.11 Netherite Horse Armor",
+            "italic": false,
+            "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/netherite_horse_armor"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leather_horse_armor"
+    }
+  }
+}

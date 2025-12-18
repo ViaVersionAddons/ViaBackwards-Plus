@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "1.21.11 Nautilus Spawn Egg",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/nautilus_spawn_egg"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/squid_spawn_egg"
+    }
+  }
+}
+
+

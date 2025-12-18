@@ -56,7 +56,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/waxed_copper_bars"
+          "model": "minecraft:item/copper_bars"
         }
       },
       {
@@ -67,7 +67,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/waxed_exposed_copper_bars"
+          "model": "minecraft:item/exposed_copper_bars"
         }
       },
       {
@@ -78,7 +78,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/waxed_oxidized_copper_bars"
+          "model": "minecraft:item/oxidized_copper_bars"
         }
       },
       {
@@ -89,7 +89,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/waxed_weathered_copper_bars"
+          "model": "minecraft:item/weathered_copper_bars"
         }
       }
       

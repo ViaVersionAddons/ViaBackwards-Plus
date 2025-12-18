@@ -6,9 +6,57 @@
     "cases": [
       {
         "when": {
-            "text": "1.21.9 Copper Sword",
-            "italic": false,
-            "color": "white"
+          "text": "1.21.11 Iron Spear",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/iron_spear"
+              },
+              "when": ["gui", "ground", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_spear_in_hand"
+          }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.11 Copper Spear",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/copper_spear"
+              },
+              "when": ["gui", "ground", "fixed"]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/copper_spear_in_hand"
+          }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Copper Sword",
+          "italic": false,
+          "color": "white"
         },
         "model": {
           "type": "minecraft:model",

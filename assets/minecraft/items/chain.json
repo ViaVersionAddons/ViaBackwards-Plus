@@ -6,97 +6,97 @@
     "cases": [
       {
         "when": {
-            "text": "1.21.9 Copper Lantern",
+            "text": "1.21.9 Copper Chain",
             "italic": false,
             "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/copper_lantern"
+          "model": "minecraft:item/copper_chain"
         }
       },
       {
         "when": {
-            "text": "1.21.9 Exposed Copper Lantern",
+            "text": "1.21.9 Exposed Copper Chain",
             "italic": false,
             "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/exposed_copper_lantern"
+          "model": "minecraft:item/exposed_copper_chain"
         }
       },
       {
         "when": {
-            "text": "1.21.9 Oxidized Copper Lantern",
+            "text": "1.21.9 Oxidized Copper Chain",
             "italic": false,
             "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/oxidized_copper_lantern"
+          "model": "minecraft:item/oxidized_copper_chain"
         }
       },
       {
         "when": {
-            "text": "1.21.9 Weathered Copper Lantern",
+            "text": "1.21.9 Weathered Copper Chain",
             "italic": false,
             "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/weathered_copper_lantern"
+          "model": "minecraft:item/weathered_copper_chain"
         }
       },
       {
         "when": {
-            "text": "1.21.9 Waxed Copper Lantern",
+            "text": "1.21.9 Waxed Copper Chain",
             "italic": false,
             "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/waxed_copper_lantern"
+          "model": "minecraft:item/copper_chain"
         }
       },
       {
         "when": {
-            "text": "1.21.9 Waxed Exposed Copper Lantern",
+            "text": "1.21.9 Waxed Exposed Copper Chain",
             "italic": false,
             "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-            "model": "minecraft:item/waxed_exposed_copper_lantern"
+          "model": "minecraft:item/exposed_copper_chain"
         }
       },
       {
         "when": {
-            "text": "1.21.9 Waxed Oxidized Copper Lantern",
+            "text": "1.21.9 Waxed Oxidized Copper Chain",
             "italic": false,
             "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/waxed_oxidized_copper_lantern"
+          "model": "minecraft:item/oxidized_copper_chain"
         }
       },
       {
         "when": {
-            "text": "1.21.9 Waxed Weathered Copper Lantern",
+            "text": "1.21.9 Waxed Weathered Copper Chain",
             "italic": false,
             "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/waxed_weathered_copper_lantern"
+          "model": "minecraft:item/weathered_copper_chain"
         }
       }
       
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/lantern"
+      "model": "minecraft:item/chain"
     }
   }
 }
