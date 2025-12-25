@@ -6,19 +6,21 @@
     "cases": [
       {
         "when": {
-            "text": "1.21.7 Music Disc Lava Chicken",
-            "italic": false,
-            "color": "white"
+          "text": "1.21.11 Camel Husk Spawn Egg",
+          "italic": false,
+          "color": "white"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/music_disc_lava_chicken"
+          "model": "minecraft:item/camel_husk_spawn_egg"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/music_disc_lava_chicken"
+      "model": "minecraft:item/camel_spawn_egg"
     }
   }
 }
+
+

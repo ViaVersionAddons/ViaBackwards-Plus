@@ -1,0 +1,152 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "1.21.9 Copper Chest",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/copper_chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "minecraft:copper"
+          }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Exposed Copper Chest",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/exposed_copper_chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "minecraft:copper_exposed"
+          }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Oxidized Copper Chest",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/oxidized_copper_chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "minecraft:copper_oxidized"
+          }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Weathered Copper Chest",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/weathered_copper_chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "minecraft:copper_weathered"
+          }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Waxed Copper Chest",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/copper_chest",
+          "model": { "type": "minecraft:chest", "texture": "minecraft:copper" }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Waxed Exposed Copper Chest",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/exposed_copper_chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "minecraft:copper_exposed"
+          }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Waxed Oxidized Copper Chest",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/oxidized_copper_chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "minecraft:copper_oxidized"
+          }
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Waxed Weathered Copper Chest",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/weathered_copper_chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "minecraft:copper_weathered"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:local_time",
+      "pattern": "MM-dd",
+      "cases": [
+        {
+          "when": ["12-24", "12-25", "12-26"],
+          "model": {
+            "type": "minecraft:special",
+            "base": "minecraft:item/chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "minecraft:christmas"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/chest",
+        "model": {
+          "type": "minecraft:chest",
+          "texture": "minecraft:normal"
+        }
+      }
+    }
+  }
+}

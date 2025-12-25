@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "1.21.9 Oak Shelf",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/oak_shelf_inventory"
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Pale Oak Shelf",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pale_oak_shelf_inventory"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/oak_planks"
+    }
+  }
+}
+
+

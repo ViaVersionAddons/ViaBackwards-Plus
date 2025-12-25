@@ -1,0 +1,102 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "1.21.9 Waxed Oxidized Copper Golem Statue",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/oxidized_copper_golem_statue_inventory"
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Waxed Weathered Copper Golem Statue",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/weathered_copper_golem_statue_inventory"
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Waxed Exposed Copper Golem Statue",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/exposed_copper_golem_statue_inventory"
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Waxed Copper Golem Statue",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/copper_golem_statue_inventory"
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Oxidized Copper Golem Statue",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/oxidized_copper_golem_statue_inventory"
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Weathered Copper Golem Statue",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/weathered_copper_golem_statue_inventory"
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Exposed Copper Golem Statue",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/exposed_copper_golem_statue_inventory"
+        }
+      },
+      {
+        "when": {
+          "text": "1.21.9 Copper Golem Statue",
+          "italic": false,
+          "color": "white"
+        },
+        
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/copper_golem_statue_inventory"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/iron_block"
+    }
+  }
+}

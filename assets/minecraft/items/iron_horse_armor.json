@@ -1,0 +1,46 @@
+{
+  "model":{
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+            "text": "1.21.9 Copper Horse Armor",
+            "italic": false,
+            "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_horse_armor"
+        }
+      },
+      {
+        "when": {
+            "text": "1.21.11 Iron Nautilus Armor",
+            "italic": false,
+            "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_nautilus_armor"
+        }
+      },
+      {
+        "when": {
+            "text": "1.21.11 Copper Nautilus Armor",
+            "italic": false,
+            "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_nautilus_armor"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_horse_armor"
+    }
+  }
+}

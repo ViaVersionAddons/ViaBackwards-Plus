@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "1.21.9 Dark Oak Shelf",
+          "italic": false,
+          "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/dark_oak_shelf_inventory"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/dark_oak_planks"
+    }
+  }
+}
+
+

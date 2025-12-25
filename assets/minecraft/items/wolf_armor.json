@@ -6,6 +6,17 @@
     "cases": [
       {
         "when": {
+            "text": "1.21.6 Black Harness",
+            "italic": false,
+            "color": "white"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/black_harness"
+        }
+      },
+      {
+        "when": {
             "text": "1.21.6 White Harness",
             "italic": false,
             "color": "white"
