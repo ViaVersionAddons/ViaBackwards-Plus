@@ -1,1 +1,3 @@
 ﻿Mojang Studios: https://minecraft.net (Every backported texture and model)
+
+Contributors: https://github.com/ViaVersionAddons/ViaBackwards-Plus/graphs/contributors (For all their help! <3)
