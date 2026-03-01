@@ -1,0 +1,7 @@
+{
+  "parent": "vb_plus:block/template_shelf_inventory",
+  "textures": {
+    "all": "vb_plus:block/crimson_shelf",
+    "particle": "vb_plus:block/stripped_crimson_stem"
+  }
+}

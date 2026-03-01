@@ -1,0 +1,6 @@
+{
+  "parent": "vb_plus:block/template_lightning_rod",
+  "textures": {
+    "texture": "vb_plus:block/oxidized_lightning_rod"
+  }
+}
