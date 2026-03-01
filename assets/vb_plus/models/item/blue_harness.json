@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "vb_plus:item/blue_harness"
+    "layer0": "minecraft:item/blue_harness"
   }
 }
