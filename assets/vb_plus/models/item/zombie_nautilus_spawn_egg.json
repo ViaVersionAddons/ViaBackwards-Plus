@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/zombie_nautilus_spawn_egg"
+    "layer0": "vb_plus:item/zombie_nautilus_spawn_egg"
   }
 }

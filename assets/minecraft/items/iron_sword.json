@@ -1,15 +1,11 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-          "text": "1.21.11 Iron Spear",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:iron_spear",
         "model": {
           "type": "minecraft:select",
           "property": "minecraft:display_context",
@@ -17,23 +13,23 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/iron_spear"
+                "model": "vb_plus:item/iron_spear"
               },
-              "when": ["gui", "ground", "fixed"]
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ]
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/iron_spear_in_hand"
+            "model": "vb_plus:item/iron_spear_in_hand"
           }
         }
       },
       {
-        "when": {
-          "text": "1.21.11 Copper Spear",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:copper_spear",
         "model": {
           "type": "minecraft:select",
           "property": "minecraft:display_context",
@@ -41,32 +37,106 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/copper_spear"
+                "model": "vb_plus:item/copper_spear"
               },
-              "when": ["gui", "ground", "fixed"]
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ]
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_spear_in_hand"
+            "model": "vb_plus:item/copper_spear_in_hand"
           }
         }
       },
       {
-        "when": {
-          "text": "1.21.9 Copper Sword",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:copper_sword",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/copper_sword"
+          "model": "vb_plus:item/copper_sword"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/iron_sword"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.11 Iron Spear",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "vb_plus:item/iron_spear"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "vb_plus:item/iron_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.11 Copper Spear",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "vb_plus:item/copper_spear"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "vb_plus:item/copper_spear_in_hand"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.9 Copper Sword",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/copper_sword"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_sword"
+      }
     }
   }
 }

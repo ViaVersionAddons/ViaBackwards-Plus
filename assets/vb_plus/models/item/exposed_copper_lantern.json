@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/exposed_copper_lantern"
+    "layer0": "vb_plus:item/exposed_copper_lantern"
   }
 }

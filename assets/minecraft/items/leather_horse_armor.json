@@ -1,41 +1,62 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-            "text": "1.21.11 Netherite Nautilus Armor",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:netherite_nautilus_armor",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/netherite_nautilus_armor"
+          "model": "vb_plus:item/netherite_nautilus_armor"
         }
       },
       {
-        "when": {
-            "text": "1.21.11 Netherite Horse Armor",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:netherite_horse_armor",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/netherite_horse_armor"
+          "model": "vb_plus:item/netherite_horse_armor"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/leather_horse_armor",
-      "tints": [
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
         {
-          "type": "minecraft:dye",
-          "default": -6265536
+          "when": {
+            "text": "1.21.11 Netherite Nautilus Armor",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/netherite_nautilus_armor"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.11 Netherite Horse Armor",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/netherite_horse_armor"
+          }
         }
-      ]
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/leather_horse_armor",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": -6265536
+          }
+        ]
+      }
     }
   }
 }

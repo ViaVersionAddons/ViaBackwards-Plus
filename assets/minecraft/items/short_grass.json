@@ -1,0 +1,74 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "viabackwards:bush",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/bush"
+        }
+      },
+      {
+        "when": "viabackwards:firefly_bush",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/firefly_bush"
+        }
+      },
+      {
+        "when": "viabackwards:short_dry_grass",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/short_dry_grass"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.5 Bush",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/bush"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.5 Firefly Bush",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/firefly_bush"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.5 Short Dry Grass",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/short_dry_grass"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/short_grass"
+      }
+    }
+  }
+}

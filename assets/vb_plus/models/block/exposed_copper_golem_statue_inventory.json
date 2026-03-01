@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/template_copper_golem_statue_inventory",
+  "parent": "vb_plus:block/template_copper_golem_statue_inventory",
   "textures": {
-    "all": "minecraft:block/exposed_copper_golem",
+    "all": "vb_plus:block/exposed_copper_golem",
     "particle": "minecraft:block/exposed_copper"
   }
 }

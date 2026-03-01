@@ -1,24 +1,38 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-            "text": "1.21.6 Happy Ghast Spawn Egg",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:happy_ghast_spawn_egg",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/happy_ghast_spawn_egg"
+          "model": "vb_plus:item/happy_ghast_spawn_egg"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/ghast_spawn_egg"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.6 Happy Ghast Spawn Egg",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/happy_ghast_spawn_egg"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/ghast_spawn_egg"
+      }
     }
   }
 }

@@ -1,102 +1,164 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
+        "when": "viabackwards:copper_bars",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/copper_bars"
+        }
+      },
+      {
+        "when": "viabackwards:exposed_copper_bars",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/exposed_copper_bars"
+        }
+      },
+      {
+        "when": "viabackwards:oxidized_copper_bars",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/oxidized_copper_bars"
+        }
+      },
+      {
+        "when": "viabackwards:weathered_copper_bars",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/weathered_copper_bars"
+        }
+      },
+      {
+        "when": "viabackwards:waxed_copper_bars",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/copper_bars"
+        }
+      },
+      {
+        "when": "viabackwards:waxed_exposed_copper_bars",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/exposed_copper_bars"
+        }
+      },
+      {
+        "when": "viabackwards:waxed_oxidized_copper_bars",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/oxidized_copper_bars"
+        }
+      },
+      {
+        "when": "viabackwards:waxed_weathered_copper_bars",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/weathered_copper_bars"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
             "text": "1.21.9 Copper Bars",
             "italic": false,
             "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/copper_bars"
+          }
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/copper_bars"
-        }
-      },
-      {
-        "when": {
+        {
+          "when": {
             "text": "1.21.9 Exposed Copper Bars",
             "italic": false,
             "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/exposed_copper_bars"
+          }
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/exposed_copper_bars"
-        }
-      },
-      {
-        "when": {
+        {
+          "when": {
             "text": "1.21.9 Oxidized Copper Bars",
             "italic": false,
             "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/oxidized_copper_bars"
+          }
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/oxidized_copper_bars"
-        }
-      },
-      {
-        "when": {
+        {
+          "when": {
             "text": "1.21.9 Weathered Copper Bars",
             "italic": false,
             "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/weathered_copper_bars"
+          }
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/weathered_copper_bars"
-        }
-      },
-      {
-        "when": {
+        {
+          "when": {
             "text": "1.21.9 Waxed Copper Bars",
             "italic": false,
             "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/copper_bars"
+          }
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/copper_bars"
-        }
-      },
-      {
-        "when": {
+        {
+          "when": {
             "text": "1.21.9 Waxed Exposed Copper Bars",
             "italic": false,
             "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/exposed_copper_bars"
+          }
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/exposed_copper_bars"
-        }
-      },
-      {
-        "when": {
+        {
+          "when": {
             "text": "1.21.9 Waxed Oxidized Copper Bars",
             "italic": false,
             "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/oxidized_copper_bars"
+          }
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/oxidized_copper_bars"
-        }
-      },
-      {
-        "when": {
+        {
+          "when": {
             "text": "1.21.9 Waxed Weathered Copper Bars",
             "italic": false,
             "color": "white"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/weathered_copper_bars"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/weathered_copper_bars"
+          }
         }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_bars"
       }
-      
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/iron_bars"
     }
   }
 }

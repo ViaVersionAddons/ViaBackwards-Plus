@@ -1,24 +1,38 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-            "text": "1.21.6 Music Disc (Tears)",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:music_disc_tears",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/music_disc_tears"
+          "model": "vb_plus:item/music_disc_tears"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/music_disc_precipice"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.6 Music Disc (Tears)",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/music_disc_tears"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/music_disc_precipice"
+      }
     }
   }
 }

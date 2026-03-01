@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "viabackwards:golden_dandelion",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/golden_dandelion"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/dandelion"
+    }
+  }
+}

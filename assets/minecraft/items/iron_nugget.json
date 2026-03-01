@@ -1,24 +1,38 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-            "text": "1.21.9 Copper Nugget",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:copper_nugget",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/copper_nugget"
+          "model": "vb_plus:item/copper_nugget"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/iron_nugget"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.9 Copper Nugget",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/copper_nugget"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_nugget"
+      }
     }
   }
 }

@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "viabackwards:blue_egg",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/blue_egg"
+        }
+      },
+      {
+        "when": "viabackwards:brown_egg",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/brown_egg"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.5 Blue Egg",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/blue_egg"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.5 Brown Egg",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/brown_egg"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/egg"
+      }
+    }
+  }
+}

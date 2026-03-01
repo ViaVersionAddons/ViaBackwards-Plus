@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "viabackwards:test_block",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/test_block"
+        }
+      },
+      {
+        "when": "viabackwards:test_instance_block",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vb_plus:item/test_instance_block"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.5 Test Block",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/test_block"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.5 Test Instance Block",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/test_instance_block"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/structure_block"
+      }
+    }
+  }
+}

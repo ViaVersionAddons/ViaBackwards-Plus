@@ -1,24 +1,38 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-            "text": "1.21.11 Golden Nautilus Armor",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:golden_nautilus_armor",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/golden_nautilus_armor"
+          "model": "vb_plus:item/golden_nautilus_armor"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/golden_horse_armor"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.11 Golden Nautilus Armor",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/golden_nautilus_armor"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/golden_horse_armor"
+      }
     }
   }
 }

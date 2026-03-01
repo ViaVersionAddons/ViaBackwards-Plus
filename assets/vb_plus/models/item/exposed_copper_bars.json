@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:block/exposed_copper_bars"
+    "layer0": "vb_plus:block/exposed_copper_bars"
   }
 }

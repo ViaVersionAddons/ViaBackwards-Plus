@@ -1,208 +1,327 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-            "text": "1.21.6 Black Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:black_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/black_harness"
+          "model": "vb_plus:item/black_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 White Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:white_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/white_harness"
+          "model": "vb_plus:item/white_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Green Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:green_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/green_harness"
+          "model": "vb_plus:item/green_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Light Blue Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:light_blue_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/light_blue_harness"
+          "model": "vb_plus:item/light_blue_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Cyan Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:cyan_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/cyan_harness"
+          "model": "vb_plus:item/cyan_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Red Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:red_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/red_harness"
+          "model": "vb_plus:item/red_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Light Gray Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:light_gray_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/light_gray_harness"
+          "model": "vb_plus:item/light_gray_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Purple Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:purple_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/purple_harness"
+          "model": "vb_plus:item/purple_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Orange Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:orange_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/orange_harness"
+          "model": "vb_plus:item/orange_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Blue Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:blue_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/blue_harness"
+          "model": "vb_plus:item/blue_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Gray Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:gray_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/gray_harness"
+          "model": "vb_plus:item/gray_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Brown Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:brown_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/brown_harness"
+          "model": "vb_plus:item/brown_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Magenta Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:magenta_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/magenta_harness"
+          "model": "vb_plus:item/magenta_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Yellow Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:yellow_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/yellow_harness"
+          "model": "vb_plus:item/yellow_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Lime Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:lime_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/lime_harness"
+          "model": "vb_plus:item/lime_harness"
         }
       },
       {
-        "when": {
-            "text": "1.21.6 Pink Harness",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:pink_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/pink_harness"
+          "model": "vb_plus:item/pink_harness"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:condition",
-      "component": "minecraft:dyed_color",
-      "on_false": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/wolf_armor"
-      },
-      "on_true": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/wolf_armor_dyed",
-        "tints": [
-          {
-            "type": "minecraft:constant",
-            "value": -1
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.6 Black Harness",
+            "italic": false,
+            "color": "white"
           },
-          {
-            "type": "minecraft:dye",
-            "default": 0
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/black_harness"
           }
-        ]
-      },
-      "property": "minecraft:has_component"
+        },
+        {
+          "when": {
+            "text": "1.21.6 White Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/white_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Green Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/green_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Light Blue Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/light_blue_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Cyan Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/cyan_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Red Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/red_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Light Gray Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/light_gray_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Purple Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/purple_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Orange Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/orange_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Blue Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/blue_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Gray Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/gray_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Brown Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/brown_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Magenta Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/magenta_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Yellow Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/yellow_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Lime Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/lime_harness"
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.6 Pink Harness",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:item/pink_harness"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "component": "minecraft:dyed_color",
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wolf_armor"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wolf_armor_dyed",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:dye",
+              "default": 0
+            }
+          ]
+        },
+        "property": "minecraft:has_component"
+      }
     }
   }
 }

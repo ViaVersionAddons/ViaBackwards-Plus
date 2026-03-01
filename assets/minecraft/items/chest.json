@@ -1,150 +1,252 @@
 {
   "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-          "text": "1.21.9 Copper Chest",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "minecraft:item/copper_chest",
+          "base": "vb_plus:item/copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "minecraft:copper"
+            "texture": "vb_plus:copper"
           }
         }
       },
       {
-        "when": {
-          "text": "1.21.9 Exposed Copper Chest",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:exposed_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "minecraft:item/exposed_copper_chest",
+          "base": "vb_plus:item/exposed_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "minecraft:copper_exposed"
+            "texture": "vb_plus:copper_exposed"
           }
         }
       },
       {
-        "when": {
-          "text": "1.21.9 Oxidized Copper Chest",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:oxidized_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "minecraft:item/oxidized_copper_chest",
+          "base": "vb_plus:item/oxidized_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "minecraft:copper_oxidized"
+            "texture": "vb_plus:copper_oxidized"
           }
         }
       },
       {
-        "when": {
-          "text": "1.21.9 Weathered Copper Chest",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:weathered_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "minecraft:item/weathered_copper_chest",
+          "base": "vb_plus:item/weathered_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "minecraft:copper_weathered"
+            "texture": "vb_plus:copper_weathered"
           }
         }
       },
       {
-        "when": {
-          "text": "1.21.9 Waxed Copper Chest",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:waxed_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "minecraft:item/copper_chest",
-          "model": { "type": "minecraft:chest", "texture": "minecraft:copper" }
-        }
-      },
-      {
-        "when": {
-          "text": "1.21.9 Waxed Exposed Copper Chest",
-          "italic": false,
-          "color": "white"
-        },
-        "model": {
-          "type": "minecraft:special",
-          "base": "minecraft:item/exposed_copper_chest",
+          "base": "vb_plus:item/copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "minecraft:copper_exposed"
+            "texture": "vb_plus:copper"
           }
         }
       },
       {
-        "when": {
-          "text": "1.21.9 Waxed Oxidized Copper Chest",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:waxed_exposed_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "minecraft:item/oxidized_copper_chest",
+          "base": "vb_plus:item/exposed_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "minecraft:copper_oxidized"
+            "texture": "vb_plus:copper_exposed"
           }
         }
       },
       {
-        "when": {
-          "text": "1.21.9 Waxed Weathered Copper Chest",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:waxed_oxidized_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "minecraft:item/weathered_copper_chest",
+          "base": "vb_plus:item/oxidized_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "minecraft:copper_weathered"
+            "texture": "vb_plus:copper_oxidized"
+          }
+        }
+      },
+      {
+        "when": "viabackwards:waxed_weathered_copper_chest",
+        "model": {
+          "type": "minecraft:special",
+          "base": "vb_plus:item/weathered_copper_chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "vb_plus:copper_weathered"
           }
         }
       }
     ],
     "fallback": {
       "type": "minecraft:select",
-      "property": "minecraft:local_time",
-      "pattern": "MM-dd",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": ["12-24", "12-25", "12-26"],
+          "when": {
+            "text": "1.21.9 Copper Chest",
+            "italic": false,
+            "color": "white"
+          },
           "model": {
             "type": "minecraft:special",
-            "base": "minecraft:item/chest",
+            "base": "vb_plus:item/copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "minecraft:christmas"
+              "texture": "vb_plus:copper"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.9 Exposed Copper Chest",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:special",
+            "base": "vb_plus:item/exposed_copper_chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "vb_plus:copper_exposed"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.9 Oxidized Copper Chest",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:special",
+            "base": "vb_plus:item/oxidized_copper_chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "vb_plus:copper_oxidized"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.9 Weathered Copper Chest",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:special",
+            "base": "vb_plus:item/weathered_copper_chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "vb_plus:copper_weathered"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.9 Waxed Copper Chest",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:special",
+            "base": "vb_plus:item/copper_chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "vb_plus:copper"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.9 Waxed Exposed Copper Chest",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:special",
+            "base": "vb_plus:item/exposed_copper_chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "vb_plus:copper_exposed"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.9 Waxed Oxidized Copper Chest",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:special",
+            "base": "vb_plus:item/oxidized_copper_chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "vb_plus:copper_oxidized"
+            }
+          }
+        },
+        {
+          "when": {
+            "text": "1.21.9 Waxed Weathered Copper Chest",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:special",
+            "base": "vb_plus:item/weathered_copper_chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "vb_plus:copper_weathered"
             }
           }
         }
       ],
       "fallback": {
-        "type": "minecraft:special",
-        "base": "minecraft:item/chest",
-        "model": {
-          "type": "minecraft:chest",
-          "texture": "minecraft:normal"
+        "type": "minecraft:select",
+        "property": "minecraft:local_time",
+        "pattern": "MM-dd",
+        "cases": [
+          {
+            "when": [
+              "12-24",
+              "12-25",
+              "12-26"
+            ],
+            "model": {
+              "type": "minecraft:special",
+              "base": "minecraft:item/chest",
+              "model": {
+                "type": "minecraft:chest",
+                "texture": "minecraft:christmas"
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/chest",
+          "model": {
+            "type": "minecraft:chest",
+            "texture": "minecraft:normal"
+          }
         }
       }
     }

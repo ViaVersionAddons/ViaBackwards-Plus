@@ -1,15 +1,11 @@
 {
   "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-          "text": "1.21.11 Netherite Spear",
-          "italic": false,
-          "color": "white"
-        },
+        "when": "viabackwards:netherite_spear",
         "model": {
           "type": "minecraft:select",
           "property": "minecraft:display_context",
@@ -17,22 +13,60 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_spear"
+                "model": "vb_plus:item/netherite_spear"
               },
-              "when": ["gui", "ground", "fixed"]
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ]
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_spear_in_hand"
+            "model": "vb_plus:item/netherite_spear_in_hand"
           }
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/netherite_sword"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.11 Netherite Spear",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "vb_plus:item/netherite_spear"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "vb_plus:item/netherite_spear_in_hand"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/netherite_sword"
+      }
     }
   }
 }
-

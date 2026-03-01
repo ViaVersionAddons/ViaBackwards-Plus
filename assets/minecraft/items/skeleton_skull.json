@@ -1,27 +1,41 @@
 {
-  "model":{
+  "model": {
     "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": {
-            "text": "1.21.6 Dried Ghast",
-            "italic": false,
-            "color": "white"
-        },
+        "when": "viabackwards:dried_ghast",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/dried_ghast_hydration_0"
+          "model": "vb_plus:block/dried_ghast_hydration_0"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:special",
-      "base": "minecraft:item/template_skull",
-      "model": {
-        "type": "minecraft:head",
-        "kind": "skeleton"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.6 Dried Ghast",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "vb_plus:block/dried_ghast_hydration_0"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/template_skull",
+        "model": {
+          "type": "minecraft:head",
+          "kind": "skeleton"
+        }
       }
     }
   }

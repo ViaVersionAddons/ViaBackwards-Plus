@@ -1,7 +1,8 @@
 {
   "parent": "block/block",
   "textures": {
-    "particle": "#particle"
+    "particle": "#particle",
+    "all": "#all"
   },
   "elements": [
     {
@@ -132,21 +133,6 @@
     }
   ],
   "display": {
-    "gui": {
-      "rotation": [30, 225, 0],
-      "translation": [0, -2, 0],
-      "scale": [0.58, 0.58, 0.58]
-    },
-    "ground": {
-      "rotation": [0, 0, 0],
-      "translation": [0, 2, 0],
-      "scale": [0.4, 0.4, 0.4]
-    },
-    "fixed": {
-      "rotation": [0, 180, 0],
-      "translation": [0, -1, 0],
-      "scale": [0.6, 0.6, 0.6]
-    },
     "thirdperson_righthand": {
       "rotation": [0, 130, 0],
       "translation": [0, 1, 0],
@@ -156,6 +142,20 @@
       "rotation": [0, 135, 0],
       "translation": [0, 1, 0],
       "scale": [0.5, 0.5, 0.5]
+    },
+    "ground": {
+      "translation": [0, 2, 0],
+      "scale": [0.4, 0.4, 0.4]
+    },
+    "gui": {
+      "rotation": [30, -135, 0],
+      "translation": [0, -2, 0],
+      "scale": [0.58, 0.58, 0.58]
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, -1, 0],
+      "scale": [0.6, 0.6, 0.6]
     }
   }
 }
