@@ -5,14 +5,14 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:oak_shelf",
+        "when": "minecraft:oak_shelf",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/oak_shelf_inventory"
         }
       },
       {
-        "when": "viabackwards:pale_oak_shelf",
+        "when": "minecraft:pale_oak_shelf",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/pale_oak_shelf_inventory"

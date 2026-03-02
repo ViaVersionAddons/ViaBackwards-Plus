@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:bamboo_shelf",
+        "when": "minecraft:bamboo_shelf",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/bamboo_shelf_inventory"

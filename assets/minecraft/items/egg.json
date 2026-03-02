@@ -5,14 +5,14 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:blue_egg",
+        "when": "minecraft:blue_egg",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/blue_egg"
         }
       },
       {
-        "when": "viabackwards:brown_egg",
+        "when": "minecraft:brown_egg",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/brown_egg"

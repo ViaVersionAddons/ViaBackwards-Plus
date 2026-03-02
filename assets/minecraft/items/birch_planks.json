@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:birch_shelf",
+        "when": "minecraft:birch_shelf",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/birch_shelf_inventory"

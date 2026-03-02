@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:netherite_spear",
+        "when": "minecraft:netherite_spear",
         "model": {
           "type": "minecraft:select",
           "property": "minecraft:display_context",

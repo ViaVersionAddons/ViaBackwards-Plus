@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:copper_pickaxe",
+        "when": "minecraft:copper_pickaxe",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_pickaxe"

@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:dark_oak_shelf",
+        "when": "minecraft:dark_oak_shelf",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/dark_oak_shelf_inventory"

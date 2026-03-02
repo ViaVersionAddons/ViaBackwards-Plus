@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:iron_spear",
+        "when": "minecraft:iron_spear",
         "model": {
           "type": "minecraft:select",
           "property": "minecraft:display_context",
@@ -29,7 +29,7 @@
         }
       },
       {
-        "when": "viabackwards:copper_spear",
+        "when": "minecraft:copper_spear",
         "model": {
           "type": "minecraft:select",
           "property": "minecraft:display_context",
@@ -53,7 +53,7 @@
         }
       },
       {
-        "when": "viabackwards:copper_sword",
+        "when": "minecraft:copper_sword",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_sword"

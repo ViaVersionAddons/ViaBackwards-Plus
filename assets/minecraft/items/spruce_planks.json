@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:spruce_shelf",
+        "when": "minecraft:spruce_shelf",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/spruce_shelf_inventory"

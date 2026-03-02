@@ -5,14 +5,14 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:wildflowers",
+        "when": "minecraft:wildflowers",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/wildflowers"
         }
       },
       {
-        "when": "viabackwards:leaf_litter",
+        "when": "minecraft:leaf_litter",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/leaf_litter"

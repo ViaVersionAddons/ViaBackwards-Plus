@@ -5,56 +5,56 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:copper_bars",
+        "when": "minecraft:copper_bars",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_bars"
         }
       },
       {
-        "when": "viabackwards:exposed_copper_bars",
+        "when": "minecraft:exposed_copper_bars",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/exposed_copper_bars"
         }
       },
       {
-        "when": "viabackwards:oxidized_copper_bars",
+        "when": "minecraft:oxidized_copper_bars",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/oxidized_copper_bars"
         }
       },
       {
-        "when": "viabackwards:weathered_copper_bars",
+        "when": "minecraft:weathered_copper_bars",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/weathered_copper_bars"
         }
       },
       {
-        "when": "viabackwards:waxed_copper_bars",
+        "when": "minecraft:waxed_copper_bars",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_bars"
         }
       },
       {
-        "when": "viabackwards:waxed_exposed_copper_bars",
+        "when": "minecraft:waxed_exposed_copper_bars",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/exposed_copper_bars"
         }
       },
       {
-        "when": "viabackwards:waxed_oxidized_copper_bars",
+        "when": "minecraft:waxed_oxidized_copper_bars",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/oxidized_copper_bars"
         }
       },
       {
-        "when": "viabackwards:waxed_weathered_copper_bars",
+        "when": "minecraft:waxed_weathered_copper_bars",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/weathered_copper_bars"

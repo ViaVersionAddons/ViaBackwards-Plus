@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:copper_shovel",
+        "when": "minecraft:copper_shovel",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_shovel"

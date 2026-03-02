@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:mangrove_shelf",
+        "when": "minecraft:mangrove_shelf",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/mangrove_shelf_inventory"

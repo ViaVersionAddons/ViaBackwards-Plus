@@ -5,56 +5,56 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:copper_lantern",
+        "when": "minecraft:copper_lantern",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_lantern"
         }
       },
       {
-        "when": "viabackwards:exposed_copper_lantern",
+        "when": "minecraft:exposed_copper_lantern",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/exposed_copper_lantern"
         }
       },
       {
-        "when": "viabackwards:oxidized_copper_lantern",
+        "when": "minecraft:oxidized_copper_lantern",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/oxidized_copper_lantern"
         }
       },
       {
-        "when": "viabackwards:weathered_copper_lantern",
+        "when": "minecraft:weathered_copper_lantern",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/weathered_copper_lantern"
         }
       },
       {
-        "when": "viabackwards:waxed_copper_lantern",
+        "when": "minecraft:waxed_copper_lantern",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_lantern"
         }
       },
       {
-        "when": "viabackwards:waxed_exposed_copper_lantern",
+        "when": "minecraft:waxed_exposed_copper_lantern",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/exposed_copper_lantern"
         }
       },
       {
-        "when": "viabackwards:waxed_oxidized_copper_lantern",
+        "when": "minecraft:waxed_oxidized_copper_lantern",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/oxidized_copper_lantern"
         }
       },
       {
-        "when": "viabackwards:waxed_weathered_copper_lantern",
+        "when": "minecraft:waxed_weathered_copper_lantern",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/weathered_copper_lantern"

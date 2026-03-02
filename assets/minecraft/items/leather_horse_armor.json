@@ -5,14 +5,14 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:netherite_nautilus_armor",
+        "when": "minecraft:netherite_nautilus_armor",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/netherite_nautilus_armor"
         }
       },
       {
-        "when": "viabackwards:netherite_horse_armor",
+        "when": "minecraft:netherite_horse_armor",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/netherite_horse_armor"

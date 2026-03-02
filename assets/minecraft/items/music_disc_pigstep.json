@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:music_disc_lava_chicken",
+        "when": "minecraft:music_disc_lava_chicken",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/music_disc_lava_chicken"

@@ -5,56 +5,56 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:waxed_oxidized_copper_golem_statue",
+        "when": "minecraft:waxed_oxidized_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/oxidized_copper_golem_statue_inventory"
         }
       },
       {
-        "when": "viabackwards:waxed_weathered_copper_golem_statue",
+        "when": "minecraft:waxed_weathered_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/weathered_copper_golem_statue_inventory"
         }
       },
       {
-        "when": "viabackwards:waxed_exposed_copper_golem_statue",
+        "when": "minecraft:waxed_exposed_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/exposed_copper_golem_statue_inventory"
         }
       },
       {
-        "when": "viabackwards:waxed_copper_golem_statue",
+        "when": "minecraft:waxed_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/copper_golem_statue_inventory"
         }
       },
       {
-        "when": "viabackwards:oxidized_copper_golem_statue",
+        "when": "minecraft:oxidized_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/oxidized_copper_golem_statue_inventory"
         }
       },
       {
-        "when": "viabackwards:weathered_copper_golem_statue",
+        "when": "minecraft:weathered_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/weathered_copper_golem_statue_inventory"
         }
       },
       {
-        "when": "viabackwards:exposed_copper_golem_statue",
+        "when": "minecraft:exposed_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/exposed_copper_golem_statue_inventory"
         }
       },
       {
-        "when": "viabackwards:copper_golem_statue",
+        "when": "minecraft:copper_golem_statue",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/copper_golem_statue_inventory"

@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:wooden_spear",
+        "when": "minecraft:wooden_spear",
         "model": {
           "type": "minecraft:select",
           "property": "minecraft:display_context",

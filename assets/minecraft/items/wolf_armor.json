@@ -5,112 +5,112 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:black_harness",
+        "when": "minecraft:black_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/black_harness"
         }
       },
       {
-        "when": "viabackwards:white_harness",
+        "when": "minecraft:white_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/white_harness"
         }
       },
       {
-        "when": "viabackwards:green_harness",
+        "when": "minecraft:green_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/green_harness"
         }
       },
       {
-        "when": "viabackwards:light_blue_harness",
+        "when": "minecraft:light_blue_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/light_blue_harness"
         }
       },
       {
-        "when": "viabackwards:cyan_harness",
+        "when": "minecraft:cyan_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/cyan_harness"
         }
       },
       {
-        "when": "viabackwards:red_harness",
+        "when": "minecraft:red_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/red_harness"
         }
       },
       {
-        "when": "viabackwards:light_gray_harness",
+        "when": "minecraft:light_gray_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/light_gray_harness"
         }
       },
       {
-        "when": "viabackwards:purple_harness",
+        "when": "minecraft:purple_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/purple_harness"
         }
       },
       {
-        "when": "viabackwards:orange_harness",
+        "when": "minecraft:orange_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/orange_harness"
         }
       },
       {
-        "when": "viabackwards:blue_harness",
+        "when": "minecraft:blue_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/blue_harness"
         }
       },
       {
-        "when": "viabackwards:gray_harness",
+        "when": "minecraft:gray_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/gray_harness"
         }
       },
       {
-        "when": "viabackwards:brown_harness",
+        "when": "minecraft:brown_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/brown_harness"
         }
       },
       {
-        "when": "viabackwards:magenta_harness",
+        "when": "minecraft:magenta_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/magenta_harness"
         }
       },
       {
-        "when": "viabackwards:yellow_harness",
+        "when": "minecraft:yellow_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/yellow_harness"
         }
       },
       {
-        "when": "viabackwards:lime_harness",
+        "when": "minecraft:lime_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/lime_harness"
         }
       },
       {
-        "when": "viabackwards:pink_harness",
+        "when": "minecraft:pink_harness",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/pink_harness"

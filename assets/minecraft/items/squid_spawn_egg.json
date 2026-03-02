@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:nautilus_spawn_egg",
+        "when": "minecraft:nautilus_spawn_egg",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/nautilus_spawn_egg"

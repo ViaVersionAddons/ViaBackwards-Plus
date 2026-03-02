@@ -5,14 +5,14 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:test_block",
+        "when": "minecraft:test_block",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/test_block"
         }
       },
       {
-        "when": "viabackwards:test_instance_block",
+        "when": "minecraft:test_instance_block",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/test_instance_block"

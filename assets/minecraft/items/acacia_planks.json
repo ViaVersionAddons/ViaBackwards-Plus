@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:acacia_shelf",
+        "when": "minecraft:acacia_shelf",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:block/acacia_shelf_inventory"

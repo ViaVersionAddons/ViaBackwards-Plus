@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:happy_ghast_spawn_egg",
+        "when": "minecraft:happy_ghast_spawn_egg",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/happy_ghast_spawn_egg"

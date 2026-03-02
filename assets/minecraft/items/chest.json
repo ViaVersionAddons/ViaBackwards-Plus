@@ -5,7 +5,7 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:copper_chest",
+        "when": "minecraft:copper_chest",
         "model": {
           "type": "minecraft:special",
           "base": "vb_plus:item/copper_chest",
@@ -16,7 +16,7 @@
         }
       },
       {
-        "when": "viabackwards:exposed_copper_chest",
+        "when": "minecraft:exposed_copper_chest",
         "model": {
           "type": "minecraft:special",
           "base": "vb_plus:item/exposed_copper_chest",
@@ -27,7 +27,7 @@
         }
       },
       {
-        "when": "viabackwards:oxidized_copper_chest",
+        "when": "minecraft:oxidized_copper_chest",
         "model": {
           "type": "minecraft:special",
           "base": "vb_plus:item/oxidized_copper_chest",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "when": "viabackwards:weathered_copper_chest",
+        "when": "minecraft:weathered_copper_chest",
         "model": {
           "type": "minecraft:special",
           "base": "vb_plus:item/weathered_copper_chest",
@@ -49,7 +49,7 @@
         }
       },
       {
-        "when": "viabackwards:waxed_copper_chest",
+        "when": "minecraft:waxed_copper_chest",
         "model": {
           "type": "minecraft:special",
           "base": "vb_plus:item/copper_chest",
@@ -60,7 +60,7 @@
         }
       },
       {
-        "when": "viabackwards:waxed_exposed_copper_chest",
+        "when": "minecraft:waxed_exposed_copper_chest",
         "model": {
           "type": "minecraft:special",
           "base": "vb_plus:item/exposed_copper_chest",
@@ -71,7 +71,7 @@
         }
       },
       {
-        "when": "viabackwards:waxed_oxidized_copper_chest",
+        "when": "minecraft:waxed_oxidized_copper_chest",
         "model": {
           "type": "minecraft:special",
           "base": "vb_plus:item/oxidized_copper_chest",
@@ -82,7 +82,7 @@
         }
       },
       {
-        "when": "viabackwards:waxed_weathered_copper_chest",
+        "when": "minecraft:waxed_weathered_copper_chest",
         "model": {
           "type": "minecraft:special",
           "base": "vb_plus:item/weathered_copper_chest",
@@ -225,11 +225,7 @@
         "pattern": "MM-dd",
         "cases": [
           {
-            "when": [
-              "12-24",
-              "12-25",
-              "12-26"
-            ],
+            "when": ["12-24", "12-25", "12-26"],
             "model": {
               "type": "minecraft:special",
               "base": "minecraft:item/chest",

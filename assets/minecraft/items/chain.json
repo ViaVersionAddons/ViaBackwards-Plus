@@ -5,56 +5,56 @@
     "index": 0,
     "cases": [
       {
-        "when": "viabackwards:copper_chain",
+        "when": "minecraft:copper_chain",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_chain"
         }
       },
       {
-        "when": "viabackwards:exposed_copper_chain",
+        "when": "minecraft:exposed_copper_chain",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/exposed_copper_chain"
         }
       },
       {
-        "when": "viabackwards:oxidized_copper_chain",
+        "when": "minecraft:oxidized_copper_chain",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/oxidized_copper_chain"
         }
       },
       {
-        "when": "viabackwards:weathered_copper_chain",
+        "when": "minecraft:weathered_copper_chain",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/weathered_copper_chain"
         }
       },
       {
-        "when": "viabackwards:waxed_copper_chain",
+        "when": "minecraft:waxed_copper_chain",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/copper_chain"
         }
       },
       {
-        "when": "viabackwards:waxed_exposed_copper_chain",
+        "when": "minecraft:waxed_exposed_copper_chain",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/exposed_copper_chain"
         }
       },
       {
-        "when": "viabackwards:waxed_oxidized_copper_chain",
+        "when": "minecraft:waxed_oxidized_copper_chain",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/oxidized_copper_chain"
         }
       },
       {
-        "when": "viabackwards:waxed_weathered_copper_chain",
+        "when": "minecraft:waxed_weathered_copper_chain",
         "model": {
           "type": "minecraft:model",
           "model": "vb_plus:item/weathered_copper_chain"
