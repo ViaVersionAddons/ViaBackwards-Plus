@@ -1,0 +1,4 @@
+License: bangetto
+Copyright holder: bangetto
+
+Read the License here: https://bangetto.github.io/licenses/bangetto/
