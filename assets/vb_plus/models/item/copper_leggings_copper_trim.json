@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "vb_plus:item/copper_leggings",
-    "layer1": "vb_plus:trims/items/leggings_trim_copper_darker"
+    "layer1": "minecraft:trims/items/leggings_trim_copper_darker"
   }
 }

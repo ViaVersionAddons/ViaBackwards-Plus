@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "vb_plus:copper"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "vb_plus:copper"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "vb_plus:copper"
+      }
+    ]
+  }
+}

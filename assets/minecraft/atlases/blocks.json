@@ -1,5 +1,4 @@
 {
-  "__comment": "Atlas sources are additive. We only need to define our custom permutations here.",
   "sources": [
     {
       "type": "minecraft:paletted_permutations",
