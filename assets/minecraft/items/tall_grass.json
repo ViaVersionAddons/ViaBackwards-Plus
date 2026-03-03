@@ -13,26 +13,8 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
-      "component": "minecraft:custom_name",
-      "cases": [
-        {
-          "when": {
-            "text": "1.21.5 Tall Dry Grass",
-            "italic": false,
-            "color": "white"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "vb_plus:item/tall_dry_grass"
-          }
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/tall_grass"
-      }
+      "type": "minecraft:model",
+      "model": "minecraft:item/tall_grass"
     }
   }
 }
