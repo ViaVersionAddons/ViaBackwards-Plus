@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "minecraft:waxed_lightning_rod",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/lightning_rod"
+        }
+      },
+      {
+        "when": "minecraft:exposed_lightning_rod",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/exposed_lightning_rod"
+        }
+      },
+      {
+        "when": "minecraft:oxidized_lightning_rod",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/oxidized_lightning_rod"
+        }
+      },
+      {
+        "when": "minecraft:weathered_lightning_rod",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/weathered_lightning_rod"
+        }
+      },
+      {
+        "when": "minecraft:waxed_exposed_lightning_rod",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/exposed_lightning_rod"
+        }
+      },
+      {
+        "when": "minecraft:waxed_oxidized_lightning_rod",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/oxidized_lightning_rod"
+        }
+      },
+      {
+        "when": "minecraft:waxed_weathered_lightning_rod",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/weathered_lightning_rod"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/lightning_rod"
+    }
+  }
+}
