@@ -8,21 +8,21 @@
         "when": "minecraft:bush",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/bush"
+          "model": "minecraft:item/bush"
         }
       },
       {
         "when": "minecraft:firefly_bush",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/firefly_bush"
+          "model": "minecraft:item/firefly_bush"
         }
       },
       {
         "when": "minecraft:short_dry_grass",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/short_dry_grass"
+          "model": "minecraft:item/short_dry_grass"
         }
       }
     ],

@@ -8,10 +8,10 @@
         "when": "minecraft:copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "vb_plus:item/copper_chest",
+          "base": "minecraft:item/copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "vb_plus:copper"
+            "texture": "minecraft:copper"
           }
         }
       },
@@ -19,10 +19,10 @@
         "when": "minecraft:exposed_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "vb_plus:item/exposed_copper_chest",
+          "base": "minecraft:item/exposed_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "vb_plus:copper_exposed"
+            "texture": "minecraft:copper_exposed"
           }
         }
       },
@@ -30,10 +30,10 @@
         "when": "minecraft:oxidized_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "vb_plus:item/oxidized_copper_chest",
+          "base": "minecraft:item/oxidized_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "vb_plus:copper_oxidized"
+            "texture": "minecraft:copper_oxidized"
           }
         }
       },
@@ -41,10 +41,10 @@
         "when": "minecraft:weathered_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "vb_plus:item/weathered_copper_chest",
+          "base": "minecraft:item/weathered_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "vb_plus:copper_weathered"
+            "texture": "minecraft:copper_weathered"
           }
         }
       },
@@ -52,10 +52,10 @@
         "when": "minecraft:waxed_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "vb_plus:item/copper_chest",
+          "base": "minecraft:item/copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "vb_plus:copper"
+            "texture": "minecraft:copper"
           }
         }
       },
@@ -63,10 +63,10 @@
         "when": "minecraft:waxed_exposed_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "vb_plus:item/exposed_copper_chest",
+          "base": "minecraft:item/exposed_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "vb_plus:copper_exposed"
+            "texture": "minecraft:copper_exposed"
           }
         }
       },
@@ -74,10 +74,10 @@
         "when": "minecraft:waxed_oxidized_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "vb_plus:item/oxidized_copper_chest",
+          "base": "minecraft:item/oxidized_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "vb_plus:copper_oxidized"
+            "texture": "minecraft:copper_oxidized"
           }
         }
       },
@@ -85,10 +85,10 @@
         "when": "minecraft:waxed_weathered_copper_chest",
         "model": {
           "type": "minecraft:special",
-          "base": "vb_plus:item/weathered_copper_chest",
+          "base": "minecraft:item/weathered_copper_chest",
           "model": {
             "type": "minecraft:chest",
-            "texture": "vb_plus:copper_weathered"
+            "texture": "minecraft:copper_weathered"
           }
         }
       }
@@ -106,10 +106,10 @@
           },
           "model": {
             "type": "minecraft:special",
-            "base": "vb_plus:item/copper_chest",
+            "base": "minecraft:item/copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "vb_plus:copper"
+              "texture": "minecraft:copper"
             }
           }
         },
@@ -121,10 +121,10 @@
           },
           "model": {
             "type": "minecraft:special",
-            "base": "vb_plus:item/exposed_copper_chest",
+            "base": "minecraft:item/exposed_copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "vb_plus:copper_exposed"
+              "texture": "minecraft:copper_exposed"
             }
           }
         },
@@ -136,10 +136,10 @@
           },
           "model": {
             "type": "minecraft:special",
-            "base": "vb_plus:item/oxidized_copper_chest",
+            "base": "minecraft:item/oxidized_copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "vb_plus:copper_oxidized"
+              "texture": "minecraft:copper_oxidized"
             }
           }
         },
@@ -151,10 +151,10 @@
           },
           "model": {
             "type": "minecraft:special",
-            "base": "vb_plus:item/weathered_copper_chest",
+            "base": "minecraft:item/weathered_copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "vb_plus:copper_weathered"
+              "texture": "minecraft:copper_weathered"
             }
           }
         },
@@ -166,10 +166,10 @@
           },
           "model": {
             "type": "minecraft:special",
-            "base": "vb_plus:item/copper_chest",
+            "base": "minecraft:item/copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "vb_plus:copper"
+              "texture": "minecraft:copper"
             }
           }
         },
@@ -181,10 +181,10 @@
           },
           "model": {
             "type": "minecraft:special",
-            "base": "vb_plus:item/exposed_copper_chest",
+            "base": "minecraft:item/exposed_copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "vb_plus:copper_exposed"
+              "texture": "minecraft:copper_exposed"
             }
           }
         },
@@ -196,10 +196,10 @@
           },
           "model": {
             "type": "minecraft:special",
-            "base": "vb_plus:item/oxidized_copper_chest",
+            "base": "minecraft:item/oxidized_copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "vb_plus:copper_oxidized"
+              "texture": "minecraft:copper_oxidized"
             }
           }
         },
@@ -211,10 +211,10 @@
           },
           "model": {
             "type": "minecraft:special",
-            "base": "vb_plus:item/weathered_copper_chest",
+            "base": "minecraft:item/weathered_copper_chest",
             "model": {
               "type": "minecraft:chest",
-              "texture": "vb_plus:copper_weathered"
+              "texture": "minecraft:copper_weathered"
             }
           }
         }

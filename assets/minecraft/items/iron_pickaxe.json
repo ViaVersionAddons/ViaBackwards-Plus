@@ -8,7 +8,7 @@
         "when": "minecraft:copper_pickaxe",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/copper_pickaxe"
+          "model": "minecraft:item/copper_pickaxe"
         }
       }
     ],
@@ -25,7 +25,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/copper_pickaxe"
+            "model": "minecraft:item/copper_pickaxe"
           }
         }
       ],

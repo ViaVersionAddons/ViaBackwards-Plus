@@ -1,7 +1,0 @@
-{
-  "parent": "vb_plus:block/template_shelf_inventory",
-  "textures": {
-    "all": "vb_plus:block/jungle_shelf",
-    "particle": "minecraft:block/stripped_jungle_log"
-  }
-}

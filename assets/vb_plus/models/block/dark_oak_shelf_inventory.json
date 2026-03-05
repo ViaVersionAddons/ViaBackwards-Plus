@@ -1,7 +1,0 @@
-{
-  "parent": "vb_plus:block/template_shelf_inventory",
-  "textures": {
-    "all": "vb_plus:block/dark_oak_shelf",
-    "particle": "minecraft:block/stripped_dark_oak_log"
-  }
-}

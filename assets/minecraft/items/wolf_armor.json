@@ -8,112 +8,112 @@
         "when": "minecraft:black_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/black_harness"
+          "model": "minecraft:item/black_harness"
         }
       },
       {
         "when": "minecraft:white_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/white_harness"
+          "model": "minecraft:item/white_harness"
         }
       },
       {
         "when": "minecraft:green_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/green_harness"
+          "model": "minecraft:item/green_harness"
         }
       },
       {
         "when": "minecraft:light_blue_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/light_blue_harness"
+          "model": "minecraft:item/light_blue_harness"
         }
       },
       {
         "when": "minecraft:cyan_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/cyan_harness"
+          "model": "minecraft:item/cyan_harness"
         }
       },
       {
         "when": "minecraft:red_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/red_harness"
+          "model": "minecraft:item/red_harness"
         }
       },
       {
         "when": "minecraft:light_gray_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/light_gray_harness"
+          "model": "minecraft:item/light_gray_harness"
         }
       },
       {
         "when": "minecraft:purple_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/purple_harness"
+          "model": "minecraft:item/purple_harness"
         }
       },
       {
         "when": "minecraft:orange_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/orange_harness"
+          "model": "minecraft:item/orange_harness"
         }
       },
       {
         "when": "minecraft:blue_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/blue_harness"
+          "model": "minecraft:item/blue_harness"
         }
       },
       {
         "when": "minecraft:gray_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/gray_harness"
+          "model": "minecraft:item/gray_harness"
         }
       },
       {
         "when": "minecraft:brown_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/brown_harness"
+          "model": "minecraft:item/brown_harness"
         }
       },
       {
         "when": "minecraft:magenta_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/magenta_harness"
+          "model": "minecraft:item/magenta_harness"
         }
       },
       {
         "when": "minecraft:yellow_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/yellow_harness"
+          "model": "minecraft:item/yellow_harness"
         }
       },
       {
         "when": "minecraft:lime_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/lime_harness"
+          "model": "minecraft:item/lime_harness"
         }
       },
       {
         "when": "minecraft:pink_harness",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/pink_harness"
+          "model": "minecraft:item/pink_harness"
         }
       }
     ],
@@ -130,7 +130,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/black_harness"
+            "model": "minecraft:item/black_harness"
           }
         },
         {
@@ -141,7 +141,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/white_harness"
+            "model": "minecraft:item/white_harness"
           }
         },
         {
@@ -152,7 +152,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/green_harness"
+            "model": "minecraft:item/green_harness"
           }
         },
         {
@@ -163,7 +163,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/light_blue_harness"
+            "model": "minecraft:item/light_blue_harness"
           }
         },
         {
@@ -174,7 +174,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/cyan_harness"
+            "model": "minecraft:item/cyan_harness"
           }
         },
         {
@@ -185,7 +185,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/red_harness"
+            "model": "minecraft:item/red_harness"
           }
         },
         {
@@ -196,7 +196,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/light_gray_harness"
+            "model": "minecraft:item/light_gray_harness"
           }
         },
         {
@@ -207,7 +207,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/purple_harness"
+            "model": "minecraft:item/purple_harness"
           }
         },
         {
@@ -218,7 +218,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/orange_harness"
+            "model": "minecraft:item/orange_harness"
           }
         },
         {
@@ -229,7 +229,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/blue_harness"
+            "model": "minecraft:item/blue_harness"
           }
         },
         {
@@ -240,7 +240,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/gray_harness"
+            "model": "minecraft:item/gray_harness"
           }
         },
         {
@@ -251,7 +251,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/brown_harness"
+            "model": "minecraft:item/brown_harness"
           }
         },
         {
@@ -262,7 +262,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/magenta_harness"
+            "model": "minecraft:item/magenta_harness"
           }
         },
         {
@@ -273,7 +273,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/yellow_harness"
+            "model": "minecraft:item/yellow_harness"
           }
         },
         {
@@ -284,7 +284,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/lime_harness"
+            "model": "minecraft:item/lime_harness"
           }
         },
         {
@@ -295,7 +295,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/pink_harness"
+            "model": "minecraft:item/pink_harness"
           }
         }
       ],

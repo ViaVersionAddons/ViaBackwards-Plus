@@ -13,7 +13,7 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "vb_plus:item/iron_spear"
+                "model": "minecraft:item/iron_spear"
               },
               "when": [
                 "gui",
@@ -24,7 +24,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/iron_spear_in_hand"
+            "model": "minecraft:item/iron_spear_in_hand"
           }
         }
       },
@@ -37,7 +37,7 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "vb_plus:item/copper_spear"
+                "model": "minecraft:item/copper_spear"
               },
               "when": [
                 "gui",
@@ -48,7 +48,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/copper_spear_in_hand"
+            "model": "minecraft:item/copper_spear_in_hand"
           }
         }
       },
@@ -56,7 +56,7 @@
         "when": "minecraft:copper_sword",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/copper_sword"
+          "model": "minecraft:item/copper_sword"
         }
       }
     ],
@@ -78,7 +78,7 @@
               {
                 "model": {
                   "type": "minecraft:model",
-                  "model": "vb_plus:item/iron_spear"
+                  "model": "minecraft:item/iron_spear"
                 },
                 "when": [
                   "gui",
@@ -89,7 +89,7 @@
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "vb_plus:item/iron_spear_in_hand"
+              "model": "minecraft:item/iron_spear_in_hand"
             }
           }
         },
@@ -106,7 +106,7 @@
               {
                 "model": {
                   "type": "minecraft:model",
-                  "model": "vb_plus:item/copper_spear"
+                  "model": "minecraft:item/copper_spear"
                 },
                 "when": [
                   "gui",
@@ -117,7 +117,7 @@
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "vb_plus:item/copper_spear_in_hand"
+              "model": "minecraft:item/copper_spear_in_hand"
             }
           }
         },
@@ -129,7 +129,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/copper_sword"
+            "model": "minecraft:item/copper_sword"
           }
         }
       ],

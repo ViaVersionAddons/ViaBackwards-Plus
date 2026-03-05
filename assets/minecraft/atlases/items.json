@@ -4,7 +4,7 @@
       "type": "minecraft:paletted_permutations",
       "palette_key": "minecraft:trims/color_palettes/trim_palette",
       "permutations": {
-        "copper_darker": "vb_plus:trims/color_palettes/copper_darker"
+        "copper_darker": "minecraft:trims/color_palettes/copper_darker"
       },
       "textures": [
         "minecraft:trims/items/helmet_trim",

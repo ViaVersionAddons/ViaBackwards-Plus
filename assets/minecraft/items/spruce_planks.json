@@ -8,7 +8,7 @@
         "when": "minecraft:spruce_shelf",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/spruce_shelf_inventory"
+          "model": "minecraft:block/spruce_shelf_inventory"
         }
       }
     ],
@@ -25,7 +25,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/spruce_shelf_inventory"
+            "model": "minecraft:block/spruce_shelf_inventory"
           }
         }
       ],

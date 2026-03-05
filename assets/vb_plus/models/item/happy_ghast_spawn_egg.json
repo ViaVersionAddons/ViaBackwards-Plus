@@ -1,4 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": { "layer0": "vb_plus:item/happy_ghast_spawn_egg" }
-}

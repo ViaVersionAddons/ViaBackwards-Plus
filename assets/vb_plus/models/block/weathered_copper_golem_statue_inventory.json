@@ -1,7 +1,0 @@
-{
-  "parent": "vb_plus:block/template_copper_golem_statue_inventory",
-  "textures": {
-    "all": "vb_plus:block/weathered_copper_golem",
-    "particle": "minecraft:block/weathered_copper"
-  }
-}

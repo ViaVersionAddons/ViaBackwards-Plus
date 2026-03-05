@@ -8,21 +8,21 @@
         "when": "minecraft:copper_horse_armor",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/copper_horse_armor"
+          "model": "minecraft:item/copper_horse_armor"
         }
       },
       {
         "when": "minecraft:iron_nautilus_armor",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/iron_nautilus_armor"
+          "model": "minecraft:item/iron_nautilus_armor"
         }
       },
       {
         "when": "minecraft:copper_nautilus_armor",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/copper_nautilus_armor"
+          "model": "minecraft:item/copper_nautilus_armor"
         }
       }
     ],
@@ -39,7 +39,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/copper_horse_armor"
+            "model": "minecraft:item/copper_horse_armor"
           }
         },
         {
@@ -50,7 +50,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/iron_nautilus_armor"
+            "model": "minecraft:item/iron_nautilus_armor"
           }
         },
         {
@@ -61,7 +61,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/copper_nautilus_armor"
+            "model": "minecraft:item/copper_nautilus_armor"
           }
         }
       ],

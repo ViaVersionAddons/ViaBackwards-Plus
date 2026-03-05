@@ -8,49 +8,49 @@
         "when": "minecraft:waxed_lightning_rod",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/lightning_rod"
+          "model": "minecraft:block/lightning_rod"
         }
       },
       {
         "when": "minecraft:exposed_lightning_rod",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/exposed_lightning_rod"
+          "model": "minecraft:block/exposed_lightning_rod"
         }
       },
       {
         "when": "minecraft:oxidized_lightning_rod",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/oxidized_lightning_rod"
+          "model": "minecraft:block/oxidized_lightning_rod"
         }
       },
       {
         "when": "minecraft:weathered_lightning_rod",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/weathered_lightning_rod"
+          "model": "minecraft:block/weathered_lightning_rod"
         }
       },
       {
         "when": "minecraft:waxed_exposed_lightning_rod",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/exposed_lightning_rod"
+          "model": "minecraft:block/exposed_lightning_rod"
         }
       },
       {
         "when": "minecraft:waxed_oxidized_lightning_rod",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/oxidized_lightning_rod"
+          "model": "minecraft:block/oxidized_lightning_rod"
         }
       },
       {
         "when": "minecraft:waxed_weathered_lightning_rod",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/weathered_lightning_rod"
+          "model": "minecraft:block/weathered_lightning_rod"
         }
       }
     ],
@@ -67,7 +67,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/lightning_rod"
+            "model": "minecraft:block/lightning_rod"
           }
         },
         {
@@ -78,7 +78,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/exposed_lightning_rod"
+            "model": "minecraft:block/exposed_lightning_rod"
           }
         },
         {
@@ -89,7 +89,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/oxidized_lightning_rod"
+            "model": "minecraft:block/oxidized_lightning_rod"
           }
         },
         {
@@ -100,7 +100,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/weathered_lightning_rod"
+            "model": "minecraft:block/weathered_lightning_rod"
           }
         },
         {
@@ -111,7 +111,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/exposed_lightning_rod"
+            "model": "minecraft:block/exposed_lightning_rod"
           }
         },
         {
@@ -122,7 +122,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/oxidized_lightning_rod"
+            "model": "minecraft:block/oxidized_lightning_rod"
           }
         },
         {
@@ -133,7 +133,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/weathered_lightning_rod"
+            "model": "minecraft:block/weathered_lightning_rod"
           }
         }
       ],

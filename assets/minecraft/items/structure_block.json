@@ -15,27 +15,27 @@
               "when": "log",
               "model": {
                 "type": "minecraft:model",
-                "model": "vb_plus:block/test_block_log"
+                "model": "minecraft:block/test_block_log"
               }
             },
             {
               "when": "fail",
               "model": {
                 "type": "minecraft:model",
-                "model": "vb_plus:block/test_block_fail"
+                "model": "minecraft:block/test_block_fail"
               }
             },
             {
               "when": "accept",
               "model": {
                 "type": "minecraft:model",
-                "model": "vb_plus:block/test_block_accept"
+                "model": "minecraft:block/test_block_accept"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/test_block_start"
+            "model": "minecraft:block/test_block_start"
           }
         }
       },
@@ -43,7 +43,7 @@
         "when": "minecraft:test_instance_block",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/test_instance_block"
+          "model": "minecraft:block/test_instance_block"
         }
       }
     ],

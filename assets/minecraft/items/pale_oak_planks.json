@@ -8,7 +8,7 @@
         "when": "minecraft:pale_oak_shelf",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/pale_oak_shelf_inventory"
+          "model": "minecraft:block/pale_oak_shelf_inventory"
         }
       }
     ],
@@ -25,7 +25,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/pale_oak_shelf_inventory"
+            "model": "minecraft:block/pale_oak_shelf_inventory"
           }
         }
       ],

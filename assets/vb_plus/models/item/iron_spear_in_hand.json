@@ -1,6 +1,0 @@
-{
-  "parent": "vb_plus:item/spear_in_hand",
-  "textures": {
-    "layer0": "vb_plus:item/iron_spear_in_hand"
-  }
-}

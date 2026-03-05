@@ -8,7 +8,7 @@
         "when": "minecraft:mangrove_shelf",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/mangrove_shelf_inventory"
+          "model": "minecraft:block/mangrove_shelf_inventory"
         }
       }
     ],
@@ -25,7 +25,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/mangrove_shelf_inventory"
+            "model": "minecraft:block/mangrove_shelf_inventory"
           }
         }
       ],

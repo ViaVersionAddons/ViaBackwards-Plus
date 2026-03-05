@@ -8,7 +8,7 @@
         "when": "minecraft:golden_dandelion",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/golden_dandelion"
+          "model": "minecraft:item/golden_dandelion"
         }
       }
     ],

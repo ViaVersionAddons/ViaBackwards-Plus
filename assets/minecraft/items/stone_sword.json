@@ -13,7 +13,7 @@
             {
               "model": {
                 "type": "minecraft:model",
-                "model": "vb_plus:item/stone_spear"
+                "model": "minecraft:item/stone_spear"
               },
               "when": [
                 "gui",
@@ -24,7 +24,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/stone_spear_in_hand"
+            "model": "minecraft:item/stone_spear_in_hand"
           }
         }
       }
@@ -47,7 +47,7 @@
               {
                 "model": {
                   "type": "minecraft:model",
-                  "model": "vb_plus:item/stone_spear"
+                  "model": "minecraft:item/stone_spear"
                 },
                 "when": [
                   "gui",
@@ -58,7 +58,7 @@
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "vb_plus:item/stone_spear_in_hand"
+              "model": "minecraft:item/stone_spear_in_hand"
             }
           }
         }

@@ -8,7 +8,7 @@
         "when": "minecraft:tall_dry_grass",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/tall_dry_grass"
+          "model": "minecraft:item/tall_dry_grass"
         }
       }
     ],

@@ -8,14 +8,14 @@
         "when": "minecraft:wildflowers",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/wildflowers"
+          "model": "minecraft:item/wildflowers"
         }
       },
       {
         "when": "minecraft:leaf_litter",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/leaf_litter"
+          "model": "minecraft:item/leaf_litter"
         }
       }
     ],
@@ -32,7 +32,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/wildflowers"
+            "model": "minecraft:item/wildflowers"
           }
         },
         {
@@ -43,7 +43,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/leaf_litter"
+            "model": "minecraft:item/leaf_litter"
           }
         }
       ],

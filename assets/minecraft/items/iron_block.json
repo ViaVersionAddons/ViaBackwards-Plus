@@ -8,56 +8,56 @@
         "when": "minecraft:waxed_oxidized_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/oxidized_copper_golem_statue_inventory"
+          "model": "minecraft:block/oxidized_copper_golem_statue_inventory"
         }
       },
       {
         "when": "minecraft:waxed_weathered_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/weathered_copper_golem_statue_inventory"
+          "model": "minecraft:block/weathered_copper_golem_statue_inventory"
         }
       },
       {
         "when": "minecraft:waxed_exposed_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/exposed_copper_golem_statue_inventory"
+          "model": "minecraft:block/exposed_copper_golem_statue_inventory"
         }
       },
       {
         "when": "minecraft:waxed_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/copper_golem_statue_inventory"
+          "model": "minecraft:block/copper_golem_statue_inventory"
         }
       },
       {
         "when": "minecraft:oxidized_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/oxidized_copper_golem_statue_inventory"
+          "model": "minecraft:block/oxidized_copper_golem_statue_inventory"
         }
       },
       {
         "when": "minecraft:weathered_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/weathered_copper_golem_statue_inventory"
+          "model": "minecraft:block/weathered_copper_golem_statue_inventory"
         }
       },
       {
         "when": "minecraft:exposed_copper_golem_statue",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/exposed_copper_golem_statue_inventory"
+          "model": "minecraft:block/exposed_copper_golem_statue_inventory"
         }
       },
       {
         "when": "minecraft:copper_golem_statue",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:block/copper_golem_statue_inventory"
+          "model": "minecraft:block/copper_golem_statue_inventory"
         }
       }
     ],
@@ -74,7 +74,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/oxidized_copper_golem_statue_inventory"
+            "model": "minecraft:block/oxidized_copper_golem_statue_inventory"
           }
         },
         {
@@ -85,7 +85,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/weathered_copper_golem_statue_inventory"
+            "model": "minecraft:block/weathered_copper_golem_statue_inventory"
           }
         },
         {
@@ -96,7 +96,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/exposed_copper_golem_statue_inventory"
+            "model": "minecraft:block/exposed_copper_golem_statue_inventory"
           }
         },
         {
@@ -107,7 +107,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/copper_golem_statue_inventory"
+            "model": "minecraft:block/copper_golem_statue_inventory"
           }
         },
         {
@@ -118,7 +118,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/oxidized_copper_golem_statue_inventory"
+            "model": "minecraft:block/oxidized_copper_golem_statue_inventory"
           }
         },
         {
@@ -129,7 +129,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/weathered_copper_golem_statue_inventory"
+            "model": "minecraft:block/weathered_copper_golem_statue_inventory"
           }
         },
         {
@@ -140,7 +140,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/exposed_copper_golem_statue_inventory"
+            "model": "minecraft:block/exposed_copper_golem_statue_inventory"
           }
         },
         {
@@ -151,7 +151,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:block/copper_golem_statue_inventory"
+            "model": "minecraft:block/copper_golem_statue_inventory"
           }
         }
       ],

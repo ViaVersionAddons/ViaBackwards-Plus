@@ -8,14 +8,14 @@
         "when": "minecraft:blue_egg",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/blue_egg"
+          "model": "minecraft:item/blue_egg"
         }
       },
       {
         "when": "minecraft:brown_egg",
         "model": {
           "type": "minecraft:model",
-          "model": "vb_plus:item/brown_egg"
+          "model": "minecraft:item/brown_egg"
         }
       }
     ],
@@ -32,7 +32,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/blue_egg"
+            "model": "minecraft:item/blue_egg"
           }
         },
         {
@@ -43,7 +43,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "vb_plus:item/brown_egg"
+            "model": "minecraft:item/brown_egg"
           }
         }
       ],
