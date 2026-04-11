@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "minecraft:parched_spawn_egg",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/parched_spawn_egg"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/template_spawn_egg",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -4079167
+        },
+        {
+          "type": "minecraft:constant",
+          "value": -11974327
+        }
+      ]
+    }
+  }
+}

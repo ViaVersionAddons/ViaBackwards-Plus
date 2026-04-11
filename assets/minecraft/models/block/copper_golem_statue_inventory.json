@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_copper_golem_statue_inventory",
-  "textures": {
-    "all": "minecraft:block/copper_golem",
-    "particle": "minecraft:block/copper_block"
-  }
-}

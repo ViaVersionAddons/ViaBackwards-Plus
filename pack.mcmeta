@@ -1,11 +1,43 @@
 ﻿{
-    "pack": {
-        "description": "§r§d§kbang§r §5§nGithub.com/bangetto§r §d§ketto",
-        
-        "pack_format": 64,
-        "supported_formats": [55,64],
-
-        "min_format": 65,
+  "pack": {
+    "description": "§r§d§kbang§r §5§nGithub.com/bangetto§r §d§ketto",
+    "pack_format": 85,
+    "supported_formats": {"min_inclusive": 43, "max_inclusive": 999},
+    "min_format": 43,
+    "max_format": 999
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "backport_to_1_21_11",
+        "formats": {"min_inclusive": 43, "max_inclusive": 75},
+        "min_format": 43,
+        "max_format": 75
+      },
+      {
+        "directory": "backport_to_1_21_9",
+        "formats": {"min_inclusive": 43, "max_inclusive": 69},
+        "min_format": 43,
         "max_format": 69
-	}
+      },
+      {
+        "directory": "backport_to_1_21_6",
+        "formats": {"min_inclusive": 43, "max_inclusive": 64},
+        "min_format": 43,
+        "max_format": 64
+      },
+      {
+        "directory": "backport_to_1_21_5",
+        "formats": {"min_inclusive": 43, "max_inclusive": 55},
+        "min_format": 43,
+        "max_format": 55
+      },
+      {
+        "directory": "backport_to_1_21_4",
+        "formats": {"min_inclusive": 43, "max_inclusive": 46},
+        "min_format": 43,
+        "max_format": 46
+      }
+    ]
+  }
 }

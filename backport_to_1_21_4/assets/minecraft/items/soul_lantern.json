@@ -1,0 +1,69 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "minecraft:copper_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_lantern"
+        }
+      },
+      {
+        "when": "minecraft:exposed_copper_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/exposed_copper_lantern"
+        }
+      },
+      {
+        "when": "minecraft:oxidized_copper_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/oxidized_copper_lantern"
+        }
+      },
+      {
+        "when": "minecraft:weathered_copper_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/weathered_copper_lantern"
+        }
+      },
+      {
+        "when": "minecraft:waxed_copper_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_lantern"
+        }
+      },
+      {
+        "when": "minecraft:waxed_exposed_copper_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/exposed_copper_lantern"
+        }
+      },
+      {
+        "when": "minecraft:waxed_oxidized_copper_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/oxidized_copper_lantern"
+        }
+      },
+      {
+        "when": "minecraft:waxed_weathered_copper_lantern",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/weathered_copper_lantern"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/soul_lantern"
+    }
+  }
+}

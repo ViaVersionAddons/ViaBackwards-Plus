@@ -1,0 +1,38 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "minecraft:camel_husk_spawn_egg",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/camel_husk_spawn_egg"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "1.21.11 Camel Husk Spawn Egg",
+            "italic": false,
+            "color": "white"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/camel_husk_spawn_egg"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/camel_spawn_egg"
+      }
+    }
+  }
+}
