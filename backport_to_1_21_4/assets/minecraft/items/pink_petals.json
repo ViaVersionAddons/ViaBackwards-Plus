@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "minecraft:wildflowers",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wildflowers"
+        }
+      },
+      {
+        "when": "minecraft:leaf_litter",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leaf_litter"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/pink_petals"
+    }
+  }
+}
