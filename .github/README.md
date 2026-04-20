@@ -1,22 +1,25 @@
-![ ](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Header.webp)
+![ViaBackwards Plus logo](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Header.webp)
 
+**This Minecraft pack enhances the gameplay experience with the ViaBackwards plugin**, which allows players to connect to newer servers with an older client. Rebuilt from the ground up for modern Minecraft, this pack requires **absolutely no mods** to work! It uses native vanilla features to identify future items by their component data and assigns the correct model and texture to them (officially supporting **1.21.4 through 1.21.11+**). The best part of this pack is that if you put another resource pack on top of it, it will load the textures from that (make sure to place this pack at the bottom)!
 
-  <p><strong>This Minecraft pack enhances the gameplay experience with the ViaBackwards plugin</strong>, which allows players to connect to newer servers with an older client. Rebuilt from the ground up for modern Minecraft, this pack requires <strong>absolutely no mods</strong> to work! It uses native vanilla features to identify future items by their component data and assigns the correct model and texture to them (officially supporting <strong>1.21.5 through 1.21.11+</strong>). The best part of this pack is that if you put another resource pack on top of it, it will load the textures from that (make sure to place this pack at the bottom)!<br><strong><span style="color: red;">Please note that this pack is not an official addon from the <a href="https://github.com/ViaVersion/ViaBackwards/graphs/contributors" target="_blank">ViaBackwards team</a>, and it's just fan-made.</span></strong></p>
+> **1.21.4 support:** Only works with ViaBackwards and ViaVersion version 5.9.0 or newer.
+>
+> **DISCLAIMER:** This pack is a fan-made project and is not an official addon from the [ViaBackwards team](https://github.com/ViaVersion/ViaBackwards/graphs/contributors).
+>
+> **SCOPE:** This pack specifically updates 2D inventory icons and in-hand 3D models. It does *not* change the textures of blocks or entities once they are physically placed in the world.
 
-  <p><strong>Note:</strong> This pack specifically updates the 2D inventory icons and in-hand 3D models. It does <em>not</em> change the textures of blocks or entities once they are physically placed in the world.</p>
-
-![showcase_modern](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Showcase%20.webp)
+![Showcase of some item inventories when the pack is off versus on.](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Showcase%20.webp)
 
 ---
 
-  ![Features](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Features.webp)
-  ![keypoints](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_KeyPoints.webp)
+![Features](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Features.webp)
+![Key points: Backports item textures from newer Minecraft versions. Compatible with other resource packs. Support down to 1.21.4, and all the way down to 1.16 with v1. Works even when the items are renamed!](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_KeyPoints.webp)
 
 ---
 
 <a href="https://github.com/ViaVersionAddons/ViaBackwards-Plus/issues" target="_blank">
   
-![reportissues](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_ReportIssues.webp)
+![Report issues on GitHub or Discord](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_ReportIssues.webp)
 
 </a>
 
@@ -24,7 +27,7 @@
 
 <a href="https://bisecthosting.com/bangetto" target="_blank">
   
-![sponsor](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_PromoCard.webp)
+![Sponsored by BisectHosting. Rent a server: Use code BANGETTO for 25% off](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_PromoCard.webp)
 
 </a>
 
@@ -40,8 +43,6 @@
 
 ---
 
-
-
 ![FAQ](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_FAQ.webp)
 
 <details>
@@ -51,7 +52,7 @@
 
 </details>
 
- <details>
+<details>
 <summary><b>What about older versions?</b></summary>
 
 This native vanilla approach is only possible because of engine changes introduced recently. **If you are looking to support clients older than 1.21.4**, you will need to use **Version 1** of this pack. 
@@ -71,7 +72,7 @@ Our Base Pack will always target the newest Minecraft drops to ensure maximum co
 <details>
 <summary><b>How it works</b></summary>
 
-<p>Instead of relying on external mod IDs, this pack uses Minecraft's modern data-driven rendering engine. The pack is split into "overlays" to optmize loading for your particular version. </p>
+<p>Instead of relying on external mod IDs, this pack uses Minecraft's modern data-driven rendering engine. The pack is split into "overlays" to optimize loading for your particular version. </p>
 <p>For example, when you join a 1.21.11 server using a 1.21.5 client, the server translates a new item (like a Copper Spear) into an item your client understands (like an Iron Sword) and attaches hidden component data to it. Our pack intercepts that specific data and says: <em>"Hey, this isn't actually an iron sword, render the Copper Spear model instead!"</em></p>
 
 </details>
