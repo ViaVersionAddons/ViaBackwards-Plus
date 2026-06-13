@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "minecraft:sulfur_slab",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/sulfur_slab"
+        }
+      },
+      {
+        "when": "minecraft:polished_sulfur_slab",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/polished_sulfur_slab"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/sandstone_slab"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "minecraft:sulfur_spike",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/sulfur_spike"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/pointed_dripstone"
+    }
+  }
+}

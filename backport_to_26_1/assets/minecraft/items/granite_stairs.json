@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "minecraft:cinnabar_stairs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/cinnabar_stairs"
+        }
+      },
+      {
+        "when": "minecraft:polished_cinnabar_stairs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/polished_cinnabar_stairs"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/granite_stairs"
+    }
+  }
+}
