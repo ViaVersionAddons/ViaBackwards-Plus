@@ -6,7 +6,7 @@
 
 > **SCOPE:** This pack specifically updates 2D inventory icons and in-hand 3D models. It does *not* change the textures of blocks or entities once they are physically placed in the world.
 
-![Showcase of some item inventories when the pack is off versus on.](https://raw.githubusercontent.com/ViaVersionAddons/ViaBackwards-Plus/main/.github/images/showcase_output.png)
+![Showcase of some item inventories when the pack is off versus on.](https://raw.githubusercontent.com/ViaVersionAddons/ViaBackwards-Plus/main/.github/images/vbp_showcase.png)
 
 ---
 
