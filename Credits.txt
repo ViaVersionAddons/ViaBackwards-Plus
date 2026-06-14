@@ -1,3 +1,4 @@
-﻿Mojang Studios: https://minecraft.net (Every backported texture and model)
+Mojang Studios: https://minecraft.net (Every backported texture and model)
+Owen1212055/mc-assets: https://github.com/Owen1212055/mc-assets (Source for automated showcase item renders)
 
 Contributors: https://github.com/ViaVersionAddons/ViaBackwards-Plus/graphs/contributors (For all their help! <3)

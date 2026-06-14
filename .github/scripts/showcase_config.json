@@ -1,0 +1,144 @@
+{
+  "title": "ViaBackwards-Plus Showcase",
+  "background_override": "../images/vbp_background.png",
+  "background_blur_radius": 0,
+  "background_color": [211, 140, 83, 255],
+  "transparent_inventory": true,
+  "items": [
+    {
+      "slot": 0,
+      "off_texture": "item/dandelion",
+      "on_texture": "item/golden_dandelion"
+    },
+    {
+      "slot": 1,
+      "off_texture": "item/pink_petals",
+      "on_texture": "item/wildflowers"
+    },
+    {
+      "slot": 2,
+      "off_texture": "item/pink_petals",
+      "on_texture": "item/leaf_litter"
+    },
+    {
+      "slot": 3,
+      "off_texture": "item/brain_coral_fan",
+      "on_texture": "item/cactus_flower"
+    },
+    {
+      "slot": 4,
+      "off_texture": "item/short_grass",
+      "on_texture": "item/firefly_bush"
+    },
+    {
+      "slot": 5,
+      "off_texture": "item/egg",
+      "on_texture": "item/brown_egg"
+    },
+    {
+      "slot": 6,
+      "off_texture": "block/skeleton_skull",
+      "on_texture": "block/dried_ghast"
+    },
+    {
+      "slot": 7,
+      "off_texture": "block/oak_planks",
+      "on_texture": "block/oak_shelf"
+    },
+    {
+      "slot": 8,
+      "off_texture": "block/oak_planks",
+      "on_texture": "block/pale_oak_shelf"
+    },
+    {
+      "slot": 9,
+      "off_texture": "item/iron_sword",
+      "on_texture": "item/copper_sword"
+    },
+    {
+      "slot": 10,
+      "off_texture": "item/diamond_sword",
+      "on_texture": "item/diamond_spear"
+    },
+    {
+      "slot": 11,
+      "off_texture": "item/iron_horse_armor",
+      "on_texture": "item/copper_nautilus_armor"
+    },
+    {
+      "slot": 12,
+      "off_texture": "item/diamond_horse_armor",
+      "on_texture": "item/diamond_nautilus_armor"
+    },
+    {
+      "slot": 13,
+      "off_texture": "item/leather_horse_armor",
+      "on_texture": "item/netherite_horse_armor"
+    },
+    {
+      "slot": 14,
+      "off_texture": "item/iron_golem_spawn_egg",
+      "on_texture": "item/copper_golem_spawn_egg"
+    },
+    {
+      "slot": 15,
+      "off_texture": "item/camel_spawn_egg",
+      "on_texture": "item/camel_husk_spawn_egg"
+    },
+    {
+      "slot": 16,
+      "off_texture": "block/weathered_cut_copper",
+      "on_texture": "block/weathered_copper_golem_statue"
+    },
+    {
+      "slot": 17,
+      "off_texture": "block/chest",
+      "on_texture": "block/exposed_copper_chest"
+    },
+    {
+      "slot": 18,
+      "off_texture": "item/soul_lantern",
+      "on_texture": "item/oxidized_copper_lantern"
+    },
+    {
+      "slot": 19,
+      "off_texture": "block/lightning_rod",
+      "on_texture": "block/oxidized_lightning_rod"
+    },
+    {
+      "slot": 20,
+      "off_texture": "item/powder_snow_bucket",
+      "on_texture": "item/sulfur_cube_bucket"
+    },
+    {
+      "slot": 21,
+      "off_texture": "item/pointed_dripstone",
+      "on_texture": "item/sulfur_spike"
+    },
+    {
+      "slot": 22,
+      "off_texture": "block/end_stone",
+      "on_texture": "block/potent_sulfur"
+    },
+    {
+      "slot": 23,
+      "off_texture": "block/bricks",
+      "on_texture": "block/cinnabar_bricks"
+    },
+    {
+      "slot": 24,
+      "off_texture": "item/wolf_armor",
+      "on_texture": "item/purple_harness"
+    },
+    {
+      "slot": 25,
+      "off_texture": "item/music_disc_pigstep",
+      "on_texture": "item/music_disc_lava_chicken"
+    },
+    {
+      "slot": 26,
+      "off_texture": "item/music_disc_13",
+      "on_texture": "item/music_disc_bounce"
+    }
+  ]
+}
