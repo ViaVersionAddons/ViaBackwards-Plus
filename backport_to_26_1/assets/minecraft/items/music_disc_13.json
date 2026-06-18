@@ -8,13 +8,13 @@
         "when": "minecraft:music_disc_bounce",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/music_disc_bounce"
+          "model": "minecraft:item/music_disc_bounce"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:block/music_disc_13"
+      "model": "minecraft:item/music_disc_13"
     }
   }
 }

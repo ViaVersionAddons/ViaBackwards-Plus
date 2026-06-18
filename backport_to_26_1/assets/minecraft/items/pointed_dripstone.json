@@ -8,13 +8,13 @@
         "when": "minecraft:sulfur_spike",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/sulfur_spike"
+          "model": "minecraft:item/sulfur_spike"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:block/pointed_dripstone"
+      "model": "minecraft:item/pointed_dripstone"
     }
   }
 }

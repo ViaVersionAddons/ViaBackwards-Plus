@@ -8,13 +8,13 @@
         "when": "minecraft:sulfur_cube_bucket",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/sulfur_cube_bucket"
+          "model": "minecraft:item/sulfur_cube_bucket"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:block/powder_snow_bucket"
+      "model": "minecraft:item/powder_snow_bucket"
     }
   }
 }

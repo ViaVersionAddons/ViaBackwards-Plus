@@ -8,13 +8,13 @@
         "when": "minecraft:sulfur_cube_spawn_egg",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/sulfur_cube_spawn_egg"
+          "model": "minecraft:item/sulfur_cube_spawn_egg"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:block/slime_spawn_egg"
+      "model": "minecraft:item/slime_spawn_egg"
     }
   }
 }
