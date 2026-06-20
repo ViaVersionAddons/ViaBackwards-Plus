@@ -27,7 +27,7 @@ jobs:
            name: ${{ steps.download-files.outputs.release_name }}
            files: '*.zip'
            loaders: minecraft
-           game-versions: "[1.21.4,1.21.11], [26.1,26.1.2]"
+           game-versions: "[1.21.4,26.1.2]"
 
            modrinth-id: v7n1ZsFg
            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
