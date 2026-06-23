@@ -1,28 +1,52 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_19_3To1_19_1|id": 30
-            }
-          },
-          "model": "item/bamboo_planks"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_19_3To1_19_1|id": 33
-            }
-          },
-          "model": "item/bamboo_mosaic"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_21_2To1_21|id": 43
-            }
-          },
-          "model": "block/pale_oak_planks"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_19_3To1_19_1|id": 30
         }
-    ]
+      },
+      "model": "item/bamboo_planks"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_19_3To1_19_1|id": 33
+        }
+      },
+      "model": "item/bamboo_mosaic"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_2To1_21|id": 43
+        }
+      },
+      "model": "block/pale_oak_planks"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 306
+        }
+      },
+      "model": "block/bamboo_shelf_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 307
+        }
+      },
+      "model": "block/birch_shelf_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 314
+        }
+      },
+      "model": "block/pale_oak_shelf_inventory"
+    }
+  ]
 }

@@ -1,12 +1,20 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_17To1_16_4|id": 1099
-              }
-          },
-          "model": "item/pointed_dripstone"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 1099
         }
-    ]
+      },
+      "model": "item/pointed_dripstone"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 1451
+        }
+      },
+      "model": "item/sulfur_spike"
+    }
+  ]
 }

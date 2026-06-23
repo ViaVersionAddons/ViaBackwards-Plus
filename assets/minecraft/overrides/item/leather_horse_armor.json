@@ -1,12 +1,156 @@
 {
-    "overrides": [
-          {
-            "predicate": {
-              "nbt": {
-                "VB|Protocol1_20_5To1_20_3|id": 797
-              }
-            },
-            "model": "item/wolf_armor"
-          }
-      ]
-  }
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_20_5To1_20_3|id": 797
+        }
+      },
+      "model": "item/wolf_armor"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_11To1_21_9|id": 1336
+        }
+      },
+      "model": "item/netherite_nautilus_armor"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_11To1_21_9|id": 1259
+        }
+      },
+      "model": "item/netherite_nautilus_armor"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 802
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 803
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 804
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 805
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 806
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 807
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 808
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 809
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 810
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 811
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 812
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 813
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 814
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 815
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 816
+        }
+      },
+      "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 817
+        }
+      },
+      "model": "item/black_harness"
+    }
+  ]
+}

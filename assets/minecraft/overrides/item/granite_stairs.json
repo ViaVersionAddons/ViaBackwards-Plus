@@ -1,0 +1,20 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 42
+        }
+      },
+      "model": "block/cinnabar_stairs"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 46
+        }
+      },
+      "model": "block/cinnabar_stairs"
+    }
+  ]
+}

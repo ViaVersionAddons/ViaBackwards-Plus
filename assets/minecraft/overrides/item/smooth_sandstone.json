@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 31
+        }
+      },
+      "model": "block/polished_sulfur"
+    }
+  ]
+}

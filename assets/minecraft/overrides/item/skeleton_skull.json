@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_6To1_21_5|id": 619
+        }
+      },
+      "model": "block/dried_ghast_hydration_0"
+    }
+  ]
+}

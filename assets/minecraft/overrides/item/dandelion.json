@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_1To1_21_11|id": 230
+        }
+      },
+      "model": "item/golden_dandelion"
+    }
+  ]
+}

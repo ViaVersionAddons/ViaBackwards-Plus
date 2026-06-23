@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_11To1_21_9|id": 1184
+        }
+      },
+      "model": "item/zombie_nautilus_spawn_egg"
+    }
+  ]
+}

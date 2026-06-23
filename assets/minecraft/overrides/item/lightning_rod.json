@@ -1,0 +1,60 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 734
+        }
+      },
+      "model": "block/lightning_rod"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 735
+        }
+      },
+      "model": "block/lightning_rod"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 736
+        }
+      },
+      "model": "block/lightning_rod"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 737
+        }
+      },
+      "model": "block/lightning_rod"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 738
+        }
+      },
+      "model": "block/lightning_rod"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 739
+        }
+      },
+      "model": "block/lightning_rod"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 740
+        }
+      },
+      "model": "block/lightning_rod"
+    }
+  ]
+}
