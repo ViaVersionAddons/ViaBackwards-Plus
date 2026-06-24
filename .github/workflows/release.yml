@@ -1,0 +1,22 @@
+name: Build Release ZIP
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Zip Release Files
+        run: |
+          zip -r ViaBackwards-Plus-v1.zip assets/ omenicon/ Credits.txt LICENSE.txt pack.mcmeta pack.png respackopts.json5
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ViaBackwards-Plus-v1
+          path: ViaBackwards-Plus-v1.zip
