@@ -2,6 +2,12 @@
   "overrides": [
     {
       "predicate": {
+        "name": "EasterEgg"
+      },
+      "model": "easteregg:easteregg"
+    },
+    {
+      "predicate": {
         "nbt": {
           "VB|Protocol1_21_5To1_21_4|id": 970
         }
@@ -15,12 +21,6 @@
         }
       },
       "model": "item/brown_egg"
-    },
-    {
-      "predicate": {
-        "name": "EasterEgg"
-      },
-      "model": "easteregg:easteregg"
     }
   ]
 }

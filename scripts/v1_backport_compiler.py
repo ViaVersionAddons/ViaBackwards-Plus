@@ -388,14 +388,15 @@ def main():
             if "Trim" in t_nbt:
                 nbt_lines += f"nbt.Trim.material={t_nbt['Trim']['material']}\n"
                 
-            properties_content = f"type=item\nmatchItems={match_items_str}\nmodel={t_model_id}\n{nbt_lines}"
+            weight_val = 1000 - start_index
+            properties_content = f"type=item\nmatchItems={match_items_str}\nmodel={t_model_id}\nweight={weight_val}\n{nbt_lines}"
             with open(cit_dir / f"{new_item}{nbt_suffix}.properties", "w", encoding="utf-8") as f:
                 f.write(properties_content)
                 
             model_rel = Path("models") / f"{t_model_id}.json"
             crawl_model(model_rel)
                                 
-    print("Sorting Chime overrides to prioritize newer protocols...")
+    print("Sorting Chime overrides to prioritize newer protocols (Bottom-Up)...")
     protocol_indices = {}
     for i, step in enumerate(VERSION_STEPS):
         protocol_indices[get_protocol_name(step[0], step[1])] = i
@@ -408,9 +409,9 @@ def main():
                 proto = key.split("|")[1]
                 if proto in protocol_indices:
                     proto_idx = protocol_indices[proto]
-        # Return a tuple: higher protocol index (newer) first, then more keys first.
-        # Since reverse=True, we use (999 - proto_idx) to make proto 0 the largest value,
-        # so proto 0 (newest) appears at the top.
+        # Return a tuple: since reverse=False, smaller values go to the top.
+        # We want proto 0 (newest) at the bottom, so it must have the LARGEST value.
+        # (999 - proto_idx) ensures proto 0 gets 999 (largest), proto 1 gets 998, etc.
         return (999 - proto_idx, len(pred.keys()))
         
     overrides_dir = V1_TARGET_DIR / "assets" / "minecraft" / "overrides" / "item"
@@ -418,7 +419,7 @@ def main():
         for filepath in overrides_dir.glob("*.json"):
             data = load_json(filepath)
             if "overrides" in data and isinstance(data["overrides"], list):
-                data["overrides"].sort(key=get_override_index, reverse=True)
+                data["overrides"].sort(key=get_override_index, reverse=False)
                 save_json(filepath, data)
 
     print("CIT and Chime compilation finished successfully!")

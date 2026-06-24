@@ -3,18 +3,10 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_21_11To1_21_9|id": 1336
+          "VB|Protocol1_20_5To1_20_3|id": 797
         }
       },
-      "model": "item/netherite_nautilus_armor"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_11To1_21_9|id": 1259
-        }
-      },
-      "model": "item/netherite_horse_armor"
+      "model": "item/wolf_armor"
     },
     {
       "predicate": {
@@ -147,10 +139,18 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_20_5To1_20_3|id": 797
+          "VB|Protocol1_21_11To1_21_9|id": 1336
         }
       },
-      "model": "item/wolf_armor"
+      "model": "item/netherite_nautilus_armor"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_11To1_21_9|id": 1259
+        }
+      },
+      "model": "item/netherite_horse_armor"
     }
   ]
 }

@@ -3,6 +3,14 @@
     {
       "predicate": {
         "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 601
+        }
+      },
+      "model": "item/lightning_rod"
+    },
+    {
+      "predicate": {
+        "nbt": {
           "VB|Protocol1_21_9To1_21_7|id": 734
         }
       },
@@ -55,14 +63,6 @@
         }
       },
       "model": "block/oxidized_lightning_rod"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_17To1_16_4|id": 601
-        }
-      },
-      "model": "item/lightning_rod"
     }
   ]
 }
