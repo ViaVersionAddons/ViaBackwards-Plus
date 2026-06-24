@@ -3,10 +3,131 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 960
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:quartz"
+          }
         }
       },
       "model": "item/copper_leggings_quartz_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:iron"
+          }
+        }
+      },
+      "model": "item/copper_leggings_iron_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:netherite"
+          }
+        }
+      },
+      "model": "item/copper_leggings_netherite_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:redstone"
+          }
+        }
+      },
+      "model": "item/copper_leggings_redstone_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:copper"
+          }
+        }
+      },
+      "model": "item/copper_leggings_copper_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:gold"
+          }
+        }
+      },
+      "model": "item/copper_leggings_gold_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:emerald"
+          }
+        }
+      },
+      "model": "item/copper_leggings_emerald_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:diamond"
+          }
+        }
+      },
+      "model": "item/copper_leggings_diamond_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:lapis"
+          }
+        }
+      },
+      "model": "item/copper_leggings_lapis_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:amethyst"
+          }
+        }
+      },
+      "model": "item/copper_leggings_amethyst_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960,
+          "Trim": {
+            "material": "minecraft:resin"
+          }
+        }
+      },
+      "model": "item/copper_leggings_resin_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 960
+        }
+      },
+      "model": "item/copper_leggings"
     }
   ]
 }

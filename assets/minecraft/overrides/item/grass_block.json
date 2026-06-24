@@ -1,12 +1,12 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt":{
-              "VB|Protocol1_17To1_16_4|id": 199
-            }
-          },
-          "model": "item/moss_block"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 199
         }
-    ]
+      },
+      "model": "item/moss_block"
+    }
+  ]
 }

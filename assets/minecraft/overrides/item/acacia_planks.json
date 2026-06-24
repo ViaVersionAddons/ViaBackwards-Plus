@@ -3,22 +3,6 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 29
-        }
-      },
-      "model": "item/mangrove_planks"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_19_4To1_19_3|id": 28
-        }
-      },
-      "model": "item/cherry_planks"
-    },
-    {
-      "predicate": {
-        "nbt": {
           "VB|Protocol1_21_9To1_21_7|id": 305
         }
       },
@@ -39,6 +23,22 @@
         }
       },
       "model": "block/mangrove_shelf_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_18_2To1_19|id": 29
+        }
+      },
+      "model": "item/mangrove_planks"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_19_4To1_19_3|id": 28
+        }
+      },
+      "model": "item/cherry_planks"
     }
   ]
 }

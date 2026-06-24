@@ -1,12 +1,12 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_19_4To1_19_3|id": 1102
-            }
-          },
-          "model": "item/torchflower_seeds"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_19_4To1_19_3|id": 1102
         }
-    ]
+      },
+      "model": "item/torchflower_seeds"
+    }
+  ]
 }

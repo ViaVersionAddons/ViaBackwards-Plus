@@ -6,7 +6,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 734
         }
       },
-      "model": "block/lightning_rod"
+      "model": "block/exposed_lightning_rod"
     },
     {
       "predicate": {
@@ -14,7 +14,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 735
         }
       },
-      "model": "block/lightning_rod"
+      "model": "block/weathered_lightning_rod"
     },
     {
       "predicate": {
@@ -22,7 +22,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 736
         }
       },
-      "model": "block/lightning_rod"
+      "model": "block/oxidized_lightning_rod"
     },
     {
       "predicate": {
@@ -38,7 +38,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 738
         }
       },
-      "model": "block/lightning_rod"
+      "model": "block/exposed_lightning_rod"
     },
     {
       "predicate": {
@@ -46,7 +46,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 739
         }
       },
-      "model": "block/lightning_rod"
+      "model": "block/weathered_lightning_rod"
     },
     {
       "predicate": {
@@ -54,7 +54,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 740
         }
       },
-      "model": "block/lightning_rod"
+      "model": "block/oxidized_lightning_rod"
     }
   ]
 }

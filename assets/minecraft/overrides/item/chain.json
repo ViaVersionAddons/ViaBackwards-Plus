@@ -14,7 +14,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 401
         }
       },
-      "model": "item/copper_chain"
+      "model": "item/exposed_copper_chain"
     },
     {
       "predicate": {
@@ -22,7 +22,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 402
         }
       },
-      "model": "item/copper_chain"
+      "model": "item/weathered_copper_chain"
     },
     {
       "predicate": {
@@ -30,7 +30,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 403
         }
       },
-      "model": "item/copper_chain"
+      "model": "item/oxidized_copper_chain"
     },
     {
       "predicate": {
@@ -46,7 +46,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 405
         }
       },
-      "model": "item/copper_chain"
+      "model": "item/exposed_copper_chain"
     },
     {
       "predicate": {
@@ -54,7 +54,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 406
         }
       },
-      "model": "item/copper_chain"
+      "model": "item/weathered_copper_chain"
     },
     {
       "predicate": {
@@ -62,7 +62,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 407
         }
       },
-      "model": "item/copper_chain"
+      "model": "item/oxidized_copper_chain"
     },
     {
       "predicate": {
@@ -70,7 +70,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 399
         }
       },
-      "model": "item/copper_chain"
+      "model": "item/iron_chain"
     }
   ]
 }

@@ -3,10 +3,131 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 961
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:quartz"
+          }
         }
       },
       "model": "item/copper_boots_quartz_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:iron"
+          }
+        }
+      },
+      "model": "item/copper_boots_iron_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:netherite"
+          }
+        }
+      },
+      "model": "item/copper_boots_netherite_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:redstone"
+          }
+        }
+      },
+      "model": "item/copper_boots_redstone_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:copper"
+          }
+        }
+      },
+      "model": "item/copper_boots_copper_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:gold"
+          }
+        }
+      },
+      "model": "item/copper_boots_gold_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:emerald"
+          }
+        }
+      },
+      "model": "item/copper_boots_emerald_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:diamond"
+          }
+        }
+      },
+      "model": "item/copper_boots_diamond_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:lapis"
+          }
+        }
+      },
+      "model": "item/copper_boots_lapis_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:amethyst"
+          }
+        }
+      },
+      "model": "item/copper_boots_amethyst_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961,
+          "Trim": {
+            "material": "minecraft:resin"
+          }
+        }
+      },
+      "model": "item/copper_boots_resin_trim"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 961
+        }
+      },
+      "model": "item/copper_boots"
     }
   ]
 }

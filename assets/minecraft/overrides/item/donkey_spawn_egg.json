@@ -3,6 +3,14 @@
     {
       "predicate": {
         "nbt": {
+          "VB|Protocol1_21_11To1_21_9|id": 1173
+        }
+      },
+      "model": "item/camel_husk_spawn_egg"
+    },
+    {
+      "predicate": {
+        "nbt": {
           "VB|Protocol1_18_2To1_19|id": 966
         }
       },
@@ -15,14 +23,6 @@
         }
       },
       "model": "item/camel_spawn_egg"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_11To1_21_9|id": 1173
-        }
-      },
-      "model": "item/camel_husk_spawn_egg"
     }
   ]
 }

@@ -26,7 +26,7 @@ from pathlib import Path
 # Paths (Overrideable via environment variables for CI/CD portability)
 # Default assumes script is run from ViaBackwards-Plus root, and Mappings is a sibling directory.
 MAPPINGS_DIR = Path(os.environ.get("MAPPINGS_DIR", "../Mappings/mappings")).resolve()
-V2_SOURCE_DIR = Path(os.environ.get("V2_SOURCE_DIR", ".")).resolve()
+V2_SOURCE_DIR = Path(os.environ.get("V2_SOURCE_DIR", "../ViaBackwards-Plus")).resolve()
 V1_TARGET_DIR = Path(os.environ.get("V1_TARGET_DIR", "../v1-branch")).resolve()
 
 # Descending list of version transitions to follow
@@ -79,64 +79,101 @@ def resolve_path(namespace_str, asset_type):
         return Path("textures") / f"{namespace_str}.png"
     return None
 
-def search_cases(node, target_item_with_ns, item_name):
+def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_matched=False):
+    if current_nbt is None:
+        current_nbt = {}
     if not isinstance(node, dict):
-        return None
-    
+        return []
+        
     mtype = node.get("type")
+    results = []
+    
     if mtype == "minecraft:select":
-        for case in node.get("cases", []):
-            when_val = case.get("when")
-            if isinstance(when_val, str) and when_val == target_item_with_ns:
-                model_ptr = case.get("model")
-                if isinstance(model_ptr, str):
-                    return model_ptr
-                elif isinstance(model_ptr, dict) and model_ptr.get("type") == "minecraft:model":
-                    return model_ptr.get("model")
-            elif isinstance(when_val, dict) and when_val.get("text") == item_name:
-                model_ptr = case.get("model")
-                if isinstance(model_ptr, str):
-                    return model_ptr
-                elif isinstance(model_ptr, dict) and model_ptr.get("type") == "minecraft:model":
-                    return model_ptr.get("model")
-                    
-            res = search_cases(case.get("model"), target_item_with_ns, item_name)
-            if res:
-                return res
+        prop = node.get("property")
+        
+        if is_matched:
+            if prop == "minecraft:display_context":
+                for case in node.get("cases", []):
+                    when_val = case.get("when")
+                    if isinstance(when_val, list) and "gui" in when_val:
+                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True))
+                        return results
+                    elif isinstance(when_val, str) and when_val == "gui":
+                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True))
+                        return results
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True))
+                return results
                 
-        res = search_cases(node.get("fallback"), target_item_with_ns, item_name)
-        if res:
-            return res
-            
-    elif mtype == "minecraft:condition":
-        res = search_cases(node.get("on_true"), target_item_with_ns, item_name)
-        if res:
-            return res
-        res = search_cases(node.get("on_false"), target_item_with_ns, item_name)
-        if res:
-            return res
-            
-    elif mtype == "minecraft:range_dispatch":
-        for entry in node.get("entries", []):
-            res = search_cases(entry.get("model"), target_item_with_ns, item_name)
-            if res:
-                return res
-        res = search_cases(node.get("fallback"), target_item_with_ns, item_name)
-        if res:
-            return res
+            elif prop == "minecraft:trim_material":
+                for case in node.get("cases", []):
+                    when_val = case.get("when")
+                    if isinstance(when_val, str):
+                        new_nbt = current_nbt.copy()
+                        new_nbt["Trim"] = {"material": when_val}
+                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, new_nbt, True))
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True))
+                return results
+                
+            else:
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True))
+                return results
+                
+        else:
+            if prop == "minecraft:custom_model_data":
+                for case in node.get("cases", []):
+                    when_val = case.get("when")
+                    is_match = False
+                    if isinstance(when_val, str) and when_val == target_item_with_ns:
+                        is_match = True
+                    elif isinstance(when_val, list) and target_item_with_ns in when_val:
+                        is_match = True
+                    
+                    if is_match:
+                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True))
+                        return results
+                        
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False))
+                return results
+                
+            elif prop == "minecraft:component" and node.get("component") == "minecraft:custom_name":
+                for case in node.get("cases", []):
+                    when_val = case.get("when")
+                    if isinstance(when_val, dict):
+                        text = when_val.get("text", "").lower().replace(" ", "_")
+                        if item_name in text:
+                            results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True))
+                            return results
+                            
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False))
+                return results
+                
+            else:
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False))
+                return results
             
     elif mtype == "minecraft:model":
-        model_str = node.get("model")
-        return model_str
+        if is_matched:
+            model_str = node.get("model")
+            if model_str:
+                results.append((model_str, current_nbt))
+        return results
         
-    return None
+    elif mtype == "minecraft:condition":
+        results.extend(extract_models(node.get("on_true"), target_item_with_ns, item_name, current_nbt, is_matched))
+        return results
+        
+    elif mtype == "minecraft:range_dispatch":
+        results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, is_matched))
+        return results
+        
+    return results
 
 def extract_model_for_item_from_carrier(carrier_path, item_name):
     if not carrier_path.exists():
-        return None
+        return []
     data = load_json(carrier_path)
     target_item_with_ns = f"minecraft:{item_name}"
-    return search_cases(data.get("model"), target_item_with_ns, item_name)
+    return extract_models(data.get("model"), target_item_with_ns, item_name, None, False)
 
 def main():
     print("Loading mapping data and registries...")
@@ -239,60 +276,58 @@ def main():
                     break
                     
         if not target_model_id:
-            # Fallback to standard item path if not found in any carrier JSON
-            target_model_id = f"minecraft:item/{new_item}"
+            target_model_id = [(f"minecraft:item/{new_item}", {})]
             
-        if target_model_id.startswith("minecraft:"):
-            target_model_id = target_model_id[len("minecraft:"):]
-            
-        print(f"  Resolved model path: {target_model_id}")
+        # 1. CHIME OVERRIDES INJECTIONS (we do this first to prep the data)
+        predicate_tag = f"VB|{protocol}|id"
         
-        # 1. OPTIFINE CIT GENERATION
-        match_items_str = " ".join(carriers)
-        
-        cit_dir = V1_TARGET_DIR / "assets" / "minecraft" / "optifine" / "cit" / "backports" / new_item
-        cit_dir.mkdir(parents=True, exist_ok=True)
-        
-        properties_content = f"""type=item
-matchItems={match_items_str}
-model={target_model_id}
-nbt.VB|{protocol}|id={origin_id}
-"""
-        with open(cit_dir / f"{new_item}.properties", "w", encoding="utf-8") as f:
-            f.write(properties_content)
-            
-        # 2. CHIME OVERRIDES INJECTIONS
         for carrier in carriers:
             chime_file = V1_TARGET_DIR / "assets" / "minecraft" / "overrides" / "item" / f"{carrier}.json"
-            
             if chime_file.exists():
                 chime_data = load_json(chime_file)
             else:
                 chime_data = {"overrides": []}
-                
             if "overrides" not in chime_data:
                 chime_data["overrides"] = []
                 
-            predicate_tag = f"VB|{protocol}|id"
-            exists = False
-            for override in chime_data["overrides"]:
-                pred = override.get("predicate", {}).get("nbt", {})
-                if pred.get(predicate_tag) == origin_id:
-                    exists = True
-                    break
+            for t_model_id, t_nbt in target_model_id:
+                if t_model_id.startswith("minecraft:"):
+                    t_model_id = t_model_id[10:]
                     
-            if not exists:
-                chime_data["overrides"].append({
-                    "predicate": {
-                        "nbt": {
-                            predicate_tag: origin_id
-                        }
-                    },
-                    "model": target_model_id
-                })
-                save_json(chime_file, chime_data)
-                
-        # 3. ASSET COPY & SANITIZATION (Sourced from local v2 overlays)
+                exists = False
+                for override in chime_data["overrides"]:
+                    pred = override.get("predicate", {}).get("nbt", {})
+                    is_match = True
+                    if pred.get(predicate_tag) != origin_id:
+                        is_match = False
+                    
+                    for k, v in t_nbt.items():
+                        if pred.get(k) != v:
+                            is_match = False
+                            
+                    if is_match and len(pred) == len(t_nbt) + 1:
+                        print(f"DEBUG: Overwriting existing override {predicate_tag}={origin_id} from {override.get('model')} to {t_model_id}")
+                        override["model"] = t_model_id
+                        exists = True
+                        break
+                        
+                        
+                if not exists:
+                    new_override = {
+                        "predicate": {
+                            "nbt": {
+                                predicate_tag: origin_id
+                            }
+                        },
+                        "model": t_model_id
+                    }
+                    for k, v in t_nbt.items():
+                        new_override["predicate"]["nbt"][k] = v
+                    chime_data["overrides"].append(new_override)
+                        
+            save_json(chime_file, chime_data)
+
+        # 2. ASSET COPY & OPTIFINE CIT
         def resolve_src(rel_path):
             for folder in possible_folders:
                 test_src = V2_SOURCE_DIR / folder / "assets" / "minecraft" / rel_path
@@ -303,59 +338,89 @@ nbt.VB|{protocol}|id={origin_id}
         def copy_asset(rel_path):
             src = resolve_src(rel_path)
             if not src:
-                print(f"Warning: Asset not found in any overlay: {rel_path}")
                 return False
-                
             dst = V1_TARGET_DIR / "assets" / "minecraft" / rel_path
             dst.parent.mkdir(parents=True, exist_ok=True)
             if not dst.exists():
                 if rel_path.suffix == ".json":
                     raw_model_data = load_json(src)
                     sanitized_model = {}
-                    if "parent" in raw_model_data:
-                        sanitized_model["parent"] = raw_model_data["parent"]
-                    if "textures" in raw_model_data:
-                        sanitized_model["textures"] = raw_model_data["textures"]
-                    if "display" in raw_model_data:
-                        sanitized_model["display"] = raw_model_data["display"]
-                    if "elements" in raw_model_data:
-                        sanitized_model["elements"] = raw_model_data["elements"]
-                    if "gui_light" in raw_model_data:
-                        sanitized_model["gui_light"] = raw_model_data["gui_light"]
-                    if "ambientocclusion" in raw_model_data:
-                        sanitized_model["ambientocclusion"] = raw_model_data["ambientocclusion"]
+                    for key in ["parent", "textures", "display", "elements", "gui_light", "ambientocclusion"]:
+                        if key in raw_model_data:
+                            sanitized_model[key] = raw_model_data[key]
                     save_json(dst, sanitized_model)
                 else:
                     shutil.copy2(src, dst)
-                print(f"Copied: {rel_path}")
             return True
 
         def crawl_model(rel_path):
             src = resolve_src(rel_path)
-            if not src:
-                return
-            
+            if not src: return
             copy_asset(rel_path)
             model_data = load_json(src)
-            
             if "parent" in model_data:
                 parent_val = model_data["parent"]
                 if not parent_val.startswith("builtin/"):
                     parent_rel = resolve_path(parent_val, "model")
-                    if parent_rel:
-                        crawl_model(parent_rel)
-            
+                    if parent_rel: crawl_model(parent_rel)
             if "textures" in model_data:
                 for tex_val in model_data["textures"].values():
                     if isinstance(tex_val, str) and not tex_val.startswith("#"):
                         tex_rel = resolve_path(tex_val, "texture")
-                        if tex_rel:
-                            copy_asset(tex_rel)
-                            
-        # Start crawling the resolved model file
-        model_rel = Path("models") / f"{target_model_id}.json"
-        crawl_model(model_rel)
+                        if tex_rel: copy_asset(tex_rel)
+
+        for t_model_id, t_nbt in target_model_id:
+            if t_model_id.startswith("minecraft:"):
+                t_model_id = t_model_id[10:]
+            print(f"  Resolved model path: {t_model_id} with NBT {t_nbt}")
+            
+            # CIT GENERATION
+            match_items_str = " ".join(carriers)
+            cit_dir = V1_TARGET_DIR / "assets" / "minecraft" / "optifine" / "cit" / "backports" / new_item
+            cit_dir.mkdir(parents=True, exist_ok=True)
+            
+            nbt_suffix = ""
+            if "Trim" in t_nbt:
+                trim_mat = t_nbt["Trim"]["material"].replace("minecraft:", "")
+                nbt_suffix = f"_{trim_mat}_trim"
+                
+            nbt_lines = f"nbt.VB|{protocol}|id={origin_id}\n"
+            if "Trim" in t_nbt:
+                nbt_lines += f"nbt.Trim.material={t_nbt['Trim']['material']}\n"
+                
+            properties_content = f"type=item\nmatchItems={match_items_str}\nmodel={t_model_id}\n{nbt_lines}"
+            with open(cit_dir / f"{new_item}{nbt_suffix}.properties", "w", encoding="utf-8") as f:
+                f.write(properties_content)
+                
+            model_rel = Path("models") / f"{t_model_id}.json"
+            crawl_model(model_rel)
                                 
+    print("Sorting Chime overrides to prioritize newer protocols...")
+    protocol_indices = {}
+    for i, step in enumerate(VERSION_STEPS):
+        protocol_indices[get_protocol_name(step[0], step[1])] = i
+
+    def get_override_index(override):
+        pred = override.get("predicate", {}).get("nbt", {})
+        proto_idx = 999
+        for key in pred.keys():
+            if key.startswith("VB|") and key.endswith("|id"):
+                proto = key.split("|")[1]
+                if proto in protocol_indices:
+                    proto_idx = protocol_indices[proto]
+        # Return a tuple: higher protocol index (newer) first, then more keys first.
+        # Since reverse=True, we use (999 - proto_idx) to make proto 0 the largest value,
+        # so proto 0 (newest) appears at the top.
+        return (999 - proto_idx, len(pred.keys()))
+        
+    overrides_dir = V1_TARGET_DIR / "assets" / "minecraft" / "overrides" / "item"
+    if overrides_dir.exists():
+        for filepath in overrides_dir.glob("*.json"):
+            data = load_json(filepath)
+            if "overrides" in data and isinstance(data["overrides"], list):
+                data["overrides"].sort(key=get_override_index, reverse=True)
+                save_json(filepath, data)
+
     print("CIT and Chime compilation finished successfully!")
 
 if __name__ == "__main__":

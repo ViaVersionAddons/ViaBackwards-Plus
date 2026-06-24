@@ -3,18 +3,18 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_17To1_16_4|id": 201
-        }
-      },
-      "model": "item/big_dripleaf"
-    },
-    {
-      "predicate": {
-        "nbt": {
           "VB|Protocol1_21_5To1_21_4|id": 210
         }
       },
       "model": "item/tall_dry_grass"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 201
+        }
+      },
+      "model": "item/big_dripleaf"
     }
   ]
 }

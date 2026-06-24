@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/untinted_generated",
+  "textures": {
+    "layer0": "minecraft:block/firefly_bush"
+  }
+}

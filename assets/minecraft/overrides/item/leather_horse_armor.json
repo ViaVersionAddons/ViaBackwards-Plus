@@ -3,14 +3,6 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_20_5To1_20_3|id": 797
-        }
-      },
-      "model": "item/wolf_armor"
-    },
-    {
-      "predicate": {
-        "nbt": {
           "VB|Protocol1_21_11To1_21_9|id": 1336
         }
       },
@@ -22,7 +14,7 @@
           "VB|Protocol1_21_11To1_21_9|id": 1259
         }
       },
-      "model": "item/netherite_nautilus_armor"
+      "model": "item/netherite_horse_armor"
     },
     {
       "predicate": {
@@ -30,7 +22,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 802
         }
       },
-      "model": "item/black_harness"
+      "model": "item/white_harness"
     },
     {
       "predicate": {
@@ -38,7 +30,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 803
         }
       },
-      "model": "item/black_harness"
+      "model": "item/orange_harness"
     },
     {
       "predicate": {
@@ -46,7 +38,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 804
         }
       },
-      "model": "item/black_harness"
+      "model": "item/magenta_harness"
     },
     {
       "predicate": {
@@ -54,7 +46,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 805
         }
       },
-      "model": "item/black_harness"
+      "model": "item/light_blue_harness"
     },
     {
       "predicate": {
@@ -62,7 +54,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 806
         }
       },
-      "model": "item/black_harness"
+      "model": "item/yellow_harness"
     },
     {
       "predicate": {
@@ -70,7 +62,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 807
         }
       },
-      "model": "item/black_harness"
+      "model": "item/lime_harness"
     },
     {
       "predicate": {
@@ -78,7 +70,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 808
         }
       },
-      "model": "item/black_harness"
+      "model": "item/pink_harness"
     },
     {
       "predicate": {
@@ -86,7 +78,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 809
         }
       },
-      "model": "item/black_harness"
+      "model": "item/gray_harness"
     },
     {
       "predicate": {
@@ -94,7 +86,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 810
         }
       },
-      "model": "item/black_harness"
+      "model": "item/light_gray_harness"
     },
     {
       "predicate": {
@@ -102,7 +94,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 811
         }
       },
-      "model": "item/black_harness"
+      "model": "item/cyan_harness"
     },
     {
       "predicate": {
@@ -110,7 +102,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 812
         }
       },
-      "model": "item/black_harness"
+      "model": "item/purple_harness"
     },
     {
       "predicate": {
@@ -118,7 +110,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 813
         }
       },
-      "model": "item/black_harness"
+      "model": "item/blue_harness"
     },
     {
       "predicate": {
@@ -126,7 +118,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 814
         }
       },
-      "model": "item/black_harness"
+      "model": "item/brown_harness"
     },
     {
       "predicate": {
@@ -134,7 +126,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 815
         }
       },
-      "model": "item/black_harness"
+      "model": "item/green_harness"
     },
     {
       "predicate": {
@@ -142,7 +134,7 @@
           "VB|Protocol1_21_6To1_21_5|id": 816
         }
       },
-      "model": "item/black_harness"
+      "model": "item/red_harness"
     },
     {
       "predicate": {
@@ -151,6 +143,14 @@
         }
       },
       "model": "item/black_harness"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_20_5To1_20_3|id": 797
+        }
+      },
+      "model": "item/wolf_armor"
     }
   ]
 }

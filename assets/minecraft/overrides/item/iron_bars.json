@@ -14,7 +14,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 392
         }
       },
-      "model": "item/copper_bars"
+      "model": "item/exposed_copper_bars"
     },
     {
       "predicate": {
@@ -22,7 +22,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 393
         }
       },
-      "model": "item/copper_bars"
+      "model": "item/weathered_copper_bars"
     },
     {
       "predicate": {
@@ -30,7 +30,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 394
         }
       },
-      "model": "item/copper_bars"
+      "model": "item/oxidized_copper_bars"
     },
     {
       "predicate": {
@@ -46,7 +46,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 396
         }
       },
-      "model": "item/copper_bars"
+      "model": "item/exposed_copper_bars"
     },
     {
       "predicate": {
@@ -54,7 +54,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 397
         }
       },
-      "model": "item/copper_bars"
+      "model": "item/weathered_copper_bars"
     },
     {
       "predicate": {
@@ -62,7 +62,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 398
         }
       },
-      "model": "item/copper_bars"
+      "model": "item/oxidized_copper_bars"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_20To1_19_4|id": 210
-            }
-          },
-          "model": "item/pitcher_plant"
-        },
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_20To1_19_4|id": 1107
-            }
-          },
-          "model": "item/pitcher_pod"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_20To1_19_4|id": 210
         }
-    ]
+      },
+      "model": "item/pitcher_plant"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_20To1_19_4|id": 1107
+        }
+      },
+      "model": "item/pitcher_pod"
+    }
+  ]
 }

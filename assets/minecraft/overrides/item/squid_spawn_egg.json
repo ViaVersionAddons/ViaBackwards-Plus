@@ -3,22 +3,6 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_17To1_16_4|id": 892
-        }
-      },
-      "model": "item/glow_squid_spawn_egg"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_19_3To1_19_1|id": 1008
-        }
-      },
-      "model": "item/glow_squid_spawn_egg"
-    },
-    {
-      "predicate": {
-        "nbt": {
           "VB|Protocol1_21_11To1_21_9|id": 1156
         }
       },
@@ -31,6 +15,22 @@
         }
       },
       "model": "item/zombie_nautilus_spawn_egg"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 892
+        }
+      },
+      "model": "item/glow_squid_spawn_egg"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_19_3To1_19_1|id": 1008
+        }
+      },
+      "model": "item/glow_squid_spawn_egg"
     }
   ]
 }

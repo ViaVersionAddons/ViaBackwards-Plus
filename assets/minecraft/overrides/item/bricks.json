@@ -3,6 +3,70 @@
     {
       "predicate": {
         "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1475
+        }
+      },
+      "model": "block/copper_golem_statue_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1476
+        }
+      },
+      "model": "block/exposed_copper_golem_statue_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1477
+        }
+      },
+      "model": "block/weathered_copper_golem_statue_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1478
+        }
+      },
+      "model": "block/oxidized_copper_golem_statue_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1479
+        }
+      },
+      "model": "block/copper_golem_statue_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1480
+        }
+      },
+      "model": "block/exposed_copper_golem_statue_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1481
+        }
+      },
+      "model": "block/weathered_copper_golem_statue_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1482
+        }
+      },
+      "model": "block/oxidized_copper_golem_statue_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
           "VB|Protocol1_17To1_16_4|id": 85
         }
       },
@@ -207,70 +271,6 @@
         }
       },
       "model": "block/cinnabar_bricks"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1475
-        }
-      },
-      "model": "block/copper_golem_statue_inventory"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1476
-        }
-      },
-      "model": "block/exposed_copper_golem_statue_inventory"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1477
-        }
-      },
-      "model": "block/weathered_copper_golem_statue_inventory"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1478
-        }
-      },
-      "model": "block/oxidized_copper_golem_statue_inventory"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1479
-        }
-      },
-      "model": "block/copper_golem_statue_inventory"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1480
-        }
-      },
-      "model": "block/exposed_copper_golem_statue_inventory"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1481
-        }
-      },
-      "model": "block/weathered_copper_golem_statue_inventory"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1482
-        }
-      },
-      "model": "block/oxidized_copper_golem_statue_inventory"
     }
   ]
 }
