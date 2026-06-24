@@ -1,10 +1,12 @@
-name: Build Release ZIP
+name: Build and Release
 
 on:
-  workflow_dispatch:
+  push:
+    tags:
+      - 'v*.*.*'
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -13,10 +15,10 @@ jobs:
 
       - name: Zip Release Files
         run: |
-          zip -r ViaBackwards-Plus-v1.zip assets/ omenicon/ Credits.txt LICENSE.txt pack.mcmeta pack.png respackopts.json5
+          zip -r ViaBackwards-Plus-v1-${{ github.ref_name }}.zip assets/ omenicon/ Credits.txt LICENSE.txt pack.mcmeta pack.png respackopts.json5
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: ViaBackwards-Plus-v1
-          path: ViaBackwards-Plus-v1.zip
+          files: ViaBackwards-Plus-v1-${{ github.ref_name }}.zip
+          generate_release_notes: true
