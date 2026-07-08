@@ -1,0 +1,49 @@
+name: Generate Translation Files
+
+on:
+  workflow_dispatch:
+    inputs:
+      min_version:
+        description: 'Minimum Minecraft version (client-side; 1.19.4 = earliest vb.* key support)'
+        required: true
+        default: '1.21.4'
+        type: string
+      max_version:
+        description: 'Maximum Minecraft version (server-side; leave blank to auto-detect from mappings)'
+        required: false
+        default: ''
+        type: string
+
+jobs:
+  build-langs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Checkout ViaVersion/Mappings repository
+        uses: actions/checkout@v7
+        with:
+          repository: 'ViaVersion/Mappings'
+          path: 'Mappings'
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Run Lang Generator Script
+        env:
+          MAPPINGS_DIR: ${{ github.workspace }}/Mappings/mappings
+          MIN_VERSION: ${{ github.event.inputs.min_version }}
+          MAX_VERSION: ${{ github.event.inputs.max_version }}
+        run: python .github/scripts/generate_langs.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: auto-generate translation files"
+          file_pattern: 'assets/minecraft/lang/*.json'
