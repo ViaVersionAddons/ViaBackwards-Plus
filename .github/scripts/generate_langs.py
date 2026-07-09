@@ -19,7 +19,7 @@ if MAX_VERSION == "None" or MAX_VERSION == "":
 
 OUTPUT_DIR = "assets/minecraft/lang"
 
-# False: only vb.item.* and vb.entity.* entries.
+# False: only include vb.item.* and vb.entity.* entries in the lang files.
 # True: also copy in vanilla item.minecraft.* / block.minecraft.* / entity.minecraft.* keys.
 COPY_MOJANG_LANG = False
 
