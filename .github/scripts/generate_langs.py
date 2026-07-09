@@ -19,6 +19,10 @@ if MAX_VERSION == "None" or MAX_VERSION == "":
 
 OUTPUT_DIR = "assets/minecraft/lang"
 
+# When True, also writes vanilla item.minecraft.* / block.minecraft.* / entity.minecraft.* keys
+# alongside the vb.* keys. Set False to emit only vb.item.* and vb.entity.* entries.
+COPY_MOJANG_LANG = False
+
 # API and CDN URLs
 VERSION_MANIFEST_URL = "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
 RESOURCES_CDN_URL = "https://resources.download.minecraft.net"
@@ -271,19 +275,19 @@ def map_and_merge_translations(item_ids, entity_ids, custom_model_data_ids, lang
                 translation_val = translations[block_key]
                 
             if translation_val is not None:
-                if lang_code.lower() != 'en_us':
-                    mapped[f"vb.item.{item_id}"] = translation_val
-                mapped[item_key] = translation_val
-                mapped[block_key] = translation_val
+                mapped[f"vb.item.{item_id}"] = translation_val
+                if COPY_MOJANG_LANG:
+                    mapped[item_key] = translation_val
+                    mapped[block_key] = translation_val
                 
         # Map entity IDs
         for entity_id in sorted(entity_ids):
             entity_key = f"entity.minecraft.{entity_id}"
             if entity_key in translations:
                 translation_val = translations[entity_key]
-                if lang_code.lower() != 'en_us':
-                    mapped[f"vb.entity.{entity_id}"] = translation_val
-                mapped[entity_key] = translation_val
+                mapped[f"vb.entity.{entity_id}"] = translation_val
+                if COPY_MOJANG_LANG:
+                    mapped[entity_key] = translation_val
                 
         if not mapped:
             continue
