@@ -14,7 +14,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:block/waxed_oxidized_cut_copper"
+      "model": "minecraft:block/oxidized_cut_copper"
     }
   }
 }
