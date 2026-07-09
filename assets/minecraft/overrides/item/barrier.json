@@ -3,6 +3,14 @@
     {
       "predicate": {
         "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 371
+        }
+      },
+      "model": "item/light_15"
+    },
+    {
+      "predicate": {
+        "nbt": {
           "BlockStateTag": {
             "level": "14"
           },
@@ -164,14 +172,6 @@
         }
       },
       "model": "item/light_00"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_17To1_16_4|id": 371
-        }
-      },
-      "model": "item/light_15"
     }
   ]
 }

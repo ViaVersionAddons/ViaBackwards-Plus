@@ -3,6 +3,14 @@
     {
       "predicate": {
         "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 958
+        }
+      },
+      "model": "item/copper_helmet"
+    },
+    {
+      "predicate": {
+        "nbt": {
           "VB|Protocol1_21_9To1_21_7|id": 958,
           "Trim": {
             "material": "minecraft:quartz"
@@ -120,14 +128,6 @@
         }
       },
       "model": "item/copper_helmet_resin_trim"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 958
-        }
-      },
-      "model": "item/copper_helmet"
     }
   ]
 }

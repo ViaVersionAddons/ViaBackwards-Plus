@@ -3,18 +3,18 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1475
-        }
-      },
-      "model": "block/copper_golem_statue_inventory"
-    },
-    {
-      "predicate": {
-        "nbt": {
           "VB|Protocol1_21_4To1_21_2|id": 377
         }
       },
       "model": "block/resin_block"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1475
+        }
+      },
+      "model": "block/copper_golem_statue_inventory"
     }
   ]
 }

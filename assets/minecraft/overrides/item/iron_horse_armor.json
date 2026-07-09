@@ -3,6 +3,14 @@
     {
       "predicate": {
         "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1251
+        }
+      },
+      "model": "item/copper_horse_armor"
+    },
+    {
+      "predicate": {
+        "nbt": {
           "VB|Protocol1_21_11To1_21_9|id": 1333
         }
       },
@@ -15,14 +23,6 @@
         }
       },
       "model": "item/copper_nautilus_armor"
-    },
-    {
-      "predicate": {
-        "nbt": {
-          "VB|Protocol1_21_9To1_21_7|id": 1251
-        }
-      },
-      "model": "item/copper_horse_armor"
     }
   ]
 }

@@ -5,8 +5,8 @@ This workspace represents the legacy (`v1`) branch of the ViaBackwards-Plus reso
 ## 1. Core Philosophy (v1 vs v2)
 *   **The v1 Rule**: DO NOT use vanilla `CustomModelData` by overwriting base models (e.g., `iron_axe.json`). Overwriting base carrier models destroys compatibility with other resource packs and server plugins. Instead, this branch relies exclusively on OptiFine CIT (`.properties`) and Chime (`overrides/item/` folder).
 *   **The 1.21.4 Constraint**: Minecraft 1.21.4 introduced `minecraft:condition` to split item models for inventory vs. in-hand. Legacy 1.20 clients physically cannot support this split. Always fallback to using a single unified 3D JSON model containing a `"display": {"gui": ...}` block for inventory compatibility.
-*   **Chime Array Sorting Rules**: The Chime mod processes override arrays using a **Top-Down (First-Match-Wins)** architecture. Any script or agent modifying Chime JSON files MUST ensure that the most specific predicates (e.g., items with `Trim` NBT data) are placed at the **top** of the array. If generic base items are placed at the top, they will instantly swallow the match and break the variations.
-
+*   **Chime Array Sorting Rules**: The Chime mod processes override arrays using a **Bottom-Up (Last-Match-Wins)** architecture for overlapping NBT predicates. Any script or agent modifying Chime JSON files MUST ensure that the most specific/newest predicates (e.g., items from newer protocols) are placed at the **bottom** of the array. If generic base items are placed at the bottom, they will overwrite the specific matches and break the variations.
+*   **OptiFine Overlap Weights**: When multiple OptiFine `.properties` files match the same carrier item (e.g., `copper_spear` and `copper_sword` both mapped to `iron_sword`), OptiFine evaluates them alphabetically by file path unless a `weight` is specified. Always inject a `weight` (e.g., `weight=1000 - protocol_index`) to mathematically guarantee newer protocol items outrank their older generic fallbacks.
 ## 2. Troubleshooting & Known Limitations
 
 ### Missing Textures
