@@ -1,12 +1,20 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_20To1_19_4|id": 1254
-            }
-          },
-          "model": "item/music_disc_relic"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_20To1_19_4|id": 1254
         }
-    ]
+      },
+      "model": "item/music_disc_relic"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_7To1_21_6|id": 1256
+        }
+      },
+      "model": "item/music_disc_lava_chicken"
+    }
+  ]
 }

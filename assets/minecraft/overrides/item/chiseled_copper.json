@@ -1,12 +1,20 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_21_4To1_21_2|id": 382
-            }
-          },
-          "model": "block/chiseled_resin_bricks"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_4To1_21_2|id": 382
         }
-    ]
+      },
+      "model": "block/chiseled_resin_bricks"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 52
+        }
+      },
+      "model": "block/chiseled_cinnabar"
+    }
+  ]
 }

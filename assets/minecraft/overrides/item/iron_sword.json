@@ -1,0 +1,28 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 916
+        }
+      },
+      "model": "item/copper_sword"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_11To1_21_9|id": 1298
+        }
+      },
+      "model": "item/copper_spear"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_11To1_21_9|id": 1299
+        }
+      },
+      "model": "item/iron_spear"
+    }
+  ]
+}

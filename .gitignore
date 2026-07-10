@@ -1,0 +1,8 @@
+*.zip
+*.log
+build_log.txt
+
+# dot files
+.*
+!.github/
+!.github/**

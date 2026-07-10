@@ -1,0 +1,28 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_5To1_21_4|id": 204
+        }
+      },
+      "model": "item/bush"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_5To1_21_4|id": 208
+        }
+      },
+      "model": "item/firefly_bush"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_5To1_21_4|id": 209
+        }
+      },
+      "model": "item/short_dry_grass"
+    }
+  ]
+}

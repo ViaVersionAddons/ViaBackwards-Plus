@@ -1,0 +1,20 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 30
+        }
+      },
+      "model": "block/sulfur_wall_inventory"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 34
+        }
+      },
+      "model": "block/polished_sulfur_wall_inventory"
+    }
+  ]
+}

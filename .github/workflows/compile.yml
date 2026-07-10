@@ -1,0 +1,52 @@
+name: Compile V1 Backports
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout v1-branch
+        uses: actions/checkout@v4
+        with:
+          path: v1-branch
+          ref: v1 
+
+      - name: Checkout ViaBackwards-Plus (v2)
+        uses: actions/checkout@v4
+        with:
+          repository: ViaVersionAddons/ViaBackwards-Plus
+          path: ViaBackwards-Plus
+          ref: main
+
+      - name: Checkout Mappings
+        uses: actions/checkout@v4
+        with:
+          repository: ViaVersion/Mappings
+          path: Mappings
+          ref: master
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run v1 Compiler
+        env:
+          MAPPINGS_DIR: ${{ github.workspace }}/Mappings/mappings
+          V2_SOURCE_DIR: ${{ github.workspace }}/ViaBackwards-Plus
+          V1_TARGET_DIR: ${{ github.workspace }}/v1-branch
+        run: |
+          cd v1-branch/scripts
+          python v1_backport_compiler.py
+
+      - name: Commit and Push
+        run: |
+          cd v1-branch
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --staged --quiet || git commit -m "Automated compile: Updated v1 backports via GitHub Actions"
+          git push

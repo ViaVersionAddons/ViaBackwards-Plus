@@ -1,28 +1,36 @@
 {
-    "overrides": [
-      {
-        "predicate": {
-          "nbt":{
-            "VB|Protocol1_17To1_16_4|id": 66
-          }
-        },
-        "model": "item/copper_block"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 66
+        }
       },
-      {
-        "predicate": {
-          "nbt":{
-            "VB|Protocol1_17To1_16_4|id": 61
-          }
-        },
-        "model": "item/raw_copper_block"
+      "model": "item/copper_block"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 61
+        }
       },
-      {
-        "predicate": {
-          "nbt":{
-            "VB|Protocol1_17To1_16_4|id": 60
-          }
-        },
-        "model": "item/raw_iron_block"
-      }
+      "model": "item/raw_copper_block"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 60
+        }
+      },
+      "model": "item/raw_iron_block"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 52
+        }
+      },
+      "model": "block/chiseled_cinnabar"
+    }
   ]
 }

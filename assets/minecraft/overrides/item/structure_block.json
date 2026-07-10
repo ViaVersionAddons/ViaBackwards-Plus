@@ -1,0 +1,20 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_5To1_21_4|id": 832
+        }
+      },
+      "model": "block/test_block_start"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_5To1_21_4|id": 833
+        }
+      },
+      "model": "block/test_instance_block"
+    }
+  ]
+}

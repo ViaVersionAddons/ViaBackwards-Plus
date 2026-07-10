@@ -1,0 +1,68 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1348
+        }
+      },
+      "model": "item/copper_lantern"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1349
+        }
+      },
+      "model": "item/exposed_copper_lantern"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1350
+        }
+      },
+      "model": "item/weathered_copper_lantern"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1351
+        }
+      },
+      "model": "item/oxidized_copper_lantern"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1352
+        }
+      },
+      "model": "item/copper_lantern"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1353
+        }
+      },
+      "model": "item/exposed_copper_lantern"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1354
+        }
+      },
+      "model": "item/weathered_copper_lantern"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1355
+        }
+      },
+      "model": "item/oxidized_copper_lantern"
+    }
+  ]
+}

@@ -1,12 +1,20 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt":{
-              "VB|Protocol1_17To1_16_4|id": 779
-            }
-          },
-          "model": "item/powder_snow_bucket"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_17To1_16_4|id": 779
         }
-    ]
+      },
+      "model": "item/powder_snow_bucket"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol26_2To26_1|id": 1052
+        }
+      },
+      "model": "item/sulfur_cube_bucket"
+    }
+  ]
 }

@@ -1,12 +1,36 @@
 {
-    "overrides": [
-        {
-          "predicate": {
-            "nbt": {
-              "VB|Protocol1_19_4To1_19_3|id": 222
-              }
-          },
-          "model": "item/pink_petals"
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_19_4To1_19_3|id": 222
         }
-    ]
+      },
+      "model": "item/pink_petals"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_5To1_21_4|id": 259
+        }
+      },
+      "model": "item/wildflowers"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_5To1_21_4|id": 260
+        }
+      },
+      "model": "item/leaf_litter"
+    },
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_5To1_21_4|id": 329
+        }
+      },
+      "model": "item/cactus_flower"
+    }
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "nbt": {
+          "VB|Protocol1_21_9To1_21_7|id": 1478
+        }
+      },
+      "model": "block/oxidized_copper_golem_statue_inventory"
+    }
+  ]
+}

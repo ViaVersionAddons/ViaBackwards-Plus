@@ -1,0 +1,24 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Zip Release Files
+        run: |
+          zip -r ViaBackwards-Plus-v1-${{ github.ref_name }}.zip assets/ omenicon/ Credits.txt LICENSE.txt pack.mcmeta pack.png respackopts.json5
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ViaBackwards-Plus-v1-${{ github.ref_name }}.zip
+          generate_release_notes: true
