@@ -112,8 +112,18 @@ jobs:
           name: v1-package
           path: v1/ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
 
+  generate-lang-files:
+    if: ${{ github.event.inputs.targets != 'v1' }}
+    uses: ./.github/workflows/generate_langs.yml
+    permissions:
+      contents: write
+    with:
+      min_version: '1.21.4'
+      max_version: ''
+
   package-v2:
     if: ${{ github.event.inputs.targets != 'v1' }}
+    needs: generate-lang-files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout v2
@@ -132,13 +142,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Generate and Commit Lang Files
-        uses: ./.github/workflows/generate_langs.yml
-        with:
-          min_version: 1.21.4
-          max_version: ''
-        secrets: inherit
 
       - name: Pull latest v2 changes
         run: |
@@ -211,8 +214,10 @@ jobs:
             *This version was auto-backported based on v2.${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*
 
   release-v2:
-    if: ${{ github.event.inputs.targets != 'v1' }}
-    needs: ${{ github.event.inputs.targets == 'both' && fromJSON('["release-v1", "package-v2"]') || 'package-v2' }}
+    if: ${{ always() && github.event.inputs.targets != 'v1' && (github.event.inputs.targets != 'both' || needs.release-v1.result == 'success') }}
+    needs:
+      - package-v2
+      - release-v1
     runs-on: ubuntu-latest
     permissions:
       contents: write
