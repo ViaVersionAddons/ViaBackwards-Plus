@@ -1,0 +1,254 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g., 10.1)'
+        required: true
+        type: string
+      targets:
+        description: 'Release targets'
+        required: true
+        type: choice
+        options:
+          - both
+          - v1
+          - v2
+        default: both
+      prerelease:
+        description: 'Mark as prerelease'
+        required: false
+        type: boolean
+        default: false
+      changelog_common:
+        description: 'Common changelog (Markdown)'
+        required: false
+        type: string
+        default: ''
+      changelog_v1:
+        description: 'V1-exclusive changelog (Markdown)'
+        required: false
+        type: string
+        default: ''
+      changelog_v2:
+        description: 'V2-exclusive changelog (Markdown)'
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  compile-v1:
+    if: ${{ github.event.inputs.targets != 'v2' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout v2
+        uses: actions/checkout@v4
+        with:
+          path: v2
+
+      - name: Checkout v1 branch
+        uses: actions/checkout@v4
+        with:
+          repository: ViaVersionAddons/ViaBackwards-Plus
+          path: v1
+          ref: v1
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout Mappings
+        uses: actions/checkout@v4
+        with:
+          repository: ViaVersion/Mappings
+          path: Mappings
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run v1 Compiler
+        env:
+          MAPPINGS_DIR: ${{ github.workspace }}/Mappings/mappings
+          V2_SOURCE_DIR: ${{ github.workspace }}/v2
+          V1_TARGET_DIR: ${{ github.workspace }}/v1
+        run: |
+          cd v1
+          python .github/scripts/v1_backport_compiler.py
+
+      - name: Commit and Push v1
+        run: |
+          cd v1
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --staged --quiet || git commit -m "chore: auto-backport v2 assets for v${{ github.event.inputs.version }}"
+          git push
+
+  package-v1:
+    if: ${{ github.event.inputs.targets != 'v2' }}
+    needs: compile-v1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout v1
+        uses: actions/checkout@v4
+        with:
+          repository: ViaVersionAddons/ViaBackwards-Plus
+          path: v1
+          ref: v1
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Zip v1
+        run: |
+          cd v1
+          zip -r ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip assets/ omenicon/ Credits.txt LICENSE.txt pack.mcmeta pack.png respackopts.json5
+
+      - name: Upload v1 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: v1-package
+          path: v1/ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
+
+  package-v2:
+    if: ${{ github.event.inputs.targets != 'v1' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout v2
+        uses: actions/checkout@v4
+        with:
+          path: v2
+          fetch-depth: 0
+
+      - name: Checkout Mappings
+        uses: actions/checkout@v4
+        with:
+          repository: ViaVersion/Mappings
+          path: Mappings
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate and Commit Lang Files
+        uses: ./.github/workflows/generate_langs.yml
+        with:
+          min_version: 1.21.4
+          max_version: ''
+        secrets: inherit
+
+      - name: Pull latest v2 changes
+        run: |
+          cd v2
+          git pull origin main
+
+      - name: Zip v2
+        run: |
+          cd v2
+          zip -r ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip assets/ Credits.txt LICENSE.txt pack.mcmeta pack.png
+
+      - name: Upload v2 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2-package
+          path: v2/ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip
+
+  release-v1:
+    if: ${{ github.event.inputs.targets != 'v2' }}
+    needs: package-v1
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download v1 artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: v1-package
+          path: .
+
+      - name: Create v1 GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.${{ github.event.inputs.version }}
+          name: v1.${{ github.event.inputs.version }}
+          target_commitish: v1
+          body: |
+            ${{ github.event.inputs.changelog_common }}
+            
+            ## V1 Exclusive
+            ${{ github.event.inputs.changelog_v1 }}
+            
+            ---
+            *This version was auto-backported based on v2.${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*
+          prerelease: ${{ github.event.inputs.prerelease }}
+          files: ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
+
+      - name: Publish v1 to Modrinth & CurseForge
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          name: v1.${{ github.event.inputs.version }}
+          files: ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
+          loaders: minecraft
+          game-versions: "[1.16.2,1.20.4]"
+          modrinth-id: v7n1ZsFg
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: 821967
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          dependencies: |
+            chime(required){modrinth:ubxU84eR}{curseforge:432776}#(ignore:github)
+            cit-resewn(optional){modrinth:otVJckYQ}{curseforge:521427}#(ignore:github)
+            respackopts(optional){modrinth:TiF5QWZY}#(ignore:curseforge,github)
+          changelog: |
+            ${{ github.event.inputs.changelog_common }}
+            
+            ## V1 Exclusive
+            ${{ github.event.inputs.changelog_v1 }}
+            
+            ---
+            *This version was auto-backported based on v2.${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*
+
+  release-v2:
+    if: ${{ github.event.inputs.targets != 'v1' }}
+    needs: ${{ github.event.inputs.targets == 'both' && fromJSON('["release-v1", "package-v2"]') || 'package-v2' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download v2 artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: v2-package
+          path: .
+
+      - name: Create v2 GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v2.${{ github.event.inputs.version }}
+          name: v2.${{ github.event.inputs.version }}
+          body: |
+            ${{ github.event.inputs.changelog_common }}
+            
+            ## V2 Exclusive
+            ${{ github.event.inputs.changelog_v2 }}
+          prerelease: ${{ github.event.inputs.prerelease }}
+          files: ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip
+
+      - name: Publish v2 to Modrinth & CurseForge
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          name: v2.${{ github.event.inputs.version }}
+          files: ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip
+          loaders: minecraft
+          game-versions: "[1.21.4,26.1.2]"
+          modrinth-id: v7n1ZsFg
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: 821967
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          changelog: |
+            ${{ github.event.inputs.changelog_common }}
+            
+            ## V2 Exclusive
+            ${{ github.event.inputs.changelog_v2 }}

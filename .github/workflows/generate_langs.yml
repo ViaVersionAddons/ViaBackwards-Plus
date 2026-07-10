@@ -13,6 +13,17 @@ on:
         required: false
         default: ''
         type: string
+  workflow_call:
+    inputs:
+      min_version:
+        required: true
+        type: string
+      max_version:
+        required: false
+        type: string
+    secrets:
+      GITHUB_TOKEN:
+        required: true
 
 jobs:
   build-langs:
@@ -38,12 +49,16 @@ jobs:
       - name: Run Lang Generator Script
         env:
           MAPPINGS_DIR: ${{ github.workspace }}/Mappings/mappings
-          MIN_VERSION: ${{ github.event.inputs.min_version }}
-          MAX_VERSION: ${{ github.event.inputs.max_version }}
+          MIN_VERSION: ${{ inputs.min_version || github.event.inputs.min_version }}
+          MAX_VERSION: ${{ inputs.max_version || github.event.inputs.max_version }}
         run: python .github/scripts/generate_langs.py
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "chore: auto-generate translation files"
-          file_pattern: 'assets/minecraft/lang/*.json'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/minecraft/lang/*.json
+          git diff --staged --quiet || git commit -m "chore: auto-generate translation files"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
