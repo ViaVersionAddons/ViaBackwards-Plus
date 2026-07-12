@@ -38,7 +38,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 1471
         }
       },
-      "model": "item/waxed_copper_chest"
+      "model": "item/copper_chest"
     },
     {
       "predicate": {
@@ -46,7 +46,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 1472
         }
       },
-      "model": "item/waxed_exposed_copper_chest"
+      "model": "item/exposed_copper_chest"
     },
     {
       "predicate": {
@@ -54,7 +54,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 1473
         }
       },
-      "model": "item/waxed_weathered_copper_chest"
+      "model": "item/weathered_copper_chest"
     },
     {
       "predicate": {
@@ -62,7 +62,7 @@
           "VB|Protocol1_21_9To1_21_7|id": 1474
         }
       },
-      "model": "item/waxed_oxidized_copper_chest"
+      "model": "item/oxidized_copper_chest"
     }
   ]
 }

@@ -155,7 +155,21 @@ def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_ma
         if is_matched:
             model_str = node.get("model")
             if model_str:
-                results.append((model_str, current_nbt))
+                results.append((model_str, current_nbt, None))
+        return results
+
+    elif mtype == "minecraft:special":
+        if is_matched:
+            base_str = node.get("base")
+            special_model = node.get("model", {})
+            special_type = special_model.get("type")
+            special_tex = special_model.get("texture")
+            tex_rel = None
+            if special_type == "minecraft:chest" and special_tex:
+                tex_name = special_tex.replace("minecraft:", "")
+                tex_rel = Path("textures/entity/chest") / f"{tex_name}.png"
+            if base_str:
+                results.append((base_str, current_nbt, tex_rel))
         return results
         
     elif mtype == "minecraft:condition":
@@ -276,7 +290,7 @@ def main():
                     break
                     
         if not target_model_id:
-            target_model_id = [(f"minecraft:item/{new_item}", {})]
+            target_model_id = [(f"minecraft:item/{new_item}", {}, None)]
             
         # 1. CHIME OVERRIDES INJECTIONS (we do this first to prep the data)
         predicate_tag = f"VB|{protocol}|id"
@@ -290,7 +304,9 @@ def main():
             if "overrides" not in chime_data:
                 chime_data["overrides"] = []
                 
-            for t_model_id, t_nbt in target_model_id:
+            for item_tuple in target_model_id:
+                t_model_id = item_tuple[0]
+                t_nbt = item_tuple[1]
                 if t_model_id.startswith("minecraft:"):
                     t_model_id = t_model_id[10:]
                     
@@ -369,7 +385,10 @@ def main():
                         tex_rel = resolve_path(tex_val, "texture")
                         if tex_rel: copy_asset(tex_rel)
 
-        for t_model_id, t_nbt in target_model_id:
+        for item_tuple in target_model_id:
+            t_model_id = item_tuple[0]
+            t_nbt = item_tuple[1]
+            t_tex = item_tuple[2] if len(item_tuple) > 2 else None
             if t_model_id.startswith("minecraft:"):
                 t_model_id = t_model_id[10:]
             print(f"  Resolved model path: {t_model_id} with NBT {t_nbt}")
@@ -395,6 +414,18 @@ def main():
                 
             model_rel = Path("models") / f"{t_model_id}.json"
             crawl_model(model_rel)
+            if t_tex:
+                if "textures/entity/chest" in t_tex.as_posix():
+                    item_tex_name = t_model_id.split("/")[-1]
+                    item_tex_rel = Path("textures/item") / f"{item_tex_name}.png"
+                    src = resolve_src(t_tex)
+                    if src:
+                        dst = V1_TARGET_DIR / "assets" / "minecraft" / item_tex_rel
+                        dst.parent.mkdir(parents=True, exist_ok=True)
+                        if not dst.exists():
+                            shutil.copy2(src, dst)
+                else:
+                    copy_asset(t_tex)
                                 
     print("Sorting Chime overrides to prioritize newer protocols (Bottom-Up)...")
     protocol_indices = {}
