@@ -112,18 +112,8 @@ jobs:
           name: v1-package
           path: v1/ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
 
-  generate-lang-files:
-    if: ${{ github.event.inputs.targets != 'v1' }}
-    uses: ./.github/workflows/generate_langs.yml
-    permissions:
-      contents: write
-    with:
-      min_version: '1.21.4'
-      max_version: ''
-
   package-v2:
     if: ${{ github.event.inputs.targets != 'v1' }}
-    needs: generate-lang-files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout v2
@@ -196,7 +186,7 @@ jobs:
           files: ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
           loaders: minecraft
           game-versions: "[1.16.2,1.20.4]"
-          version: 1.${{ github.event.inputs.version }}
+          version: 1.${{ github.event.inputs.version || github.run_number }}
           modrinth-id: v7n1ZsFg
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           curseforge-id: 821967
@@ -249,7 +239,7 @@ jobs:
           files: ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip
           loaders: minecraft
           game-versions: "[1.21.4,26.1.2]"
-          version: 2.${{ github.event.inputs.version }}
+          version: 2.${{ github.event.inputs.version || github.run_number }}
           modrinth-id: v7n1ZsFg
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           curseforge-id: 821967
