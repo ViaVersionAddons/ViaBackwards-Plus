@@ -242,32 +242,62 @@ def download_all_languages(asset_index, version_id, cache_dir):
 # ==========================================
 # Phase C: Remapping and Safe Write/Merge
 # ==========================================
-def map_and_write_for_backport(bp_dir, entity_ids, langs_data):
-    """Maps items/entities and writes translations for a specific backport directory."""
-    items_dir = bp_dir / "assets" / "minecraft" / "items"
-    if not items_dir.exists():
-        print(f"Skipping {bp_dir.name}: No items directory found.")
-        return
+BACKPORT_DIFF_MAP = {
+    "backport_to_26_2": ["mapping-26.3to26.2.json"],
+    "backport_to_26_1": ["mapping-26.2to26.1.json"],
+    "backport_to_1_21_11": ["mapping-26.1to1.21.11.json"],
+    "backport_to_1_21_9": ["mapping-1.21.11to1.21.9.json"],
+    "backport_to_1_21_6": ["mapping-1.21.9to1.21.7.json", "mapping-1.21.7to1.21.6.json"],
+    "backport_to_1_21_5": ["mapping-1.21.6to1.21.5.json"],
+    "backport_to_1_21_4": ["mapping-1.21.5to1.21.4.json"],
+}
 
-    # 1. Discover items actually present in this backport
-    bp_item_ids = {f.stem for f in items_dir.glob("*.json")}
-    if not bp_item_ids:
-        print(f"Skipping {bp_dir.name}: No items found in items directory.")
+def extract_from_diffs(mappings_dir, diff_names):
+    """Reads Mappings diff files and extracts custom_model_data items and entities."""
+    diff_dir = mappings_dir / "diff"
+    item_ids = set()
+    entity_ids = set()
+    
+    for dname in diff_names:
+        diff_path = diff_dir / dname
+        if not diff_path.exists():
+            print(f"Notice: diff file {dname} not found in {diff_dir}")
+            continue
+        try:
+            with open(diff_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            for k in data.get("custom_model_data", {}).keys():
+                item_ids.add(k)
+            for k in data.get("entities", {}).keys():
+                entity_ids.add(k)
+        except Exception as e:
+            print(f"Warning: could not read diff {dname}: {e}")
+            
+    return item_ids, entity_ids
+
+def map_and_write_for_backport(bp_dir, mappings_dir, langs_data):
+    """Maps items/entities and writes translations for a specific backport directory."""
+    diff_names = BACKPORT_DIFF_MAP.get(bp_dir.name, [])
+    bp_item_ids, entity_ids = extract_from_diffs(mappings_dir, diff_names)
+    
+    if not bp_item_ids and not entity_ids:
+        print(f"Skipping {bp_dir.name}: No items or entities found.")
         return
         
     output_dir = bp_dir / "assets" / "minecraft" / "lang"
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    print(f"Writing translation files for {bp_dir.name} ({len(bp_item_ids)} items) to {output_dir}...")
+    print(f"Writing translation files for {bp_dir.name} ({len(bp_item_ids)} items, {len(entity_ids)} entities) to {output_dir}...")
     
     mapped_count = 0
     for lang_code, translations in langs_data.items():
         mapped = {}
         
-        # Add Jukebox and Painting strings globally (as they are small and don't hurt)
-        for tk, tv in translations.items():
-            if tk.startswith("painting.minecraft.") or tk.startswith("jukebox_song.minecraft."):
-                mapped[tk] = tv
+        # Dennis painting was introduced in 1.21.7/1.21.9 and backported in backport_to_1_21_6
+        if bp_dir.name == "backport_to_1_21_6":
+            for pk in ["painting.minecraft.dennis.title", "painting.minecraft.dennis.author"]:
+                if pk in translations:
+                    mapped[pk] = translations[pk]
         
         # Map item/block IDs present in this backport
         for item_id in sorted(bp_item_ids):
@@ -284,14 +314,26 @@ def map_and_write_for_backport(bp_dir, entity_ids, langs_data):
                 mapped[f"vb.item.{item_id}"] = translation_val
                 if COPY_MOJANG_LANG or item_id.startswith("music_disc_"):
                     mapped[item_key] = translation_val
-                    # Some discs might have blocks, usually not, but safe.
-                    mapped[block_key] = translation_val 
+                    desc_key = f"item.minecraft.{item_id}.desc"
+                    if desc_key in translations:
+                        mapped[desc_key] = translations[desc_key]
+                    song_name = item_id.replace("music_disc_", "")
+                    song_key = f"jukebox_song.minecraft.{song_name}"
+                    if song_key in translations:
+                        mapped[song_key] = translations[song_key]
                 
-        # Map entity IDs (we just include all discovered entity IDs from diffs for now)
+        # Map entity IDs present in this backport
         for entity_id in sorted(entity_ids):
             entity_key = f"entity.minecraft.{entity_id}"
+            translation_val = None
             if entity_key in translations:
                 translation_val = translations[entity_key]
+            elif f"item.minecraft.{entity_id}" in translations:
+                translation_val = translations[f"item.minecraft.{entity_id}"]
+            elif f"block.minecraft.{entity_id}" in translations:
+                translation_val = translations[f"block.minecraft.{entity_id}"]
+                
+            if translation_val is not None:
                 mapped[f"vb.entity.{entity_id}"] = translation_val
                 if COPY_MOJANG_LANG:
                     mapped[entity_key] = translation_val
@@ -301,21 +343,10 @@ def map_and_write_for_backport(bp_dir, entity_ids, langs_data):
             
         out_file = output_dir / f"{lang_code.lower()}.json"
         
-        # Safe Merge Protocol: load existing values if the file is already present
-        existing = {}
-        if out_file.exists():
-            try:
-                with open(out_file, 'r', encoding='utf-8') as f:
-                    existing = json.load(f)
-            except Exception as e:
-                print(f"Warning: Failed to load existing translations from {out_file.name}: {e}")
-                
-        # Merge new mapped items into existing structure
-        merged = {**existing, **mapped}
-        
-        # Write merged translations with 4-space indent
+        # Write mapped translations with 4-space indent
         with open(out_file, 'w', encoding='utf-8') as f:
-            json.dump(merged, f, indent=4, ensure_ascii=False)
+            json.dump(mapped, f, indent=4, ensure_ascii=False)
+            f.write('\n')
         mapped_count += 1
         
     print(f"Finished {bp_dir.name}: wrote {mapped_count} translation files.")
@@ -329,14 +360,13 @@ def main():
     mappings_dir = resolve_mappings_dir()
     cache_dir = project_root / ".cache" / "lang"
     
-    # 1. Discover backported entities from mappings globally
-    print("--- Phase 1: Discovering Global Backported Entities ---")
-    _, entity_ids, _, resolved_max_ver = discover_backported_ids(mappings_dir, MIN_VERSION, MAX_VERSION)
-    print(f"Discovered {len(entity_ids)} backported entities from mappings.")
+    # 1. Discover backported assets and resolve max version
+    print("--- Phase 1: Resolving Version Range from Mappings ---")
+    _, _, _, resolved_max_ver = discover_backported_ids(mappings_dir, MIN_VERSION, MAX_VERSION)
+    print(f"Resolved target Minecraft version: {resolved_max_ver}")
     
     # 2. Retrieve Mojang version details and assets
     print("\n--- Phase 2: Resolving Mojang Translations ---")
-    # Always derive the translation source from MAX_VERSION
     version_id, version_url = resolve_mojang_version(resolved_max_ver)
     print(f"Resolved Mojang translation source version: {version_id}")
     
@@ -345,13 +375,25 @@ def main():
     # Download all translations (English from JAR, others from CDN)
     langs_data = {}
     
-    # A. English (en_us) from Client JAR
-    try:
-        client_jar_url = version_meta['downloads']['client']['url']
-        en_us_translations = extract_en_us(client_jar_url)
-        langs_data['en_us'] = en_us_translations
-    except Exception as e:
-        print(f"Warning: Could not fetch/extract en_us.json from client JAR: {e}")
+    # A. English (en_us) from Client JAR or cache
+    en_us_cache = cache_dir / version_id / "en_us.json"
+    if en_us_cache.exists():
+        try:
+            with open(en_us_cache, 'r', encoding='utf-8') as f:
+                langs_data['en_us'] = json.load(f)
+        except Exception:
+            pass
+            
+    if 'en_us' not in langs_data:
+        try:
+            client_jar_url = version_meta['downloads']['client']['url']
+            en_us_translations = extract_en_us(client_jar_url)
+            langs_data['en_us'] = en_us_translations
+            en_us_cache.parent.mkdir(parents=True, exist_ok=True)
+            with open(en_us_cache, 'w', encoding='utf-8') as f:
+                json.dump(en_us_translations, f, ensure_ascii=False)
+        except Exception as e:
+            print(f"Warning: Could not fetch/extract en_us.json from client JAR: {e}")
         
     # B. Other languages from asset index
     asset_index_url = version_meta['assetIndex']['url']
@@ -362,11 +404,12 @@ def main():
     
     # 3. Remap keys and merge save output per backport folder
     print("\n--- Phase 3: Remapping & Writing per Backport Folder ---")
-    for bp_dir in project_root.glob("backport_to_*"):
+    for bp_dir in sorted(project_root.glob("backport_to_*")):
         if bp_dir.is_dir():
-            map_and_write_for_backport(bp_dir, entity_ids, langs_data)
+            map_and_write_for_backport(bp_dir, mappings_dir, langs_data)
             
     print("\nGeneration process complete!")
 
 if __name__ == "__main__":
     main()
+

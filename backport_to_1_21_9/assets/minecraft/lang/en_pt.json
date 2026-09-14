@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Heated sand horse cackle fruit",
+    "vb.item.copper_nautilus_armor": "Sea beast's clothin' o' copper",
+    "vb.item.copper_spear": "Harpoon o' copper",
+    "vb.item.diamond_nautilus_armor": "Sea beast's clothin' o' diamond",
+    "vb.item.diamond_spear": "Harpoon o' diamond",
+    "vb.item.golden_nautilus_armor": "Sea beast's clothin' o' gold",
+    "vb.item.golden_spear": "Harpoon o' gold",
+    "vb.item.iron_nautilus_armor": "Sea beast's clothin' o' steel",
+    "vb.item.iron_spear": "Harpoon o' steel",
+    "vb.item.nautilus_spawn_egg": "Sea beast cackle fruit",
+    "vb.item.netherite_horse_armor": "Blackbeard's brumby armor",
+    "vb.item.netherite_nautilus_armor": "Blackbeard's clothin' fer th' sea beast",
+    "vb.item.netherite_spear": "Blackbeard's harpoon",
+    "vb.item.parched_spawn_egg": "Dried bag o' bones cackle fruit",
+    "vb.item.stone_spear": "Harpoon o' rock",
+    "vb.item.wooden_spear": "Harpoon o' timber",
+    "vb.item.zombie_nautilus_spawn_egg": "Undead sea beast cackle fruit",
+    "vb.entity.camel_husk": "Heated sand horse",
+    "vb.entity.nautilus": "Sea beast",
+    "vb.entity.parched": "Dried bag o' bones",
+    "vb.entity.zombie_nautilus": "Undead sea beast"
+}

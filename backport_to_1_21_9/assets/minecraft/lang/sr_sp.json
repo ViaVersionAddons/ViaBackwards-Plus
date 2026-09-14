@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Јаје љуске камиле",
+    "vb.item.copper_nautilus_armor": "Бакарни оклоп наутилуса",
+    "vb.item.copper_spear": "Бакарно копље",
+    "vb.item.diamond_nautilus_armor": "Дијамантски оклоп наутилуса",
+    "vb.item.diamond_spear": "Дијамантско копље",
+    "vb.item.golden_nautilus_armor": "Златни оклоп наутилуса",
+    "vb.item.golden_spear": "Златно копље",
+    "vb.item.iron_nautilus_armor": "Гвоздени оклоп наутилуса",
+    "vb.item.iron_spear": "Гвоздено копље",
+    "vb.item.nautilus_spawn_egg": "Јаје наутилуса",
+    "vb.item.netherite_horse_armor": "Недеритски коњски оклоп",
+    "vb.item.netherite_nautilus_armor": "Недеритски оклоп наутилуса",
+    "vb.item.netherite_spear": "Недеритско копље",
+    "vb.item.parched_spawn_egg": "Јаје пустињског костура",
+    "vb.item.stone_spear": "Камено копље",
+    "vb.item.wooden_spear": "Дрвено копље",
+    "vb.item.zombie_nautilus_spawn_egg": "Јаје зомби наутилуса",
+    "vb.entity.camel_husk": "Љуска камиле",
+    "vb.entity.nautilus": "Наутилус",
+    "vb.entity.parched": "Пустињски костур",
+    "vb.entity.zombie_nautilus": "Зомби наутилус"
+}

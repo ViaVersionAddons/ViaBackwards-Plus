@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Ovo Azul",
+    "vb.item.brown_egg": "Ovo Castanho",
+    "vb.item.bush": "Arbusto",
+    "vb.item.cactus_flower": "Flor de Cato",
+    "vb.item.firefly_bush": "Arbusto com Pirilampos",
+    "vb.item.leaf_litter": "Folhagem",
+    "vb.item.short_dry_grass": "Relva Seca Baixa",
+    "vb.item.tall_dry_grass": "Relva Seca Alta",
+    "vb.item.test_block": "Bloco de Teste",
+    "vb.item.test_instance_block": "Bloco de Instância de Teste",
+    "vb.item.wildflowers": "Flores-Silvestres",
+    "vb.entity.lingering_potion": "Poção Prolongada",
+    "vb.entity.splash_potion": "Poção Arremessável"
+}

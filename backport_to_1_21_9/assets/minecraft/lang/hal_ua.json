@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Яйце появи верхоблюда-сушнє",
+    "vb.item.copper_nautilus_armor": "Мідна корабликова збруя",
+    "vb.item.copper_spear": "Мідне копє",
+    "vb.item.diamond_nautilus_armor": "Диямантова корабликова збруя",
+    "vb.item.diamond_spear": "Диямантове копє",
+    "vb.item.golden_nautilus_armor": "Золота корабликова збруя",
+    "vb.item.golden_spear": "Золоте копє",
+    "vb.item.iron_nautilus_armor": "Дзелїзна корабликова збруя",
+    "vb.item.iron_spear": "Дзелїзне копє",
+    "vb.item.nautilus_spawn_egg": "Яйце появи кораблика",
+    "vb.item.netherite_horse_armor": "Недеритова кіньска збруя",
+    "vb.item.netherite_nautilus_armor": "Недеритова корабликова збруя",
+    "vb.item.netherite_spear": "Недеритове копє",
+    "vb.item.parched_spawn_egg": "Яйце появи пустиника",
+    "vb.item.stone_spear": "Камнєне копє",
+    "vb.item.wooden_spear": "Деревлєне копє",
+    "vb.item.zombie_nautilus_spawn_egg": "Яйце появи кораблика-мерцє",
+    "vb.entity.camel_husk": "Верхоблюд-cушень",
+    "vb.entity.nautilus": "Кораблик",
+    "vb.entity.parched": "Пустиник",
+    "vb.entity.zombie_nautilus": "Кораблик-мрец"
+}

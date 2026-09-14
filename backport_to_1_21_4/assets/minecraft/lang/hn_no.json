@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blått egg",
+    "vb.item.brown_egg": "Brunt egg",
+    "vb.item.bush": "Runn",
+    "vb.item.cactus_flower": "Kaktusblom",
+    "vb.item.firefly_bush": "Eldflugerunn",
+    "vb.item.leaf_litter": "Lauvstrøy",
+    "vb.item.short_dry_grass": "Stutt turt gras",
+    "vb.item.tall_dry_grass": "Høgt turt gras",
+    "vb.item.test_block": "Ryneblokk",
+    "vb.item.test_instance_block": "Rynehøves-blokk",
+    "vb.item.wildflowers": "Markblomar",
+    "vb.entity.lingering_potion": "Dveljebrygg",
+    "vb.entity.splash_potion": "Kastebrygg"
+}

@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Яйцо призыва верблюда-кадавра",
+    "vb.item.copper_nautilus_armor": "Мѣдная броня наутилуса",
+    "vb.item.copper_spear": "Мѣдное копьё",
+    "vb.item.diamond_nautilus_armor": "Діамантовая броня наутилуса",
+    "vb.item.diamond_spear": "Діамантовое копьё",
+    "vb.item.golden_nautilus_armor": "Золотая броня наутилуса",
+    "vb.item.golden_spear": "Золотое копьё",
+    "vb.item.iron_nautilus_armor": "Желѣзная броня наутилуса",
+    "vb.item.iron_spear": "Желѣзное копьё",
+    "vb.item.nautilus_spawn_egg": "Яйцо призыва наутилуса",
+    "vb.item.netherite_horse_armor": "Нѣдритовая конская броня",
+    "vb.item.netherite_nautilus_armor": "Нѣдритовая броня наутилуса",
+    "vb.item.netherite_spear": "Нѣдритовое копьё",
+    "vb.item.parched_spawn_egg": "Яйцо призыва пустынника",
+    "vb.item.stone_spear": "Каменное копьё",
+    "vb.item.wooden_spear": "Деревянное копьё",
+    "vb.item.zombie_nautilus_spawn_egg": "Яйцо призыва наутилуса-мертвеца",
+    "vb.entity.camel_husk": "Верблюдъ-кадавръ",
+    "vb.entity.nautilus": "Наутилусъ",
+    "vb.entity.parched": "Пустынникъ",
+    "vb.entity.zombie_nautilus": "Наутилусъ-мертвецъ"
+}

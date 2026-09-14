@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Trứng sinh ra Lạc đà khô tàn",
+    "vb.item.copper_nautilus_armor": "Giáp ốc anh vũ đồng",
+    "vb.item.copper_spear": "Giáo đồng",
+    "vb.item.diamond_nautilus_armor": "Giáp ốc anh vũ kim cương",
+    "vb.item.diamond_spear": "Giáo kim cương",
+    "vb.item.golden_nautilus_armor": "Giáp ốc anh vũ vàng",
+    "vb.item.golden_spear": "Giáo vàng",
+    "vb.item.iron_nautilus_armor": "Giáp ốc anh vũ sắt",
+    "vb.item.iron_spear": "Giáo sắt",
+    "vb.item.nautilus_spawn_egg": "Trứng sinh ra Ốc anh vũ",
+    "vb.item.netherite_horse_armor": "Giáp ngựa Netherit",
+    "vb.item.netherite_nautilus_armor": "Giáp ốc anh vũ Netherit",
+    "vb.item.netherite_spear": "Giáo Netherit",
+    "vb.item.parched_spawn_egg": "Trứng sinh ra Kẻ khô độc",
+    "vb.item.stone_spear": "Giáo đá",
+    "vb.item.wooden_spear": "Giáo gỗ",
+    "vb.item.zombie_nautilus_spawn_egg": "Trứng sinh ra Ốc anh vũ thây ma",
+    "vb.entity.camel_husk": "Lạc đà khô tàn",
+    "vb.entity.nautilus": "Ốc anh vũ",
+    "vb.entity.parched": "Kẻ khô độc",
+    "vb.entity.zombie_nautilus": "Ốc anh vũ thây ma"
+}

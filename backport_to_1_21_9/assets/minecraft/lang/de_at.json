@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Untots-Kamel-Spawn-Ei",
+    "vb.item.copper_nautilus_armor": "Kupfa-Nautilusponza",
+    "vb.item.copper_spear": "Kupfalonzn",
+    "vb.item.diamond_nautilus_armor": "Diamant-Nautilusponza",
+    "vb.item.diamond_spear": "Diamantlonzn",
+    "vb.item.golden_nautilus_armor": "Gold-Nautilusponza",
+    "vb.item.golden_spear": "Goldlonzn",
+    "vb.item.iron_nautilus_armor": "Eisn-Nautilusponza",
+    "vb.item.iron_spear": "Eisnlonzn",
+    "vb.item.nautilus_spawn_egg": "Nautilus-Spawn-Ei",
+    "vb.item.netherite_horse_armor": "Netherit-Pferdlrüst’n",
+    "vb.item.netherite_nautilus_armor": "Netherit-Nautilusponza",
+    "vb.item.netherite_spear": "Netheritlonzn",
+    "vb.item.parched_spawn_egg": "Wüstnwondara-Spawn-Ei",
+    "vb.item.stone_spear": "Stanlonzn",
+    "vb.item.wooden_spear": "Hoizlonzn",
+    "vb.item.zombie_nautilus_spawn_egg": "Zombinautilus-Spawn-Ei",
+    "vb.entity.camel_husk": "Untots Kamel",
+    "vb.entity.nautilus": "Nautilus",
+    "vb.entity.parched": "Wüstnwondara",
+    "vb.entity.zombie_nautilus": "Zombienautilus"
+}

@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Modro jajce",
+    "vb.item.brown_egg": "Rjavo jajce",
+    "vb.item.bush": "Grm",
+    "vb.item.cactus_flower": "Kaktusov Cvet",
+    "vb.item.firefly_bush": "Grm kresničk",
+    "vb.item.leaf_litter": "Listje na tleh",
+    "vb.item.short_dry_grass": "Kratka suha trava",
+    "vb.item.tall_dry_grass": "Visoka suha trava",
+    "vb.item.test_block": "Testna kocka",
+    "vb.item.test_instance_block": "Preskusna kocka instance",
+    "vb.item.wildflowers": "Divje rože",
+    "vb.entity.lingering_potion": "Dolgotrajen napoj",
+    "vb.entity.splash_potion": "Škropilni napoj"
+}

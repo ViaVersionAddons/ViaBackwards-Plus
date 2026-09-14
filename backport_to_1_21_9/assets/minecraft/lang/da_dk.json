@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Udtørret kamel fremkaldningsæg",
+    "vb.item.copper_nautilus_armor": "Kobbernautilarmering",
+    "vb.item.copper_spear": "Kobberspyd",
+    "vb.item.diamond_nautilus_armor": "Diamantnautilarmering",
+    "vb.item.diamond_spear": "Diamantspyd",
+    "vb.item.golden_nautilus_armor": "Guldnautilarmering",
+    "vb.item.golden_spear": "Guldspyd",
+    "vb.item.iron_nautilus_armor": "Jernnautilarmering",
+    "vb.item.iron_spear": "Jernspyd",
+    "vb.item.nautilus_spawn_egg": "Nautil fremkaldningsæg",
+    "vb.item.netherite_horse_armor": "Netherrithestearmering",
+    "vb.item.netherite_nautilus_armor": "Netherritnautilarmering",
+    "vb.item.netherite_spear": "Netherritspyd",
+    "vb.item.parched_spawn_egg": "Udtørret skelet fremkaldningsæg",
+    "vb.item.stone_spear": "Stenspyd",
+    "vb.item.wooden_spear": "Træspyd",
+    "vb.item.zombie_nautilus_spawn_egg": "Zombienautil fremkaldningsæg",
+    "vb.entity.camel_husk": "Udtørret kamel",
+    "vb.entity.nautilus": "Nautil",
+    "vb.entity.parched": "Udtørret skelet",
+    "vb.entity.zombie_nautilus": "Zombienautil"
+}

@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blua Ovo",
+    "vb.item.brown_egg": "Bruna Ovo",
+    "vb.item.bush": "Arbusto",
+    "vb.item.cactus_flower": "Cactus Flower",
+    "vb.item.firefly_bush": "Firefly Bush",
+    "vb.item.leaf_litter": "Leaf Litter",
+    "vb.item.short_dry_grass": "Short Dry Grass",
+    "vb.item.tall_dry_grass": "Tall Dry Grass",
+    "vb.item.test_block": "Test Block",
+    "vb.item.test_instance_block": "Test Instance Block",
+    "vb.item.wildflowers": "Wildflowers",
+    "vb.entity.lingering_potion": "Lingering Potion",
+    "vb.entity.splash_potion": "Splash Potion"
+}

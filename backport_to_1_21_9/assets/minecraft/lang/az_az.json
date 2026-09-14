@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Camel Husk Spawn Egg",
+    "vb.item.copper_nautilus_armor": "Copper Nautilus Armor",
+    "vb.item.copper_spear": "Mis nizə",
+    "vb.item.diamond_nautilus_armor": "Diamond Nautilus Armor",
+    "vb.item.diamond_spear": "Almaz nizə",
+    "vb.item.golden_nautilus_armor": "Golden Nautilus Armor",
+    "vb.item.golden_spear": "Qızıl nizə",
+    "vb.item.iron_nautilus_armor": "Iron Nautilus Armor",
+    "vb.item.iron_spear": "Dəmir nizə",
+    "vb.item.nautilus_spawn_egg": "Nautilus çağırma yumurtası",
+    "vb.item.netherite_horse_armor": "Nezerit at zirehi",
+    "vb.item.netherite_nautilus_armor": "Nezerit nautilus zirehi",
+    "vb.item.netherite_spear": "Nezerit nizə",
+    "vb.item.parched_spawn_egg": "Parched Spawn Egg",
+    "vb.item.stone_spear": "Daş nizə",
+    "vb.item.wooden_spear": "Taxta nizə",
+    "vb.item.zombie_nautilus_spawn_egg": "Zombie Nautilus Spawn Egg",
+    "vb.entity.camel_husk": "Camel Husk",
+    "vb.entity.nautilus": "Nautilus",
+    "vb.entity.parched": "Parched",
+    "vb.entity.zombie_nautilus": "Zombie Nautilus"
+}

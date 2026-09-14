@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blått ägg",
+    "vb.item.brown_egg": "Brunt ägg",
+    "vb.item.bush": "Buske",
+    "vb.item.cactus_flower": "Kaktusblomma",
+    "vb.item.firefly_bush": "Eldflugsbuske",
+    "vb.item.leaf_litter": "Lövrester",
+    "vb.item.short_dry_grass": "Kort torrt gräs",
+    "vb.item.tall_dry_grass": "Högt torrt gräs",
+    "vb.item.test_block": "Testblock",
+    "vb.item.test_instance_block": "Testinstansblock",
+    "vb.item.wildflowers": "Vildblommor",
+    "vb.entity.lingering_potion": "Kvardröjande brygd",
+    "vb.entity.splash_potion": "Kastbar brygd"
+}

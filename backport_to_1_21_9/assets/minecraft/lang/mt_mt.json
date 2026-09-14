@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Bajda Sawrana tal-Ġemel Minxuf",
+    "vb.item.copper_nautilus_armor": "Armatura tan-Nawtlu tar-Ram",
+    "vb.item.copper_spear": "Lanza tar-Ram",
+    "vb.item.diamond_nautilus_armor": "Armatura tan-Nawtlu tad-Djamant",
+    "vb.item.diamond_spear": "Lanza tad-Djamant",
+    "vb.item.golden_nautilus_armor": "Armatura tan-Nawtlu tad-Deheb",
+    "vb.item.golden_spear": "Lanza tad-Deheb",
+    "vb.item.iron_nautilus_armor": "Armatura tan-Nawtlu tal-Ħadid",
+    "vb.item.iron_spear": "Lanza tal-Ħadid",
+    "vb.item.nautilus_spawn_egg": "Bajda Sawrana tan-Nawtlu",
+    "vb.item.netherite_horse_armor": "Bardatura tan-Netherit",
+    "vb.item.netherite_nautilus_armor": "Armatura tan-Nawtlu tan-Netherit",
+    "vb.item.netherite_spear": "Lanza tan-Netherit",
+    "vb.item.parched_spawn_egg": "Bajda Sawrana tal-Għatxan",
+    "vb.item.stone_spear": "Lanza tal-Ġebel",
+    "vb.item.wooden_spear": "Lanza tal-Injam",
+    "vb.item.zombie_nautilus_spawn_egg": "Bajda Sawrana taż-Żnawtlu",
+    "vb.entity.camel_husk": "Ġemel Minxuf",
+    "vb.entity.nautilus": "Nawtlu",
+    "vb.entity.parched": "Għatxan",
+    "vb.entity.zombie_nautilus": "Żnawtlu"
+}

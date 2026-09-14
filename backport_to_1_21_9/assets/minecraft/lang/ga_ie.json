@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Ubh Ghiniúna Camall Seargtha",
+    "vb.item.copper_nautilus_armor": "Cathéide Chopair do Nátalas",
+    "vb.item.copper_spear": "Sleá Chopair",
+    "vb.item.diamond_nautilus_armor": "Cathéide Dhiamaint do Nátalas",
+    "vb.item.diamond_spear": "Sleá Dhiamaint",
+    "vb.item.golden_nautilus_armor": "Cathéide Óir do Nátalas",
+    "vb.item.golden_spear": "Sleá Óir",
+    "vb.item.iron_nautilus_armor": "Cathéide Iarainn do Nátalas",
+    "vb.item.iron_spear": "Sleá Iarainn",
+    "vb.item.nautilus_spawn_egg": "Ubh Ghiniúna Nátalas",
+    "vb.item.netherite_horse_armor": "Cathéide Netheríte do Chapall",
+    "vb.item.netherite_nautilus_armor": "Cathéide Netheríte do Nátalas",
+    "vb.item.netherite_spear": "Sleá Netheríte",
+    "vb.item.parched_spawn_egg": "Ubh Ghiniúna Cnámharlach Fásaigh",
+    "vb.item.stone_spear": "Sleá Chloiche",
+    "vb.item.wooden_spear": "Sleá Adhmaid",
+    "vb.item.zombie_nautilus_spawn_egg": "Ubh Ghiniúna Nátalas Zombaí",
+    "vb.entity.camel_husk": "Camall Seargtha",
+    "vb.entity.nautilus": "Nátalas",
+    "vb.entity.parched": "Cnámharlach Fásaigh",
+    "vb.entity.zombie_nautilus": "Nátalas Zombaí"
+}

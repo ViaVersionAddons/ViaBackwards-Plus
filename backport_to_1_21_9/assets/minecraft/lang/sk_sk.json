@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Vajíčko s ťavím zdochliakom",
+    "vb.item.copper_nautilus_armor": "Medené brnenie lodienky",
+    "vb.item.copper_spear": "Medená kopija",
+    "vb.item.diamond_nautilus_armor": "Diamantové brnenie lodienky",
+    "vb.item.diamond_spear": "Diamantová kopija",
+    "vb.item.golden_nautilus_armor": "Zlaté brnenie lodienky",
+    "vb.item.golden_spear": "Zlatá kopija",
+    "vb.item.iron_nautilus_armor": "Železné brnenie lodienky",
+    "vb.item.iron_spear": "Železná kopija",
+    "vb.item.nautilus_spawn_egg": "Vajíčko s lodienkou",
+    "vb.item.netherite_horse_armor": "Netheritová konská zbroj",
+    "vb.item.netherite_nautilus_armor": "Netheritové brnenie lodienky",
+    "vb.item.netherite_spear": "Netheritová kopija",
+    "vb.item.parched_spawn_egg": "Vajíčko so suchárom",
+    "vb.item.stone_spear": "Kamenná kopija",
+    "vb.item.wooden_spear": "Drevená kopija",
+    "vb.item.zombie_nautilus_spawn_egg": "Vajíčko so zombie lodienkou",
+    "vb.entity.camel_husk": "Ťaví zdochliak",
+    "vb.entity.nautilus": "Lodienka",
+    "vb.entity.parched": "Suchár",
+    "vb.entity.zombie_nautilus": "Zombie lodienka"
+}

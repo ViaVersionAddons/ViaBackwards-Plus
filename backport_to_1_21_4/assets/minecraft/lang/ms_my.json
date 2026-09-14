@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Telur Biru",
+    "vb.item.brown_egg": "Telur Perang",
+    "vb.item.bush": "Semak",
+    "vb.item.cactus_flower": "Bunga Kaktus",
+    "vb.item.firefly_bush": "Semak Kelip-kelip",
+    "vb.item.leaf_litter": "Daun Kering",
+    "vb.item.short_dry_grass": "Rumput Kering Pendek",
+    "vb.item.tall_dry_grass": "Rumput Kering Panjang",
+    "vb.item.test_block": "Blok Ujian",
+    "vb.item.test_instance_block": "Blok Tika Ujian",
+    "vb.item.wildflowers": "Bunga Liar",
+    "vb.entity.lingering_potion": "Posyen Berlarutan",
+    "vb.entity.splash_potion": "Posyen Percikan"
+}

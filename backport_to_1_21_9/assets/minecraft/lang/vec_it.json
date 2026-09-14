@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Ovo zenerador de Camel Seco",
+    "vb.item.copper_nautilus_armor": "Armadura de Rame par Nautilo",
+    "vb.item.copper_spear": "Lança de Rame",
+    "vb.item.diamond_nautilus_armor": "Armadura de Brilante par Nautilo",
+    "vb.item.diamond_spear": "Lança de Brilante",
+    "vb.item.golden_nautilus_armor": "Armadura de Oro par Nautilo",
+    "vb.item.golden_spear": "Lança de Oro",
+    "vb.item.iron_nautilus_armor": "Armadura de Fero par Nautilo",
+    "vb.item.iron_spear": "Lança de Fero",
+    "vb.item.nautilus_spawn_egg": "Ovo zenerador de Nautilo",
+    "vb.item.netherite_horse_armor": "Bardadura de Netherite",
+    "vb.item.netherite_nautilus_armor": "Armadura de Netherite par Nautilo",
+    "vb.item.netherite_spear": "Lança de Netherite",
+    "vb.item.parched_spawn_egg": "Ovo zenerador de Arsirà",
+    "vb.item.stone_spear": "Lança de Piera",
+    "vb.item.wooden_spear": "Lança de Legno",
+    "vb.item.zombie_nautilus_spawn_egg": "Ovo zenerador de Nautilo Zonbi",
+    "vb.entity.camel_husk": "Camel Seco",
+    "vb.entity.nautilus": "Nautilo",
+    "vb.entity.parched": "Arsirà",
+    "vb.entity.zombie_nautilus": "Nautilo Zonbi"
+}

@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Luo kameliholkki",
+    "vb.item.copper_nautilus_armor": "Kuparinen helmiveneen panssari",
+    "vb.item.copper_spear": "Kuparikeihäs",
+    "vb.item.diamond_nautilus_armor": "Timanttinen helmiveneen panssari",
+    "vb.item.diamond_spear": "Timanttikeihäs",
+    "vb.item.golden_nautilus_armor": "Kultainen helmiveneen panssari",
+    "vb.item.golden_spear": "Kultakeihäs",
+    "vb.item.iron_nautilus_armor": "Rautainen helmiveneen panssari",
+    "vb.item.iron_spear": "Rautakeihäs",
+    "vb.item.nautilus_spawn_egg": "Luo helmivene",
+    "vb.item.netherite_horse_armor": "Netheriittinen hevosen panssari",
+    "vb.item.netherite_nautilus_armor": "Netheriittinen helmiveneen panssari",
+    "vb.item.netherite_spear": "Netheriittikeihäs",
+    "vb.item.parched_spawn_egg": "Luo kuivahtanut",
+    "vb.item.stone_spear": "Kivikeihäs",
+    "vb.item.wooden_spear": "Puukeihäs",
+    "vb.item.zombie_nautilus_spawn_egg": "Luo zombihelmivene",
+    "vb.entity.camel_husk": "Kameliholkki",
+    "vb.entity.nautilus": "Helmivene",
+    "vb.entity.parched": "Kuivahtanut",
+    "vb.entity.zombie_nautilus": "Zombihelmivene"
+}

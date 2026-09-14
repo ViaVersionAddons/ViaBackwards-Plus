@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Зәңгәр йомырка",
+    "vb.item.brown_egg": "Көрән йомырка",
+    "vb.item.bush": "Куак",
+    "vb.item.cactus_flower": "Кактус чәчәге",
+    "vb.item.firefly_bush": "Тычкан уты куагы",
+    "vb.item.leaf_litter": "Коелган яфраклар",
+    "vb.item.short_dry_grass": "Кыска коры үлән",
+    "vb.item.tall_dry_grass": "Озын коры үлән",
+    "vb.item.test_block": "Тест блогы",
+    "vb.item.test_instance_block": "Тест нөсхәсе блогы",
+    "vb.item.wildflowers": "Кыр чәчәкләре",
+    "vb.entity.lingering_potion": "Томанлы төнәтмә",
+    "vb.entity.splash_potion": "Шартлаулы төнәтмә"
+}

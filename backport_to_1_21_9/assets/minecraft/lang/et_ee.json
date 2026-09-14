@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Kaamelikuiviku sünnimuna",
+    "vb.item.copper_nautilus_armor": "Laevukese vaskrüü",
+    "vb.item.copper_spear": "Vaskoda",
+    "vb.item.diamond_nautilus_armor": "Laevukese teemantrüü",
+    "vb.item.diamond_spear": "Teemantoda",
+    "vb.item.golden_nautilus_armor": "Laevukese kuldrüü",
+    "vb.item.golden_spear": "Kuldoda",
+    "vb.item.iron_nautilus_armor": "Laevukese raudrüü",
+    "vb.item.iron_spear": "Raudoda",
+    "vb.item.nautilus_spawn_egg": "Laevukese sünnimuna",
+    "vb.item.netherite_horse_armor": "Hobuse netheriitrüü",
+    "vb.item.netherite_nautilus_armor": "Laevukese netheriitrüü",
+    "vb.item.netherite_spear": "Netheriitoda",
+    "vb.item.parched_spawn_egg": "Tahenenu sünnimuna",
+    "vb.item.stone_spear": "Kivioda",
+    "vb.item.wooden_spear": "Puitoda",
+    "vb.item.zombie_nautilus_spawn_egg": "Zombilaevukese sünnimuna",
+    "vb.entity.camel_husk": "Kaamelikuivik",
+    "vb.entity.nautilus": "Laevuke",
+    "vb.entity.parched": "Tahenenu",
+    "vb.entity.zombie_nautilus": "Zombilaevuke"
+}

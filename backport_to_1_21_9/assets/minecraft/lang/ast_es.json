@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Güevu xenerador de Camellu Momificado",
+    "vb.item.copper_nautilus_armor": "Armadura de nautilu de cobre",
+    "vb.item.copper_spear": "Llanza de cobre",
+    "vb.item.diamond_nautilus_armor": "Armadura Náutilo de diamante",
+    "vb.item.diamond_spear": "Llanza de diamante",
+    "vb.item.golden_nautilus_armor": "Armadura Náutilo d'oru",
+    "vb.item.golden_spear": "Llanza d'oru",
+    "vb.item.iron_nautilus_armor": "Armadura de Náutilo de fierro",
+    "vb.item.iron_spear": "Llanza de fierro",
+    "vb.item.nautilus_spawn_egg": "Güevu qu'apruz un nautilu",
+    "vb.item.netherite_horse_armor": "Armadura caballuna de netherita",
+    "vb.item.netherite_nautilus_armor": "Armadura de nautilu de netherita",
+    "vb.item.netherite_spear": "Llancia de netherita",
+    "vb.item.parched_spawn_egg": "Parched Spawn Egg",
+    "vb.item.stone_spear": "Stone Spear",
+    "vb.item.wooden_spear": "Wooden Spear",
+    "vb.item.zombie_nautilus_spawn_egg": "Güevu qu'apruz un nautilu zombi",
+    "vb.entity.camel_husk": "Camellu Zombi",
+    "vb.entity.nautilus": "Nautilu",
+    "vb.entity.parched": "Resecado",
+    "vb.entity.zombie_nautilus": "Nautilu zombi"
+}

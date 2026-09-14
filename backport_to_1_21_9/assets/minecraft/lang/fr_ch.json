@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Oeuf d'apparition de dromadaire momifié",
+    "vb.item.copper_nautilus_armor": "Armure en cuivre pour nautile",
+    "vb.item.copper_spear": "Lance en cuivre",
+    "vb.item.diamond_nautilus_armor": "Armure en diamant pour nautile",
+    "vb.item.diamond_spear": "Lance en diamant",
+    "vb.item.golden_nautilus_armor": "Armure en or pour nautile",
+    "vb.item.golden_spear": "Lance en or",
+    "vb.item.iron_nautilus_armor": "Armure en fer pour nautile",
+    "vb.item.iron_spear": "Lance en fer",
+    "vb.item.nautilus_spawn_egg": "Oeuf d'apparition de nautile",
+    "vb.item.netherite_horse_armor": "Armure en netherite pour cheval",
+    "vb.item.netherite_nautilus_armor": "Armure en netherite pour nautile",
+    "vb.item.netherite_spear": "Lance en netherite",
+    "vb.item.parched_spawn_egg": "Oeuf d'apparition de déserteur",
+    "vb.item.stone_spear": "Lance en pierre",
+    "vb.item.wooden_spear": "Lance en bois",
+    "vb.item.zombie_nautilus_spawn_egg": "Oeuf d'apparition de nautile-zombie",
+    "vb.entity.camel_husk": "Dromadaire momifié",
+    "vb.entity.nautilus": "Nautile",
+    "vb.entity.parched": "Déserteur",
+    "vb.entity.zombie_nautilus": "Nautile-zombie"
+}

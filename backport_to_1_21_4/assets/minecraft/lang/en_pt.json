@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blue cackle fruit",
+    "vb.item.brown_egg": "Brown cackle fruit",
+    "vb.item.bush": "Shrub",
+    "vb.item.cactus_flower": "Jewel o' th' desert",
+    "vb.item.firefly_bush": "Glowin' beetle shrub",
+    "vb.item.leaf_litter": "Pile o' leaves",
+    "vb.item.short_dry_grass": "Short dry grass",
+    "vb.item.tall_dry_grass": "Tall dry grass",
+    "vb.item.test_block": "Block o' testin'",
+    "vb.item.test_instance_block": "Test instance block",
+    "vb.item.wildflowers": "Flowers fer th' ladies",
+    "vb.entity.lingering_potion": "Bottled fog",
+    "vb.entity.splash_potion": "Grenade"
+}

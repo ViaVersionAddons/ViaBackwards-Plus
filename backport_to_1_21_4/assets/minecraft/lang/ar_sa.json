@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "بيضة زرقاء",
+    "vb.item.brown_egg": "بيضة بنية",
+    "vb.item.bush": "شجيرة",
+    "vb.item.cactus_flower": "زهرة الصبار",
+    "vb.item.firefly_bush": "شجيرة اليراعات",
+    "vb.item.leaf_litter": "فضلات الأوراق",
+    "vb.item.short_dry_grass": "عشب جاف قصير",
+    "vb.item.tall_dry_grass": "عشب جاف طويل",
+    "vb.item.test_block": "كتلة الاختبار",
+    "vb.item.test_instance_block": "كتلة مثيل الاختبار",
+    "vb.item.wildflowers": "زهور برية",
+    "vb.entity.lingering_potion": "جرعة باقية",
+    "vb.entity.splash_potion": "جرعة رش"
+}

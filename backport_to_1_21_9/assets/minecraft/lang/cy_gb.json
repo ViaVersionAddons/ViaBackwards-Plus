@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Wy Geni Cibyn Camel",
+    "vb.item.copper_nautilus_armor": "Arfwisg Nawtilws Copr",
+    "vb.item.copper_spear": "Picell Gopr",
+    "vb.item.diamond_nautilus_armor": "Arfwisg Nawtilws Diemwnt",
+    "vb.item.diamond_spear": "Picell Ddiemwnt",
+    "vb.item.golden_nautilus_armor": "Arfwisg Nawtilws Aur",
+    "vb.item.golden_spear": "Picell Aur",
+    "vb.item.iron_nautilus_armor": "Arfwisg Nawtilws Haearn",
+    "vb.item.iron_spear": "Picell Haearn",
+    "vb.item.nautilus_spawn_egg": "Wy Geni Nawtilws",
+    "vb.item.netherite_horse_armor": "Arfwisg Ceffyl Netherit",
+    "vb.item.netherite_nautilus_armor": "Arfwisg Nawtilws Netherit",
+    "vb.item.netherite_spear": "Picell Netherit",
+    "vb.item.parched_spawn_egg": "Wy Geni Sychedig",
+    "vb.item.stone_spear": "Picell Garreg",
+    "vb.item.wooden_spear": "Picell Bren",
+    "vb.item.zombie_nautilus_spawn_egg": "Wy Geni Nawtilws Sombi",
+    "vb.entity.camel_husk": "Cibyn Camel",
+    "vb.entity.nautilus": "Nawtilws",
+    "vb.entity.parched": "Sychedig",
+    "vb.entity.zombie_nautilus": "Nawtilws Sombi"
+}

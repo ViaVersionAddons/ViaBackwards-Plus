@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Голубое яйцо",
+    "vb.item.brown_egg": "Коричневое яйцо",
+    "vb.item.bush": "Куст",
+    "vb.item.cactus_flower": "Цветок кактуса",
+    "vb.item.firefly_bush": "Куст со светлячками",
+    "vb.item.leaf_litter": "Сухие листья",
+    "vb.item.short_dry_grass": "Низкая сухая трава",
+    "vb.item.tall_dry_grass": "Высокая сухая трава",
+    "vb.item.test_block": "Блок-тестер",
+    "vb.item.test_instance_block": "Блок-тестер экземпляра",
+    "vb.item.wildflowers": "Полевые цветы",
+    "vb.entity.lingering_potion": "Туманное зелье",
+    "vb.entity.splash_potion": "Взрывное зелье"
+}

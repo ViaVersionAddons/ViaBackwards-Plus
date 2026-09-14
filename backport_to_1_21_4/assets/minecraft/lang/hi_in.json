@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "नीला अंडा",
+    "vb.item.brown_egg": "भूरा अंडा",
+    "vb.item.bush": "झाड़ी",
+    "vb.item.cactus_flower": "कैक्टस का फूल",
+    "vb.item.firefly_bush": "जुगनू झाड़ी",
+    "vb.item.leaf_litter": "पत्तों का ढेर",
+    "vb.item.short_dry_grass": "छोटी सूखी घास",
+    "vb.item.tall_dry_grass": "लम्बी सूखी घास",
+    "vb.item.test_block": "परीक्षण ब्लॉक",
+    "vb.item.test_instance_block": "परीक्षण उदाहरण ब्लॉक",
+    "vb.item.wildflowers": "जंगली फूल",
+    "vb.entity.lingering_potion": "देर तक रहने वाली औषधि",
+    "vb.entity.splash_potion": "छाप औषधि"
+}

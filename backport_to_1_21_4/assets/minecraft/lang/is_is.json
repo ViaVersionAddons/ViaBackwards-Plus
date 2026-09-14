@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blátt egg",
+    "vb.item.brown_egg": "Brúnt egg",
+    "vb.item.bush": "Runni",
+    "vb.item.cactus_flower": "Kaktusblóm",
+    "vb.item.firefly_bush": "Blysbjöllurunni",
+    "vb.item.leaf_litter": "Hálmur",
+    "vb.item.short_dry_grass": "Lágt þurrt gras",
+    "vb.item.tall_dry_grass": "Hátt þurrt gras",
+    "vb.item.test_block": "Prufukubbur",
+    "vb.item.test_instance_block": "Prufutilvikskubbur",
+    "vb.item.wildflowers": "Villiblóm",
+    "vb.entity.lingering_potion": "Langvarandi seyði",
+    "vb.entity.splash_potion": "Skvettiseyði"
+}

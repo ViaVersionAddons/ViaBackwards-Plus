@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Jajo przyzywające wielbłąda-posucha",
+    "vb.item.copper_nautilus_armor": "Miedziana zbroja łodzika",
+    "vb.item.copper_spear": "Miedziana włócznia",
+    "vb.item.diamond_nautilus_armor": "Diamentowa zbroja łodzika",
+    "vb.item.diamond_spear": "Diamentowa włócznia",
+    "vb.item.golden_nautilus_armor": "Złota zbroja łodzika",
+    "vb.item.golden_spear": "Złota włócznia",
+    "vb.item.iron_nautilus_armor": "Żelazna zbroja łodzika",
+    "vb.item.iron_spear": "Żelazna włócznia",
+    "vb.item.nautilus_spawn_egg": "Jajo przyzywające łodzika",
+    "vb.item.netherite_horse_armor": "Netherytowa zbroja końska",
+    "vb.item.netherite_nautilus_armor": "Netherytowa zbroja łodzika",
+    "vb.item.netherite_spear": "Netherytowa włócznia",
+    "vb.item.parched_spawn_egg": "Jajo przyzywające oschlaka",
+    "vb.item.stone_spear": "Kamienna włócznia",
+    "vb.item.wooden_spear": "Drewniana włócznia",
+    "vb.item.zombie_nautilus_spawn_egg": "Jajo przyzywające łodzika-zombie",
+    "vb.entity.camel_husk": "Wielbłąd-posuch",
+    "vb.entity.nautilus": "Łodzik",
+    "vb.entity.parched": "Oschlak",
+    "vb.entity.zombie_nautilus": "Łodzik-zombie"
+}

@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Camel Husk Spawn Egg",
+    "vb.item.copper_nautilus_armor": "Copper Nautilus Armor",
+    "vb.item.copper_spear": "tunka kilga'axa'i",
+    "vb.item.diamond_nautilus_armor": "Diamond Nautilus Armor",
+    "vb.item.diamond_spear": "tabjme kilga'axa'i",
+    "vb.item.golden_nautilus_armor": "Golden Nautilus Armor",
+    "vb.item.golden_spear": "solji kilga'axa'i",
+    "vb.item.iron_nautilus_armor": "Iron Nautilus Armor",
+    "vb.item.iron_spear": "tirse kilga'axa'i",
+    "vb.item.nautilus_spawn_egg": "cakyjaktu jbeso'a",
+    "vb.item.netherite_horse_armor": "Netherite Horse Armor",
+    "vb.item.netherite_nautilus_armor": "Netherite Nautilus Armor",
+    "vb.item.netherite_spear": "Netherite Spear",
+    "vb.item.parched_spawn_egg": "Parched Spawn Egg",
+    "vb.item.stone_spear": "rokci kilga'axa'i",
+    "vb.item.wooden_spear": "mudri kilga'axa'i",
+    "vb.item.zombie_nautilus_spawn_egg": "mivmro cakyjaktu jbeso'a",
+    "vb.entity.camel_husk": "Camel Husk",
+    "vb.entity.nautilus": "cakyjaktu",
+    "vb.entity.parched": "Parched",
+    "vb.entity.zombie_nautilus": "Zombie Nautilus"
+}

@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Olvend Husk Making Egg",
+    "vb.item.copper_nautilus_armor": "Copper Shipperfish Harweed",
+    "vb.item.copper_spear": "Copper Spear",
+    "vb.item.diamond_nautilus_armor": "Athamans Shipperfish Harweed",
+    "vb.item.diamond_spear": "Athamans Spear",
+    "vb.item.golden_nautilus_armor": "Golden Shipperfish Harweed",
+    "vb.item.golden_spear": "Golden Spear",
+    "vb.item.iron_nautilus_armor": "Iron Shipperfish Harweed",
+    "vb.item.iron_spear": "Iron Spear",
+    "vb.item.nautilus_spawn_egg": "Shipperfish Making Egg",
+    "vb.item.netherite_horse_armor": "Netherite Horse Harweed",
+    "vb.item.netherite_nautilus_armor": "Netherite Shipperfish Harweed",
+    "vb.item.netherite_spear": "Netherite Spear",
+    "vb.item.parched_spawn_egg": "Seared Making Egg",
+    "vb.item.stone_spear": "Stone Spear",
+    "vb.item.wooden_spear": "Wooden Spear",
+    "vb.item.zombie_nautilus_spawn_egg": "Lich Shipperfish Making Egg",
+    "vb.entity.camel_husk": "Olvend Husk",
+    "vb.entity.nautilus": "Shipperfish",
+    "vb.entity.parched": "Seared",
+    "vb.entity.zombie_nautilus": "Lich Shipperfish"
+}

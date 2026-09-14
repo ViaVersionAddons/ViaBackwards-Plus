@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "青色の卵",
+    "vb.item.brown_egg": "茶色の卵",
+    "vb.item.bush": "茂み",
+    "vb.item.cactus_flower": "サボテンの花",
+    "vb.item.firefly_bush": "ホタルの茂み",
+    "vb.item.leaf_litter": "落ち葉",
+    "vb.item.short_dry_grass": "背の低い枯れ草",
+    "vb.item.tall_dry_grass": "背の高い枯れ草",
+    "vb.item.test_block": "テストブロック",
+    "vb.item.test_instance_block": "テストインスタンスブロック",
+    "vb.item.wildflowers": "野花",
+    "vb.entity.lingering_potion": "残留ポーション",
+    "vb.entity.splash_potion": "スプラッシュポーション"
+}

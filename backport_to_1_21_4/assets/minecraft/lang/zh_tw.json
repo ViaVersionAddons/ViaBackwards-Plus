@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "藍色雞蛋",
+    "vb.item.brown_egg": "棕色雞蛋",
+    "vb.item.bush": "灌木叢",
+    "vb.item.cactus_flower": "仙人掌花",
+    "vb.item.firefly_bush": "螢火蟲灌木叢",
+    "vb.item.leaf_litter": "枯葉",
+    "vb.item.short_dry_grass": "矮枯草",
+    "vb.item.tall_dry_grass": "高枯草",
+    "vb.item.test_block": "測試方塊",
+    "vb.item.test_instance_block": "測試實例方塊",
+    "vb.item.wildflowers": "野花簇",
+    "vb.entity.lingering_potion": "滯留藥水",
+    "vb.entity.splash_potion": "飛濺藥水"
+}

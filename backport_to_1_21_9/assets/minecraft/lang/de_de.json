@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Zombiedromedar-Spawn-Ei",
+    "vb.item.copper_nautilus_armor": "Kupferner Nautiluspanzer",
+    "vb.item.copper_spear": "Kupferspeer",
+    "vb.item.diamond_nautilus_armor": "Diamantener Nautiluspanzer",
+    "vb.item.diamond_spear": "Diamantspeer",
+    "vb.item.golden_nautilus_armor": "Goldener Nautiluspanzer",
+    "vb.item.golden_spear": "Goldspeer",
+    "vb.item.iron_nautilus_armor": "Eiserner Nautiluspanzer",
+    "vb.item.iron_spear": "Eisenspeer",
+    "vb.item.nautilus_spawn_egg": "Nautilus-Spawn-Ei",
+    "vb.item.netherite_horse_armor": "Netheritener Rossharnisch",
+    "vb.item.netherite_nautilus_armor": "Netheritener Nautiluspanzer",
+    "vb.item.netherite_spear": "Netheritspeer",
+    "vb.item.parched_spawn_egg": "Vertrockneten-Spawn-Ei",
+    "vb.item.stone_spear": "Steinspeer",
+    "vb.item.wooden_spear": "Holzspeer",
+    "vb.item.zombie_nautilus_spawn_egg": "Zombienautilus-Spawn-Ei",
+    "vb.entity.camel_husk": "Zombiedromedar",
+    "vb.entity.nautilus": "Nautilus",
+    "vb.entity.parched": "Vertrockneter",
+    "vb.entity.zombie_nautilus": "Zombienautilus"
+}

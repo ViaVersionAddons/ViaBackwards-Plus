@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Плаво јаје",
+    "vb.item.brown_egg": "Браон јаје",
+    "vb.item.bush": "Жбун",
+    "vb.item.cactus_flower": "Кактусов цвет",
+    "vb.item.firefly_bush": "Жбун свитаца",
+    "vb.item.leaf_litter": "Осушено лишће",
+    "vb.item.short_dry_grass": "Ниска сува трава",
+    "vb.item.tall_dry_grass": "Висока сува трава",
+    "vb.item.test_block": "Тест блок",
+    "vb.item.test_instance_block": "Тест блок инстанце",
+    "vb.item.wildflowers": "Дивље цвеће",
+    "vb.entity.lingering_potion": "Дуговечни напитак",
+    "vb.entity.splash_potion": "Бачени напитак"
+}

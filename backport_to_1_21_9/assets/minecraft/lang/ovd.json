@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Skapelseägg för uttorkad kamel",
+    "vb.item.copper_nautilus_armor": "Kopparpärlbåtsrustning",
+    "vb.item.copper_spear": "Kopparspjut",
+    "vb.item.diamond_nautilus_armor": "Diamantpärlbåtsrustning",
+    "vb.item.diamond_spear": "Diamantspjut",
+    "vb.item.golden_nautilus_armor": "Guldpärlbåtsrustning",
+    "vb.item.golden_spear": "Guldspjut",
+    "vb.item.iron_nautilus_armor": "Järnpärlbåtsrustning",
+    "vb.item.iron_spear": "Järnspjut",
+    "vb.item.nautilus_spawn_egg": "Skapelseägg för pärlbåt",
+    "vb.item.netherite_horse_armor": "Netherithästrustning",
+    "vb.item.netherite_nautilus_armor": "Netheritpärlbåtsrustning",
+    "vb.item.netherite_spear": "Netheritspjut",
+    "vb.item.parched_spawn_egg": "Skapelseägg för uttorkat skelett",
+    "vb.item.stone_spear": "Stenspjut",
+    "vb.item.wooden_spear": "Träspjut",
+    "vb.item.zombie_nautilus_spawn_egg": "Skapelseägg för zombiepärlbåt",
+    "vb.entity.camel_husk": "Uttorkad kamel",
+    "vb.entity.nautilus": "Pärlbåt",
+    "vb.entity.parched": "Uttorkat skelett",
+    "vb.entity.zombie_nautilus": "Zombiepärlbåt"
+}

@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "ไข่เกิดอูฐซอมบี้ทะเลทราย",
+    "vb.item.copper_nautilus_armor": "เกราะหอยงวงช้างทองแดง",
+    "vb.item.copper_spear": "หอกทองแดง",
+    "vb.item.diamond_nautilus_armor": "เกราะหอยงวงช้างเพชร",
+    "vb.item.diamond_spear": "หอกเพชร",
+    "vb.item.golden_nautilus_armor": "เกราะหอยงวงช้างทอง",
+    "vb.item.golden_spear": "หอกทอง",
+    "vb.item.iron_nautilus_armor": "เกราะหอยงวงช้างเหล็ก",
+    "vb.item.iron_spear": "หอกเหล็ก",
+    "vb.item.nautilus_spawn_egg": "ไข่เกิดหอยงวงช้าง",
+    "vb.item.netherite_horse_armor": "เกราะม้าเนเธอไรต์",
+    "vb.item.netherite_nautilus_armor": "เกราะหอยงวงช้างเนเธอไรต์",
+    "vb.item.netherite_spear": "หอกเนเธอไรต์",
+    "vb.item.parched_spawn_egg": "ไข่เกิดโครงกระดูกทะเลทราย",
+    "vb.item.stone_spear": "หอกหิน",
+    "vb.item.wooden_spear": "หอกไม้",
+    "vb.item.zombie_nautilus_spawn_egg": "ไข่เกิดหอยงวงช้างซอมบี้",
+    "vb.entity.camel_husk": "อูฐซอมบี้ทะเลทราย",
+    "vb.entity.nautilus": "หอยงวงช้าง",
+    "vb.entity.parched": "โครงกระดูกทะเลทราย",
+    "vb.entity.zombie_nautilus": "หอยงวงช้างซอมบี้"
+}

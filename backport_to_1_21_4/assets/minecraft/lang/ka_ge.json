@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "ცისფერი კვერცხი",
+    "vb.item.brown_egg": "ყავისფერი კვერცხი",
+    "vb.item.bush": "ბუჩქი",
+    "vb.item.cactus_flower": "კაქტუსის ყვავილი",
+    "vb.item.firefly_bush": "ციცინათელებიანი ბუჩქი",
+    "vb.item.leaf_litter": "ჩამოცვენილი ფოთლები",
+    "vb.item.short_dry_grass": "დაბალი ხმელი ბალახი",
+    "vb.item.tall_dry_grass": "მაღალი ხმელი ბალახი",
+    "vb.item.test_block": "ბლოკი-ტესტერი",
+    "vb.item.test_instance_block": "ნიმუშის ბლოკი-ტესტერი",
+    "vb.item.wildflowers": "ველური ყვავილები",
+    "vb.entity.lingering_potion": "ხანგრძლივი ხსნარი",
+    "vb.entity.splash_potion": "ფეთქებადი ხსნარი"
+}

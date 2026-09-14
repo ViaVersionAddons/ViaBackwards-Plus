@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blaues Ei",
+    "vb.item.brown_egg": "Braunes Ei",
+    "vb.item.bush": "Buschn",
+    "vb.item.cactus_flower": "Kaktusblütn",
+    "vb.item.firefly_bush": "Glühwürmchenbuschn",
+    "vb.item.leaf_litter": "Lab",
+    "vb.item.short_dry_grass": "Niedrigs trockenes Gros",
+    "vb.item.tall_dry_grass": "Hochs trockenes Gros",
+    "vb.item.test_block": "Testblock",
+    "vb.item.test_instance_block": "Testinstanzblock",
+    "vb.item.wildflowers": "Wüdblumen",
+    "vb.entity.lingering_potion": "Vaweiltronk",
+    "vb.entity.splash_potion": "Wurftronk"
+}

@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "파란색 달걀",
+    "vb.item.brown_egg": "갈색 달걀",
+    "vb.item.bush": "덤불",
+    "vb.item.cactus_flower": "선인장 꽃",
+    "vb.item.firefly_bush": "반딧불이 덤불",
+    "vb.item.leaf_litter": "낙엽",
+    "vb.item.short_dry_grass": "키 작은 마른 잔디",
+    "vb.item.tall_dry_grass": "키 큰 마른 잔디",
+    "vb.item.test_block": "테스트 블록",
+    "vb.item.test_instance_block": "테스트 인스턴스 블록",
+    "vb.item.wildflowers": "들꽃",
+    "vb.entity.lingering_potion": "잔류형 물약",
+    "vb.entity.splash_potion": "투척용 물약"
+}

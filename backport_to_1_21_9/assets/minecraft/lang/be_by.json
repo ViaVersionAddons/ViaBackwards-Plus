@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Яйка выкліку — Вярблюд-здыхляк",
+    "vb.item.copper_nautilus_armor": "Мядзяная наўтылусава браня",
+    "vb.item.copper_spear": "Мядзяная дзіда",
+    "vb.item.diamond_nautilus_armor": "Дыяментавая наўтылусава браня",
+    "vb.item.diamond_spear": "Дыяментавая дзіда",
+    "vb.item.golden_nautilus_armor": "Залатая наўтылусава браня",
+    "vb.item.golden_spear": "Залатая дзіда",
+    "vb.item.iron_nautilus_armor": "Жалезная наўтылусава браня",
+    "vb.item.iron_spear": "Жалезная дзіда",
+    "vb.item.nautilus_spawn_egg": "Яйка выкліку — Наўтылус",
+    "vb.item.netherite_horse_armor": "Нэдарытавая конская браня",
+    "vb.item.netherite_nautilus_armor": "Нэдарытавая наўтылусава браня",
+    "vb.item.netherite_spear": "Нэдарытавая дзіда",
+    "vb.item.parched_spawn_egg": "Яйка выкліку — Сухляк",
+    "vb.item.stone_spear": "Каменная дзіда",
+    "vb.item.wooden_spear": "Драўляная дзіда",
+    "vb.item.zombie_nautilus_spawn_egg": "Яйка выкліку — Наўтылус-мярцвяк",
+    "vb.entity.camel_husk": "Вярблюд-здыхляк",
+    "vb.entity.nautilus": "Наўтылус",
+    "vb.entity.parched": "Сухляк",
+    "vb.entity.zombie_nautilus": "Наўтылус-мярцвяк"
+}

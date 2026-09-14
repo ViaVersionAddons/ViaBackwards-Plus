@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Generar dromedari momificat",
+    "vb.item.copper_nautilus_armor": "Armadura de coure per a nautilus",
+    "vb.item.copper_spear": "Llança de coure",
+    "vb.item.diamond_nautilus_armor": "Armadura de diamant per a nautilus",
+    "vb.item.diamond_spear": "Llança de diamant",
+    "vb.item.golden_nautilus_armor": "Armadura d'or per a nautilus",
+    "vb.item.golden_spear": "Llança d'or",
+    "vb.item.iron_nautilus_armor": "Armadura de ferro per a nautilus",
+    "vb.item.iron_spear": "Llança de ferro",
+    "vb.item.nautilus_spawn_egg": "Generar nautilus",
+    "vb.item.netherite_horse_armor": "Armadura de netherita per a cavalls",
+    "vb.item.netherite_nautilus_armor": "Armadura de netherita per a nautilus",
+    "vb.item.netherite_spear": "Llança de netherita",
+    "vb.item.parched_spawn_egg": "Generar esquelet de les arenes",
+    "vb.item.stone_spear": "Llança de pedra",
+    "vb.item.wooden_spear": "Llança de fusta",
+    "vb.item.zombie_nautilus_spawn_egg": "Generar nautilus zombi",
+    "vb.entity.camel_husk": "Dromedari momificat",
+    "vb.entity.nautilus": "Nautilus",
+    "vb.entity.parched": "Esquelet de les arenes",
+    "vb.entity.zombie_nautilus": "Nautilus zombi"
+}

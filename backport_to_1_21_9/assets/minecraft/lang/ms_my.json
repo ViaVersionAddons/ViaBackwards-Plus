@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Telur Penjelmaan Unta Reputan",
+    "vb.item.copper_nautilus_armor": "Zirah Genggeng Tembaga",
+    "vb.item.copper_spear": "Tombak Tembaga",
+    "vb.item.diamond_nautilus_armor": "Zirah Genggeng Berlian",
+    "vb.item.diamond_spear": "Tombak Berlian",
+    "vb.item.golden_nautilus_armor": "Zirah Genggeng Emas",
+    "vb.item.golden_spear": "Tombak Emas",
+    "vb.item.iron_nautilus_armor": "Zirah Genggeng Besi",
+    "vb.item.iron_spear": "Tombak Besi",
+    "vb.item.nautilus_spawn_egg": "Telur Penjelmaan Genggeng",
+    "vb.item.netherite_horse_armor": "Zirah Kuda Netherit",
+    "vb.item.netherite_nautilus_armor": "Zirah Genggeng Netherit",
+    "vb.item.netherite_spear": "Tombak Netherit",
+    "vb.item.parched_spawn_egg": "Telur Penjelmaan Keringan",
+    "vb.item.stone_spear": "Tombak Batu",
+    "vb.item.wooden_spear": "Tombak Kayu",
+    "vb.item.zombie_nautilus_spawn_egg": "Telur Penjelmaan Genggeng Zombi",
+    "vb.entity.camel_husk": "Unta Reputan",
+    "vb.entity.nautilus": "Genggeng",
+    "vb.entity.parched": "Keringan",
+    "vb.entity.zombie_nautilus": "Genggeng Zombi"
+}

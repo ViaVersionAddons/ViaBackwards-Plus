@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Синёє яйце",
+    "vb.item.brown_egg": "Барнастоє яйце",
+    "vb.item.bush": "Кряк",
+    "vb.item.cactus_flower": "Цвітя кактуса",
+    "vb.item.firefly_bush": "Корч из світлячками",
+    "vb.item.leaf_litter": "Опалоє листя",
+    "vb.item.short_dry_grass": "Низька суха трава",
+    "vb.item.tall_dry_grass": "Высока суха трава",
+    "vb.item.test_block": "Тестовый блок",
+    "vb.item.test_instance_block": "Тестовый блок примірника",
+    "vb.item.wildflowers": "Полёві косиці",
+    "vb.entity.lingering_potion": "Мглавоє зіля",
+    "vb.entity.splash_potion": "Метателноє зіля"
+}

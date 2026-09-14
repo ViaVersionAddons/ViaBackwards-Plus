@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Дөя-үлек чакыру йомыркасы",
+    "vb.item.copper_nautilus_armor": "Бакыр наутилус көбәсе",
+    "vb.item.copper_spear": "Бакыр сөңге",
+    "vb.item.diamond_nautilus_armor": "Алмаз наутилус көбәсе",
+    "vb.item.diamond_spear": "Алмаз сөңге",
+    "vb.item.golden_nautilus_armor": "Алтын наутилус көбәсе",
+    "vb.item.golden_spear": "Алтын сөңге",
+    "vb.item.iron_nautilus_armor": "Тимер наутилус көбәсе",
+    "vb.item.iron_spear": "Тимер сөңге",
+    "vb.item.nautilus_spawn_egg": "Наутилус чакыру йомыркасы",
+    "vb.item.netherite_horse_armor": "Незерит ат көбәсе",
+    "vb.item.netherite_nautilus_armor": "Незерит наутилус көбәсе",
+    "vb.item.netherite_spear": "Незерит сөңге",
+    "vb.item.parched_spawn_egg": "Корыгас чакыру йомыркасы",
+    "vb.item.stone_spear": "Таш сөңге",
+    "vb.item.wooden_spear": "Агач сөңге",
+    "vb.item.zombie_nautilus_spawn_egg": "Зомби-наутилус чакыру йомыркасы",
+    "vb.entity.camel_husk": "Дөя-үлек",
+    "vb.entity.nautilus": "Наутилус",
+    "vb.entity.parched": "Корыгас",
+    "vb.entity.zombie_nautilus": "Зомби-наутилус"
+}

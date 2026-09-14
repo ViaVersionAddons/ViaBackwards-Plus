@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blot Ee",
+    "vb.item.brown_egg": "Brongt Ee",
+    "vb.item.bush": "Busch",
+    "vb.item.cactus_flower": "Kaktusbléi",
+    "vb.item.firefly_bush": "Gehaansfénkelchebusch",
+    "vb.item.leaf_litter": "Lafkoup",
+    "vb.item.short_dry_grass": "Niddregt Dréchegras",
+    "vb.item.tall_dry_grass": "Héicht Dréchegras",
+    "vb.item.test_block": "Pféifblock",
+    "vb.item.test_instance_block": "Testinstanzblock",
+    "vb.item.wildflowers": "Wandblummen",
+    "vb.entity.lingering_potion": "Undauernden Dronk",
+    "vb.entity.splash_potion": "Worfdronk"
+}

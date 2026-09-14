@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Kalıntı Deve Çağırma Yumurtası",
+    "vb.item.copper_nautilus_armor": "Bakır Notilus Zırhı",
+    "vb.item.copper_spear": "Bakır Mızrak",
+    "vb.item.diamond_nautilus_armor": "Elmas Notilus Zırhı",
+    "vb.item.diamond_spear": "Elmas Mızrak",
+    "vb.item.golden_nautilus_armor": "Altın Notilus Zırhı",
+    "vb.item.golden_spear": "Altın Mızrak",
+    "vb.item.iron_nautilus_armor": "Demir Notilus Zırhı",
+    "vb.item.iron_spear": "Demir Mızrak",
+    "vb.item.nautilus_spawn_egg": "Notilus Çağırma Yumurtası",
+    "vb.item.netherite_horse_armor": "Netherit At Zırhı",
+    "vb.item.netherite_nautilus_armor": "Netherit Notilus Zırhı",
+    "vb.item.netherite_spear": "Netherit Mızrak",
+    "vb.item.parched_spawn_egg": "Kavruk Çağırma Yumurtası",
+    "vb.item.stone_spear": "Taş Mızrak",
+    "vb.item.wooden_spear": "Tahta Mızrak",
+    "vb.item.zombie_nautilus_spawn_egg": "Zombi Notilus Çağırma Yumurtası",
+    "vb.entity.camel_husk": "Kalıntı Deve",
+    "vb.entity.nautilus": "Notilus",
+    "vb.entity.parched": "Kavruk",
+    "vb.entity.zombie_nautilus": "Zombi Notilus"
+}

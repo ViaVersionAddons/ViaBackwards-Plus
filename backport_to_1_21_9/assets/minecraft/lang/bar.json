@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Oa vom Zombiedromedar",
+    "vb.item.copper_nautilus_armor": "Kupfa­-Nautiluspanza",
+    "vb.item.copper_spear": "Kupfaspiaß",
+    "vb.item.diamond_nautilus_armor": "Diamant-Nautiluspanza",
+    "vb.item.diamond_spear": "Diamantspiaß",
+    "vb.item.golden_nautilus_armor": "Goid-Nautiluspanza",
+    "vb.item.golden_spear": "Goidspiaß",
+    "vb.item.iron_nautilus_armor": "Eisn-Nautiluspanza",
+    "vb.item.iron_spear": "Eisnspiaß",
+    "vb.item.nautilus_spawn_egg": "Nautilus-Spawn-Oa",
+    "vb.item.netherite_horse_armor": "Netherit-Pferdepanza",
+    "vb.item.netherite_nautilus_armor": "Netherit-Nautiluspanza",
+    "vb.item.netherite_spear": "Netheritspiaß",
+    "vb.item.parched_spawn_egg": "Vertrocknata-Spawn-Oa",
+    "vb.item.stone_spear": "Stoaspiaß",
+    "vb.item.wooden_spear": "Hoizspiaß",
+    "vb.item.zombie_nautilus_spawn_egg": "Zombienautilus-Spawn-Oa",
+    "vb.entity.camel_husk": "Zombiedromedar",
+    "vb.entity.nautilus": "Nautilus",
+    "vb.entity.parched": "Vertrockneta",
+    "vb.entity.zombie_nautilus": "Zombienautilus"
+}

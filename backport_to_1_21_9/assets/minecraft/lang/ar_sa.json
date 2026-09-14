@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "بيضة استدعاء الجمل الوحشي",
+    "vb.item.copper_nautilus_armor": "درع نوتيلوس النحاسي",
+    "vb.item.copper_spear": "رمح نحاسي",
+    "vb.item.diamond_nautilus_armor": "درع نوتيلوس الماسي",
+    "vb.item.diamond_spear": "رمح الماس",
+    "vb.item.golden_nautilus_armor": "درع نوتيلوس الذهبي",
+    "vb.item.golden_spear": "رمح ذهبي",
+    "vb.item.iron_nautilus_armor": "درع نوتيلوس الحديدي",
+    "vb.item.iron_spear": "رمح حديدي",
+    "vb.item.nautilus_spawn_egg": "بيضة استدعاء النوتيلوس",
+    "vb.item.netherite_horse_armor": "درع حصان نذريات",
+    "vb.item.netherite_nautilus_armor": "درع نوتيلوس من النذرايت",
+    "vb.item.netherite_spear": "رمح نذرايت",
+    "vb.item.parched_spawn_egg": "بيضة استدعاء الكائن العطشان",
+    "vb.item.stone_spear": "رمح حجري",
+    "vb.item.wooden_spear": "رمح خشبي",
+    "vb.item.zombie_nautilus_spawn_egg": "بيضة استدعاء نوتيلوس الزومبي",
+    "vb.entity.camel_husk": "هيكل الجمل",
+    "vb.entity.nautilus": "نوتيلوس",
+    "vb.entity.parched": "جاف",
+    "vb.entity.zombie_nautilus": "زومبي النوتيلوس"
+}

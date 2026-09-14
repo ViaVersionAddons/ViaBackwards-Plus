@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blauw Ei",
+    "vb.item.brown_egg": "Bruin Ei",
+    "vb.item.bush": "Struik",
+    "vb.item.cactus_flower": "Cactusbloem",
+    "vb.item.firefly_bush": "Vuurvliegstruik",
+    "vb.item.leaf_litter": "Bladstrooisel",
+    "vb.item.short_dry_grass": "Kort droog gras",
+    "vb.item.tall_dry_grass": "Hoog droog gras",
+    "vb.item.test_block": "Testblok",
+    "vb.item.test_instance_block": "Testinstantieblok",
+    "vb.item.wildflowers": "Wilde bloemen",
+    "vb.entity.lingering_potion": "Aanhoudende drank",
+    "vb.entity.splash_potion": "Spattende drank"
+}

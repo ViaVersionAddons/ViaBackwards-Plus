@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Ou albastru",
+    "vb.item.brown_egg": "Ou maro",
+    "vb.item.bush": "Tufiș",
+    "vb.item.cactus_flower": "Floare de cactus",
+    "vb.item.firefly_bush": "Tufiș cu licurici",
+    "vb.item.leaf_litter": "Așternut de frunze",
+    "vb.item.short_dry_grass": "Iarbă scurtă uscată",
+    "vb.item.tall_dry_grass": "Iarbă înaltă uscată",
+    "vb.item.test_block": "Bloc de test",
+    "vb.item.test_instance_block": "Bloc de test de instanță",
+    "vb.item.wildflowers": "Flori de câmp",
+    "vb.entity.lingering_potion": "Poțiune persistentă",
+    "vb.entity.splash_potion": "Poțiune de aruncat"
+}

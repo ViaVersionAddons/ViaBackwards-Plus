@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Panlikhaang Itlog ng Kamelyong Nangatuyo",
+    "vb.item.copper_nautilus_armor": "Tansong Panlagang Sapyaw",
+    "vb.item.copper_spear": "Tansong Sibat",
+    "vb.item.diamond_nautilus_armor": "Diyamanteng Panlagang Sapyaw",
+    "vb.item.diamond_spear": "Diyamanteng Sibat",
+    "vb.item.golden_nautilus_armor": "Gintong Panlagang Sapyaw",
+    "vb.item.golden_spear": "Gintong Sibat",
+    "vb.item.iron_nautilus_armor": "Bakal na Panlagang Sapyaw",
+    "vb.item.iron_spear": "Bakal na Sibat",
+    "vb.item.nautilus_spawn_egg": "Panlikhaang Itlog ng Lagan",
+    "vb.item.netherite_horse_armor": "Netheritang Pangkabayong Sapyaw",
+    "vb.item.netherite_nautilus_armor": "Netheritang Panlagang Sapyaw",
+    "vb.item.netherite_spear": "Netheritang Sibat",
+    "vb.item.parched_spawn_egg": "Panlikhaang Itlog ng Nangatuyot",
+    "vb.item.stone_spear": "Batong Sibat",
+    "vb.item.wooden_spear": "Kahoy na Sibat",
+    "vb.item.zombie_nautilus_spawn_egg": "Panlikhaang Itlog ng Zombing Lagan",
+    "vb.entity.camel_husk": "Kamelyong Nangatuyo",
+    "vb.entity.nautilus": "Lagan",
+    "vb.entity.parched": "Nangatuyot",
+    "vb.entity.zombie_nautilus": "Zombing Lagan"
+}

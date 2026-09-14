@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Camel Husk Spawn Egg",
+    "vb.item.copper_nautilus_armor": "Copper Nautilus Armor",
+    "vb.item.copper_spear": "Ehtë urusto",
+    "vb.item.diamond_nautilus_armor": "Diamond Nautilus Armor",
+    "vb.item.diamond_spear": "Ehtë tinwírëo",
+    "vb.item.golden_nautilus_armor": "Golden Nautilus Armor",
+    "vb.item.golden_spear": "Ehtë malto",
+    "vb.item.iron_nautilus_armor": "Iron Nautilus Armor",
+    "vb.item.iron_spear": "Ehtë ango",
+    "vb.item.nautilus_spawn_egg": "Nautilus Spawn Egg",
+    "vb.item.netherite_horse_armor": "Nesertina cauma rocco",
+    "vb.item.netherite_nautilus_armor": "Netherite Nautilus Armor",
+    "vb.item.netherite_spear": "Ehtë neserito",
+    "vb.item.parched_spawn_egg": "Parched Spawn Egg",
+    "vb.item.stone_spear": "Ehtë ondo",
+    "vb.item.wooden_spear": "Toina ehtë",
+    "vb.item.zombie_nautilus_spawn_egg": "Zombie Nautilus Spawn Egg",
+    "vb.entity.camel_husk": "Camel Husk",
+    "vb.entity.nautilus": "Nautilus",
+    "vb.entity.parched": "Parched",
+    "vb.entity.zombie_nautilus": "Zombie Nautilus"
+}

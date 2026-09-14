@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Zeleno jaje",
+    "vb.item.brown_egg": "Smeđe jaje",
+    "vb.item.bush": "Grm",
+    "vb.item.cactus_flower": "Kaktusov cvijet",
+    "vb.item.firefly_bush": "Grm s krijesnicama",
+    "vb.item.leaf_litter": "Lišće",
+    "vb.item.short_dry_grass": "Niska suha trava",
+    "vb.item.tall_dry_grass": "Visoka suha trava",
+    "vb.item.test_block": "Testni blok",
+    "vb.item.test_instance_block": "Blok za ispitivanje",
+    "vb.item.wildflowers": "Divlje cvijeće",
+    "vb.entity.lingering_potion": "Dugotrajni napitak",
+    "vb.entity.splash_potion": "Prskajući napitak"
+}

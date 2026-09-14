@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Huevo azul",
+    "vb.item.brown_egg": "Huevo marrón",
+    "vb.item.bush": "Arbusto",
+    "vb.item.cactus_flower": "Flor de cactus",
+    "vb.item.firefly_bush": "Arbusto con luciérnagas",
+    "vb.item.leaf_litter": "Hojas secas",
+    "vb.item.short_dry_grass": "Pasto seco corto",
+    "vb.item.tall_dry_grass": "Pasto seco alto",
+    "vb.item.test_block": "Bloque de pruebas",
+    "vb.item.test_instance_block": "Bloque de instancia de prueba",
+    "vb.item.wildflowers": "Flores silvestres",
+    "vb.entity.lingering_potion": "Poción persistente",
+    "vb.entity.splash_potion": "Poción arrojadiza"
+}

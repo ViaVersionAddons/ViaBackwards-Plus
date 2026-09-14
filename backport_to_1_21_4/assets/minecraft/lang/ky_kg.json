@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Көк жумуртка",
+    "vb.item.brown_egg": "Күрөң жумуртка",
+    "vb.item.bush": "Бадал",
+    "vb.item.cactus_flower": "Кактус гүлү",
+    "vb.item.firefly_bush": "Жылтылдактар бадалы",
+    "vb.item.leaf_litter": "Түшкөн жалбырактар",
+    "vb.item.short_dry_grass": "Куураган кыска чөп",
+    "vb.item.tall_dry_grass": "Куураган узун чөп",
+    "vb.item.test_block": "Тест-блок",
+    "vb.item.test_instance_block": "Үлгүнүн тест-блогу",
+    "vb.item.wildflowers": "Талаа гүлдөрү",
+    "vb.entity.lingering_potion": "Тунма ичимдик",
+    "vb.entity.splash_potion": "Жарылгыч ичимдик"
+}

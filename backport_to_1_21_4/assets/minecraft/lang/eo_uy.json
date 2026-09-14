@@ -1,0 +1,15 @@
+{
+    "vb.item.blue_egg": "Blua ovo",
+    "vb.item.brown_egg": "Bruna ovo",
+    "vb.item.bush": "Arbusto",
+    "vb.item.cactus_flower": "Kakta floro",
+    "vb.item.firefly_bush": "Lampira arbusto",
+    "vb.item.leaf_litter": "Falintaj folioj",
+    "vb.item.short_dry_grass": "Malalta seka herbo",
+    "vb.item.tall_dry_grass": "Alta seka herbo",
+    "vb.item.test_block": "Testa bloko",
+    "vb.item.test_instance_block": "Test-ekzemplera bloko",
+    "vb.item.wildflowers": "Sovaĝaj floroj",
+    "vb.entity.lingering_potion": "Resta eliksiro",
+    "vb.entity.splash_potion": "Ŝpruca eliksiro"
+}

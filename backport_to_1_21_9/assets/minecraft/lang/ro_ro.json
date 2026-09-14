@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Ou generator de cămilă-momâie",
+    "vb.item.copper_nautilus_armor": "Armură de nautil din cupru",
+    "vb.item.copper_spear": "Suliță de cupru",
+    "vb.item.diamond_nautilus_armor": "Armură de nautil din diamant",
+    "vb.item.diamond_spear": "Suliță de diamant",
+    "vb.item.golden_nautilus_armor": "Armură de nautil din aur",
+    "vb.item.golden_spear": "Suliță de aur",
+    "vb.item.iron_nautilus_armor": "Armură de nautil din fier",
+    "vb.item.iron_spear": "Suliță de fier",
+    "vb.item.nautilus_spawn_egg": "Ou generator de nautil",
+    "vb.item.netherite_horse_armor": "Armură de cal de netherit",
+    "vb.item.netherite_nautilus_armor": "Armură de nautil din netherit",
+    "vb.item.netherite_spear": "Suliță de netherit",
+    "vb.item.parched_spawn_egg": "Ou generator de uscat",
+    "vb.item.stone_spear": "Suliță de piatră",
+    "vb.item.wooden_spear": "Suliță de lemn",
+    "vb.item.zombie_nautilus_spawn_egg": "Ou generator de nautil-zombi",
+    "vb.entity.camel_husk": "Cămilă-momâie",
+    "vb.entity.nautilus": "Nautil",
+    "vb.entity.parched": "Uscat",
+    "vb.entity.zombie_nautilus": "Nautil-zombi"
+}

@@ -1,0 +1,23 @@
+{
+    "vb.item.camel_husk_spawn_egg": "Jaje za stvaranje zombi deve",
+    "vb.item.copper_nautilus_armor": "Bakreni oklop za nautilusa",
+    "vb.item.copper_spear": "Bakreno koplje",
+    "vb.item.diamond_nautilus_armor": "Dijamantni oklop nautilusa",
+    "vb.item.diamond_spear": "Dijamantno koplje",
+    "vb.item.golden_nautilus_armor": "Zlatni oklop nautilusa",
+    "vb.item.golden_spear": "Zlatno koplje",
+    "vb.item.iron_nautilus_armor": "Željezni oklop nautilusa",
+    "vb.item.iron_spear": "Željezno koplje",
+    "vb.item.nautilus_spawn_egg": "Jaje za stvaranje nautilusa",
+    "vb.item.netherite_horse_armor": "Netheritni konjski oklop",
+    "vb.item.netherite_nautilus_armor": "Netheritni oklop nautilusa",
+    "vb.item.netherite_spear": "Netheritno koplje",
+    "vb.item.parched_spawn_egg": "Jaje za stvaranje pustinjskog kostura",
+    "vb.item.stone_spear": "Kameno koplje",
+    "vb.item.wooden_spear": "Drveno koplje",
+    "vb.item.zombie_nautilus_spawn_egg": "Jaje za stvaranje zombi nautilusa",
+    "vb.entity.camel_husk": "Zombi deva",
+    "vb.entity.nautilus": "Nautilus",
+    "vb.entity.parched": "Pustinjski kostur",
+    "vb.entity.zombie_nautilus": "Zombi nautilus"
+}
