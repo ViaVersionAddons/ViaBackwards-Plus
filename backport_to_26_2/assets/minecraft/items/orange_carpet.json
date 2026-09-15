@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 922.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/orange_cushion"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/orange_carpet"
+    }
+  }
+}

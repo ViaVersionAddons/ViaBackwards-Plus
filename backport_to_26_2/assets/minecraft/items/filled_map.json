@@ -5,6 +5,76 @@
     "index": 0,
     "entries": [
       {
+        "threshold": 975.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/desert_village_map"
+        }
+      },
+      {
+        "threshold": 976.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plains_village_map"
+        }
+      },
+      {
+        "threshold": 977.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/savanna_village_map"
+        }
+      },
+      {
+        "threshold": 978.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/snowy_village_map"
+        }
+      },
+      {
+        "threshold": 979.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/taiga_village_map"
+        }
+      },
+      {
+        "threshold": 980.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/buried_treasure_map"
+        }
+      },
+      {
+        "threshold": 983.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/desert_pyramid_map"
+        }
+      },
+      {
+        "threshold": 985.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/warm_ocean_ruins_map"
+        }
+      },
+      {
+        "threshold": 986.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/buried_ancient_city_map"
+        }
+      },
+      {
+        "threshold": 987.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/buried_mineshaft_map"
+        }
+      },
+      {
         "threshold": 988.0,
         "model": {
           "type": "minecraft:model",
@@ -12,10 +82,38 @@
         }
       },
       {
+        "threshold": 989.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ocean_monument_map"
+        }
+      },
+      {
         "threshold": 990.0,
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/woodland_mansion_map"
+        }
+      },
+      {
+        "threshold": 991.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/buried_trial_chambers_map"
+        }
+      },
+      {
+        "threshold": 992.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/jungle_pyramid_map"
+        }
+      },
+      {
+        "threshold": 993.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/swamp_hut_map"
         }
       }
     ],

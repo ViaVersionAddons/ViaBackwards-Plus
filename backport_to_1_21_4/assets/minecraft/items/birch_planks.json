@@ -13,8 +13,29 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:block/birch_planks"
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 865.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/poplar_planks"
+          }
+        },
+        {
+          "threshold": 909.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/poplar_shelf_inventory"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/birch_planks"
+      }
     }
   }
 }

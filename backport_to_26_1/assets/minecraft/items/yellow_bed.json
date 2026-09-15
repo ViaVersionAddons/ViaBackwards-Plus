@@ -7,29 +7,8 @@
       {
         "threshold": 937.0,
         "model": {
-          "type": "minecraft:composite",
-          "models": [
-            {
-              "type": "minecraft:model",
-              "model": "minecraft:block/straw_bed_head",
-              "transformation": {
-                "left_rotation": [0.0, 1.0, 0.0, -0.0],
-                "right_rotation": [0.0, 0.0, 0.0, 1.0],
-                "scale": [1.0, 1.0, 1.0],
-                "translation": [1.0, 0.0, 1.0]
-              }
-            },
-            {
-              "type": "minecraft:model",
-              "model": "minecraft:block/straw_bed_foot",
-              "transformation": {
-                "left_rotation": [0.0, 1.0, 0.0, -0.0],
-                "right_rotation": [0.0, 0.0, 0.0, 1.0],
-                "scale": [1.0, 1.0, 1.0],
-                "translation": [1.0, 0.0, 2.0]
-              }
-            }
-          ]
+          "type": "minecraft:model",
+          "model": "minecraft:item/straw_bed_inventory"
         }
       }
     ],
@@ -43,3 +22,4 @@
     }
   }
 }
+ 

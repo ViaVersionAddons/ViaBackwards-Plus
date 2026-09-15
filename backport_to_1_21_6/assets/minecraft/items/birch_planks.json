@@ -13,25 +13,46 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
-      "component": "minecraft:custom_name",
-      "cases": [
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
         {
-          "when": {
-            "text": "1.21.9 Birch Shelf",
-            "italic": false,
-            "color": "white"
-          },
+          "threshold": 865.0,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:block/birch_shelf_inventory"
+            "model": "minecraft:block/poplar_planks"
+          }
+        },
+        {
+          "threshold": 909.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/poplar_shelf_inventory"
           }
         }
       ],
       "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:block/birch_planks"
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+          {
+            "when": {
+              "text": "1.21.9 Birch Shelf",
+              "italic": false,
+              "color": "white"
+            },
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/birch_shelf_inventory"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/birch_planks"
+        }
       }
     }
   }

@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 920.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/poplar_hanging_sign"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/birch_hanging_sign"
+    }
+  }
+}

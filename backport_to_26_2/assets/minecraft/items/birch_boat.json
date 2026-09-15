@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 917.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/poplar_boat"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/birch_boat"
+    }
+  }
+}
