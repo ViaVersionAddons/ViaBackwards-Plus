@@ -242,65 +242,24 @@ def download_all_languages(asset_index, version_id, cache_dir):
 # ==========================================
 # Phase C: Remapping and Safe Write/Merge
 # ==========================================
-BACKPORT_DIFF_MAP = {
-    "backport_to_26_2": ["mapping-26.3to26.2.json"],
-    "backport_to_26_1": ["mapping-26.2to26.1.json"],
-    "backport_to_1_21_11": ["mapping-26.1to1.21.11.json"],
-    "backport_to_1_21_9": ["mapping-1.21.11to1.21.9.json"],
-    "backport_to_1_21_6": ["mapping-1.21.9to1.21.7.json", "mapping-1.21.7to1.21.6.json"],
-    "backport_to_1_21_5": ["mapping-1.21.6to1.21.5.json"],
-    "backport_to_1_21_4": ["mapping-1.21.5to1.21.4.json"],
-}
-
-def extract_from_diffs(mappings_dir, diff_names):
-    """Reads Mappings diff files and extracts custom_model_data items and entities."""
-    diff_dir = mappings_dir / "diff"
-    item_ids = set()
-    entity_ids = set()
-    
-    for dname in diff_names:
-        diff_path = diff_dir / dname
-        if not diff_path.exists():
-            print(f"Notice: diff file {dname} not found in {diff_dir}")
-            continue
-        try:
-            with open(diff_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            for k in data.get("custom_model_data", {}).keys():
-                item_ids.add(k)
-            for k in data.get("entities", {}).keys():
-                entity_ids.add(k)
-        except Exception as e:
-            print(f"Warning: could not read diff {dname}: {e}")
-            
-    return item_ids, entity_ids
-
-def map_and_write_for_backport(bp_dir, mappings_dir, langs_data):
-    """Maps items/entities and writes translations for a specific backport directory."""
-    diff_names = BACKPORT_DIFF_MAP.get(bp_dir.name, [])
-    bp_item_ids, entity_ids = extract_from_diffs(mappings_dir, diff_names)
-    
-    if not bp_item_ids and not entity_ids:
-        print(f"Skipping {bp_dir.name}: No items or entities found.")
-        return
-        
-    output_dir = bp_dir / "assets" / "minecraft" / "lang"
+def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
+    """Maps items/entities and writes translations to root assets/minecraft/lang/."""
+    output_dir = project_root / "assets" / "minecraft" / "lang"
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    print(f"Writing translation files for {bp_dir.name} ({len(bp_item_ids)} items, {len(entity_ids)} entities) to {output_dir}...")
+    print(f"Writing root translation files ({len(item_ids)} items, {len(entity_ids)} entities) to {output_dir}...")
     
     mapped_count = 0
     for lang_code, translations in langs_data.items():
         mapped = {}
         
-        # Dennis painting was introduced in 1.21.7/1.21.9 and backported in backport_to_1_21_6
-        if bp_dir.name == "backport_to_1_21_6":
-            for pk in ["painting.minecraft.dennis.title", "painting.minecraft.dennis.author"]:
-                if pk in translations:
-                    mapped[pk] = translations[pk]
+        # Dennis painting was introduced in 1.21.7/1.21.9
+        for pk in ["painting.minecraft.dennis.title", "painting.minecraft.dennis.author"]:
+            if pk in translations:
+                mapped[pk] = translations[pk]
         
-        # Map item/block IDs present in this backport
-        for item_id in sorted(bp_item_ids):
+        # Map item/block IDs
+        for item_id in sorted(item_ids):
             item_key = f"item.minecraft.{item_id}"
             block_key = f"block.minecraft.{item_id}"
             
@@ -322,7 +281,7 @@ def map_and_write_for_backport(bp_dir, mappings_dir, langs_data):
                     if song_key in translations:
                         mapped[song_key] = translations[song_key]
                 
-        # Map entity IDs present in this backport
+        # Map entity IDs
         for entity_id in sorted(entity_ids):
             entity_key = f"entity.minecraft.{entity_id}"
             translation_val = None
@@ -349,7 +308,7 @@ def map_and_write_for_backport(bp_dir, mappings_dir, langs_data):
             f.write('\n')
         mapped_count += 1
         
-    print(f"Finished {bp_dir.name}: wrote {mapped_count} translation files.")
+    print(f"Finished writing {mapped_count} translation files to {output_dir}.")
 
 # ==========================================
 # Main Execution Flow
@@ -362,8 +321,9 @@ def main():
     
     # 1. Discover backported assets and resolve max version
     print("--- Phase 1: Resolving Version Range from Mappings ---")
-    _, _, _, resolved_max_ver = discover_backported_ids(mappings_dir, MIN_VERSION, MAX_VERSION)
+    _, entity_ids, custom_model_data_ids, resolved_max_ver = discover_backported_ids(mappings_dir, MIN_VERSION, MAX_VERSION)
     print(f"Resolved target Minecraft version: {resolved_max_ver}")
+    print(f"Found {len(custom_model_data_ids)} custom_model_data items and {len(entity_ids)} entities across version range.")
     
     # 2. Retrieve Mojang version details and assets
     print("\n--- Phase 2: Resolving Mojang Translations ---")
@@ -402,11 +362,9 @@ def main():
     non_english_langs = download_all_languages(asset_index, version_id, cache_dir)
     langs_data.update(non_english_langs)
     
-    # 3. Remap keys and merge save output per backport folder
-    print("\n--- Phase 3: Remapping & Writing per Backport Folder ---")
-    for bp_dir in sorted(project_root.glob("backport_to_*")):
-        if bp_dir.is_dir():
-            map_and_write_for_backport(bp_dir, mappings_dir, langs_data)
+    # 3. Remap keys and write to root assets/minecraft/lang/
+    print("\n--- Phase 3: Remapping & Writing to Root Lang Directory ---")
+    map_and_write_root(project_root, custom_model_data_ids, entity_ids, langs_data)
             
     print("\nGeneration process complete!")
 
