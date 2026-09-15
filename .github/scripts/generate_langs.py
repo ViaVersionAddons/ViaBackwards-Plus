@@ -242,6 +242,36 @@ def download_all_languages(asset_index, version_id, cache_dir):
 # ==========================================
 # Phase C: Remapping and Safe Write/Merge
 # ==========================================
+def format_music_disc(item_id, disc_prefix, translations, lang_code):
+    """Formats music disc items into '<Disc> <Track>' and extracts song metadata.
+    
+    In en_ud (upside-down), artist and song are inverted ('<Track> - <Artist>'),
+    and word order is reversed so reading upside-down retains 'Music Disc <Track>'.
+    """
+    desc_key = f"item.minecraft.{item_id}.desc"
+    desc_val = translations.get(desc_key)
+    
+    if desc_val and " - " in desc_val:
+        artist_first = (lang_code.lower() != "en_ud")
+        track_title = desc_val.split(" - ", 1)[1 if artist_first else 0].strip()
+    elif desc_val:
+        track_title = desc_val.strip()
+    else:
+        track_title = item_id.replace("music_disc_", "").replace("_", " ").title()
+
+    full_name = f"{track_title} {disc_prefix}" if lang_code.lower() == "en_ud" else f"{disc_prefix} {track_title}"
+    
+    entries = {f"vb.item.{item_id}": full_name}
+    if desc_val:
+        entries[desc_key] = desc_val
+        
+    song_name = item_id.replace("music_disc_", "")
+    song_key = f"jukebox_song.minecraft.{song_name}"
+    if song_key in translations:
+        entries[song_key] = translations[song_key]
+        
+    return entries
+
 def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
     """Maps items/entities and writes translations to root assets/minecraft/lang/."""
     output_dir = project_root / "assets" / "minecraft" / "lang"
@@ -271,22 +301,7 @@ def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
                 
             if translation_val is not None:
                 if item_id.startswith("music_disc_"):
-                    # Extract song description and track title
-                    desc_key = f"item.minecraft.{item_id}.desc"
-                    desc_val = translations.get(desc_key)
-                    if desc_val and " - " in desc_val:
-                        track_title = desc_val.split(" - ", 1)[1].strip()
-                    else:
-                        song_name = item_id.replace("music_disc_", "")
-                        track_title = song_name.replace("_", " ").title()
-                    
-                    mapped[f"vb.item.{item_id}"] = f"{translation_val} {track_title}"
-                    if desc_val:
-                        mapped[desc_key] = desc_val
-                    song_name = item_id.replace("music_disc_", "")
-                    song_key = f"jukebox_song.minecraft.{song_name}"
-                    if song_key in translations:
-                        mapped[song_key] = translations[song_key]
+                    mapped.update(format_music_disc(item_id, translation_val, translations, lang_code))
                 else:
                     mapped[f"vb.item.{item_id}"] = translation_val
                     if COPY_MOJANG_LANG:
