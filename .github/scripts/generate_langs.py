@@ -270,16 +270,27 @@ def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
                 translation_val = translations[block_key]
                 
             if translation_val is not None:
-                mapped[f"vb.item.{item_id}"] = translation_val
-                if COPY_MOJANG_LANG or item_id.startswith("music_disc_"):
-                    mapped[item_key] = translation_val
+                if item_id.startswith("music_disc_"):
+                    # Extract song description and track title
                     desc_key = f"item.minecraft.{item_id}.desc"
-                    if desc_key in translations:
-                        mapped[desc_key] = translations[desc_key]
+                    desc_val = translations.get(desc_key)
+                    if desc_val and " - " in desc_val:
+                        track_title = desc_val.split(" - ", 1)[1].strip()
+                    else:
+                        song_name = item_id.replace("music_disc_", "")
+                        track_title = song_name.replace("_", " ").title()
+                    
+                    mapped[f"vb.item.{item_id}"] = f"{translation_val} {track_title}"
+                    if desc_val:
+                        mapped[desc_key] = desc_val
                     song_name = item_id.replace("music_disc_", "")
                     song_key = f"jukebox_song.minecraft.{song_name}"
                     if song_key in translations:
                         mapped[song_key] = translations[song_key]
+                else:
+                    mapped[f"vb.item.{item_id}"] = translation_val
+                    if COPY_MOJANG_LANG:
+                        mapped[item_key] = translation_val
                 
         # Map entity IDs
         for entity_id in sorted(entity_ids):
