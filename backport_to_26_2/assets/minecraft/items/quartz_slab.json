@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 891.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/white_wool_slab"
+        }
+      },
+      {
+        "threshold": 954.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/white_concrete_slab"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/quartz_slab"
+    }
+  }
+}

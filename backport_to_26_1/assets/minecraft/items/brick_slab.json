@@ -13,8 +13,29 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:block/brick_slab"
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 905.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/red_wool_slab"
+          }
+        },
+        {
+          "threshold": 968.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/red_concrete_slab"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/brick_slab"
+      }
     }
   }
 }

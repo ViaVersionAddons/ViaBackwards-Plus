@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 988.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/abandoned_camp_map"
+        }
+      },
+      {
+        "threshold": 990.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/woodland_mansion_map"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/filled_map",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -1
+        },
+        {
+          "type": "minecraft:map_color",
+          "default": 4603950
+        }
+      ]
+    }
+  }
+}

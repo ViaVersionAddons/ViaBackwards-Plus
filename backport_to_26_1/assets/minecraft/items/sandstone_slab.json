@@ -20,8 +20,29 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:block/sandstone_slab"
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 895.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/yellow_wool_slab"
+          }
+        },
+        {
+          "threshold": 958.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/yellow_concrete_slab"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/sandstone_slab"
+      }
     }
   }
 }

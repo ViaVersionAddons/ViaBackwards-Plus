@@ -20,8 +20,29 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:block/sandstone_stairs"
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 879.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/yellow_wool_stairs"
+          }
+        },
+        {
+          "threshold": 942.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/yellow_concrete_stairs"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/sandstone_stairs"
+      }
     }
   }
 }

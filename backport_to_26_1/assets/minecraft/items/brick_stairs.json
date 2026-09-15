@@ -13,8 +13,29 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:block/brick_stairs"
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 889.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/red_wool_stairs"
+          }
+        },
+        {
+          "threshold": 952.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/red_concrete_stairs"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/brick_stairs"
+      }
     }
   }
 }
