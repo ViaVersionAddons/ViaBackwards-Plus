@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 877.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/magenta_wool_stairs"
+        }
+      },
+      {
+        "threshold": 885.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/purple_wool_stairs"
+        }
+      },
+      {
+        "threshold": 940.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/magenta_concrete_stairs"
+        }
+      },
+      {
+        "threshold": 948.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/purple_concrete_stairs"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/purpur_stairs"
+    }
+  }
+}

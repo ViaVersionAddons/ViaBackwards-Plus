@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 893.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/magenta_wool_slab"
+        }
+      },
+      {
+        "threshold": 901.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/purple_wool_slab"
+        }
+      },
+      {
+        "threshold": 956.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/magenta_concrete_slab"
+        }
+      },
+      {
+        "threshold": 964.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/purple_concrete_slab"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/purpur_slab"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 871.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/red_poplar_leaves"
+        }
+      },
+      {
+        "threshold": 872.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/orange_poplar_leaves"
+        }
+      },
+      {
+        "threshold": 873.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/yellow_poplar_leaves"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/oak_leaves"
+    }
+  }
+}

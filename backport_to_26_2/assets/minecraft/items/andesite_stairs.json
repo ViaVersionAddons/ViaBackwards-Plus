@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 882.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/gray_wool_stairs"
+        }
+      },
+      {
+        "threshold": 945.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/gray_concrete_stairs"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/andesite_stairs"
+    }
+  }
+}
