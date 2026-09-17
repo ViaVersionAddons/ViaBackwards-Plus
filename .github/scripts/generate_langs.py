@@ -287,6 +287,11 @@ def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
         for pk in ["painting.minecraft.dennis.title", "painting.minecraft.dennis.author"]:
             if pk in translations:
                 mapped[pk] = translations[pk]
+
+        # Biomes introduced between 1.21.4 and 26.3 (used by 3rd-party mods and minimaps)
+        for bk in ["biome.minecraft.dappled_forest", "biome.minecraft.sulfur_caves"]:
+            if bk in translations:
+                mapped[bk] = translations[bk]
         
         # Map item/block IDs
         for item_id in sorted(item_ids):
