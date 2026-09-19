@@ -26,7 +26,7 @@ jobs:
   prepare:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     outputs:
       changelog_v1_body: ${{ steps.parse.outputs.changelog_v1_body }}
       changelog_v2_body: ${{ steps.parse.outputs.changelog_v2_body }}
@@ -58,7 +58,13 @@ jobs:
               core.setOutput(`release_${i}_draft`, r.draft);
             });
             
+            core.info(`Searching for drafts with 'changelog' in name among ${allReleases.length} releases`);
             const drafts = allReleases.filter(r => r.draft === true && r.name && r.name.toLowerCase().includes('changelog'));
+            
+            core.info(`Found ${drafts.length} matching drafts: ${JSON.stringify(drafts.map(d => ({name: d.name, tag_name: d.tag_name, draft: d.draft, body_length: d.body?.length})))}`);
+            
+            const taglessDrafts = allReleases.filter(r => r.draft === true && (!r.tag_name || r.tag_name === ''));
+            core.info(`Found ${taglessDrafts.length} tagless drafts: ${JSON.stringify(taglessDrafts.map(d => ({name: d.name, tag_name: d.tag_name, draft: d.draft})))}`);
             
             core.setOutput('found_drafts_count', drafts.length);
             
