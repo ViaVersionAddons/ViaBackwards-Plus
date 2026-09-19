@@ -85,11 +85,11 @@ jobs:
         shell: bash
         run: |
           echo "changelog_v1_body<<EOF" >> $GITHUB_OUTPUT
-          echo "${{ needs.prepare.outputs.changelog }}" >> $GITHUB_OUTPUT
+          echo "${{ steps.fetch.outputs.changelog }}" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           
           echo "changelog_v2_body<<EOF" >> $GITHUB_OUTPUT
-          echo "${{ needs.prepare.outputs.changelog }}" >> $GITHUB_OUTPUT
+          echo "${{ steps.fetch.outputs.changelog }}" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
   compile-v1:
     if: ${{ github.event.inputs.targets != 'v2' }}
