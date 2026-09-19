@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 876.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/orange_wool_stairs"
+        }
+      },
+      {
+        "threshold": 939.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/orange_concrete_stairs"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/acacia_stairs"
+    }
+  }
+}

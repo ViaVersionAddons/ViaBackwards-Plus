@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 898.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/gray_wool_slab"
+        }
+      },
+      {
+        "threshold": 961.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/gray_concrete_slab"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/andesite_slab"
+    }
+  }
+}
