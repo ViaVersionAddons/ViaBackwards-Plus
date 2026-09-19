@@ -50,16 +50,25 @@ jobs:
               page++;
             }
             
-            // Only consider drafts that have NO tag (truly tagless)
-            const drafts = allReleases.filter(r => r.draft === true && (!r.tag_name || r.tag_name === ''));
+            core.setOutput('all_releases_count', allReleases.length);
+            
+            allReleases.forEach((r, i) => {
+              core.setOutput(`release_${i}_name`, r.name || '');
+              core.setOutput(`release_${i}_tag_name`, r.tag_name || '');
+              core.setOutput(`release_${i}_draft`, r.draft);
+            });
+            
+            const drafts = allReleases.filter(r => r.draft === true && r.name && r.name.toLowerCase().includes('changelog'));
+            
+            core.setOutput('found_drafts_count', drafts.length);
             
             if (drafts.length === 0) {
-              core.setFailed('No tagless draft release found. Please create a draft release before triggering this workflow.');
+              core.setFailed(`No draft release with 'changelog' in name found. All releases: ${JSON.stringify(allReleases.map(r => ({name: r.name, tag_name: r.tag_name, draft: r.draft})))}`);
               return;
             }
             
             if (drafts.length > 1) {
-              core.setFailed(`Found ${drafts.length} tagless draft releases. Please keep only one tagless draft release.`);
+              core.setFailed(`Found ${drafts.length} draft releases with 'changelog' in name. Please keep only one.`);
               return;
             }
             
