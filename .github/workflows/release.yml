@@ -82,55 +82,14 @@ jobs:
 
       - name: Parse Changelog
         id: parse
+        shell: bash
         run: |
-          CHANGELOG="${{ steps.fetch.outputs.changelog }}"
-          
-          # Extract sections from the changelog
-          COMMON=$(echo "$CHANGELOG" | sed -n '/^## Common/,/^## V1 Exclusive/p' | sed '1d;$d')
-          V1=$(echo "$CHANGELOG" | sed -n '/^## V1 Exclusive/,/^## V2 Exclusive/p' | sed '1d;$d')
-          V2=$(echo "$CHANGELOG" | sed -n '/^## V2 Exclusive/,$ p' | sed '1d')
-          
-          # If no sections found, treat entire changelog as common
-          if [ -z "$COMMON" ]; then
-            COMMON="$CHANGELOG"
-            V1=""
-            V2=""
-          fi
-          
-          # Build V1 changelog body, including V1 section only if non-empty
-          if [ -n "$V1" ]; then
-            V1_BODY="${COMMON}
-            
-            ## V1 Exclusive
-            ${V1}"
-          else
-            V1_BODY="$COMMON"
-          fi
-          
-          # Build V2 changelog body, including V2 section only if non-empty
-          if [ -n "$V2" ]; then
-            V2_BODY="${COMMON}
-            
-            ## V2 Exclusive
-            ${V2}"
-          else
-            V2_BODY="$COMMON"
-          fi
-          
-          # Check if any changelog exists for the auto-backport note
-          if [ -n "$V1" ] || [ -n "$COMMON" ]; then
-            V1_BODY="${V1_BODY}
-            
-            ---
-            *This version was auto-backported based on v2.\${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*"
-          fi
-          
           echo "changelog_v1_body<<EOF" >> $GITHUB_OUTPUT
-          echo "$V1_BODY" >> $GITHUB_OUTPUT
+          echo "${{ needs.prepare.outputs.changelog }}" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           
           echo "changelog_v2_body<<EOF" >> $GITHUB_OUTPUT
-          echo "$V2_BODY" >> $GITHUB_OUTPUT
+          echo "${{ needs.prepare.outputs.changelog }}" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
   compile-v1:
     if: ${{ github.event.inputs.targets != 'v2' }}
@@ -268,7 +227,11 @@ jobs:
           tag_name: v1.${{ github.event.inputs.version }}
           name: v1.${{ github.event.inputs.version }}
           target_commitish: v1
-          body: ${{ needs.prepare.outputs.changelog_v1_body }}
+          body: |
+            ${{ needs.prepare.outputs.changelog_v1_body }}
+
+            ---
+            *This version was auto-backported based on v2.${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*
           prerelease: ${{ github.event.inputs.prerelease }}
           files: ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
 
@@ -288,7 +251,11 @@ jobs:
             chime(required){modrinth:ubxU84eR}{curseforge:432776}#(ignore:github)
             cit-resewn(optional){modrinth:otVJckYQ}{curseforge:521427}#(ignore:github)
             respackopts(optional){modrinth:TiF5QWZY}#(ignore:curseforge,github)
-          changelog: ${{ needs.prepare.outputs.changelog_v1_body }}
+          changelog: |
+            ${{ needs.prepare.outputs.changelog_v1_body }}
+
+            ---
+            *This version was auto-backported based on v2.${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*
 
   release-v2:
     if: ${{ always() && github.event.inputs.targets != 'v1' && (github.event.inputs.targets != 'both' || needs.release-v1.result == 'success') }}
