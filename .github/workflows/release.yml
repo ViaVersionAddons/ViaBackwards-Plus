@@ -21,25 +21,98 @@ on:
         required: false
         type: boolean
         default: false
-      changelog_common:
-        description: 'Common changelog (Markdown)'
-        required: false
-        type: string
-        default: ''
-      changelog_v1:
-        description: 'V1-exclusive changelog (Markdown)'
-        required: false
-        type: string
-        default: ''
-      changelog_v2:
-        description: 'V2-exclusive changelog (Markdown)'
-        required: false
-        type: string
-        default: ''
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      changelog_v1_body: ${{ steps.parse.outputs.changelog_v1_body }}
+      changelog_v2_body: ${{ steps.parse.outputs.changelog_v2_body }}
+    steps:
+      - name: Fetch Release Draft
+        uses: actions/github-script@v7
+        id: fetch
+        with:
+          script: |
+            const { data: releases } = await github.rest.repos.listReleases({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              per_page: 100
+            });
+            
+            // Only consider drafts that have NO tag (truly tagless)
+            const drafts = releases.filter(r => r.draft === true && (!r.tag_name || r.tag_name === ''));
+            
+            if (drafts.length === 0) {
+              core.setOutput('changelog', '');
+              core.warning('No tagless draft release found. Changelog will be empty.');
+              return;
+            }
+            
+            if (drafts.length > 1) {
+              core.setFailed(`Found ${drafts.length} tagless draft releases. Please keep only one tagless draft release.`);
+              return;
+            }
+            
+            core.setOutput('changelog', drafts[0].body || '');
+
+      - name: Parse Changelog
+        id: parse
+        run: |
+          CHANGELOG="${{ steps.fetch.outputs.changelog }}"
+          
+          # Extract sections from the changelog
+          COMMON=$(echo "$CHANGELOG" | sed -n '/^## Common/,/^## V1 Exclusive/p' | sed '1d;$d')
+          V1=$(echo "$CHANGELOG" | sed -n '/^## V1 Exclusive/,/^## V2 Exclusive/p' | sed '1d;$d')
+          V2=$(echo "$CHANGELOG" | sed -n '/^## V2 Exclusive/,$ p' | sed '1d')
+          
+          # If no sections found, treat entire changelog as common
+          if [ -z "$COMMON" ]; then
+            COMMON="$CHANGELOG"
+            V1=""
+            V2=""
+          fi
+          
+          # Build V1 changelog body, including V1 section only if non-empty
+          if [ -n "$V1" ]; then
+            V1_BODY="${COMMON}
+            
+            ## V1 Exclusive
+            ${V1}"
+          else
+            V1_BODY="$COMMON"
+          fi
+          
+          # Build V2 changelog body, including V2 section only if non-empty
+          if [ -n "$V2" ]; then
+            V2_BODY="${COMMON}
+            
+            ## V2 Exclusive
+            ${V2}"
+          else
+            V2_BODY="$COMMON"
+          fi
+          
+          # Check if any changelog exists for the auto-backport note
+          if [ -n "$V1" ] || [ -n "$COMMON" ]; then
+            V1_BODY="${V1_BODY}
+            
+            ---
+            *This version was auto-backported based on v2.\${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*"
+          fi
+          
+          echo "changelog_v1_body<<EOF" >> $GITHUB_OUTPUT
+          echo "$V1_BODY" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "changelog_v2_body<<EOF" >> $GITHUB_OUTPUT
+          echo "$V2_BODY" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
   compile-v1:
     if: ${{ github.event.inputs.targets != 'v2' }}
+    needs: prepare
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -89,7 +162,9 @@ jobs:
 
   package-v1:
     if: ${{ github.event.inputs.targets != 'v2' }}
-    needs: compile-v1
+    needs:
+      - prepare
+      - compile-v1
     runs-on: ubuntu-latest
     steps:
       - name: Checkout v1
@@ -114,6 +189,7 @@ jobs:
 
   package-v2:
     if: ${{ github.event.inputs.targets != 'v1' }}
+    needs: prepare
     runs-on: ubuntu-latest
     steps:
       - name: Checkout v2
@@ -151,7 +227,9 @@ jobs:
 
   release-v1:
     if: ${{ github.event.inputs.targets != 'v2' }}
-    needs: package-v1
+    needs:
+      - prepare
+      - package-v1
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -168,14 +246,7 @@ jobs:
           tag_name: v1.${{ github.event.inputs.version }}
           name: v1.${{ github.event.inputs.version }}
           target_commitish: v1
-          body: |
-            ${{ github.event.inputs.changelog_common }}
-            
-            ## V1 Exclusive
-            ${{ github.event.inputs.changelog_v1 }}
-            
-            ---
-            *This version was auto-backported based on v2.${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*
+          body: ${{ needs.prepare.outputs.changelog_v1_body }}
           prerelease: ${{ github.event.inputs.prerelease }}
           files: ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
 
@@ -195,18 +266,12 @@ jobs:
             chime(required){modrinth:ubxU84eR}{curseforge:432776}#(ignore:github)
             cit-resewn(optional){modrinth:otVJckYQ}{curseforge:521427}#(ignore:github)
             respackopts(optional){modrinth:TiF5QWZY}#(ignore:curseforge,github)
-          changelog: |
-            ${{ github.event.inputs.changelog_common }}
-            
-            ## V1 Exclusive
-            ${{ github.event.inputs.changelog_v1 }}
-            
-            ---
-            *This version was auto-backported based on v2.${{ github.event.inputs.version }}. If you find any issues report them on the issue tracker!*
+          changelog: ${{ needs.prepare.outputs.changelog_v1_body }}
 
   release-v2:
     if: ${{ always() && github.event.inputs.targets != 'v1' && (github.event.inputs.targets != 'both' || needs.release-v1.result == 'success') }}
     needs:
+      - prepare
       - package-v2
       - release-v1
     runs-on: ubuntu-latest
@@ -224,11 +289,7 @@ jobs:
         with:
           tag_name: v2.${{ github.event.inputs.version }}
           name: v2.${{ github.event.inputs.version }}
-          body: |
-            ${{ github.event.inputs.changelog_common }}
-            
-            ## V2 Exclusive
-            ${{ github.event.inputs.changelog_v2 }}
+          body: ${{ needs.prepare.outputs.changelog_v2_body }}
           prerelease: ${{ github.event.inputs.prerelease }}
           files: ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip
 
@@ -244,8 +305,4 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           curseforge-id: 821967
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-          changelog: |
-            ${{ github.event.inputs.changelog_common }}
-            
-            ## V2 Exclusive
-            ${{ github.event.inputs.changelog_v2 }}
+          changelog: ${{ needs.prepare.outputs.changelog_v2_body }}
