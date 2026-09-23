@@ -179,26 +179,10 @@ jobs:
           path: v2
           fetch-depth: 0
 
-      - name: Checkout Mappings
-        uses: actions/checkout@v4
-        with:
-          repository: ViaVersion/Mappings
-          path: Mappings
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Pull latest v2 changes
-        run: |
-          cd v2
-          git pull origin main
-
       - name: Zip v2
         run: |
           cd v2
-          zip -r ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip assets/ Credits.txt LICENSE.txt pack.mcmeta pack.png
+          zip -r ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip assets/ backport_to_*/ Credits.txt LICENSE.txt pack.mcmeta pack.png
 
       - name: Upload v2 artifact
         uses: actions/upload-artifact@v4
