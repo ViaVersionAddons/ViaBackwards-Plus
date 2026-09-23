@@ -272,7 +272,7 @@ jobs:
           name: v2.${{ github.event.inputs.version }}
           files: ViaBackwards-Plus-v2-${{ github.event.inputs.version }}.zip
           loaders: minecraft
-          game-versions: "[1.21.4,26.1.2]"
+          game-versions: "[1.21.4,26.2]"
           version: 2.${{ github.event.inputs.version || github.run_number }}
           modrinth-id: v7n1ZsFg
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
