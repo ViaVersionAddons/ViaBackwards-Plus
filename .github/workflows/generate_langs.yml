@@ -38,9 +38,10 @@ jobs:
       - name: Run Lang Generator Script
         env:
           MAPPINGS_DIR: ${{ github.workspace }}/Mappings/mappings
-          MIN_VERSION: ${{ inputs.min_version || github.event.inputs.min_version }}
-          MAX_VERSION: ${{ inputs.max_version || github.event.inputs.max_version }}
-        run: python .github/scripts/generate_langs.py
+        run: |
+          python .github/scripts/generate_langs.py \
+            --min-version "${{ inputs.min_version || github.event.inputs.min_version || '1.21.4' }}" \
+            --max-version "${{ inputs.max_version || github.event.inputs.max_version }}"
 
       - name: Commit and push changes
         run: |

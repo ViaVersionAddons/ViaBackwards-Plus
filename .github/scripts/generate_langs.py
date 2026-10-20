@@ -156,7 +156,7 @@ def resolve_mojang_version(version_str):
     """Locates the metadata URL for the target Mojang version.
     
     Matches the resolved MAX_VERSION (e.g. '26.3') against the Mojang manifest,
-    first by exact ID, then by prefix (e.g. '26.3' -> '26.3-snapshot-3').
+    first by exact ID, then by release prefix, then by snapshot prefix.
     """
     print("Fetching Mojang version manifest...")
     manifest = fetch_json(VERSION_MANIFEST_URL)
@@ -165,10 +165,17 @@ def resolve_mojang_version(version_str):
     for v in manifest['versions']:
         if v['id'] == version_str:
             return v['id'], v['url']
-    # Prefix match: '26.3' matches '26.3-snapshot-3'
+
+    # Prefix match preferring releases over snapshots (e.g. '26.3' matches '26.3' release or '26.3.1')
     for v in manifest['versions']:
-        if v['id'].startswith(version_str):
+        if v.get('type') == 'release' and (v['id'] == version_str or v['id'].startswith(f"{version_str}.") or v['id'].startswith(f"{version_str}-")):
             return v['id'], v['url']
+
+    # Prefix match for snapshots/previews
+    for v in manifest['versions']:
+        if v['id'] == version_str or v['id'].startswith(f"{version_str}.") or v['id'].startswith(f"{version_str}-"):
+            return v['id'], v['url']
+
     raise ValueError(
         f"Mojang version matching '{version_str}' not found in manifest. "
         f"Check that MAX_VERSION corresponds to a real Mojang release."
@@ -313,14 +320,22 @@ def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
             item_key = f"item.minecraft.{item_id}"
             block_key = f"block.minecraft.{item_id}"
             map_key = f"filled_map.{item_id}"
+            entity_key = f"entity.minecraft.{item_id}"
             
             translation_val = None
+            matched_key = None
             if item_key in translations:
                 translation_val = translations[item_key]
+                matched_key = item_key
             elif block_key in translations:
                 translation_val = translations[block_key]
+                matched_key = block_key
             elif map_key in translations:
                 translation_val = translations[map_key]
+                matched_key = map_key
+            elif entity_key in translations:
+                translation_val = translations[entity_key]
+                matched_key = entity_key
                 
             if translation_val is not None:
                 if item_id.startswith("music_disc_"):
@@ -328,7 +343,7 @@ def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
                 else:
                     mapped[f"vb.item.{item_id}"] = translation_val
                     if COPY_MOJANG_LANG:
-                        mapped[item_key if item_key in translations else (block_key if block_key in translations else map_key)] = translation_val
+                        mapped[matched_key] = translation_val
                 
         # Map entity IDs
         for entity_id in sorted(entity_ids):
