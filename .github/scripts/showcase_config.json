@@ -46,8 +46,8 @@
     },
     {
       "slot": 8,
-      "off_texture": "block/oak_planks",
-      "on_texture": "block/pale_oak_shelf"
+      "off_texture": "block/yellow_bed",
+      "on_texture": "block/straw_bed"
     },
     {
       "slot": 9,
@@ -61,8 +61,8 @@
     },
     {
       "slot": 11,
-      "off_texture": "item/iron_horse_armor",
-      "on_texture": "item/copper_nautilus_armor"
+      "off_texture": "block/red_carpet",
+      "on_texture": "item/red_cushion"
     },
     {
       "slot": 12,
@@ -101,8 +101,8 @@
     },
     {
       "slot": 19,
-      "off_texture": "block/lightning_rod",
-      "on_texture": "block/oxidized_lightning_rod"
+      "off_texture": "block/birch_door",
+      "on_texture": "block/poplar_door"
     },
     {
       "slot": 20,
@@ -116,13 +116,13 @@
     },
     {
       "slot": 22,
-      "off_texture": "block/end_stone",
-      "on_texture": "block/potent_sulfur"
+      "off_texture": "block/bricks",
+      "on_texture": "block/cinnabar_bricks"
     },
     {
       "slot": 23,
-      "off_texture": "block/bricks",
-      "on_texture": "block/cinnabar_bricks"
+      "off_texture": "item/brown_mushroom",
+      "on_texture": "block/shelf_mushroom"
     },
     {
       "slot": 24,

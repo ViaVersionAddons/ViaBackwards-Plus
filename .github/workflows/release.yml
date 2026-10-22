@@ -160,7 +160,7 @@ jobs:
       - name: Zip v1
         run: |
           cd v1
-          zip -r ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip assets/ omenicon/ Credits.txt LICENSE.txt pack.mcmeta pack.png respackopts.json5
+          zip -r ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip assets/ Credits.txt LICENSE.txt pack.mcmeta pack.png respackopts.json5
 
       - name: Upload v1 artifact
         uses: actions/upload-artifact@v4
@@ -225,7 +225,7 @@ jobs:
           name: v1.${{ github.event.inputs.version }}
           files: ViaBackwards-Plus-v1-${{ github.event.inputs.version }}.zip
           loaders: minecraft
-          game-versions: "[1.16.2,1.20.4]"
+          game-versions: "[1.16.4,1.20.4]"
           version: 1.${{ github.event.inputs.version || github.run_number }}
           modrinth-id: v7n1ZsFg
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
@@ -234,7 +234,7 @@ jobs:
           dependencies: |
             chime(required){modrinth:ubxU84eR}{curseforge:432776}#(ignore:github)
             cit-resewn(optional){modrinth:otVJckYQ}{curseforge:521427}#(ignore:github)
-            respackopts(optional){modrinth:TiF5QWZY}#(ignore:curseforge,github)
+            respackopts(optional){modrinth:TiF5QWZY}{curseforge:430090}#(ignore:github)
           changelog: |
             ${{ needs.prepare.outputs.changelog_v1_body }}
 

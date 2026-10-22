@@ -4,6 +4,7 @@ import json
 import zipfile
 import io
 import urllib.request
+import argparse
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
@@ -14,7 +15,7 @@ from concurrent.futures import ThreadPoolExecutor
 MIN_VERSION = os.environ.get("MIN_VERSION", "1.21.4")
 
 MAX_VERSION = os.environ.get("MAX_VERSION", None)
-if MAX_VERSION == "None" or MAX_VERSION == "":
+if MAX_VERSION in ("None", ""):
     MAX_VERSION = None
 
 # False: only include vb.item.* and vb.entity.* entries in the lang files.
@@ -33,8 +34,13 @@ def parse_version(v_str):
     cleaned = re.sub(r'[^0-9.]', '', v_str)
     return [int(x) for x in cleaned.split('.') if x]
 
-def resolve_mappings_dir():
+def resolve_mappings_dir(custom_path=None):
     """Resolves the path to the Mappings repository mappings/ directory."""
+    if custom_path:
+        p = Path(custom_path)
+        if p.exists():
+            print(f"Using mappings directory from argument: {p}")
+            return p
     env_dir = os.environ.get("MAPPINGS_DIR")
     if env_dir:
         print(f"Using MAPPINGS_DIR from environment: {env_dir}")
@@ -150,7 +156,7 @@ def resolve_mojang_version(version_str):
     """Locates the metadata URL for the target Mojang version.
     
     Matches the resolved MAX_VERSION (e.g. '26.3') against the Mojang manifest,
-    first by exact ID, then by prefix (e.g. '26.3' -> '26.3-snapshot-3').
+    first by exact ID, then by release prefix, then by snapshot prefix.
     """
     print("Fetching Mojang version manifest...")
     manifest = fetch_json(VERSION_MANIFEST_URL)
@@ -159,10 +165,17 @@ def resolve_mojang_version(version_str):
     for v in manifest['versions']:
         if v['id'] == version_str:
             return v['id'], v['url']
-    # Prefix match: '26.3' matches '26.3-snapshot-3'
+
+    # Prefix match preferring releases over snapshots (e.g. '26.3' matches '26.3' release or '26.3.1')
     for v in manifest['versions']:
-        if v['id'].startswith(version_str):
+        if v.get('type') == 'release' and (v['id'] == version_str or v['id'].startswith(f"{version_str}.") or v['id'].startswith(f"{version_str}-")):
             return v['id'], v['url']
+
+    # Prefix match for snapshots/previews
+    for v in manifest['versions']:
+        if v['id'] == version_str or v['id'].startswith(f"{version_str}.") or v['id'].startswith(f"{version_str}-"):
+            return v['id'], v['url']
+
     raise ValueError(
         f"Mojang version matching '{version_str}' not found in manifest. "
         f"Check that MAX_VERSION corresponds to a real Mojang release."
@@ -292,17 +305,37 @@ def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
         for bk in ["biome.minecraft.dappled_forest", "biome.minecraft.sulfur_caves"]:
             if bk in translations:
                 mapped[bk] = translations[bk]
+
+        # Discover camp map variants from translations (e.g. filled_map.birch_forest_camp_map -> birch_forest_camp_map)
+        camp_map_ids = set()
+        for mk in translations.keys():
+            if mk.startswith("filled_map.") and (mk.endswith("_camp_map") or mk.endswith("_abandoned_camp")):
+                camp_map_ids.add(mk.split(".", 1)[1])
+
+        # Base items from custom_model_data and camp map variants
+        all_item_ids = set(item_ids) | camp_map_ids
         
-        # Map item/block IDs
-        for item_id in sorted(item_ids):
+        # Map item/block/map IDs
+        for item_id in sorted(all_item_ids):
             item_key = f"item.minecraft.{item_id}"
             block_key = f"block.minecraft.{item_id}"
+            map_key = f"filled_map.{item_id}"
+            entity_key = f"entity.minecraft.{item_id}"
             
             translation_val = None
+            matched_key = None
             if item_key in translations:
                 translation_val = translations[item_key]
+                matched_key = item_key
             elif block_key in translations:
                 translation_val = translations[block_key]
+                matched_key = block_key
+            elif map_key in translations:
+                translation_val = translations[map_key]
+                matched_key = map_key
+            elif entity_key in translations:
+                translation_val = translations[entity_key]
+                matched_key = entity_key
                 
             if translation_val is not None:
                 if item_id.startswith("music_disc_"):
@@ -310,7 +343,7 @@ def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
                 else:
                     mapped[f"vb.item.{item_id}"] = translation_val
                     if COPY_MOJANG_LANG:
-                        mapped[item_key] = translation_val
+                        mapped[matched_key] = translation_val
                 
         # Map entity IDs
         for entity_id in sorted(entity_ids):
@@ -345,14 +378,23 @@ def map_and_write_root(project_root, item_ids, entity_ids, langs_data):
 # Main Execution Flow
 # ==========================================
 def main():
+    parser = argparse.ArgumentParser(description="Generate translation files for ViaBackwards-Plus")
+    parser.add_argument("--min-version", default=MIN_VERSION, help="Minimum Minecraft version (default: 1.21.4)")
+    parser.add_argument("--max-version", default=MAX_VERSION, help="Maximum Minecraft version (default: auto-detect from mappings)")
+    parser.add_argument("--mappings-dir", default=None, help="Path to Mappings repository mappings/ directory")
+    args = parser.parse_args()
+
+    min_ver = args.min_version if args.min_version not in (None, "", "None") else "1.21.4"
+    max_ver = args.max_version if args.max_version not in (None, "", "None") else None
+
     # Resolve project root and paths
     project_root = Path(__file__).resolve().parents[2]
-    mappings_dir = resolve_mappings_dir()
+    mappings_dir = resolve_mappings_dir(args.mappings_dir)
     cache_dir = project_root / ".cache" / "lang"
     
     # 1. Discover backported assets and resolve max version
     print("--- Phase 1: Resolving Version Range from Mappings ---")
-    _, entity_ids, custom_model_data_ids, resolved_max_ver = discover_backported_ids(mappings_dir, MIN_VERSION, MAX_VERSION)
+    _, entity_ids, custom_model_data_ids, resolved_max_ver = discover_backported_ids(mappings_dir, min_ver, max_ver)
     print(f"Resolved target Minecraft version: {resolved_max_ver}")
     print(f"Found {len(custom_model_data_ids)} custom_model_data items and {len(entity_ids)} entities across version range.")
     
