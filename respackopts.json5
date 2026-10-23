@@ -1,8 +1,12 @@
 {
-    id: "vbp",
-    version: 9,
-    capabilities: ["FileFilter", "DirFilter"],
-    conf: {
-        enable: true
-    }
+  id: "vbp",
+  version: 9,
+  capabilities: [
+    "FileFilter"
+  ],
+  conf: {
+    v1_18: false,
+    v1_20: false,
+    v1_20_4: false
+  }
 }

@@ -6,13 +6,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout v1-branch
         uses: actions/checkout@v4
         with:
           path: v1-branch
-          ref: v1 
+          ref: v1
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout ViaBackwards-Plus (v2)
         uses: actions/checkout@v4
@@ -31,16 +34,16 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
-      - name: Run v1 Compiler
+      - name: Run v1 Compiler & Lang Generator
         env:
           MAPPINGS_DIR: ${{ github.workspace }}/Mappings/mappings
           V2_SOURCE_DIR: ${{ github.workspace }}/ViaBackwards-Plus
           V1_TARGET_DIR: ${{ github.workspace }}/v1-branch
         run: |
-          cd v1-branch/scripts
-          python v1_backport_compiler.py
+          python v1-branch/.github/scripts/v1_backport_compiler.py
+          python v1-branch/.github/scripts/generate_langs.py --min-version 1.16 --mappings-dir "$MAPPINGS_DIR"
 
       - name: Commit and Push
         run: |
@@ -48,5 +51,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/
-          git diff --staged --quiet || git commit -m "Automated compile: Updated v1 backports via GitHub Actions"
-          git push
+          git diff --staged --quiet || git commit -m "Automated compile: Updated v1 backports and translations via GitHub Actions"
+          git push origin HEAD:v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
