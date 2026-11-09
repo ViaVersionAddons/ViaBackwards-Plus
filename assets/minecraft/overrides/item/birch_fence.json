@@ -15,6 +15,12 @@
         }
       },
       "model": "block/pale_oak_fence_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 910
+      },
+      "model": "block/poplar_fence_inventory"
     }
   ]
 }

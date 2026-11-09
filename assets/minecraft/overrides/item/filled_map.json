@@ -1,0 +1,100 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 975
+      },
+      "model": "item/desert_village_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 976
+      },
+      "model": "item/plains_village_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 977
+      },
+      "model": "item/savanna_village_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 978
+      },
+      "model": "item/snowy_village_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 979
+      },
+      "model": "item/taiga_village_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 980
+      },
+      "model": "item/buried_treasure_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 983
+      },
+      "model": "item/desert_pyramid_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 985
+      },
+      "model": "item/warm_ocean_ruins_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 986
+      },
+      "model": "item/buried_ancient_city_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 987
+      },
+      "model": "item/buried_mineshaft_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 988
+      },
+      "model": "item/abandoned_camp_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 989
+      },
+      "model": "item/ocean_monument_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 990
+      },
+      "model": "item/woodland_mansion_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 991
+      },
+      "model": "item/buried_trial_chambers_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 992
+      },
+      "model": "item/jungle_pyramid_map"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 993
+      },
+      "model": "item/swamp_hut_map"
+    }
+  ]
+}

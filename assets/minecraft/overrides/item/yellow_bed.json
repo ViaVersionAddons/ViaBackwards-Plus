@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 937
+      },
+      "model": "item/straw_bed_inventory"
+    }
+  ]
+}

@@ -1,22 +1,25 @@
-![ ](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Header.webp)
-<a href="https://modrinth.com/mod/chime" target="_blank">
-![req](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Requirements.webp)
-</a>
+![ViaBackwards Plus logo](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Header.webp)
 
-  <p><strong>This Minecraft pack enhances the gameplay experience with the ViaBackwards plugin</strong>, which allows players to connect to newer servers with an older client. The pack requires the Chime mod to work, which helps identify the items by their custom name or custom NBT data, and assigns the correct model and texture to them. The best part of this pack is that if you put another resource pack on top of it, it will load the textures from that!<br><strong><span style="color: red;">Please note that this pack is not an official addon from the <a href="https://github.com/ViaVersion/ViaBackwards/graphs/contributors" target="_blank">ViaBackwards team</a>, and it's just fan-made.</span></strong></p>
+**This Minecraft pack enhances the gameplay experience with the ViaBackwards plugin**, which allows players on legacy clients (**1.16.4 through 1.20.4**) to connect to modern servers (up to **Minecraft 26.3**) and see all the new blocks, items, and weapons backported to their inventory! This legacy version (Version 1) uses **Chime** and **OptiFine CIT** to support older clients where modern vanilla component overrides do not exist. The best part of this pack is that if you put another resource pack on top of it, it will load the textures from that (make sure to place this pack at the bottom)!
+
+> **Supported Clients:** Minecraft **1.16.4 through 1.20.4** *(Officially supported via Chime and OptiFine CIT. Minecraft 1.16.2 and 1.16.3 are also supported when using OptiFine).*
+
+> **Supported Servers:** Connect to servers running anything from **1.17 all the way up through Minecraft 26.3** via ViaBackwards.
+
+> **SCOPE:** This pack specifically updates 2D inventory icons and in-hand 3D models. It does *not* change the textures of blocks or entities once they are physically placed in the world.
 
 ![showcase_1.20](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Showcase%20.webp)
 
 ---
 
-  ![Features](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Features.webp)
-  ![keypoints](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_KeyPoints.webp)
+![Features](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_Features.webp)
+![keypoints](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_KeyPoints.webp)
 
 ---
 
 <a href="https://github.com/ViaVersionAddons/ViaBackwards-Plus/issues" target="_blank">
   
-![reportissues](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_ReportIssues.webp)
+![Report issues on GitHub or Discord](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_ReportIssues.webp)
 
 </a>
 
@@ -24,7 +27,7 @@
 
 <a href="https://bisecthosting.com/bangetto" target="_blank">
   
-![sponsor](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_PromoCard.webp)
+![Sponsored by BisectHosting. Rent a server: Use code BANGETTO for 25% off](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_PromoCard.webp)
 
 </a>
 
@@ -32,71 +35,83 @@
 
 <h3>Future plans <small>(<a href="https://ko-fi.com/bangetto" blank="_blank">Buy me a coffee</a> to make it happen sooner)</small></h3>
 <ul>
-  <li>Keep the pack up-to-date</li>
-  <li><a href="https://github.com/ViaVersionAddons/ViaBackwards-Plus/issues/3" target="_blank">Port the pack to Optifine</a></li>
-  <li>Create a custom ViaBackwards version for the smoothest experience</li>
-  <li>Fix every bug</li>
-  <li>Go below 1.16 (only if the pack gets popular enough that I can ask the mod's dev to backport the mod)</li>
+  <li>Keep the pack up-to-date with the newest Game Drops (26.x and beyond)</li>
+  <li>Maintain parity with modern ViaBackwards protocol mappings</li>
+  <li>Fix every bug reported by the community</li>
 </ul>
 
 ---
 
-
-
 ![FAQ](https://www.bisecthosting.com/images/CF/ViaBackwards_Plus/BH_VBP_FAQ.webp)
 
 <details>
-<summary><b>Dependencies</b></summary>
+<summary><b>Dependencies & Recommended Setup</b></summary>
 
-**Chime**: The main priority of this project, the structure of the project is build upon Chime. It helps backporting the items in a fast and efficient way.
+Because legacy Minecraft clients (1.16 – 1.20) lack modern vanilla model override capabilities, you need **one** of the following to see the backported models:
 
-Optifine CIT: This is a work in progress more detailed in the next section, but it does the same thing, just the implementation of it is a bit slower.
+* **Fabric / Quilt (Recommended):** Use the **[Chime mod](https://modrinth.com/mod/chime)**. This provides the best overall performance and is 100% compatible with optimization mods like **Sodium, Iris, and Lithium**.
+* **Fabric (1.17+):** You can alternatively use **[CIT Resewn](https://modrinth.com/mod/cit-resewn)**, which reads the pack's built-in OptiFine CIT files.
+* **Forge / Standalone:** Fully supported using **OptiFine**. The pack includes complete CIT properties in `assets/minecraft/optifine/cit/`.
+
+</details>
+
+<details>
+<summary><b>Playing on Minecraft 1.21.4 or newer?</b></summary>
+
+**You do not want this version!** 
+
+For clients running Minecraft **1.21.4+**, please use the modern **[Version 2 of ViaBackwards-Plus](https://github.com/ViaVersionAddons/ViaBackwards-Plus)**. Modern Version 2 requires **absolutely no mods** (no Chime, no OptiFine) and uses Minecraft's native data-driven model system.
+
+</details>
+
+<details>
+<summary><b>Can I play on Minecraft 1.16.2 or 1.16.3?</b></summary>
+
+**Yes, with OptiFine!**
+
+CurseForge and Modrinth list **1.16.4 – 1.20.4** as the official range because the **Chime** mod requires Minecraft 1.16.4 or newer to install. 
+
+However, internal item IDs and OptiFine CIT definitions are identical on 1.16.2 and 1.16.3. If you play on 1.16.2 or 1.16.3 with OptiFine, simply download the `.zip` manually from the "Files" tab and place it into your `resourcepacks/` folder.
+
+</details>
+
+<details>
+<summary><b>What about Minecraft 1.20.5 through 1.21.3?</b></summary>
+
+In Minecraft 1.20.5, Mojang overhauled items to use Data Components instead of NBT, which broke the Chime mod (Chime officially ended on 1.20.4). 
+
+Clients running 1.20.5 through 1.21.3 can still load the backported item models using **OptiFine CIT**. However, if you are able to update to **1.21.4+**, we strongly recommend switching to modern **Version 2**, which requires zero mods.
 
 </details>
 
 <details>
 <summary><b>Known Issues</b></summary>
 
-**Tinted Items**: Vanilla Minecraft forces hardcoded biome and spawn-egg tints onto certain base items (like the Slime Spawn Egg or Short Grass). Because this pack maps 1.21 items to these older carriers using `builtin/generated`, new custom foliage and spawn eggs may appear incorrectly tinted or discolored in the player's inventory. This is a known vanilla rendering limitation.
-
-</details>
-
- <details>
-<summary><b>Optifine?</b></summary>
-
-**The Optifine versions of the pack is in the works, and will be done in the pack's 2.0 version with the release of Minecraft 1.21.**
-
-The pack will start with the newly added and 1.17 items then it will move on to the 1.20 items and lastly do the 1.19 items, because there's a smaller Optifine pack called <a href="https://www.planetminecraft.com/texture-pack/viavisual/" target="_blank">ViaVisual</a>. If you want to speed up the development you can do it on <a href="https://github.com/ViaVersionAddons/ViaBackwards-Plus/tree/dev" target="_blank">Github</a>
+**Tinted Items**: Vanilla Minecraft forces hardcoded biome and spawn-egg tints onto certain base items (like the Slime Spawn Egg or Short Grass). Because this pack maps newer items to these older carriers using `builtin/generated`, new custom foliage and spawn eggs may appear tinted or discolored in the player's inventory. This is an unavoidable vanilla rendering limitation on legacy clients.
 
 </details>
 
 <details>
-<summary><b>Release Cycle</b></summary>
+<summary><b>How does it work?</b></summary>
 
-When a Minecraft release is at Pre-release or Release-candidate stage a beta is released, but it's untested, so there might be bugs. After a few days of the Minecraft release, ViaBackwards will release publicly. This is when I'll fix bugs discovered during the backporting, and shortly after, the newest version of VB+ will be published.
+<p>When you join a modern server (up to <strong>Minecraft 26.3</strong>) using an older client like 1.20.1 or 1.16.5, ViaBackwards translates future items into legacy items your client understands (such as turning a Mace into an Iron Sword) and attaches protocol identifiers to them.</p>
 
-</details>
-
-<details>
-<summary>How Does It Work?</summary>
-
-<p>The pack works by identifying items by their ViaBackwards Protocol ID, which helps determine the correct model and texture to assign to them. For example, "Copper ore" has a protocol id of "44", the Chime mod will help the pack recognize it as a Copper ore and assign the correct model and texture to it.</p>
-<p>Think of it like a special tag on each item that tells the pack what it is, so the pack knows how to make it look and behave correctly. This way, you get to enjoy the latest Minecraft textures and the easy identification of items, even if you're playing an older version of the game!</p>
+<p>This resource pack intercepts those identifiers and uses <strong>Chime</strong> or <strong>OptiFine CIT</strong> to override the model and texture, rendering the real future item right in your inventory and hand!</p>
 
 </details>
 
 <details>
-<summary>Implementation on Servers</summary>
+<summary><b>Implementation on Servers</b></summary>
 
-You can put this resource pack on your server so it automatically loads when players join. The only problem is that players still have to install Chime or CIT. As of now the resource pack has a more client-sided approach, but **a more server-side friendly version is planned!** If I see demand for it I will make and maintain a version of this pack which uses the vanilla `custom_model_data` feature to backport the items instead of the external ones. Join my Discord if you want to be notified when this happens!
-
-</details>
-
-<details>
-<summary>Even lower versions?</summary>
-
-#### If there's demand for it I can make support for 1.14x and 1.15x.
-
-**For versions below that I probably won't, before 1.14 items had different ID's, which means the entire pack would have to be rewritten!** The only way to make the pack work for versions older then 1.14 would be Optifine CIT, and I hate to work with CIT, even `custom_model_data` was implemented in 1.14, Optifine had a monopoly back then...
+You can place this resource pack in your server's `server.properties` so legacy clients automatically prompt to download it upon joining. Note that legacy players still need **Chime** or **OptiFine** installed in their client mods to render the models. (If you want a 100% modless server experience, players must connect using 1.21.4+ clients with modern Version 2).
 
 </details>
+
+<br><br>
+
+<hr>
+
+<br>
+
+<p align="center">This pack is a fan-made project and is not an official addon from the <a href="https://github.com/ViaVersion/ViaBackwards/graphs/contributors">ViaBackwards team</a></p> 
+<p align="center">Minecraft assets are the property of Mojang Studios. Assets for showcase renders are sourced from <a href="https://github.com/Owen1212055/mc-assets">mc-assets</a>.</p>

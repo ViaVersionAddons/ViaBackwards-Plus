@@ -15,6 +15,12 @@
         }
       },
       "model": "item/pale_oak_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 914
+      },
+      "model": "item/poplar_door"
     }
   ]
 }

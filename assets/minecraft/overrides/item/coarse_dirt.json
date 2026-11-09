@@ -11,7 +11,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 19
+          "VB|Protocol1_19To1_18_2|id": 19
         }
       },
       "model": "item/mud"
@@ -19,7 +19,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 111
+          "VB|Protocol1_19To1_18_2|id": 111
         }
       },
       "model": "item/mangrove_roots"
@@ -27,7 +27,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 112
+          "VB|Protocol1_19To1_18_2|id": 112
         }
       },
       "model": "item/muddy_mangrove_roots"

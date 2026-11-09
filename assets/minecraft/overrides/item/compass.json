@@ -4,7 +4,7 @@
       "predicate": {
         "angle": 0.0,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass"
@@ -13,7 +13,7 @@
       "predicate": {
         "angle": 0.015625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_17"
@@ -22,7 +22,7 @@
       "predicate": {
         "angle": 0.046875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_18"
@@ -31,7 +31,7 @@
       "predicate": {
         "angle": 0.078125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_19"
@@ -40,7 +40,7 @@
       "predicate": {
         "angle": 0.109375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_20"
@@ -49,7 +49,7 @@
       "predicate": {
         "angle": 0.140625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_21"
@@ -58,7 +58,7 @@
       "predicate": {
         "angle": 0.171875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_22"
@@ -67,7 +67,7 @@
       "predicate": {
         "angle": 0.203125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_23"
@@ -76,7 +76,7 @@
       "predicate": {
         "angle": 0.234375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_24"
@@ -85,7 +85,7 @@
       "predicate": {
         "angle": 0.265625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_25"
@@ -94,7 +94,7 @@
       "predicate": {
         "angle": 0.296875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_26"
@@ -103,7 +103,7 @@
       "predicate": {
         "angle": 0.328125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_27"
@@ -112,7 +112,7 @@
       "predicate": {
         "angle": 0.359375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_28"
@@ -121,7 +121,7 @@
       "predicate": {
         "angle": 0.390625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_29"
@@ -130,7 +130,7 @@
       "predicate": {
         "angle": 0.421875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_30"
@@ -139,7 +139,7 @@
       "predicate": {
         "angle": 0.453125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_31"
@@ -148,7 +148,7 @@
       "predicate": {
         "angle": 0.484375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_00"
@@ -157,7 +157,7 @@
       "predicate": {
         "angle": 0.515625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_01"
@@ -166,7 +166,7 @@
       "predicate": {
         "angle": 0.546875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_02"
@@ -175,7 +175,7 @@
       "predicate": {
         "angle": 0.578125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_03"
@@ -184,7 +184,7 @@
       "predicate": {
         "angle": 0.609375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_04"
@@ -193,7 +193,7 @@
       "predicate": {
         "angle": 0.640625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_05"
@@ -202,7 +202,7 @@
       "predicate": {
         "angle": 0.671875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_06"
@@ -211,7 +211,7 @@
       "predicate": {
         "angle": 0.703125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_07"
@@ -220,7 +220,7 @@
       "predicate": {
         "angle": 0.734375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_08"
@@ -229,7 +229,7 @@
       "predicate": {
         "angle": 0.765625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_09"
@@ -238,7 +238,7 @@
       "predicate": {
         "angle": 0.796875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_10"
@@ -247,7 +247,7 @@
       "predicate": {
         "angle": 0.828125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_11"
@@ -256,7 +256,7 @@
       "predicate": {
         "angle": 0.859375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_12"
@@ -265,7 +265,7 @@
       "predicate": {
         "angle": 0.890625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_13"
@@ -274,7 +274,7 @@
       "predicate": {
         "angle": 0.921875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_14"
@@ -283,7 +283,7 @@
       "predicate": {
         "angle": 0.953125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_15"
@@ -292,7 +292,7 @@
       "predicate": {
         "angle": 0.984375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass"
@@ -301,7 +301,7 @@
       "predicate": {
         "angle": 0.0,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass"
@@ -310,7 +310,7 @@
       "predicate": {
         "angle": 0.015625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_17"
@@ -319,7 +319,7 @@
       "predicate": {
         "angle": 0.046875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_18"
@@ -328,7 +328,7 @@
       "predicate": {
         "angle": 0.078125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_19"
@@ -337,7 +337,7 @@
       "predicate": {
         "angle": 0.109375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_20"
@@ -346,7 +346,7 @@
       "predicate": {
         "angle": 0.140625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_21"
@@ -355,7 +355,7 @@
       "predicate": {
         "angle": 0.171875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_22"
@@ -364,7 +364,7 @@
       "predicate": {
         "angle": 0.203125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_23"
@@ -373,7 +373,7 @@
       "predicate": {
         "angle": 0.234375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_24"
@@ -382,7 +382,7 @@
       "predicate": {
         "angle": 0.265625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_25"
@@ -391,7 +391,7 @@
       "predicate": {
         "angle": 0.296875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_26"
@@ -400,7 +400,7 @@
       "predicate": {
         "angle": 0.328125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_27"
@@ -409,7 +409,7 @@
       "predicate": {
         "angle": 0.359375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_28"
@@ -418,7 +418,7 @@
       "predicate": {
         "angle": 0.390625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_29"
@@ -427,7 +427,7 @@
       "predicate": {
         "angle": 0.421875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_30"
@@ -436,7 +436,7 @@
       "predicate": {
         "angle": 0.453125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_31"
@@ -445,7 +445,7 @@
       "predicate": {
         "angle": 0.484375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_00"
@@ -454,7 +454,7 @@
       "predicate": {
         "angle": 0.515625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_01"
@@ -463,7 +463,7 @@
       "predicate": {
         "angle": 0.546875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_02"
@@ -472,7 +472,7 @@
       "predicate": {
         "angle": 0.578125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_03"
@@ -481,7 +481,7 @@
       "predicate": {
         "angle": 0.609375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_04"
@@ -490,7 +490,7 @@
       "predicate": {
         "angle": 0.640625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_05"
@@ -499,7 +499,7 @@
       "predicate": {
         "angle": 0.671875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_06"
@@ -508,7 +508,7 @@
       "predicate": {
         "angle": 0.703125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_07"
@@ -517,7 +517,7 @@
       "predicate": {
         "angle": 0.734375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_08"
@@ -526,7 +526,7 @@
       "predicate": {
         "angle": 0.765625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_09"
@@ -535,7 +535,7 @@
       "predicate": {
         "angle": 0.796875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_10"
@@ -544,7 +544,7 @@
       "predicate": {
         "angle": 0.828125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_11"
@@ -553,7 +553,7 @@
       "predicate": {
         "angle": 0.859375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_12"
@@ -562,7 +562,7 @@
       "predicate": {
         "angle": 0.890625,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_13"
@@ -571,7 +571,7 @@
       "predicate": {
         "angle": 0.921875,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_14"
@@ -580,7 +580,7 @@
       "predicate": {
         "angle": 0.953125,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass_15"
@@ -589,7 +589,7 @@
       "predicate": {
         "angle": 0.984375,
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 834
+          "VB|Protocol1_19To1_18_2|id": 834
         }
       },
       "model": "item/recovery_compass"

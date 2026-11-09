@@ -3,7 +3,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 710
+          "VB|Protocol1_19To1_18_2|id": 710
         }
       },
       "model": "item/mangrove_boat"
@@ -11,7 +11,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 711
+          "VB|Protocol1_19To1_18_2|id": 711
         }
       },
       "model": "item/mangrove_chest_boat"
@@ -19,7 +19,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 707
+          "VB|Protocol1_19To1_18_2|id": 707
         }
       },
       "model": "item/acacia_chest_boat"

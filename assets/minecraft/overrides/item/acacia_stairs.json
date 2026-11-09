@@ -3,7 +3,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 344
+          "VB|Protocol1_19To1_18_2|id": 344
         }
       },
       "model": "item/mangrove_stairs"
@@ -15,6 +15,30 @@
         }
       },
       "model": "item/cherry_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 876
+      },
+      "model": "block/orange_wool_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 881
+      },
+      "model": "block/pink_wool_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 939
+      },
+      "model": "block/orange_concrete_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 944
+      },
+      "model": "block/pink_concrete_stairs"
     }
   ]
 }

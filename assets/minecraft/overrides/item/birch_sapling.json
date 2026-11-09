@@ -7,6 +7,12 @@
         }
       },
       "model": "item/pale_oak_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 866
+      },
+      "model": "item/poplar_sapling"
     }
   ]
 }

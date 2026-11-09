@@ -3,7 +3,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 220
+          "VB|Protocol1_19To1_18_2|id": 220
         }
       },
       "model": "item/mangrove_slab"
@@ -15,6 +15,30 @@
         }
       },
       "model": "item/cherry_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 892
+      },
+      "model": "block/orange_wool_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 897
+      },
+      "model": "block/pink_wool_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 955
+      },
+      "model": "block/orange_concrete_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 960
+      },
+      "model": "block/pink_concrete_slab"
     }
   ]
 }

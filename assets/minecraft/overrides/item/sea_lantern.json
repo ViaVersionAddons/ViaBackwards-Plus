@@ -3,7 +3,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 1147
+          "VB|Protocol1_19To1_18_2|id": 1147
         }
       },
       "model": "item/ochre_froglight"
@@ -11,18 +11,18 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 1148
+          "VB|Protocol1_19To1_18_2|id": 1148
         }
       },
-      "model": "item/pearlescent_froglight"
+      "model": "item/verdant_froglight"
     },
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 1149
+          "VB|Protocol1_19To1_18_2|id": 1149
         }
       },
-      "model": "item/verdant_froglight"
+      "model": "item/pearlescent_froglight"
     }
   ]
 }

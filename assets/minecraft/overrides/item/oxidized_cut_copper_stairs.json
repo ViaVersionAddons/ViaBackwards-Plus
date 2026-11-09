@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 884
+      },
+      "model": "block/cyan_wool_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 947
+      },
+      "model": "block/cyan_concrete_stairs"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 871
+      },
+      "model": "block/red_poplar_leaves"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 872
+      },
+      "model": "block/orange_poplar_leaves"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 873
+      },
+      "model": "block/yellow_poplar_leaves"
+    }
+  ]
+}

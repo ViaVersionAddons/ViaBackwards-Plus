@@ -7,6 +7,18 @@
         }
       },
       "model": "block/pale_oak_log"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 867
+      },
+      "model": "block/poplar_log"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 870
+      },
+      "model": "block/poplar_wood"
     }
   ]
 }

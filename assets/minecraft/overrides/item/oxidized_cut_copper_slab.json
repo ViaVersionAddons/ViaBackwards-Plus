@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 900
+      },
+      "model": "block/cyan_wool_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 963
+      },
+      "model": "block/cyan_concrete_slab"
+    }
+  ]
+}

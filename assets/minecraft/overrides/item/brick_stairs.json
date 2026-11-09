@@ -67,7 +67,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 318
+          "VB|Protocol1_19To1_18_2|id": 318
         }
       },
       "model": "item/mud_brick_stairs"
@@ -87,6 +87,30 @@
         }
       },
       "model": "block/cinnabar_brick_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 884
+      },
+      "model": "block/cyan_wool_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 889
+      },
+      "model": "block/red_wool_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 947
+      },
+      "model": "block/cyan_concrete_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 952
+      },
+      "model": "block/red_concrete_stairs"
     }
   ]
 }

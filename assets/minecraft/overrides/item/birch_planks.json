@@ -47,6 +47,18 @@
         }
       },
       "model": "block/pale_oak_shelf_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 865
+      },
+      "model": "block/poplar_planks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 909
+      },
+      "model": "block/poplar_shelf_inventory"
     }
   ]
 }

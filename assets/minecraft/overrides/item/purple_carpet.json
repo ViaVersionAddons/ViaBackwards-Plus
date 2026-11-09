@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 931
+      },
+      "model": "item/purple_cushion"
+    }
+  ]
+}
