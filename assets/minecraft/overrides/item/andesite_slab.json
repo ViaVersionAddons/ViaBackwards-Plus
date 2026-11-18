@@ -15,6 +15,18 @@
         }
       },
       "model": "item/polished_tuff_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 898
+      },
+      "model": "block/gray_wool_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 961
+      },
+      "model": "block/gray_concrete_slab"
     }
   ]
 }

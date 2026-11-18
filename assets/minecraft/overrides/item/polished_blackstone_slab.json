@@ -15,6 +15,12 @@
         }
       },
       "model": "item/deepslate_tile_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 906
+      },
+      "model": "block/black_wool_slab"
     }
   ]
 }

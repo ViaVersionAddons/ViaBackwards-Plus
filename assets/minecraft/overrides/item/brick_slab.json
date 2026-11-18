@@ -67,7 +67,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 231
+          "VB|Protocol1_19To1_18_2|id": 231
         }
       },
       "model": "item/mud_brick_slab"
@@ -87,6 +87,30 @@
         }
       },
       "model": "block/cinnabar_brick_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 900
+      },
+      "model": "block/cyan_wool_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 905
+      },
+      "model": "block/red_wool_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 963
+      },
+      "model": "block/cyan_concrete_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 968
+      },
+      "model": "block/red_concrete_slab"
     }
   ]
 }

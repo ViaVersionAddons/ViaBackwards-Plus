@@ -39,6 +39,18 @@
         }
       },
       "model": "item/pale_oak_sign"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 919
+      },
+      "model": "item/poplar_sign"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 920
+      },
+      "model": "item/poplar_hanging_sign"
     }
   ]
 }

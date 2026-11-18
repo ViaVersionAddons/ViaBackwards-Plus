@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 871
+      },
+      "model": "block/red_poplar_leaves"
+    }
+  ]
+}

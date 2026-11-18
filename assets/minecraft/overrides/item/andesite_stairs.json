@@ -15,6 +15,18 @@
         }
       },
       "model": "item/polished_tuff_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 882
+      },
+      "model": "block/gray_wool_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 945
+      },
+      "model": "block/gray_concrete_stairs"
     }
   ]
 }

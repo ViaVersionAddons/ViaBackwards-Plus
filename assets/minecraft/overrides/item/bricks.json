@@ -123,7 +123,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 300
+          "VB|Protocol1_19To1_18_2|id": 300
         }
       },
       "model": "item/mud_bricks"
@@ -131,7 +131,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 299
+          "VB|Protocol1_19To1_18_2|id": 299
         }
       },
       "model": "item/packed_mud"

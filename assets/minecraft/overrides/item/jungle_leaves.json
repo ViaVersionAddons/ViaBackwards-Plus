@@ -39,6 +39,12 @@
         }
       },
       "model": "item/cherry_leaves"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 873
+      },
+      "model": "block/yellow_poplar_leaves"
     }
   ]
 }

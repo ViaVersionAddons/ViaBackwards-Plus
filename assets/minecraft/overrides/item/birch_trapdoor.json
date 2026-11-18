@@ -15,6 +15,12 @@
         }
       },
       "model": "block/pale_oak_trapdoor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 915
+      },
+      "model": "block/poplar_trapdoor_bottom"
     }
   ]
 }

@@ -11,7 +11,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 1151
+          "VB|Protocol1_19To1_18_2|id": 1151
         }
       },
       "model": "item/echo_shard"

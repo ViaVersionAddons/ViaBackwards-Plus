@@ -15,6 +15,12 @@
         }
       },
       "model": "block/pale_oak_pressure_plate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 913
+      },
+      "model": "block/poplar_pressure_plate"
     }
   ]
 }

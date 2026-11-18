@@ -15,6 +15,12 @@
         }
       },
       "model": "block/stripped_pale_oak_wood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 869
+      },
+      "model": "block/stripped_poplar_wood"
     }
   ]
 }

@@ -3,7 +3,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 1071
+          "VB|Protocol1_19To1_18_2|id": 1071
         }
       },
       "model": "item/music_disc_5"
@@ -11,7 +11,7 @@
     {
       "predicate": {
         "nbt": {
-          "VB|Protocol1_18_2To1_19|id": 1073
+          "VB|Protocol1_19To1_18_2|id": 1073
         }
       },
       "model": "item/disc_fragment_5"

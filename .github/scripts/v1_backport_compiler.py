@@ -31,6 +31,7 @@ V1_TARGET_DIR = Path(os.environ.get("V1_TARGET_DIR", "../v1-branch")).resolve()
 
 # Descending list of version transitions to follow
 VERSION_STEPS = [
+    ("26.3", "26.2"),
     ("26.2", "26.1"),
     ("26.1", "1.21.11"),
     ("1.21.11", "1.21.9"),
@@ -79,7 +80,7 @@ def resolve_path(namespace_str, asset_type):
         return Path("textures") / f"{namespace_str}.png"
     return None
 
-def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_matched=False):
+def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_matched=False, expected_cmd=None):
     if current_nbt is None:
         current_nbt = {}
     if not isinstance(node, dict):
@@ -96,12 +97,12 @@ def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_ma
                 for case in node.get("cases", []):
                     when_val = case.get("when")
                     if isinstance(when_val, list) and "gui" in when_val:
-                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True))
+                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True, expected_cmd))
                         return results
                     elif isinstance(when_val, str) and when_val == "gui":
-                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True))
+                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True, expected_cmd))
                         return results
-                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True))
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True, expected_cmd))
                 return results
                 
             elif prop == "minecraft:trim_material":
@@ -110,12 +111,12 @@ def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_ma
                     if isinstance(when_val, str):
                         new_nbt = current_nbt.copy()
                         new_nbt["Trim"] = {"material": when_val}
-                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, new_nbt, True))
-                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True))
+                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, new_nbt, True, expected_cmd))
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True, expected_cmd))
                 return results
                 
             else:
-                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True))
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, True, expected_cmd))
                 return results
                 
         else:
@@ -129,10 +130,10 @@ def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_ma
                         is_match = True
                     
                     if is_match:
-                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True))
+                        results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True, expected_cmd))
                         return results
                         
-                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False))
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False, expected_cmd))
                 return results
                 
             elif prop == "minecraft:component" and node.get("component") == "minecraft:custom_name":
@@ -141,14 +142,14 @@ def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_ma
                     if isinstance(when_val, dict):
                         text = when_val.get("text", "").lower().replace(" ", "_")
                         if item_name in text:
-                            results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True))
+                            results.extend(extract_models(case.get("model"), target_item_with_ns, item_name, current_nbt, True, expected_cmd))
                             return results
                             
-                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False))
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False, expected_cmd))
                 return results
                 
             else:
-                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False))
+                results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, False, expected_cmd))
                 return results
             
     elif mtype == "minecraft:model":
@@ -173,26 +174,42 @@ def extract_models(node, target_item_with_ns, item_name, current_nbt=None, is_ma
         return results
         
     elif mtype == "minecraft:condition":
-        results.extend(extract_models(node.get("on_true"), target_item_with_ns, item_name, current_nbt, is_matched))
+        results.extend(extract_models(node.get("on_true"), target_item_with_ns, item_name, current_nbt, is_matched, expected_cmd))
         return results
         
     elif mtype == "minecraft:range_dispatch":
-        results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, is_matched))
+        prop = node.get("property")
+        if prop == "minecraft:custom_model_data":
+            for entry in node.get("entries", []):
+                threshold = entry.get("threshold")
+                is_match = False
+                if expected_cmd is not None and threshold is not None and float(threshold) == float(expected_cmd):
+                    is_match = True
+                else:
+                    m_sub = entry.get("model", {})
+                    if isinstance(m_sub, dict) and item_name in m_sub.get("model", ""):
+                        is_match = True
+                        
+                if is_match:
+                    results.extend(extract_models(entry.get("model"), target_item_with_ns, item_name, current_nbt, True, expected_cmd))
+                    return results
+        results.extend(extract_models(node.get("fallback"), target_item_with_ns, item_name, current_nbt, is_matched, expected_cmd))
         return results
         
     return results
 
-def extract_model_for_item_from_carrier(carrier_path, item_name):
+def extract_model_for_item_from_carrier(carrier_path, item_name, expected_cmd=None):
     if not carrier_path.exists():
         return []
     data = load_json(carrier_path)
     target_item_with_ns = f"minecraft:{item_name}"
-    return extract_models(data.get("model"), target_item_with_ns, item_name, None, False)
+    return extract_models(data.get("model"), target_item_with_ns, item_name, None, False, expected_cmd)
 
 def main():
     print("Loading mapping data and registries...")
     registries = {}
     diffs = {}
+    diff_cmds = {}
     
     all_versions = set()
     for v_from, v_to in VERSION_STEPS:
@@ -210,15 +227,18 @@ def main():
     for v_from, v_to in VERSION_STEPS:
         diff_path = MAPPINGS_DIR / "diff" / f"mapping-{v_from}to{v_to}.json"
         if diff_path.exists():
-            diffs[(v_from, v_to)] = load_json(diff_path).get("items", {})
+            diff_data = load_json(diff_path)
+            diffs[(v_from, v_to)] = diff_data.get("items", {})
+            diff_cmds[(v_from, v_to)] = diff_data.get("custom_model_data", {})
             print(f"Loaded diff {v_from} to {v_to}: {len(diffs[(v_from, v_to)])} mapped items")
             
-    targeted_transitions = [step for step in VERSION_STEPS if step[0] in ["26.2", "26.1", "1.21.11", "1.21.9", "1.21.7", "1.21.6", "1.21.5"]]
+    targeted_transitions = [step for step in VERSION_STEPS if step[0] == "26.3"]
     
     compiled_items = []
     
     for v_from, v_to in targeted_transitions:
         items_map = diffs.get((v_from, v_to), {})
+        cmd_map = diff_cmds.get((v_from, v_to), {})
         protocol_name = get_protocol_name(v_from, v_to)
         
         for new_item, carrier in items_map.items():
@@ -227,6 +247,7 @@ def main():
                 continue
                 
             origin_id = registries[v_from][new_item]
+            cmd = cmd_map.get(new_item)
             
             carriers_chain = []
             curr = carrier
@@ -249,6 +270,7 @@ def main():
                 "item": new_item,
                 "protocol": protocol_name,
                 "origin_id": origin_id,
+                "cmd": cmd,
                 "carriers": carriers_chain,
                 "first_carrier": carrier.split("[")[0],
                 "final_carrier": curr,
@@ -261,12 +283,13 @@ def main():
         new_item = item_data["item"]
         protocol = item_data["protocol"]
         origin_id = item_data["origin_id"]
+        cmd = item_data.get("cmd")
         carriers = item_data["carriers"]
         first_carrier = item_data["first_carrier"]
         v_to_folder = item_data["v_to"].replace(".", "_")
         
-        print(f"Processing: {new_item} (Protocol: {protocol}, ID: {origin_id}, Carriers: {carriers})")
-        
+        print(f"Processing: {new_item} (Protocol: {protocol}, ID: {origin_id}, CMD: {cmd}, Carriers: {carriers})")
+         
         # Determine the source model path from the v2 item carrier definition
         # Dynamically discover and sort overlay folders (descending order)
         def parse_version(folder_name):
@@ -283,7 +306,7 @@ def main():
             test_dir = V2_SOURCE_DIR / folder / "assets" / "minecraft"
             test_path = test_dir / "items" / f"{first_carrier}.json"
             if test_path.exists():
-                target = extract_model_for_item_from_carrier(test_path, new_item)
+                target = extract_model_for_item_from_carrier(test_path, new_item, cmd)
                 if target:
                     carrier_json_path = test_path
                     target_model_id = target
@@ -312,33 +335,51 @@ def main():
                     
                 exists = False
                 for override in chime_data["overrides"]:
-                    pred = override.get("predicate", {}).get("nbt", {})
-                    is_match = True
-                    if pred.get(predicate_tag) != origin_id:
-                        is_match = False
+                    pred = override.get("predicate", {})
+                    is_match = False
+                    if cmd is not None:
+                        if pred.get("custom_model_data") == int(cmd):
+                            is_match = True
+                    else:
+                        nbt_pred = pred.get("nbt", {})
+                        if nbt_pred.get(predicate_tag) == origin_id:
+                            is_match = True
                     
-                    for k, v in t_nbt.items():
-                        if pred.get(k) != v:
+                    if is_match:
+                        nbt_pred = pred.get("nbt", {})
+                        for k, v in t_nbt.items():
+                            if nbt_pred.get(k) != v:
+                                is_match = False
+                        if len(nbt_pred) != len(t_nbt) + (0 if cmd is not None else 1):
                             is_match = False
                             
-                    if is_match and len(pred) == len(t_nbt) + 1:
-                        print(f"DEBUG: Overwriting existing override {predicate_tag}={origin_id} from {override.get('model')} to {t_model_id}")
+                    if is_match:
+                        print(f"DEBUG: Overwriting existing override from {override.get('model')} to {t_model_id}")
                         override["model"] = t_model_id
                         exists = True
                         break
                         
-                        
                 if not exists:
-                    new_override = {
-                        "predicate": {
-                            "nbt": {
-                                predicate_tag: origin_id
-                            }
-                        },
-                        "model": t_model_id
-                    }
-                    for k, v in t_nbt.items():
-                        new_override["predicate"]["nbt"][k] = v
+                    if cmd is not None:
+                        new_override = {
+                            "predicate": {
+                                "custom_model_data": int(cmd)
+                            },
+                            "model": t_model_id
+                        }
+                        if t_nbt:
+                            new_override["predicate"]["nbt"] = t_nbt.copy()
+                    else:
+                        new_override = {
+                            "predicate": {
+                                "nbt": {
+                                    predicate_tag: origin_id
+                                }
+                            },
+                            "model": t_model_id
+                        }
+                        for k, v in t_nbt.items():
+                            new_override["predicate"]["nbt"][k] = v
                     chime_data["overrides"].append(new_override)
                         
             save_json(chime_file, chime_data)
@@ -364,6 +405,10 @@ def main():
                     for key in ["parent", "textures", "display", "elements", "gui_light", "ambientocclusion"]:
                         if key in raw_model_data:
                             sanitized_model[key] = raw_model_data[key]
+                    if sanitized_model.get("parent") == "minecraft:item/template_bed":
+                        sanitized_model["parent"] = "block/block"
+                        if "gui_light" not in sanitized_model:
+                            sanitized_model["gui_light"] = "front"
                     save_json(dst, sanitized_model)
                 else:
                     shutil.copy2(src, dst)
@@ -403,7 +448,10 @@ def main():
                 trim_mat = t_nbt["Trim"]["material"].replace("minecraft:", "")
                 nbt_suffix = f"_{trim_mat}_trim"
                 
-            nbt_lines = f"nbt.VB|{protocol}|id={origin_id}\n"
+            if cmd is not None:
+                nbt_lines = f"nbt.CustomModelData={int(cmd)}\n"
+            else:
+                nbt_lines = f"nbt.VB|{protocol}|id={origin_id}\n"
             if "Trim" in t_nbt:
                 nbt_lines += f"nbt.Trim.material={t_nbt['Trim']['material']}\n"
                 
@@ -433,17 +481,21 @@ def main():
         protocol_indices[get_protocol_name(step[0], step[1])] = i
 
     def get_override_index(override):
-        pred = override.get("predicate", {}).get("nbt", {})
+        pred = override.get("predicate", {})
+        nbt_pred = pred.get("nbt", {})
         proto_idx = 999
-        for key in pred.keys():
+        for key in nbt_pred.keys():
             if key.startswith("VB|") and key.endswith("|id"):
                 proto = key.split("|")[1]
                 if proto in protocol_indices:
                     proto_idx = protocol_indices[proto]
+        if "custom_model_data" in pred:
+            proto_idx = protocol_indices.get("Protocol26_3To26_2", 0)
         # Return a tuple: since reverse=False, smaller values go to the top.
         # We want proto 0 (newest) at the bottom, so it must have the LARGEST value.
         # (999 - proto_idx) ensures proto 0 gets 999 (largest), proto 1 gets 998, etc.
-        return (999 - proto_idx, len(pred.keys()))
+        num_preds = len(nbt_pred.keys()) + (1 if "custom_model_data" in pred else 0)
+        return (999 - proto_idx, num_preds)
         
     overrides_dir = V1_TARGET_DIR / "assets" / "minecraft" / "overrides" / "item"
     if overrides_dir.exists():

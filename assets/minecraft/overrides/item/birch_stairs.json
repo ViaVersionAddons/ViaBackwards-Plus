@@ -23,6 +23,12 @@
         }
       },
       "model": "block/pale_oak_stairs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 911
+      },
+      "model": "block/poplar_stairs"
     }
   ]
 }

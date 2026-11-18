@@ -23,6 +23,12 @@
         }
       },
       "model": "block/pale_oak_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 908
+      },
+      "model": "block/poplar_slab"
     }
   ]
 }
